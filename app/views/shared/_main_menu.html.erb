@@ -1,0 +1,12 @@
+<% if can? :admin, Spree::Page %>
+  <ul class="nav nav-sidebar">
+    <li class="sidebar-menu-item">
+      <%#= link_to admin_pages_path, class: 'icon-link with-tip' do %>
+      <a class="icon-link with-tip" href="/admin/pages" data-original-title="" title="">
+        <span class="icon icon-list"></span>
+        <span class="text">Menú/Páginas</span>
+      </a>
+      <%# end %>
+    </li>
+  </ul>
+<% end %>
