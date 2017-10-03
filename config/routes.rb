@@ -1,5 +1,9 @@
 Rails.application.routes.draw do
-  
+
+  namespace :admin do
+    resources :pages
+  end
+
   mount Tolk::Engine => '/tolk', :as => 'tolk'
   # This line mounts Spree's routes at the root of your application.
   # This means, any requests to URLs such as /products, will go to
