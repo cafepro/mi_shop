@@ -12,11 +12,10 @@ Rails.application.routes.draw do
   mount Spree::Core::Engine, at: '/'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
   #
-  Spree::Core::Engine.add_routes do
+end
 
-    namespace :admin do
-      resources :pages
-    end
+Spree::Core::Engine.add_routes do
+  namespace :admin do
+    resources :marcas
   end
-  # namespace :admin, path: Spree.admin_path do
 end

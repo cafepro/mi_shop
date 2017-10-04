@@ -1,0 +1,12 @@
+it:
+  spree:
+    admin:
+      tab:
+        marcas: "Marcas"
+    new_marca: "Nuovo Marca"
+    listing_marcas: "Lista Marcas"
+    editing_marca: "Modifica Marca"
+  activerecord:
+    attributes:
+      spree/marca:
+        name: Name
