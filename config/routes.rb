@@ -19,3 +19,9 @@ Spree::Core::Engine.add_routes do
     resources :marcas
   end
 end
+
+Spree::Core::Engine.add_routes do
+  namespace :admin do
+    resources :tires
+  end
+end

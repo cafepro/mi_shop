@@ -1,0 +1,14 @@
+it:
+  spree:
+    admin:
+      tab:
+        tires: "Tires"
+    new_tire: "Nuovo Tire"
+    listing_tires: "Lista Tires"
+    editing_tire: "Modifica Tire"
+  activerecord:
+    attributes:
+      spree/tire:
+        name: Name
+        size: Size
+        preasure: Preasure
