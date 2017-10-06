@@ -1,0 +1,13 @@
+en:
+  spree:
+    admin:
+      tab:
+        marcas: "Marcas"
+    new_marca: "New Marca"
+    listing_marcas: "Listing Marcas"
+    editing_marca: "Editing Marca"
+  activerecord:
+    attributes:
+      spree/marca:
+        name: Name
+        description: Description

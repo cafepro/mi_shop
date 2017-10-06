@@ -13,3 +13,9 @@ Rails.application.routes.draw do
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
   #
 end
+
+Spree::Core::Engine.add_routes do
+  namespace :admin do
+    resources :marcas
+  end
+end
