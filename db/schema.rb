@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20171007201818) do
+ActiveRecord::Schema.define(version: 20171007205102) do
 
   create_table "friendly_id_slugs", id: :integer, force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
     t.string "slug", null: false
@@ -350,6 +350,14 @@ ActiveRecord::Schema.define(version: 20171007201818) do
     t.index ["order_id"], name: "index_spree_payments_on_order_id"
     t.index ["payment_method_id"], name: "index_spree_payments_on_payment_method_id"
     t.index ["source_id", "source_type"], name: "index_spree_payments_on_source_id_and_source_type"
+  end
+
+  create_table "spree_personas", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
+    t.string "nombre"
+    t.string "apellidos"
+    t.text "descripcion"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   create_table "spree_preferences", id: :integer, force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
@@ -977,6 +985,8 @@ ActiveRecord::Schema.define(version: 20171007201818) do
     t.text "header"
     t.text "body"
     t.text "footer"
+    t.text "custom_css"
+    t.text "custom_js"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
