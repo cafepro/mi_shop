@@ -1,0 +1,15 @@
+%table#listing_personas.table{"data-hook" => ""}
+  %thead
+    %tr{"data-hook" => "admin_personas_index_headers"}
+      %th= t(:nombre, scope: 'activerecord.attributes.spree/persona')
+      %th= t(:apellidos, scope: 'activerecord.attributes.spree/persona')
+      %th.actions{"data-hook" => "admin_personas_index_header_actions"}
+  %tbody
+    - @personas.each do |persona|
+      %tr{:class => "#{cycle('odd', 'even')}", "data-hook" => "admin_personas_index_rows", :id => "#{spree_dom_id persona}"}
+        %td= link_to persona.nombre, edit_object_url(persona)
+        %td= link_to persona.apellidos, edit_object_url(persona)
+        %td.actions.text-right{"data-hook" => "admin_personas_index_row_actions"}
+          = link_to_edit persona, no_text: true
+          = link_to_delete persona, no_text: true
+= paginate @personas

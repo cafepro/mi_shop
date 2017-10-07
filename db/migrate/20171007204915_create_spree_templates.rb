@@ -5,6 +5,8 @@ class CreateSpreeTemplates < ActiveRecord::Migration[5.1]
                               t.text :header
                               t.text :body
                               t.text :footer
+                              t.text :custom_css
+                              t.text :custom_js
                             t.timestamps
           end
   end

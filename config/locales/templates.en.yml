@@ -13,3 +13,5 @@ en:
         header: Header
         body: Body
         footer: Footer
+        custom_css: Custom Css
+        custom_js: Custom Js

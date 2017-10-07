@@ -1,0 +1,8 @@
+- content_for :page_title do
+  = Spree.t(:listing_personas)
+- content_for :page_actions do
+  = button_link_to Spree.t(:new_persona), new_object_url, class: 'btn-success', icon: 'add', id: 'admin_new_persona_link'
+- end if can?(:create, Spree::Persona)
+= render 'form_filter'
+.index-content
+  = render 'index'

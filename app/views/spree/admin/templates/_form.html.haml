@@ -16,3 +16,11 @@
       = f.label :footer
       = f.text_area :footer, class: 'form-control'
       = error_message_on :template, :footer
+    = f.field_container :custom_css, class: ['form-group'] do
+      = f.label :custom_css
+      = f.text_area :custom_css, class: 'form-control'
+      = error_message_on :template, :custom_css
+    = f.field_container :custom_js, class: ['form-group'] do
+      = f.label :custom_js
+      = f.text_area :custom_js, class: 'form-control'
+      = error_message_on :template, :custom_js

@@ -1,0 +1,10 @@
+- content_for :page_title do
+  = Spree.t(:new_persona)
+%div{"data-hook" => "admin_persona_new_form_header"}
+  = render 'spree/shared/error_messages', target: @persona
+%div{"data-hook" => "admin_persona_new_form"}
+  = form_with model: [:admin, @persona], local: true do |f|
+    .row
+      .col-md-12
+        = render 'form', f: f
+        = render 'spree/admin/shared/new_resource_links'

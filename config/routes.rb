@@ -19,3 +19,9 @@ Spree::Core::Engine.add_routes do
     resources :templates
   end
 end
+
+Spree::Core::Engine.add_routes do
+  namespace :admin do
+    resources :personas
+  end
+end

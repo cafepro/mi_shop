@@ -3,7 +3,7 @@
 %div{"data-hook" => "admin_template_edit_form_header"}
   = render 'spree/shared/error_messages', target: @template
 %div{"data-hook" => "admin_template_edit_form"}
-  = form_for [:admin, @template] do |f|
+  = form_with model: [:admin, @template], local: true do |f|
     .row
       .col-md-12
         = render 'form', f: f

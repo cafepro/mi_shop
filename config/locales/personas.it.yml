@@ -1,0 +1,14 @@
+it:
+  spree:
+    admin:
+      tab:
+        personas: "Personas"
+    new_persona: "Nuovo Persona"
+    listing_personas: "Lista Personas"
+    editing_persona: "Modifica Persona"
+  activerecord:
+    attributes:
+      spree/persona:
+        nombre: Nombre
+        apellidos: Apellidos
+        descripcion: Descripcion
