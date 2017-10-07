@@ -1,0 +1,18 @@
+.row{"data-hook" => "admin_template_form_fields"}
+  .col-md-6
+    = f.field_container :name, class: ['form-group'] do
+      = f.label :name
+      = f.text_field :name, class: 'form-control'
+      = error_message_on :template, :name
+    = f.field_container :header, class: ['form-group'] do
+      = f.label :header
+      = f.text_area :header, class: 'form-control'
+      = error_message_on :template, :header
+    = f.field_container :body, class: ['form-group'] do
+      = f.label :body
+      = f.text_area :body, class: 'form-control'
+      = error_message_on :template, :body
+    = f.field_container :footer, class: ['form-group'] do
+      = f.label :footer
+      = f.text_area :footer, class: 'form-control'
+      = error_message_on :template, :footer

@@ -1,0 +1,15 @@
+it:
+  spree:
+    admin:
+      tab:
+        templates: "Templates"
+    new_template: "Nuovo Template"
+    listing_templates: "Lista Templates"
+    editing_template: "Modifica Template"
+  activerecord:
+    attributes:
+      spree/template:
+        name: Name
+        header: Header
+        body: Body
+        footer: Footer
