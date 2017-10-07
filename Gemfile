@@ -53,8 +53,8 @@ group :development, :test do
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
-  # gem 'spree_scaffold', github: 'cafepro/spree_scaffold', branch: '3-3-stable'
-  gem 'spree_scaffold', path: '../spree_scaffold'
+  gem 'spree_scaffold', github: 'cafepro/spree_scaffold', branch: '3-3-stable'
+  # gem 'spree_scaffold', path: '../spree_scaffold'
 end
 
 group :development do
