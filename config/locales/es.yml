@@ -1740,6 +1740,12 @@ es:
   tolk:
     admin:
       main_menu: Traducciones
+      menu:
+        English: Inglés
+        French: Francés
+        Spanish: Español
+    langs:
+      en: ''
     main_menu: ":P"
     main_menu_text: ":P"
     new_entry: Tolk Traducc

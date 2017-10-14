@@ -22,7 +22,7 @@ module ApplicationHelper
       end
     end
 
-    args.pop if args.count > 0
+    args.pop if args.count > 1
     # return normally
     return translate(*args)
   end

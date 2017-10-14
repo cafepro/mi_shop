@@ -1,7 +1,16 @@
 - if can? :admin, Tolk::Locale
   %ul.nav.nav-sidebar
     %li.sidebar-menu-item
-      = link_to '/tolk', class: 'icon-link with-tip.action-file', target: :blank do
+      = link_to '#sidebar-translations', 'data-toggle': 'collapse', 'data-parent': '#sidebar' do
         %span.icon.icon-flag
         %span.text
           = t('tolk.admin.main_menu', 'Traducciones')
+        %span.icon.pull-right.icon-chevron-down
+      %ul#sidebar-translations.nav.nav-pills.nav-stacked.collapse
+        - Tolk::Locale.all.each do |locale|
+          %li.sidebar-menu-item
+            = link_to tolk.locale_path(locale), class: 'icon-link with-tip.action-file', target: :blank do
+              = t "tolk.admin.menu.#{locale.language_name}"
+              - missing_count = locale.count_phrases_without_translation
+              - if missing_count > 0
+                %span.label.label-numbers.pull-right= missing_count
