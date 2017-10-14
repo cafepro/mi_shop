@@ -1,6 +1,10 @@
 Rails.application.routes.draw do
 
   mount Tolk::Engine => '/tolk', :as => 'tolk'
+
+  # post "/dump_all" => "texts#dump_all", :as => :dump_all_locales
+  # get "/stats" => "locales#stats"
+
   # This line mounts Spree's routes at the root of your application.
   # This means, any requests to URLs such as /products, will go to
   # Spree::ProductsController.
@@ -16,6 +20,11 @@ end
 
 Spree::Core::Engine.add_routes do
   namespace :admin do
-    resources :templates
+    resources :personas do
+      collection do
+        post :update_positions
+      end
+    end
   end
 end
+

@@ -1,0 +1,11 @@
+---
+fr:
+  activerecord:
+    attributes:
+      spree/address:
+        address1: Rue
+        address2: Rue
+        country: Pais
+        firstname: appell
+        phone: telefone
+        zipcode: CP

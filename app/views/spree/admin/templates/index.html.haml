@@ -1,8 +1,0 @@
-- content_for :page_title do
-  = Spree.t(:listing_templates)
-- content_for :page_actions do
-  = button_link_to Spree.t(:new_template), new_object_url, class: 'btn-success', icon: 'add', id: 'admin_new_template_link'
-- end if can?(:create, Spree::Template)
-= render 'form_filter'
-.index-content
-  = render 'index'

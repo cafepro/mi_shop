@@ -1,0 +1,7 @@
+- if can? :admin, Tolk::Locale
+  %ul.nav.nav-sidebar
+    %li.sidebar-menu-item
+      = link_to '/tolk', class: 'icon-link with-tip.action-file', target: :blank do
+        %span.icon.icon-flag
+        %span.text
+          = t('tolk.admin.main_menu', 'Traducciones')

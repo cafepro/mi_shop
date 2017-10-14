@@ -42,6 +42,8 @@ gem 'spree_i18n', github: 'spree-contrib/spree_i18n'
 
 # tolk gem integrated
 gem 'tolk', '~> 3.0.0'
+# gem 'tolk', path: '../tolk'
+gem 'i18n'
 
 # to work properly with spree scaffold generators we need haml
 gem 'haml'
