@@ -237,8 +237,9 @@ en:
         one: Option Value
         other: Option Values
       spree/order:
-        one: Order
-        other: Orders
+        one:
+          one: Order
+          other: Orders
       spree/payment:
         one: Payment
         other: Payments

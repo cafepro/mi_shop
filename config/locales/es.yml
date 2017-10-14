@@ -231,7 +231,9 @@ es:
         other: Líneas de pedido
       spree/option_type: 
       spree/option_value: 
-      spree/order: "---\r\none: Pedido\r\nother: Pedidos"
+      spree/order:
+        one: Pedido
+        others: pedidos
       spree/payment:
         one: Pago
         other: Pagos
@@ -1739,7 +1741,7 @@ es:
     pm: pm
   tolk:
     admin:
-      main_menu: Traducciones
+      main_menu: Textos
       menu:
         English: Inglés
         French: Francés
