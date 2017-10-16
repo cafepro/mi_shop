@@ -545,7 +545,7 @@ en:
         separator: "."
         significant: false
         strip_insignificant_zeros: false
-        unit: "$"
+        unit: "€"
     format:
       delimiter: ","
       precision: 3
@@ -697,7 +697,7 @@ en:
     add_state: Add State
     add_stock: Add Stock
     add_stock_management: Add stock gestion
-    add_to_cart: Add To Cart
+    add_to_cart: Add to Cart
     add_variant: Add Variant
     adjustable: Adjustable
     adjustment: Adjustment

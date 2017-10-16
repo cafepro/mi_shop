@@ -1530,7 +1530,7 @@ es:
     ship_address: Dirección de envío
     ship_total: Total de envío
     shopping_cart: Carrito de Compras
-    shop_by_taxonomy: Comprar por %{taxonomy}
+    shop_by_taxonomy: Filtrar por %{taxonomy}
     show: Mostrar
     show_active: Mostrar Activo
     show_deleted: Mostrar Borrado
