@@ -1,0 +1,49 @@
+.filter-wrap.row
+  .col-xs-12
+    .input-group.index-filter-button
+      / quick search
+      %span.input-group-btn
+        %button.btn.btn-default.js-show-index-filters{:type => "button"}
+          %span.icon.icon-chevron-right
+          Filter
+      = form_with url: admin_layouts_path, method: :get do |form|
+        = form.text_field :quick_search, class: 'form-control js-quick-search', placeholder: 'Quick search...'
+      / / quick search
+    #table-filter.well.filter-well{"data-hook" => ""}
+      %div{"data-hook" => "admin_layouts_index_search"}
+        = form_with url: admin_layouts_path, method: :get, class: 'spree/layout_search', id: 'spree/layout_search' do |form|
+          .row
+            .col-xs-12.col-md-16
+              .form-group
+                %label{:for => "q_name"} name
+                = form.text_field "q[name]", class: 'form-control js-filterable'
+          .row
+            .col-xs-12.col-md-16
+              .form-group
+                %label{:for => "q_header"} header
+                = form.text_field "q[header]", class: 'form-control js-filterable'
+          .row
+            .col-xs-12.col-md-16
+              .form-group
+                %label{:for => "q_body"} body
+                = form.text_field "q[body]", class: 'form-control js-filterable'
+          .row
+            .col-xs-12.col-md-16
+              .form-group
+                %label{:for => "q_custom_css"} custom_css
+                = form.text_field "q[custom_css]", class: 'form-control js-filterable'
+          .row
+            .col-xs-12.col-md-16
+              .form-group
+                %label{:for => "q_custom_js"} custom_js
+                = form.text_field "q[custom_js]", class: 'form-control js-filterable'
+          .row
+            .col-xs-12.col-md-16
+              .form-group
+                %label{:for => "q_footer"} footer
+                = form.text_field "q[footer]", class: 'form-control js-filterable'
+          .form-actions{"data-hook" => "admin_layouts_index_search_buttons"}
+            %button.btn.btn-primary{"data-disable-with" => "Saving...", :name => "button", :type => "submit"}
+              %span.icon.icon-search
+              Filter Results
+          %input{:name => "per_page", :type => "hidden", :value => "15"}/

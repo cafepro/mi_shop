@@ -1,0 +1,19 @@
+es:
+  spree:
+    admin:
+      tab:
+        layouts: "Layouts"
+    new_layout: "Nuevo Layout"
+    listing_layouts: "Listando Layouts"
+    editing_layout: "Editando Layout"
+  activerecord:
+    attributes:
+      spree/layout:
+        name: Name
+        header: Header
+        body: Body
+        custom_css: Custom Css
+        custom_js: Custom Js
+        footer: Footer
+        front_default: Front Default
+        back_default: Back Default

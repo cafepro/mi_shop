@@ -1,0 +1,26 @@
+es:
+  spree:
+    admin:
+      tab:
+        pages: "Pages"
+    new_page: "Nuevo Page"
+    listing_pages: "Listando Pages"
+    editing_page: "Editando Page"
+  activerecord:
+    attributes:
+      spree/page:
+        name: Name
+        description: Description
+        link: Link
+        target_blank: Target Blank
+        title: Title
+        keywords: Keywords
+        seo_code: Seo Code
+        publish_at: Publish At
+        expire_at: Expire At
+        body: Body
+        custom_css: Custom Css
+        custom_js: Custom Js
+        position: Position
+        parent_id: Parent
+        layout_id: Layout

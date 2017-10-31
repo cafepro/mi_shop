@@ -1,0 +1,30 @@
+%table#listing_pages.table.sortable{"data-hook" => "", "data-sortable-link" => update_positions_admin_pages_url}
+  %thead
+    %tr{"data-hook" => "admin_pages_index_headers"}
+      %th.no-border
+      %th= t(:name, scope: 'activerecord.attributes.spree/page')
+      %th= t(:link, scope: 'activerecord.attributes.spree/page')
+      %th= t(:target_blank, scope: 'activerecord.attributes.spree/page')
+      %th= t(:title, scope: 'activerecord.attributes.spree/page')
+      %th= t(:publish_at, scope: 'activerecord.attributes.spree/page')
+      %th= t(:expire_at, scope: 'activerecord.attributes.spree/page')
+      %th= t(:parent_id, scope: 'activerecord.attributes.spree/page')
+      %th= t(:layout_id, scope: 'activerecord.attributes.spree/page')
+      %th.actions{"data-hook" => "admin_pages_index_header_actions"}
+  %tbody
+    - @pages.each do |page|
+      %tr{:class => "#{cycle('odd', 'even')}", "data-hook" => "admin_pages_index_rows", :id => "#{spree_dom_id page}"}
+        %td.move-handle
+          %span.icon.icon-move.handle
+        %td= link_to page.name, edit_object_url(page)
+        %td= link_to page.link, edit_object_url(page)
+        %td= link_to page.target_blank, edit_object_url(page)
+        %td= link_to page.title, edit_object_url(page)
+        %td= link_to page.publish_at, edit_object_url(page)
+        %td= link_to page.expire_at, edit_object_url(page)
+        %td= link_to page.parent_id, edit_object_url(page)
+        %td= link_to page.layout_id, edit_object_url(page)
+        %td.actions.text-right{"data-hook" => "admin_pages_index_row_actions"}
+          = link_to_edit page, no_text: true
+          = link_to_delete page, no_text: true
+= paginate @pages

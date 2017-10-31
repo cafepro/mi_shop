@@ -28,3 +28,19 @@ Spree::Core::Engine.add_routes do
   end
 end
 
+
+Spree::Core::Engine.add_routes do
+  namespace :admin do
+    resources :layouts
+  end
+end
+
+Spree::Core::Engine.add_routes do
+  namespace :admin do
+    resources :pages do
+      collection do
+        post :update_positions
+      end
+    end
+  end
+end

@@ -1,0 +1,17 @@
+%table#listing_layouts.table{"data-hook" => ""}
+  %thead
+    %tr{"data-hook" => "admin_layouts_index_headers"}
+      %th= t(:name, scope: 'activerecord.attributes.spree/layout')
+      %th= t(:front_default, scope: 'activerecord.attributes.spree/layout')
+      %th= t(:back_default, scope: 'activerecord.attributes.spree/layout')
+      %th.actions{"data-hook" => "admin_layouts_index_header_actions"}
+  %tbody
+    - @layouts.each do |layout|
+      %tr{:class => "#{cycle('odd', 'even')}", "data-hook" => "admin_layouts_index_rows", :id => "#{spree_dom_id layout}"}
+        %td= link_to layout.name, edit_object_url(layout)
+        %td= link_to layout.front_default, edit_object_url(layout)
+        %td= link_to layout.back_default, edit_object_url(layout)
+        %td.actions.text-right{"data-hook" => "admin_layouts_index_row_actions"}
+          = link_to_edit layout, no_text: true
+          = link_to_delete layout, no_text: true
+= paginate @layouts
