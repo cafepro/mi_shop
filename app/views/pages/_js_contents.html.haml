@@ -1,0 +1,5 @@
+= content_for :page_js do
+  %script
+    $(document).on('turbolinks:load', function(){
+    = @page.custom_js.html_safe
+    });

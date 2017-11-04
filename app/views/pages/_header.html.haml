@@ -1,0 +1,3 @@
+%body
+  %header{:class => "#{@page.layout.name.parameterize} #{@page.name.parameterize}"}
+    = render inline: @page.layout.header

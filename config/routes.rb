@@ -1,5 +1,8 @@
 Rails.application.routes.draw do
 
+  root to: "pages#index", via: [:get, :post]
+  get "/:page_id", to: "pages#index", via: [:get, :post]
+
   mount Tolk::Engine => '/tolk', :as => 'tolk'
 
   # post "/dump_all" => "texts#dump_all", :as => :dump_all_locales

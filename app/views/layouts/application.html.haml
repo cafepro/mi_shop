@@ -4,7 +4,12 @@
     %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
     %title MiShop
     = csrf_meta_tags
+    = yield :page_seo
     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+    = yield :layout_css
+    = yield :page_css
+    = yield :layout_js
+    = yield :page_js
   %body
     = yield

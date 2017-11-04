@@ -16,7 +16,7 @@
 
 //= require_tree ./ckeditor
 
-$(document).on('page:load ready', function(){
+// $(document).on('page:load ready', function(){
 
 
-});
+// });
