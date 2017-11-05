@@ -1,5 +1,6 @@
 = content_for :page_js do
   %script
     $(document).on('turbolinks:load', function(){
+    = @page.layout.custom_js.html_safe
     = @page.custom_js.html_safe
     });

@@ -25,6 +25,10 @@
       = f.label :hidden
       = f.check_box :hidden, class: 'form-control'
       = error_message_on :page, :hidden
+    = f.field_container :is_home, class: ['form-group'] do
+      = f.label :is_home
+      = f.check_box :is_home, class: 'form-control'
+      = error_message_on :page, :is_home
     = f.field_container :title, class: ['form-group'] do
       = f.label :title
       = f.text_field :title, class: 'form-control'
@@ -47,7 +51,7 @@
       = error_message_on :page, :expire_at
     = f.field_container :body, class: ['form-group'] do
       = f.label :body
-      = f.text_area :body, class: 'form-control ckeditor'
+      = f.text_area :body, class: 'form-control'
       = error_message_on :page, :body
     = f.field_container :custom_css, class: ['form-group'] do
       = f.label :custom_css

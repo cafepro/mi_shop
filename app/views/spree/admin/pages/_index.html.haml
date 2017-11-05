@@ -2,14 +2,14 @@
   %thead
     %tr{"data-hook" => "admin_pages_index_headers"}
       %th.no-border
-      %th= t(:name, scope: 'activerecord.attributes.spree/page')
-      %th= t(:link, scope: 'activerecord.attributes.spree/page')
-      %th= t(:target_blank, scope: 'activerecord.attributes.spree/page')
-      %th= t(:title, scope: 'activerecord.attributes.spree/page')
-      %th= t(:publish_at, scope: 'activerecord.attributes.spree/page')
-      %th= t(:expire_at, scope: 'activerecord.attributes.spree/page')
-      %th= t(:parent_id, scope: 'activerecord.attributes.spree/page')
-      %th= t(:layout_id, scope: 'activerecord.attributes.spree/page')
+      %th= t('activerecord.attributes.spree/page.name')
+      %th= t('activerecord.attributes.spree/page.link')
+      %th= t('activerecord.attributes.spree/page.target_blank')
+      %th= t('activerecord.attributes.spree/page.title')
+      %th= t('activerecord.attributes.spree/page.publish_at')
+      %th= t('activerecord.attributes.spree/page.expire_at')
+      %th= t('activerecord.attributes.spree/page.parent_id')
+      %th= t('activerecord.attributes.spree/page.layout_id')
       %th.actions{"data-hook" => "admin_pages_index_header_actions"}
   %tbody
     - @pages.each do |page|

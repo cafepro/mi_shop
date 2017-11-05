@@ -297,6 +297,8 @@ es:
       spree/zone:
         one: Zona
         other: Zonas
+  back_default:
+    :scope: activerecord.attributes.spree/layout
   date:
     abbr_day_names:
     - dom
@@ -489,6 +491,10 @@ es:
       header:
         one: No se pudo guardar este/a %{model} porque se encontró 1 error
         other: No se pudo guardar este/a %{model} porque se encontraron %{count} errores
+  expire_at:
+    :scope: activerecord.attributes.spree/page
+  front_default:
+    :scope: activerecord.attributes.spree/layout
   hello: Hola Mundo
   helpers:
     page_entries_info:
@@ -506,6 +512,14 @@ es:
       create: Crear %{model}
       submit: Guardar %{model}
       update: Actualizar %{model}
+  layout_id:
+    :scope: activerecord.attributes.spree/page
+  link:
+    :scope: activerecord.attributes.spree/page
+  main_site:
+    logo: miShop
+  name:
+    :scope: activerecord.attributes.spree/layout
   number:
     currency:
       format:
@@ -558,6 +572,10 @@ es:
     precision:
       format:
         delimiter: ''
+  parent_id:
+    :scope: activerecord.attributes.spree/page
+  publish_at:
+    :scope: activerecord.attributes.spree/page
   ransack:
     all: todos
     and: y
@@ -1731,7 +1749,12 @@ es:
       last_word_connector: y
       two_words_connector: y
       words_connector: ","
+  target_blank:
+    :scope: activerecord.attributes.spree/page
   test_tolk: pruebas tolk
+  texto:
+    prueba:
+      traducir: Hola que aseee
   time:
     am: am
     formats:
@@ -1739,6 +1762,8 @@ es:
       long: "%-d de %B de %Y %H:%M"
       short: "%-d de %b %H:%M"
     pm: pm
+  title:
+    :scope: activerecord.attributes.spree/page
   tolk:
     admin:
       main_menu: Textos

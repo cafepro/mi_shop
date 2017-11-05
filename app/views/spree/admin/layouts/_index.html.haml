@@ -1,9 +1,9 @@
 %table#listing_layouts.table{"data-hook" => ""}
   %thead
     %tr{"data-hook" => "admin_layouts_index_headers"}
-      %th= t(:name, scope: 'activerecord.attributes.spree/layout')
-      %th= t(:front_default, scope: 'activerecord.attributes.spree/layout')
-      %th= t(:back_default, scope: 'activerecord.attributes.spree/layout')
+      %th= t('activerecord.attributes.spree/layout.name')
+      %th= t('activerecord.attributes.spree/layout.front_default')
+      %th= t('activerecord.attributes.spree/layout.back_default')
       %th.actions{"data-hook" => "admin_layouts_index_header_actions"}
   %tbody
     - @layouts.each do |layout|
