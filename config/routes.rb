@@ -1,7 +1,8 @@
 Rails.application.routes.draw do
 
   root to: "pages#index", via: [:get, :post]
-  get "/:page_id", to: "pages#index", via: [:get, :post]
+
+  resources :products
 
   mount Tolk::Engine => '/admin/tolk', :as => 'tolk'
 
@@ -19,22 +20,18 @@ Rails.application.routes.draw do
   mount Spree::Core::Engine, at: '/'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
   #
+  get  "/:page_id", to: "pages#index"
+  post "/:page_id", to: "pages#index"
 end
+
 
 Spree::Core::Engine.add_routes do
   namespace :admin do
-    resources :personas do
-      collection do
-        post :update_positions
+    resources :layouts do
+      member do
+        get :clone
       end
     end
-  end
-end
-
-
-Spree::Core::Engine.add_routes do
-  namespace :admin do
-    resources :layouts
   end
 end
 
@@ -43,6 +40,9 @@ Spree::Core::Engine.add_routes do
     resources :pages do
       collection do
         post :update_positions
+      end
+      member do
+        get :clone
       end
     end
   end

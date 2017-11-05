@@ -9,11 +9,20 @@ class PagesController < ActionController::Base
     else
       @page = Spree::Page.all.includes(:layout).where(url: "/#{params['page_id']}").first
     end
+    render_404 if @page.blank?
   end
 
   private
 
   def set_menu
     @menu = Spree::Page.in_menu
+  end
+
+  def render_404
+    respond_to do |format|
+      format.html { render :file => "#{Rails.root}/public/404", :layout => false, :status => :not_found }
+      format.xml  { head :not_found }
+      format.any  { head :not_found }
+    end
   end
 end

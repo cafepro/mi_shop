@@ -12,7 +12,7 @@
     = stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload'
 
     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
-  %body#page-top{class: "layout-#{@page.layout.name.parameterize} page-#{@page.name.parameterize }"}
+  %body#page-top{class: ""}
     = yield
     = yield :page_css
     = yield :page_js

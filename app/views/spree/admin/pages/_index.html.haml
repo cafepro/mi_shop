@@ -25,6 +25,7 @@
         %td= link_to page.parent_id, edit_object_url(page)
         %td= link_to page.layout_id, edit_object_url(page)
         %td.actions.text-right{"data-hook" => "admin_pages_index_row_actions"}
+          = link_to '<span class="icon icon-clone"></i>'.html_safe, clone_admin_page_path(page), class: 'btn btn-success btn-sm icon-link with-tip action-edit no-text', 'data-original-title': 'duplicar'
           = link_to_edit page, no_text: true
           = link_to_delete page, no_text: true
 = paginate @pages

@@ -10,6 +10,19 @@ module Spree
         end unless params[:q].blank?
         @layouts = @layouts.page(params[:page] || 1).per(50)
       end
+
+      def clone
+        set_layout
+
+        @layout = @layout.dup
+        @layout.name = "#{@layout.name} (cloned)"
+      end
+
+      private
+
+      def set_layout
+        @layout = Spree::Layout.find(params[:id])
+      end
     end
   end
 end
