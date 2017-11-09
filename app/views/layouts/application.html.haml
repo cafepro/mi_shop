@@ -20,3 +20,5 @@
     = yield :page_css
     = yield :page_js
 
+    = render 'shared/form_translations' if current_spree_user.admin?
+

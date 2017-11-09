@@ -34,6 +34,8 @@ es:
         year: Año
       spree/inventory_unit:
         state: Provincia o Estado
+      spree/layout:
+        type: ''
       spree/line_item:
         price: Precio
         quantity: Cantidad
@@ -75,6 +77,15 @@ es:
         phone: Teléfono dirección envío
         state: Provincia dirección envío
         zipcode: Código postal dirección envío
+      spree/page:
+        expire_at: ''
+        layout_id: ''
+        link: ''
+        name: ''
+        parent_id: ''
+        publish_at: ''
+        target_blank: ''
+        title: ''
       spree/payment:
         amount: Cuantía
       spree/payment_method:
@@ -512,6 +523,12 @@ es:
       create: Crear %{model}
       submit: Guardar %{model}
       update: Actualizar %{model}
+  home:
+    header:
+      title: Título segunda banda
+  layouts:
+    back_default: ''
+    front_default: ''
   layout_id:
     :scope: activerecord.attributes.spree/page
   link:
@@ -1780,6 +1797,9 @@ es:
     testing_t: 
     tolk:
       tolk: Traducciones
+  translations:
+    form:
+      save: ''
   views:
     pagination:
       first: "&laquo; Primera"

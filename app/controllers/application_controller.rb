@@ -3,7 +3,4 @@ class ApplicationController < ActionController::Base
 
   include MiShopBaseController
 
-  before_action :para
-
-
 end

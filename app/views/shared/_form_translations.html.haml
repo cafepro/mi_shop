@@ -1,0 +1,7 @@
+.btn-group-fixed
+  .row
+    .col-md-4
+      = link_to '<i class="fa fa-edit"></i>'.html_safe, '#', 'data-disabled': 'false', class: 'toggle-editable btn btn-warning btn-fixed with-tip', 'data-original-title': 'activar/desactivar traducibles'
+    .col-md-8
+      = form_with url: tolk.dump_all_locales_path do |form|
+        = form.submit 'Guardar', class: 'save-translations btn btn-primary btn-fixed hidden'

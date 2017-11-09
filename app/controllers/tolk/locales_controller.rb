@@ -68,6 +68,15 @@ module Tolk
       end
     end
 
+    # method to translate inline
+    def translate
+      translation = Tolk::Translation.find(params[:id])
+      translation.text = params[:value]
+      translation.save
+
+      render json: nil
+    end
+
     private
 
     def find_locale

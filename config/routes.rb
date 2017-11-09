@@ -4,7 +4,17 @@ Rails.application.routes.draw do
 
   resources :products
 
-  mount Tolk::Engine => '/admin/tolk', :as => 'tolk'
+  mount Tolk::Engine => '/admin/tolk', as: 'tolk'
+  post "/admin/tolk/:id/translate", to: 'tolk/locales#translate'
+
+  # namespace :tolk do
+  #   resources :locales do
+  #     member do
+  #       get  :translate
+  #       post :translate
+  #     end
+  #   end
+  # end
 
   # post "/dump_all" => "texts#dump_all", :as => :dump_all_locales
   # get "/stats" => "locales#stats"
