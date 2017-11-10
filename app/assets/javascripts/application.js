@@ -15,5 +15,9 @@
 //= require jquery-ui
 //= require rails-ujs
 //= require turbolinks
-//= require ./theme/popper
-//= require_tree .
+//= require_tree ./jquery
+//= require ./bootstrap/popper
+//= require ./bootstrap/bootstrap
+//= require ./bootstrap/bootstrap-editable
+//= require_tree ./theme
+//= require translations

@@ -1,4 +1,4 @@
 %ul#main_menu.navbar-nav.ml-auto
   - @menu.each do |page|
     %li.nav-item
-      = link_to page.title, page.url, class: 'nav-link js-scroll-trigger'
+      = link_to t("menu.first_lvl.#{page.title.parameterize}"), page.url, class: 'nav-link js-scroll-trigger'

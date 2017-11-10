@@ -12,13 +12,16 @@
 
     %link{ rel:"stylesheet", href:"https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"}
 
+
     = stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload'
 
     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+
+
   %body#page-top{class: ""}
+    = render 'shared/form_translations' if current_spree_user.admin?
     = yield
     = yield :page_css
     = yield :page_js
 
-    = render 'shared/form_translations' if current_spree_user.admin?
 

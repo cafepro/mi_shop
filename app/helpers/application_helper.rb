@@ -25,7 +25,7 @@ module ApplicationHelper
     args.pop if args.count > 1
     if current_spree_user.admin?
       url = "/admin/tolk/#{tlt.id}/translate"
-      render inline: "<span data-url='#{url}' data-title='Enter username' class='editable'>#{translate(*args)}</span>"
+      render inline: "<span data-url='#{url}' data-title='#{args.first}' class='editable'>#{translate(*args)}</span>"
     else
       # return normally
       return translate(*args)
