@@ -1,0 +1,14 @@
+es:
+  spree:
+    admin:
+      tab:
+        page_images: "PageImages"
+    new_page_image: "Nuevo PageImage"
+    listing_page_images: "Listando PageImages"
+    editing_page_image: "Editando PageImage"
+  activerecord:
+    attributes:
+      spree/page_image:
+        title: Title
+        alt: Alt
+        attachment: Attachment

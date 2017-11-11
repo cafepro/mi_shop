@@ -1,0 +1,14 @@
+es:
+  spree:
+    admin:
+      tab:
+        imagebis: "Imagebis"
+    new_imagebis: "Nuevo Imagebis"
+    listing_imagebis: "Listando Imagebis"
+    editing_imagebis: "Editando Imagebis"
+  activerecord:
+    attributes:
+      spree/imagebis:
+        title: Title
+        alt: Alt
+        attachment: Attachment

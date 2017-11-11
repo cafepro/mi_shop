@@ -32,3 +32,7 @@
       = f.label :back_default
       = f.check_box :back_default, class: 'form-control'
       = error_message_on :layout, :back_default
+    = f.field_container :analytics_code, class: ['form-group'] do
+      = f.label :analytics_code
+      = f.text_area :analytics_code, class: 'form-control'
+      = error_message_on :layout, :analytics_code

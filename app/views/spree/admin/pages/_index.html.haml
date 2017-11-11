@@ -4,10 +4,7 @@
       %th.no-border
       %th= t('activerecord.attributes.spree/page.name')
       %th= t('activerecord.attributes.spree/page.link')
-      %th= t('activerecord.attributes.spree/page.target_blank')
-      %th= t('activerecord.attributes.spree/page.title')
-      %th= t('activerecord.attributes.spree/page.publish_at')
-      %th= t('activerecord.attributes.spree/page.expire_at')
+      %th= t('activerecord.attributes.spree/page.published')
       %th= t('activerecord.attributes.spree/page.parent_id')
       %th= t('activerecord.attributes.spree/page.layout_id')
       %th.actions{"data-hook" => "admin_pages_index_header_actions"}
@@ -17,13 +14,14 @@
         %td.move-handle
           %span.icon.icon-move.handle
         %td= link_to page.name, edit_object_url(page)
-        %td= link_to page.link, edit_object_url(page)
-        %td= link_to page.target_blank, edit_object_url(page)
-        %td= link_to page.title, edit_object_url(page)
-        %td= link_to page.publish_at, edit_object_url(page)
-        %td= link_to page.expire_at, edit_object_url(page)
-        %td= link_to page.parent_id, edit_object_url(page)
-        %td= link_to page.layout_id, edit_object_url(page)
+        %td= link_to page.url, page.url, target: '_blank'
+        %td
+          - if page.publish?
+            %span.label.label-success.with-tip{'data-original-title': "caduca en: #{distance_of_time_in_words(Time.now, page.expire_at) rescue 'sin caducidad'}"}= t 'pages.published'
+          - else
+            %span.label.label-danger.with-tip{'data-original-title': "caducó hace: #{distance_of_time_in_words(page.expire_at, Time.now) rescue 'aun no se publicó'}"}= t 'pages.unpublished'
+        %td= link_to page.parent.name, edit_object_url(page.parent) rescue ''
+        %td= page.layout.name
         %td.actions.text-right{"data-hook" => "admin_pages_index_row_actions"}
           = link_to '<span class="icon icon-clone"></i>'.html_safe, clone_admin_page_path(page), class: 'btn btn-success btn-sm icon-link with-tip action-edit no-text', 'data-original-title': 'duplicar'
           = link_to_edit page, no_text: true

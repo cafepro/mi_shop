@@ -1,0 +1,6 @@
+- no_index = @page.no_index ? 'NO_INDEX' : 'INDEX'
+- no_follow = @page.no_follow ? 'NO_FOLLOW' : 'FOLLOW'
+
+= content_for :page_seo do
+  %META{ NAME: 'ROBOTS', CONTENT: "#{no_index} #{no_follow}" }
+  = @page.seo_code.html_safe

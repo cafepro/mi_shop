@@ -7,7 +7,7 @@ module Spree
     default_scope { order([:parent_id, :position]) }
     scope :in_menu, -> { where(in_menu: true, parent_id: 0, is_home: false) }
     scope :is_home, -> { where(is_home: true)}
-    scope :plublished, -> { where("plublished_at <= current_timestamp AND expire_at > current_timestamp")}
+    scope :published, -> { where("publish_at <= current_timestamp AND expire_at is NULL OR publish_at <= current_timestamp AND expire_at > current_timestamp")}
 
     before_save :set_parent_id
     before_save :update_url
@@ -35,6 +35,12 @@ module Spree
 
     def set_parent_id
       self.parent_id = 0 if self.parent_id.blank?
+    end
+
+    def publish?
+      return false if self.publish_at.blank? || self.publish_at > DateTime.now
+      return true if self.expire_at.blank?
+      return self.expire_at > DateTime.now
     end
 
   end

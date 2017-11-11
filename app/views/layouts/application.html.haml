@@ -2,9 +2,11 @@
 %html
   %head
     %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+
+    = yield :page_seo
+
     %title MiShop
     = csrf_meta_tags
-    = yield :page_seo
 
     %link{ href:'https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800', rel:'stylesheet', type:'text/css' }
 
@@ -21,6 +23,9 @@
   %body#page-top{class: ""}
     = render 'shared/form_translations' if current_spree_user.admin?
     = yield
+
+    = render 'shared/modals'
+
     = yield :page_css
     = yield :page_js
 

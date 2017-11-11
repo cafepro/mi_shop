@@ -1,4 +1,5 @@
 class ProductsController < ActionController::Base
+
   layout 'application'
 
   before_action :set_layout

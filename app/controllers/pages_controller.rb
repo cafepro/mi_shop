@@ -15,7 +15,7 @@ class PagesController < ActionController::Base
   private
 
   def set_menu
-    @menu = Spree::Page.in_menu
+    @menu = Spree::Page.published.in_menu
   end
 
   def render_404

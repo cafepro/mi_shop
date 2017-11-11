@@ -35,6 +35,7 @@ es:
       spree/inventory_unit:
         state: Provincia o Estado
       spree/layout:
+        name: ''
         type: ''
       spree/line_item:
         price: Precio
@@ -83,9 +84,13 @@ es:
         link: ''
         name: ''
         parent_id: ''
-        publish_at: ''
+        published: estado
+        publish_at: publicado en
         target_blank: ''
         title: ''
+      spree/page_image:
+        attachment: imagen
+        title: título
       spree/payment:
         amount: Cuantía
       spree/payment_method:
@@ -308,6 +313,8 @@ es:
       spree/zone:
         one: Zona
         other: Zonas
+  alt:
+    :scope: activerecord.attributes.spree/page_image
   back_default:
     :scope: activerecord.attributes.spree/layout
   date:
@@ -504,8 +511,18 @@ es:
         other: No se pudo guardar este/a %{model} porque se encontraron %{count} errores
   expire_at:
     :scope: activerecord.attributes.spree/page
+  fallida: ''
   front_default:
     :scope: activerecord.attributes.spree/layout
+  header:
+    header_button: Go go go
+    header_text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+      eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
+      in culpa qui officia deserunt mollit anim id est laborum...
+    header_title: Loren Ipsum dolor
   hello: Hola Mundo
   helpers:
     page_entries_info:
@@ -525,16 +542,24 @@ es:
       update: Actualizar %{model}
   home:
     header:
-      title: Título segunda banda
+      title: Empieza a gestionar
   layouts:
-    back_default: ''
-    front_default: ''
+    back_default: back default
+    front_default: front default
   layout_id:
     :scope: activerecord.attributes.spree/page
   link:
     :scope: activerecord.attributes.spree/page
   main_site:
     logo: miShop
+  menu:
+    first_lvl:
+      acerca-de: menu 2
+      contacto: menu 5
+      galeria-de-productos: Galería de productos
+      portfolio: menu 4
+      servicios: menu 3
+      tienda: shop
   name:
     :scope: activerecord.attributes.spree/layout
   number:
@@ -589,10 +614,13 @@ es:
     precision:
       format:
         delimiter: ''
+  pages:
+    expired: ''
+    published: publicado
+    unpublished: no publicado
   parent_id:
     :scope: activerecord.attributes.spree/page
-  publish_at:
-    :scope: activerecord.attributes.spree/page
+  publish_at: publicado en
   ransack:
     all: todos
     and: y

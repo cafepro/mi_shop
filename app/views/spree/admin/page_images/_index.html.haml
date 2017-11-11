@@ -1,0 +1,17 @@
+%table#listing_page_images.table{"data-hook" => ""}
+  %thead
+    %tr{"data-hook" => "admin_page_images_index_headers"}
+      %th= t('activerecord.attributes.spree/page_image.attachment')
+      %th= t('activerecord.attributes.spree/page_image.title')
+      %th= t('activerecord.attributes.spree/page_image.alt')
+      %th.actions{"data-hook" => "admin_page_images_index_header_actions"}
+  %tbody
+    - @page_images.each do |page_image|
+      %tr{:class => "#{cycle('odd', 'even')}", "data-hook" => "admin_page_images_index_rows", :id => "#{spree_dom_id page_image}"}
+        %td= image_tag page_image.attachment(:thumbnail)
+        %td= link_to page_image.title, edit_object_url(page_image)
+        %td= link_to page_image.alt, edit_object_url(page_image)
+        %td.actions.text-right{"data-hook" => "admin_page_images_index_row_actions"}
+          = link_to_edit page_image, no_text: true
+          = link_to_delete page_image, no_text: true
+= paginate @page_images

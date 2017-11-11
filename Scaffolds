@@ -1,0 +1,13 @@
+LAYOUTS --
+rails g spree_scaffold:scaffold Layout name:string header:text body:text custom_css:text custom_js:text footer:text front_default:boolean back_default:boolean
+
+
+
+PAGES--
+rails g spree_scaffold:scaffold Page name:string description:text link:string target_blank:boolean title:string keywords:text seo_code:text publish_at:datetime expire_at:datetime body:text custom_css:text custom_js:text position:integer parent_id:integer layout_id:integer
+
+
+
+PAGE IMAGES--
+rails g spree_scaffold:scaffold PageImage title:string alt:string attachment:image
+
