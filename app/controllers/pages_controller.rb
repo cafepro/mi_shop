@@ -1,4 +1,4 @@
-class PagesController < ActionController::Base
+class PagesController < Spree::StoreController
   layout 'application'
 
   before_action :set_menu
@@ -10,6 +10,7 @@ class PagesController < ActionController::Base
       @page = Spree::Page.all.includes(:layout).where(url: "/#{params['page_id']}").first
     end
     render_404 if @page.blank?
+    @layout = @page.layout
   end
 
   private

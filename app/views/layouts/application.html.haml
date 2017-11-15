@@ -15,14 +15,25 @@
     %link{ rel:"stylesheet", href:"https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"}
 
 
+    =# stylesheet_link_tag 'spree/frontend/all', media: 'screen'
+
     = stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload'
 
+    = render 'spree/shared/paths'
+    = javascript_include_tag 'spree/frontend/all'
     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+
+
 
 
   %body#page-top{class: ""}
     = render 'shared/form_translations' if current_spree_user.admin?
+
+    = render 'shared/header'
+
     = yield
+
+    = render 'shared/footer'
 
     = render 'shared/modals'
 

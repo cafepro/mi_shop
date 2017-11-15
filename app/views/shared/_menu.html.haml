@@ -2,3 +2,4 @@
   - @menu.each do |page|
     %li.nav-item
       = link_to t("menu.first_lvl.#{page.title.parameterize}"), page.url, class: 'nav-link js-scroll-trigger'
+  %li= render partial: 'shared/cart'
