@@ -56,6 +56,9 @@ gem 'haml-rails'
 # ckedior integration
 gem 'ckeditor' #, '4.1.3'
 
+# multiple upload files with dropdown
+gem 'dropzonejs-rails'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
