@@ -8,6 +8,7 @@ class ProductsController < Spree::StoreController
   before_action :set_layout
   before_action :set_menu
   before_action :load_product, only: :show
+  before_action :load_order, only: :show
 
   def index
     @searcher = build_searcher(params.merge(include_images: true))
@@ -25,7 +26,7 @@ class ProductsController < Spree::StoreController
     @taxon = params[:taxon_id].present? ? Spree::Taxon.find(params[:taxon_id]) : @product.taxons.first
     redirect_if_legacy_path
 
-    render 'spree/products/show'
+    # render 'spree/products/show'
   end
 
   private
@@ -39,6 +40,13 @@ class ProductsController < Spree::StoreController
 
     @product = @products.includes(:variants_including_master, variant_images: :viewable).
                friendly.distinct(false).find(params[:id])
+  end
+
+  def load_order
+    @order = current_order || Order.incomplete.
+               includes(line_items: [variant: [:images, :option_values, :product]]).
+               find_or_initialize_by(guest_token: cookies.signed[:guest_token])
+    associate_user
   end
 
   def set_layout

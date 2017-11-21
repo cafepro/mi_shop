@@ -19,5 +19,6 @@
 //= require ./bootstrap/popper
 //= require ./bootstrap/bootstrap
 //= require ./bootstrap/bootstrap-editable
+//= require dropzone
 //= require_tree ./theme
 //= require translations

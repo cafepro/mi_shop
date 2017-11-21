@@ -37,16 +37,13 @@ end
 
 Spree::Core::Engine.add_routes do
   namespace :admin do
+
     resources :layouts do
       member do
         get :clone
       end
     end
-  end
-end
 
-Spree::Core::Engine.add_routes do
-  namespace :admin do
     resources :pages do
       collection do
         post :update_positions
@@ -55,11 +52,15 @@ Spree::Core::Engine.add_routes do
         get :clone
       end
     end
-  end
-end
 
-Spree::Core::Engine.add_routes do
-  namespace :admin do
     resources :page_images
   end
+
+  resources :orders do
+    member do
+      get :upload_photos
+      post :upload_photos
+    end
+  end
+
 end
