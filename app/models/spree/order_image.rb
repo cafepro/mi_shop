@@ -1,5 +1,9 @@
 module Spree
   class OrderImage < Spree::Base
+
+    belongs_to :order
+    belongs_to :product
+
     has_attached_file :attachment,
                       styles: { thumbnail: '60x60', mini: '100x100>', medium: '300x300>', large: '600x600>', xlarge: '1200x1200>' },
                       default_style: :large,

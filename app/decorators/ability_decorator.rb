@@ -1,7 +1,7 @@
 class AbilityDecorator
   include CanCan::Ability
   def initialize(user)
-      cannot :edit, Tolk::LocalesController
+    can :upload_photos, Spree::Order
   end
 end
 

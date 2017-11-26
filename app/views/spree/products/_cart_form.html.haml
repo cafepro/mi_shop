@@ -37,8 +37,9 @@
             .input-group
               = number_field_tag :quantity, 1, class: 'title form-control', min: 1
               %span.input-group-btn
-                = link_to spree.upload_photos_order_path(@order), class: 'btn btn-success', id: 'add-photos-to-order', remote: true do
+                = link_to spree.upload_photos_orders_path(product: @product), class: 'btn btn-success', id: 'add-photos-to-order', remote: true do
                   = t('order.upload_photos')
+              -if true
                 = button_tag class: 'btn btn-success', id: 'add-to-cart-button', type: :submit do
                   = Spree.t(:add_to_cart)
     - else

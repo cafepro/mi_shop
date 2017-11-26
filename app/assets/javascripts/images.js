@@ -9,8 +9,9 @@ $(document).ready(function(){
   });
 
   dropzone.on("success", function(file) {
-    this.removeFile(file);
+    // this.removeFile(file);
     // $.getScript("/images");
+    console.log(file);
     console.log("imagen subida");
   })
 });

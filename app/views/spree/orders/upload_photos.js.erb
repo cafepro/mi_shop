@@ -1,4 +1,4 @@
-$('#mi_modal_content').html('<%= j render('spree/orders/upload_photos', order: @order) %>');
+$('#mi_modal_content').html('<%= j render('spree/orders/upload_photos', order: @order, product: @product) %>');
 $('#mi_modal').modal('show');
 
 
@@ -9,7 +9,7 @@ var dropzone = new Dropzone (".dropzone", {
   });
 
   dropzone.on("success", function(file) {
-    this.removeFile(file);
+    // this.removeFile(file);
     // $.getScript("/images");
     console.log("imagen subida");
   })

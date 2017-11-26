@@ -1,0 +1,1408 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"WilsonCms",
+				"WilsonCmsProducts\t(20171124132907_fix_investment_funds_template.rb)"
+			],
+			[
+				"Wils",
+				"WilsonCms\t(product.rb)"
+			],
+			[
+				"ad",
+				"advantages_image_component"
+			],
+			[
+				"text",
+				"textarea\t(translations.js)"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"dump",
+				"dump_all\t(locales_controller.rb)"
+			],
+			[
+				"Lo",
+				"LocalesController\t(locales_controller.rb)"
+			],
+			[
+				"before",
+				"before_action\t(locales_controller.rb)"
+			],
+			[
+				"down",
+				"downcase"
+			],
+			[
+				"qui",
+				"quick_search\t(_form_filter.html.erb)"
+			],
+			[
+				"erb",
+				"erb2yaml"
+			],
+			[
+				"Titu",
+				"TitulacionOnline"
+			],
+			[
+				"Offi",
+				"OfficeLocation\t(office_location.rb)"
+			],
+			[
+				"open",
+				"open_days"
+			],
+			[
+				"paddin",
+				"padding-left"
+			],
+			[
+				"four",
+				"fourth_lvl_nav_item"
+			],
+			[
+				"scro",
+				"scrollY"
+			],
+			[
+				"navig",
+				"navigable_on_menu\t(_second_lvl_nav_item.html.erb)"
+			],
+			[
+				"wilson",
+				"wilson_cms_products_products.highlighted\t(product.rb)"
+			],
+			[
+				"naviga",
+				"navigable_on_menu\t(20170921091457_add_navigable_on_menu_to_wilson_cms_nav_items.rb)"
+			],
+			[
+				"secon",
+				"second_lvl_nav_item"
+			],
+			[
+				"Prod",
+				"Product"
+			],
+			[
+				"product",
+				"product_category_id"
+			],
+			[
+				"grey_menu",
+				"grey_menu_layout"
+			],
+			[
+				"grey_me",
+				"grey_menu_layout"
+			],
+			[
+				"P",
+				"Product\t(product.rb)"
+			],
+			[
+				"WIL",
+				"WilsonCmsProducts\t(product.rb)"
+			],
+			[
+				"resour",
+				"resource_classes"
+			],
+			[
+				"colec",
+				"colectivo"
+			],
+			[
+				"Wilson",
+				"WilsonCmsProducts"
+			],
+			[
+				"resou",
+				"resource_template_old"
+			],
+			[
+				"Produco",
+				"Producto\t(product.rb)"
+			],
+			[
+				"delete_sub",
+				"delete_subscriptions\t(bulletin.rb)"
+			],
+			[
+				"WilsonCm",
+				"WilsonCms::NavItem\t(nav_item.rb)"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"situa",
+				"situacion_laboral"
+			],
+			[
+				"centro_presen",
+				"centro_presencial_id"
+			],
+			[
+				"Centro",
+				"CentroPresencial\t(centro_presencials_controller.rb)"
+			],
+			[
+				"Especia",
+				"EspecialidadsCurso\t(especialidads_curso.rb)"
+			],
+			[
+				"espe",
+				"especialidads_cursos\t(curso.rb)"
+			],
+			[
+				"last",
+				"last_page_title"
+			],
+			[
+				"header_cla",
+				"header_claim_02"
+			],
+			[
+				"sub_blo",
+				"sub_block_form"
+			],
+			[
+				"custom_",
+				"custom_carousel_sub_blocks"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/jorge/Documents/ruby/liberbank/liberbank-comercial/app/assets/stylesheets/custom_home/_colectivos.scss",
+			"settings":
+			{
+				"buffer_size": 45101,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/jorge/Documents/ruby/liberbank/ccm-comercial/app/assets/stylesheets/custom_home/_colectivos.scss",
+			"settings":
+			{
+				"buffer_size": 51755,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/jorge/Documents/ruby/liberbank/liberbank-comercial/db/migrate/20171124132907_fix_investment_funds_template.rb",
+			"settings":
+			{
+				"buffer_size": 461,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/jorge/Documents/ruby/liberbank/ccm-comercial/db/migrate/20171124140507_fix_product_images_relationships.rb",
+			"settings":
+			{
+				"buffer_size": 337,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/jorge/Documents/ruby/liberbank/liberbank-comercial/app/views/wilson_cms_products/_main_blocks.html.erb",
+			"settings":
+			{
+				"buffer_size": 759,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/jorge/Documents/ruby/liberbank/liberbank-comercial/app/assets/stylesheets/custom_home/_main.scss",
+			"settings":
+			{
+				"buffer_size": 91101,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/jorge/Documents/ruby/liberbank/ccm-comercial/app/assets/stylesheets/custom_home/_main.scss",
+			"settings":
+			{
+				"buffer_size": 91101,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/jorge/Documents/ruby/liberbank/liberbank-comercial/app/views/wilson_cms/modules/_three_values_liberbank_block.html.erb",
+			"settings":
+			{
+				"buffer_size": 716,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/jorge/Documents/ruby/liberbank/ccm-comercial/app/views/wilson_cms/modules/_promotion_footer.html.erb",
+			"settings":
+			{
+				"buffer_size": 809,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/jorge/Documents/ruby/liberbank/ccm-comercial/db/migrate/20171121123158_create_wilson_cms_products_distributive_image_components.wilson_cms_products.rb",
+			"settings":
+			{
+				"buffer_size": 318,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 147.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"add p",
+				"Package Control: Advanced Install Package"
+			]
+		],
+		"width": 548.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+	],
+	"file_history":
+	[
+		"/Users/jorge/Documents/ruby/liberbank/liberbank-comercial/app/views/wilson_cms/modules/custom_negocios_bands/custom_negocios_client_bands/_center_bottom_band.html.erb",
+		"/Users/jorge/Documents/ruby/liberbank/liberbank-comercial/app/views/wilson_cms/modules/custom_negocios_bands/custom_negocios_client_bands/_top_blocks_band.html.erb",
+		"/Users/jorge/Documents/ruby/liberbank/liberbank-comercial/app/assets/stylesheets/custom_home/_colectivos.scss",
+		"/Users/jorge/Documents/ruby/liberbank/ccm-comercial/app/views/wilson_cms_products/_main_blocks.html.erb",
+		"/Users/jorge/Documents/ruby/liberbank/ccm-comercial/db/migrate/20171121123159_copy_products_advantages_image_to_distributive_image.wilson_cms_products.rb",
+		"/Users/jorge/Documents/ruby/liberbank/ccm-comercial/Gemfile",
+		"/Users/jorge/Documents/ruby/liberbank/liberbank-comercial/db/migrate/20171123123723_asign_template_id_to_all_products.rb",
+		"/Users/jorge/Documents/ruby/liberbank/wilson_cms_products/app/models/wilson_cms_products/product.rb",
+		"/Users/jorge/Documents/ruby/liberbank/liberbank-comercial/app/views/wilson_cms_products/_main_blocks.html.erb",
+		"/Users/jorge/Documents/ruby/liberbank/liberbank-comercial/app/views/wilson_cms_products/_header_blocks.html.erb",
+		"/Users/jorge/Documents/ruby/liberbank/ccm-comercial/app/views/wilson_cms_products/_header_blocks.html.erb",
+		"/Users/jorge/Downloads/dumps_bbdd/lbb_comercial_prod.20171113.sql",
+		"/Users/jorge/Documents/ruby/liberbank/liberbank-comercial/db/migrate/20171123122427_save_all_products.rb",
+		"/Users/jorge/Documents/ruby/liberbank/ccm-comercial/db/migrate/20171123114044_save_all_products.rb",
+		"/Users/jorge/Documents/ruby/liberbank/ccm-comercial/db/migrate/20171123084944_save_all_products.rb",
+		"/Users/jorge/Documents/ruby/liberbank/ccm-comercial/app/views/wilson_cms_products/new_design/_header_ficha.html.erb",
+		"/Users/jorge/Documents/ruby/liberbank/liberbank-comercial/app/views/wilson_cms_products/new_design/_header_ficha.html.erb",
+		"/Users/jorge/Documents/ruby/liberbank/wilson_cms_products/db/migrate/20171115094531_copy_products_advantages_image_to_distributive_image.rb",
+		"/Users/jorge/Documents/ruby/liberbank/liberbank-comercial/db/migrate/20171122084746_copy_products_advantages_image_to_distributive_image.wilson_cms_products.rb",
+		"/Users/jorge/Documents/ruby/liberbank/liberbank-comercial/app/views/wilson_cms/modules/_products_by_category_block.html.erb",
+		"/Users/jorge/Documents/ruby/liberbank/ccm-comercial/app/views/wilson_cms/modules/_products_by_category_block.html.erb",
+		"/Users/jorge/Documents/ruby/liberbank/ccm-comercial/app/views/wilson_cms/modules/_faldon_footer_block.html.erb",
+		"/Users/jorge/Documents/ruby/liberbank/liberbank-comercial/app/views/wilson_cms/modules/_faldon_footer_block.html.erb",
+		"/Users/jorge/Documents/ruby/liberbank/liberbank-comercial/config/initializers/wilson_cms_nav_items.rb",
+		"/Users/jorge/Documents/ruby/liberbank/ccm-comercial/config/initializers/wilson_cms_nav_items.rb",
+		"/Users/jorge/Documents/ruby/liberbank/wilson_cms_products/app/controllers/wilson_cms_products/admin/products_controller.rb",
+		"/Users/jorge/Documents/ruby/liberbank/ccm-comercial/app/assets/stylesheets/layout/_main_footer.scss",
+		"/Users/jorge/Documents/ruby/liberbank/ccm-comercial/app/assets/stylesheets/blocks/_four_promotion_footer_block.scss",
+		"/Users/jorge/Documents/my_projects/mi_shop/app/assets/stylesheets/application.css.scss",
+		"/Users/jorge/Documents/ruby/550_femetal/Fuentes/trunk/app/views/layouts/_base_modal.html.erb",
+		"/Users/jorge/Documents/my_projects/mi_shop/app/views/shared/_modals.html.haml",
+		"/Users/jorge/Documents/my_projects/mi_shop/app/controllers/orders_controller.rb",
+		"/Users/jorge/Documents/my_projects/mi_shop/app/views/spree/layouts/spree_application.html.erb.example",
+		"/Users/jorge/Documents/my_projects/mi_shop/app/models/spree/order_image.rb",
+		"/Users/jorge/Documents/my_projects/mi_shop/app/views/layouts/application.html.haml",
+		"/Users/jorge/Documents/my_projects/mi_shop/app/views/spree/layouts/spree_application.html.erb",
+		"/Users/jorge/Documents/my_projects/mi_shop/app/views/spree/layouts/spree_application.html.erb.html",
+		"/Users/jorge/Documents/my_projects/mi_shop/Gemfile",
+		"/Users/jorge/Documents/my_projects/mi_shop/config/deploy.rb",
+		"/Users/jorge/Documents/my_projects/mi_shop/app/views/products/show.html.haml",
+		"/Users/jorge/Documents/my_projects/mi_shop/app/views/products/_cart_form.html.erb",
+		"/Users/jorge/Documents/my_projects/spree/frontend/app/controllers/spree/home_controller.rb",
+		"/Users/jorge/Documents/my_projects/mi_shop/app/views/products/_promotions.html.haml",
+		"/Users/jorge/Documents/my_projects/mi_shop/app/views/shared/_header.html.haml",
+		"/Users/jorge/Documents/my_projects/mi_shop/app/overrides/spree/layouts/admin/add_spree_page_images.html.erb.deface",
+		"/Users/jorge/Documents/my_projects/mi_shop/config/routes.rb",
+		"/Users/jorge/Documents/my_projects/mi_shop/Scaffolds",
+		"/Users/jorge/Documents/my_projects/mi_shop/app/views/spree/admin/page_images/_index.html.haml",
+		"/Users/jorge/Documents/my_projects/mi_shop/app/controllers/spree/admin/page_images_controller.rb",
+		"/Users/jorge/Documents/my_projects/mi_shop/app/models/spree/page_image.rb",
+		"/Users/jorge/Documents/my_projects/mi_shop/app/assets/javascripts/translations.js",
+		"/Users/jorge/Documents/my_projects/mi_shop/app/assets/javascripts/bootstrap/bootstrap-editable.js",
+		"/Users/jorge/Documents/my_projects/mi_shop/app/helpers/application_helper.rb",
+		"/Users/jorge/Documents/my_projects/mi_shop/app/models/spree/page.rb",
+		"/Users/jorge/Documents/my_projects/spree/backend/app/controllers/spree/admin/images_controller.rb",
+		"/Users/jorge/Documents/my_projects/mi_shop/app/views/spree/admin/image/index.html.haml",
+		"/Users/jorge/Documents/my_projects/mi_shop/app/views/spree/admin/image/_index.html.haml",
+		"/Users/jorge/Documents/my_projects/mi_shop/app/overrides/spree/layouts/admin/add_spree_images.html.erb.deface",
+		"/Users/jorge/Documents/my_projects/mi_shop/app/overrides/spree/layouts/admin/add_spree_layouts.html.erb.deface",
+		"/Users/jorge/Documents/my_projects/mi_shop/app/controllers/tolk/locales_controller.rb",
+		"/Users/jorge/Documents/my_projects/mi_shop/app/controllers/products_controller.rb",
+		"/Users/jorge/Documents/my_projects/mi_shop/app/controllers/application_controller.rb",
+		"/Users/jorge/Documents/my_projects/mi_shop/config/environments/development.rb",
+		"/Users/jorge/Documents/my_projects/mi_shop/app/views/spree/admin/pages/_index.html.haml",
+		"/Users/jorge/Documents/my_projects/mi_shop/app/models/tolk/locale.rb",
+		"/Users/jorge/Documents/my_projects/mi_shop/app/views/pages/index.html.haml",
+		"/Users/jorge/Documents/ruby/liberbank/ccm-comercial/app/assets/stylesheets/custom_home/_main.scss",
+		"/Users/jorge/Documents/ruby/liberbank/liberbank-comercial/app/assets/stylesheets/custom_home/_main.scss",
+		"/Users/jorge/Documents/my_projects/mi_shop/app/views/shared/_menu.html.haml",
+		"/Users/jorge/Documents/my_projects/mi_shop/app/controllers/pages_controller.rb",
+		"/Users/jorge/Documents/my_projects/mi_shop/app/controllers/spree/admin/images_controller.rb",
+		"/Users/jorge/Documents/my_projects/mi_shop/app/views/spree/admin/pages/_form.html.haml",
+		"/Users/jorge/Documents/my_projects/mi_shop/app/models/spree/image.rb",
+		"/Users/jorge/Documents/my_projects/spree_scaffold/lib/generators/spree_scaffold/templates/views/_form.html.erb",
+		"/Users/jorge/Documents/my_projects/spree_scaffold/lib/generators/spree_scaffold/templates/controller.rb",
+		"/Users/jorge/Documents/my_projects/mi_shop/config/initializers/extensions.rb",
+		"/Users/jorge/Documents/my_projects/mi_shop/lib/mi_shop_base_controller.rb",
+		"/Users/jorge/Documents/my_projects/mi_shop/app/views/pages/_seo_contents.html.haml",
+		"/Users/jorge/Documents/my_projects/mi_shop/app/views/spree/admin/layouts/_form.html.haml",
+		"/Users/jorge/Documents/my_projects/mi_shop/db/migrate/20171111081301_add_seo_code_to_spree_layouts.rb",
+		"/Users/jorge/Documents/my_projects/mi_shop/app/assets/javascripts/application.js",
+		"/Users/jorge/Documents/my_projects/mi_shop/app/views/shared/_form_translations.html.haml",
+		"/Users/jorge/Documents/my_projects/mi_shop/db/migrate/20171111080630_add_more_seo_to_spree_pages.rb",
+		"/Users/jorge/Documents/my_projects/mi_shop/app/assets/stylesheets/theme/_bootstrap-overrides.scss",
+		"/Users/jorge/Documents/ruby/liberbank/liberbank-comercial/app/views/wilson_cms_products/new_design/_nav_inner_ficha.html.erb",
+		"/Users/jorge/Documents/ruby/liberbank/liberbank-comercial/app/views/wilson_cms/modules/custom_agro_bands/custom_agro_client_bands/_center_bottom_band.html.erb",
+		"/Users/jorge/Documents/ruby/liberbank/liberbank-comercial/app/views/wilson_cms/modules/custom_agro_bands/custom_agro_no_client_bands/_header_band.html.erb",
+		"/Users/jorge/Documents/ruby/liberbank/liberbank-comercial/app/views/wilson_cms/modules/custom_business_bands/custom_business_no_client_bands/_header_band.html.erb",
+		"/Users/jorge/Documents/ruby/liberbank/liberbank-comercial/app/views/wilson_cms/modules/custom_negocios_bands/custom_negocios_no_client_bands/_header_band.html.erb",
+		"/Users/jorge/Documents/ruby/liberbank/liberbank-comercial/app/views/wilson_cms_products/new_design/_content_two_cols.html.erb",
+		"/Users/jorge/Documents/ruby/liberbank/liberbank-comercial/app/views/wilson_cms_products/new_design/_advantages.html.erb",
+		"/Users/jorge/Documents/my_projects/mi_shop/app/assets/javascripts/theme/popper.js",
+		"/Users/jorge/Documents/my_projects/mi_shop/app/views/pages/_body.html.haml",
+		"/Users/jorge/Documents/my_projects/mi_shop/app/views/spree/admin/layouts/_index.html.haml",
+		"/Users/jorge/Documents/my_projects/mi_shop/app/controllers/spree/admin/pages_controller.rb",
+		"/Users/jorge/Documents/my_projects/mi_shop/app/views/spree/admin/pages/clone.html.haml",
+		"/Users/jorge/Documents/my_projects/mi_shop/app/controllers/spree/admin/layouts_controller.rb",
+		"/Users/jorge/Documents/my_projects/mi_shop/app/assets/javascripts/theme/bootstrap/bootstrap-editable.js",
+		"/Users/jorge/Documents/my_projects/mi_shop/app/assets/javascripts/theme/creative.js",
+		"/Users/jorge/Documents/my_projects/mi_shop/app/views/shared/response.js.erb",
+		"/Users/jorge/Documents/ruby/599_fernandez_vega/Fuentes/trunk/lib/cms_base_controller.rb",
+		"/Users/jorge/Documents/my_projects/spree/frontend/config/routes.rb",
+		"/Users/jorge/Documents/my_projects/mi_shop/app/views/products/index.html.haml",
+		"/Users/jorge/Documents/my_projects/mi_shop/app/models/spree/layout.rb",
+		"/Users/jorge/Documents/my_projects/mi_shop/app/views/spree/admin/layouts/clone.html.haml",
+		"/Users/jorge/Documents/my_projects/mi_shop/app/assets/stylesheets/theme/creative.scss",
+		"/Users/jorge/Documents/my_projects/mi_shop/app/views/pages/_header.html.haml",
+		"/Users/jorge/Documents/ruby/599_fernandez_vega/Fuentes/trunk/config/application.rb",
+		"/Users/jorge/Documents/my_projects/mi_shop/config/application.rb",
+		"/Users/jorge/Documents/ruby/599_fernandez_vega/Fuentes/trunk/app/controllers/application_controller.rb",
+		"/Users/jorge/Documents/my_projects/spree_scaffold/lib/generators/spree_scaffold/templates/views/_index.html.erb",
+		"/Users/jorge/Documents/my_projects/mi_shop/app/decorators/ability_decorator.rb",
+		"/Users/jorge/Documents/my_projects/spree/core/app/models/spree/ability.rb",
+		"/Users/jorge/Documents/my_projects/mi_shop/app/views/pages/_footer.html.haml",
+		"/Users/jorge/Documents/my_projects/mi_shop/app/views/pages/_css_contents.html.haml",
+		"/Users/jorge/Documents/my_projects/mi_shop/app/views/pages/_js_contents.html.haml",
+		"/Users/jorge/Documents/my_projects/mi_shop/app/overrides/spree/layouts/admin/add_spree_pages.html.erb.deface",
+		"/Users/jorge/Documents/my_projects/mi_shop/app/assets/stylesheets/theme/_masthead.scss",
+		"/Users/jorge/Documents/my_projects/mi_shop/db/migrate/20171105000341_add_is_home_to_spree_pages.rb",
+		"/Users/jorge/Documents/my_projects/mi_shop/app/assets/stylesheets/theme/bootstrap/bootstrap-grid.css",
+		"/Users/jorge/Documents/my_projects/mi_shop/config/initializers/permissions.rb",
+		"/Users/jorge/Documents/ruby/599_fernandez_vega/Fuentes/trunk/config/routes.rb",
+		"/Users/jorge/Documents/my_projects/mi_shop/db/migrate/20171104163558_add_menu_hidden_to_pages.rb",
+		"/Users/jorge/Documents/my_projects/mi_shop/app/assets/javascripts/admin.js",
+		"/Users/jorge/Documents/ruby/599_fernandez_vega/Fuentes/trunk/app/models/template.rb",
+		"/Users/jorge/Documents/ruby/599_fernandez_vega/Fuentes/trunk/app/views/layouts/application.html.erb",
+		"/Users/jorge/Documents/my_projects/mi_shop/app/assets/stylesheets/admin/_base.scss",
+		"/Users/jorge/Documents/my_projects/mi_shop/config/initializers/ckeditor.rb"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 101.0,
+		"where_history":
+		[
+			"/Users/jorge/Documents/ruby/liberbank/liberbank-comercial/app/views/wilson_cms/modules",
+			"/Users/jorge/Documents/ruby/liberbank/liberbank-comercial/app/views/wilson_cms",
+			"/Users/jorge/Documents/ruby/liberbank/liberbank-comercial",
+			"/Users/jorge/Documents/ruby/liberbank/liberbank-comercial/app",
+			"/Users/jorge/Documents/ruby/liberbank/liberbank-comercial",
+			"/Users/jorge/Documents/ruby/liberbank/liberbank-comercial/app"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"50",
+			"fondo_fich",
+			".image",
+			"/eyn/",
+			"/empresas-y-negocios/",
+			"redirect_to_alt_page",
+			"check_for_cookies_configuration",
+			"colectivo_en",
+			"colectivo-en"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/jorge/Documents/ruby/liberbank/liberbank-comercial/app/assets/stylesheets/custom_home/_colectivos.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 45101,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								45101
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 33977.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/jorge/Documents/ruby/liberbank/ccm-comercial/app/assets/stylesheets/custom_home/_colectivos.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 51755,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8968,
+								8968
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 5682.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/jorge/Documents/ruby/liberbank/liberbank-comercial/db/migrate/20171124132907_fix_investment_funds_template.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 461,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								450,
+								450
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/jorge/Documents/ruby/liberbank/ccm-comercial/db/migrate/20171124140507_fix_product_images_relationships.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 337,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								336,
+								336
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Users/jorge/Documents/ruby/liberbank/liberbank-comercial/app/views/wilson_cms_products/_main_blocks.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 759,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Rails/HTML (Rails).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/Users/jorge/Documents/ruby/liberbank/liberbank-comercial/app/assets/stylesheets/custom_home/_main.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 91101,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								81123,
+								81125
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 56663.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/Users/jorge/Documents/ruby/liberbank/ccm-comercial/app/assets/stylesheets/custom_home/_main.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 91101,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10128,
+								10128
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 6941.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/Users/jorge/Documents/ruby/liberbank/liberbank-comercial/app/views/wilson_cms/modules/_three_values_liberbank_block.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 716,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2,
+								2
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Rails/HTML (Rails).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/Users/jorge/Documents/ruby/liberbank/ccm-comercial/app/views/wilson_cms/modules/_promotion_footer.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 809,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								779,
+								779
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Rails/HTML (Rails).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/Users/jorge/Documents/ruby/liberbank/ccm-comercial/db/migrate/20171121123158_create_wilson_cms_products_distributive_image_components.wilson_cms_products.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 318,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								178,
+								307
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 27.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "liberbank.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"fixinvest",
+				"liberbank-comercial/db/migrate/20171124132905_fix_investment_funds_template.rb"
+			],
+			[
+				"main.sc",
+				"ccm-comercial/app/assets/stylesheets/custom_home/_main.scss"
+			],
+			[
+				"cole",
+				"ccm-comercial/app/assets/stylesheets/custom_home/_colectivos.scss"
+			],
+			[
+				"main.scss",
+				"liberbank-comercial/app/assets/stylesheets/custom_home/_main.scss"
+			],
+			[
+				"product.rb",
+				"wilson_cms_products/app/models/wilson_cms_products/product.rb"
+			],
+			[
+				"save",
+				"liberbank-comercial/db/migrate/20171123122427_save_all_products.rb"
+			],
+			[
+				"saveallp",
+				"ccm-comercial/db/migrate/20171123114044_save_all_products.rb"
+			],
+			[
+				"faldonfooter",
+				"liberbank-comercial/app/views/wilson_cms/modules/_faldon_footer_block.html.erb"
+			],
+			[
+				"store_contro",
+				"spree/frontend/app/controllers/spree/store_controller.rb"
+			],
+			[
+				"main.s",
+				"liberbank-comercial/app/assets/stylesheets/custom_home/_main.scss"
+			],
+			[
+				"ccmmain.scs",
+				"ccm-comercial/app/assets/stylesheets/custom_home/_main.scss"
+			],
+			[
+				"ability",
+				"spree/core/app/models/spree/ability.rb"
+			],
+			[
+				"abili",
+				"spree/core/app/models/spree/ability.rb"
+			],
+			[
+				"template.rb",
+				"599_fernandez_vega/Fuentes/trunk/app/models/template.rb"
+			],
+			[
+				"_taxation_block",
+				"liberbank-comercial/app/assets/stylesheets/blocks/_taxation_block.scss"
+			],
+			[
+				"general",
+				"liberbank-comercial/app/assets/stylesheets/base/_general.scss"
+			],
+			[
+				"_products_by_category_block",
+				"liberbank-comercial/app/assets/stylesheets/blocks/_products_by_category_block.scss"
+			],
+			[
+				"colectiv",
+				"liberbank-comercial/app/assets/stylesheets/custom_home/_colectivos.scss"
+			],
+			[
+				"generalcss",
+				"liberbank-comercial/app/assets/stylesheets/base/_general.scss"
+			],
+			[
+				"colectivos",
+				"liberbank-comercial/app/assets/stylesheets/custom_home/_colectivos.scss"
+			],
+			[
+				"imoprt_grado",
+				"492_uemc/Fuentes/trunk/vendor/engines/planes_formativos_engine/app/models/import_grado.rb"
+			],
+			[
+				"import_gra",
+				"580_uemc_internacionalizacion/Fuentes/trunk/vendor/engines/planes_formativos_engine/app/models/import_grado.rb"
+			],
+			[
+				"navinnerficha",
+				"liberbank-comercial/app/assets/stylesheets/partials/_nav_inner_ficha.scss"
+			],
+			[
+				"colec",
+				"liberbank-comercial/app/assets/stylesheets/custom_home/_colectivos.scss"
+			],
+			[
+				"general.scss",
+				"liberbank-comercial/app/assets/stylesheets/base/_general.scss"
+			],
+			[
+				"cms_config",
+				"580_uemc_internacionalizacion/Fuentes/trunk/config/cms_config.yml"
+			],
+			[
+				"colectivos.scss",
+				"liberbank-comercial/app/assets/stylesheets/custom_home/_colectivos.scss"
+			],
+			[
+				"custom_homebase.scs",
+				"liberbank-comercial/app/assets/stylesheets/custom_home/_base.scss"
+			],
+			[
+				"testimo",
+				"580_uemc_internacionalizacion/Fuentes/trunk/vendor/engines/noticias/app/models/testimonio.rb"
+			],
+			[
+				"noticias",
+				"580_uemc_internacionalizacion/Fuentes/trunk/vendor/engines/noticias/app/controllers/noticias_controller.rb"
+			],
+			[
+				"noticiascontr",
+				"580_uemc_internacionalizacion/Fuentes/trunk/vendor/engines/noticias/app/controllers/noticias_controller.rb"
+			],
+			[
+				"580user.rb",
+				"580_uemc_internacionalizacion/Fuentes/trunk/vendor/engines/voragocms_core_engine/app/models/user.rb"
+			],
+			[
+				"controller.rb",
+				"spree_scaffold/lib/generators/spree_scaffold/templates/controller.rb"
+			],
+			[
+				"page.rb",
+				"catarroja/root/app/models/page.rb"
+			],
+			[
+				"schedule",
+				"492_uemc/Fuentes/trunk/config/schedule.rb"
+			],
+			[
+				"grado.rb",
+				"492_uemc/Fuentes/trunk/vendor/engines/planes_formativos_engine/app/models/grado.rb"
+			],
+			[
+				"20171004091532_save_office_location_to_unify_corners_festives.rb",
+				"liberbank-comercial/db/migrate/20171004091532_save_office_location_to_unify_corners_festives.rb"
+			],
+			[
+				"maincliente",
+				"liberbank-comercial/app/assets/stylesheets/custom_home/_main_cliente.scss"
+			],
+			[
+				"main_men",
+				"spree/backend/app/views/spree/admin/shared/_main_menu.html.erb"
+			],
+			[
+				"",
+				"mi_shop/app/views/admin/shared/_main_menu.html.erb"
+			],
+			[
+				"sharemainmenu",
+				"spree/backend/app/views/spree/admin/shared/_main_menu.html.erb"
+			],
+			[
+				"sharedmain",
+				"spree/backend/app/views/spree/admin/shared/_main_menu.html.erb"
+			],
+			[
+				"sharedmainmenu",
+				"spree/backend/app/views/spree/admin/shared/_main_menu.html.erb"
+			],
+			[
+				"main_menu",
+				"spree/guides/layouts/_main_menu.html"
+			],
+			[
+				"nav_items",
+				"lib/liberbank/admin_nav_items_controller_extend.rb"
+			],
+			[
+				"landings",
+				"app/controllers/landings_controller.rb"
+			],
+			[
+				"form.rb",
+				"catarroja/root/app/models/form.rb"
+			],
+			[
+				"formsending",
+				"523_ayto_catarroja_t2/Fuentes/trunk/app/models/form_sending.rb"
+			],
+			[
+				"form_sen",
+				"532_arcelormittalrails_t2/Fuentes/trunk/app/models/form_sending.rb"
+			],
+			[
+				"responsive_nav",
+				"app/assets/stylesheets/layout/_responsive_nav.scss"
+			],
+			[
+				"respons",
+				"app/assets/stylesheets/layout/_responsive_nav.scss"
+			],
+			[
+				"admin_nav_items_controller_extend.rb",
+				"lib/liberbank/admin_nav_items_controller_extend.rb"
+			],
+			[
+				"_four_promotion_footer_block",
+				"app/assets/stylesheets/blocks/_four_promotion_footer_block.scss"
+			],
+			[
+				"responsivenav",
+				"app/assets/stylesheets/layout/_responsive_nav.scss"
+			],
+			[
+				"megadr",
+				"app/assets/stylesheets/layout/_mega_drops.scss"
+			],
+			[
+				"main.",
+				"app/assets/stylesheets/custom_home/_main.scss"
+			],
+			[
+				"productsbycat",
+				"liberbank-comercial/app/assets/stylesheets/blocks/_products_by_category_block.scss"
+			],
+			[
+				"landing",
+				"app/controllers/landings_controller.rb"
+			],
+			[
+				"responsivenavscss",
+				"liberbank-comercial/app/assets/stylesheets/layout/_responsive_nav.scss"
+			],
+			[
+				"main_cliente",
+				"liberbank/liberbank-comercial/app/assets/stylesheets/custom_home/_main_cliente.scss"
+			],
+			[
+				"colegiado",
+				"colegio_graduados_sociales/app/models/colegiado.rb"
+			],
+			[
+				"mainclient",
+				"liberbank-comercial/app/assets/stylesheets/custom_home/_main_cliente.scss"
+			],
+			[
+				"productscont",
+				"wilson_cms_products/app/controllers/wilson_cms_products/admin/products_controller.rb"
+			],
+			[
+				"faldonfooterblock.html",
+				"liberbank-comercial/app/views/wilson_cms/modules/_faldon_footer_block.html.erb"
+			],
+			[
+				"productfilter",
+				"wilson_cms_products/app/models/wilson_cms_products/product_filter.rb"
+			],
+			[
+				"wilsoncmsproductsproduct.rb",
+				"wilson_cms_products/db/migrate/20150122100049_create_wilson_cms_products_products.rb"
+			],
+			[
+				"responsi",
+				"ccm-comercial/app/assets/stylesheets/layout/_responsive_header.scss"
+			],
+			[
+				"responsiveheader",
+				"ccm-comercial/app/assets/stylesheets/layout/_responsive_header.scss"
+			],
+			[
+				"mainheader",
+				"ccm-comercial/app/assets/stylesheets/layout/_main_header.scss"
+			],
+			[
+				"base",
+				"lbb-cms/app/controllers/wilson_cms/base_controller.rb"
+			],
+			[
+				"basecontr",
+				"lbb-cms/app/controllers/wilson_cms/base_controller.rb"
+			],
+			[
+				"ccmmaincliente",
+				"ccm-comercial/app/assets/stylesheets/custom_home/_main_cliente.scss"
+			],
+			[
+				"setting",
+				"liberbank-comercial/config/initializers/settings.rb"
+			],
+			[
+				"page_status",
+				"lbb-cms/app/views/wilson_cms/admin/resource_shared/_page_status.html.erb"
+			],
+			[
+				"admin_nav_items_controller_extend",
+				"liberbank-comercial/lib/liberbank/admin_nav_items_controller_extend.rb"
+			],
+			[
+				"wilson_cms_nav",
+				"liberbank-comercial/config/initializers/wilson_cms_nav_items.rb"
+			],
+			[
+				"mainfooter",
+				"liberbank-comercial/app/assets/stylesheets/layout/_main_footer.scss"
+			],
+			[
+				"generalscss",
+				"liberbank-comercial/app/assets/stylesheets/base/_general.scss"
+			],
+			[
+				"user.rb",
+				"565_centro_jovellanos_europa/Fuentes/trunk/app/models/user.rb"
+			],
+			[
+				"bulletin",
+				"550_femetal/Fuentes/trunk/app/models/bulletin.rb"
+			],
+			[
+				"bulletin.rb",
+				"565_centro_jovellanos_europa/Fuentes/trunk/app/models/bulletin.rb"
+			],
+			[
+				"bulletins_con",
+				"565_centro_jovellanos_europa/Fuentes/trunk/app/controllers/bulletins_controller.rb"
+			],
+			[
+				"mainscss",
+				"liberbank-comercial/app/assets/stylesheets/custom_home/_main.scss"
+			],
+			[
+				"coursenotifica",
+				"565_centro_jovellanos_europa/Fuentes/trunk/db/migrate/20170828090554_add_course_notification_suscription_to_users.rb"
+			],
+			[
+				"privatemenu",
+				"565_centro_jovellanos_europa/Fuentes/trunk/app/views/sites/_private_menu.html.erb"
+			],
+			[
+				"phone.scss",
+				"liberbank-comercial/app/assets/stylesheets/custom_home/_phone.scss"
+			],
+			[
+				"responsive_hea",
+				"ccm-comercial/app/assets/stylesheets/layout/_responsive_header.scss"
+			],
+			[
+				"comercialvariables",
+				"liberbank-comercial/app/assets/stylesheets/base/_variables.scss"
+			],
+			[
+				"varia",
+				"565_centro_jovellanos_europa/Fuentes/trunk/app/assets/stylesheets/voranet/_variables.scss"
+			],
+			[
+				"cms_private",
+				"565_centro_jovellanos_europa/Fuentes/trunk/app/assets/stylesheets/private/cms_private.css.scss"
+			],
+			[
+				"private_menu",
+				"565_centro_jovellanos_europa/Fuentes/trunk/app/views/sites/_private_menu.html.erb"
+			],
+			[
+				"colegiadoscont",
+				"colegio_graduados_sociales/app/controllers/colegiados_controller.rb"
+			],
+			[
+				"import_cole",
+				"colegio_graduados_sociales/app/models/import_colegiado.rb"
+			],
+			[
+				"seed",
+				"colegio_graduados_sociales/db/seeds.rb"
+			],
+			[
+				"tools",
+				"liberbank/lbb-cms/app/controllers/wilson_cms/admin/tools_controller.rb"
+			],
+			[
+				"pages_cont",
+				"liberbank/lbb-cms/app/controllers/wilson_cms/admin/pages_controller.rb"
+			],
+			[
+				"applicationcontroll",
+				"liberbank/liberbank-comercial/app/controllers/application_controller.rb"
+			],
+			[
+				"variables",
+				"555_landings_dicampus/Fuentes/trunk/app/assets/stylesheets/voranet/_variables.scss"
+			],
+			[
+				"tabimax",
+				"555_landings_dicampus/Fuentes/trunk/app/assets/stylesheets/tabimax.css.scss"
+			],
+			[
+				"importbanco",
+				"colegio_graduados_sociales/app/models/import_banco.rb"
+			],
+			[
+				"banco.rb",
+				"colegio_graduados_sociales/app/models/banco.rb"
+			],
+			[
+				"20170817111904_add_fields_to_inscriptions.rb",
+				"550_femetal/Fuentes/trunk/db/migrate/20170817111904_add_fields_to_inscriptions.rb"
+			],
+			[
+				"inscrip",
+				"550_femetal/Fuentes/trunk/app/models/inscripcione.rb"
+			],
+			[
+				"inscripcioneyml",
+				"550_femetal/Fuentes/trunk/config/locales/models/inscripcione/es.yml"
+			],
+			[
+				"formacione",
+				"550_femetal/Fuentes/trunk/app/models/formacione.rb"
+			],
+			[
+				"resource_status",
+				"lbb-cms/app/views/wilson_cms/admin/resource_shared/_resource_status.html.erb"
+			],
+			[
+				"testimonios",
+				"580_uemc_internacionalizacion/Fuentes/trunk/vendor/engines/noticias/app/controllers/testimonios_controller.rb"
+			],
+			[
+				"580client.rb",
+				"580_uemc_internacionalizacion/Fuentes/trunk/vendor/gems/retire/lib/tire/http/client.rb"
+			],
+			[
+				"client.rb",
+				"580_uemc_internacionalizacion/Fuentes/trunk/vendor/gems/retire/lib/tire/http/client.rb"
+			],
+			[
+				"base.scss",
+				"liberbank-comercial/app/assets/stylesheets/custom_home/_base.scss"
+			],
+			[
+				"ficha",
+				"liberbank-comercial/app/assets/stylesheets/custom_home/_ficha.scss"
+			],
+			[
+				"iframe",
+				"liberbank-banca-privada/app/models/wilson_cms/blocks/iframe_block.rb"
+			],
+			[
+				"admin",
+				"app/assets/stylesheets/AdminLTE.css"
+			],
+			[
+				"skin",
+				"app/assets/stylesheets/skins/skin-blue.css"
+			],
+			[
+				"colegiado.rb",
+				"app/models/colegiado.rb"
+			],
+			[
+				"collapsable_pan",
+				"lbb-cms/app/views/wilson_cms/admin/resource_shared/_collapsable_panel.html.erb"
+			],
+			[
+				"collapsable_panel",
+				"lbb-cms/app/views/wilson_cms/admin/resource_shared/_collapsable_panel.html.erb"
+			],
+			[
+				"ficha.scss",
+				"liberbank-comercial/app/assets/stylesheets/custom_home/_ficha.scss"
+			],
+			[
+				"base.scs",
+				"liberbank-comercial/app/assets/stylesheets/custom_home/_base.scss"
+			],
+			[
+				"customcareblocksc",
+				"liberbank-comercial/app/assets/stylesheets/blocks/_customer_care_block.scss"
+			],
+			[
+				"province.rb",
+				"app/models/province.rb"
+			],
+			[
+				"ficha.scs",
+				"liberbank/liberbank-comercial/app/assets/stylesheets/custom_home/_ficha.scss"
+			],
+			[
+				"address",
+				"cafento/app/models/address.rb"
+			],
+			[
+				"addre",
+				"cafento/app/models/address.rb"
+			],
+			[
+				"order.rb",
+				"cafento/app/models/order.rb"
+			],
+			[
+				"modelojson",
+				"455_federacion_web/Fuentes/trunk/app/models/modelo_json_remoto.rb"
+			],
+			[
+				"entrenador",
+				"455_federacion_web/Fuentes/trunk/app/models/entrenador.rb"
+			],
+			[
+				"formconta",
+				"Fuentes/trunk/vendor/engines/contactos_engine/app/controllers/formcontacts_controller.rb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 415.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

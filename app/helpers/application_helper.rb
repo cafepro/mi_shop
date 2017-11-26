@@ -4,7 +4,7 @@ module ApplicationHelper
   # example t('tolk.tranlsations.menu')
   # example t('tolk.tranlsations.menu', 'translations') -> initial value set to 'translations'
   def t(*args)
-    if current_spree_user.admin? || !I18n.exists?(args.first)
+    if (!current_spree_user.nil? && current_spree_user.admin?) || !I18n.exists?(args.first)
       # here we have new text
       # we search for Tolk::Phrase translate
       phrase = Tolk::Phrase.where(key: args.first).first_or_create
@@ -23,7 +23,7 @@ module ApplicationHelper
     end
 
     args.pop if args.count > 1
-    if current_spree_user.admin?
+    if !current_spree_user.nil? && current_spree_user.admin?
       url = "/admin/tolk/#{tlt.id}/translate"
       render inline: "<span data-url='#{url}' data-title='#{args.first}' class='editable'>#{translate(*args)}</span>"
     else

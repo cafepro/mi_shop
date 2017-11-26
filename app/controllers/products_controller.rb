@@ -43,9 +43,11 @@ class ProductsController < Spree::StoreController
   end
 
   def load_order
-    @order = current_order || Order.incomplete.
+    @order = current_order || Spree::Order.incomplete.
                includes(line_items: [variant: [:images, :option_values, :product]]).
                find_or_initialize_by(guest_token: cookies.signed[:guest_token])
+    @order.save if @order.new_record?
+
     associate_user
   end
 

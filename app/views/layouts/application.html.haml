@@ -27,7 +27,7 @@
 
 
   %body#page-top{class: ""}
-    = render 'shared/form_translations' if current_spree_user.admin?
+    = render 'shared/form_translations' if !current_spree_user.nil? && current_spree_user.admin?
 
     = render 'shared/header'
 

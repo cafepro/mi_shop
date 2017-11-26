@@ -1,5 +1,5 @@
 .modal-body
-  = form_with url: spree.upload_photos_order_path(@order), multipart: true, class: 'dropzone', local: true do |f|
+  = form_with url: spree.upload_photos_orders_path(product: @product), multipart: true, class: 'dropzone', local: true do |f|
     .droparea
 
 

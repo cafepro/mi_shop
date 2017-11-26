@@ -13,7 +13,7 @@
 
   </head>
   <body class="<%= body_class %>" id="<%= @body_id || 'default' %>" data-hook="body">
-    <%= render 'shared/form_translations' if current_spree_user.admin? %>
+    <%= render 'shared/form_translations' if !current_spree_user.nil? && current_spree_user.admin? %>
 
     <%= render partial: 'spree/shared/google_analytics.js' %>
     <%= render partial: 'spree/shared/trackers/segment/initializer.js' %>
