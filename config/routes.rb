@@ -2,7 +2,7 @@ Rails.application.routes.draw do
 
   root to: "pages#index", via: [:get, :post]
 
-  resources :products
+  # resources :products
 
   mount Tolk::Engine => '/admin/tolk', as: 'tolk'
   post "/admin/tolk/:id/translate", to: 'tolk/locales#translate'
@@ -57,7 +57,7 @@ Spree::Core::Engine.add_routes do
   end
 
   resources :orders do
-    member do
+    collection do
       get :upload_photos
       post :upload_photos
     end
