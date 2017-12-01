@@ -2,5 +2,8 @@
 - no_follow = @page.no_follow ? 'NO_FOLLOW' : 'FOLLOW'
 
 = content_for :page_seo do
+
+  %title @page.title
+
   %META{ NAME: 'ROBOTS', CONTENT: "#{no_index} #{no_follow}" }
   = @page.seo_code.html_safe
