@@ -1,5 +1,13 @@
 %ul#main_menu.navbar-nav.ml-auto
   - @menu.each do |page|
     %li.nav-item
-      = link_to t("menu.first_lvl.#{page.title.parameterize}"), page.url, class: 'nav-link js-scroll-trigger'
-  %li= render partial: 'shared/cart'
+      = link_to t("menu.first_lvl.#{page.name.parameterize}"), page.url, class: 'nav-link js-scroll-trigger'
+
+  -if spree_current_user
+    %li.nav-item= link_to Spree.t(:my_account), spree.account_path, class: 'nav-link'
+    %li.nav-item= link_to Spree.t(:logout), spree.logout_path, class: 'nav-link'
+  -else
+    %li#link-to-login.nav-item= link_to Spree.t(:login), spree.login_path
+
+  %li.nav-item= render partial: 'shared/cart'
+
