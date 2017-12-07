@@ -31,4 +31,9 @@ module ApplicationHelper
       return translate(*args)
     end
   end
+
+  def back_layout
+    return @layout = Spree::Layout.where(back_default: true).first rescue Layout.first
+  end
+
 end

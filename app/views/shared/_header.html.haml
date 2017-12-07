@@ -1,1 +1,4 @@
-= render inline: @layout.header
+- if @layout
+  = render inline: @layout.header
+- else
+  = render inline: back_layout.header
