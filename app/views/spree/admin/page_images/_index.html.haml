@@ -12,6 +12,8 @@
         %td= link_to page_image.title, edit_object_url(page_image)
         %td= link_to page_image.alt, edit_object_url(page_image)
         %td.actions.text-right{"data-hook" => "admin_page_images_index_row_actions"}
+          = link_to show_code_admin_page_image_path(page_image), class: 'btn btn-success btn-sm icon-link with-tip action-show no-text', 'data-original-title': 'ver código', remote: true do
+            %span.icon.icon-show
           = link_to_edit page_image, no_text: true
           = link_to_delete page_image, no_text: true
 = paginate @page_images

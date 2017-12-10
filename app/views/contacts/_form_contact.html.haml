@@ -1,0 +1,9 @@
+= form_with url: 'contacts/contact' do |f|
+  .row
+    .col-md-12.form-group
+      = f.text_field :name, class: 'form-control', placeholder: 'Nombre'
+      = f.text_field :email, class: 'form-control', placeholder: 'Email'
+      = text_area_tag :contact_text, '', {class: 'form-control', placeholder: '¿En qué podemos ayudarte?'}
+  .row
+    .col-md-12.form-group
+      = f.submit 'Enviar', class: 'btn btn-primary'

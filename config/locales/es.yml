@@ -89,6 +89,7 @@ es:
         target_blank: ''
         title: ''
       spree/page_image:
+        alt: ''
         attachment: imagen
         title: título
       spree/payment:
@@ -317,6 +318,14 @@ es:
     :scope: activerecord.attributes.spree/page_image
   back_default:
     :scope: activerecord.attributes.spree/layout
+  borrar esta key: ''
+  contact:
+    email: ''
+    name: ''
+    placeholders:
+      email: ''
+      name: ''
+    submit_btn_text: Enviar
   date:
     abbr_day_names:
     - dom
@@ -521,8 +530,8 @@ es:
       quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
       Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
       eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
-      in culpa qui officia deserunt mollit anim id est laborum...
-    header_title: Loren Ipsum dolor
+      in culpa qui officia deserunt mollit anim id est laborum... lalalalala
+    header_title: Loren Ipsum
   hello: Hola Mundo
   helpers:
     page_entries_info:
@@ -554,11 +563,15 @@ es:
     logo: miShop
   menu:
     first_lvl:
+      about: ''
       acerca-de: menu 2
       contacto: menu 5
+      galeria: ''
       galeria-de-productos: Galería de productos
       portfolio: menu 4
+      services: ''
       servicios: menu 3
+      shop: ''
       tienda: shop
   name:
     :scope: activerecord.attributes.spree/layout
@@ -614,12 +627,17 @@ es:
     precision:
       format:
         delimiter: ''
+  order:
+    upload_photos: ''
   pages:
     expired: ''
     published: publicado
     unpublished: no publicado
   parent_id:
     :scope: activerecord.attributes.spree/page
+  products:
+    index:
+      not_found: ''
   publish_at: publicado en
   ransack:
     all: todos

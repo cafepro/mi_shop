@@ -10,6 +10,10 @@ module Spree
         end unless params[:q].blank?
         @page_images = @page_images.page(params[:page] || 1).per(50)
       end
+
+      def show_code
+        @page_image = Spree::PageImage.find(params[:id])
+      end
     end
   end
 end

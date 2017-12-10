@@ -1,0 +1,13 @@
+.modal-header
+  .modal-title
+    Copia y pega el código correspondiente con cada tamaño de imagen en la zona de la página donde se requiera
+.modal-body
+  - Spree::OrderImage::Styles.each_pair do |key,value|
+    .row
+      .col-md-3
+        %label= "#{key}: #{value}"
+      .col-md-9.form-group
+        = text_field_tag "#{key}: #{value}", (image_tag @page_image.attachment(key.to_sym)), class: 'form-control'
+    %hr
+
+

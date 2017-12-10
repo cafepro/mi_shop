@@ -4,26 +4,29 @@ module ApplicationHelper
   # example t('tolk.tranlsations.menu')
   # example t('tolk.tranlsations.menu', 'translations') -> initial value set to 'translations'
   def t(*args)
-    if (!current_spree_user.nil? && current_spree_user.admin?) || !I18n.exists?(args.first)
-      # here we have new text
-      # we search for Tolk::Phrase translate
-      phrase = Tolk::Phrase.where(key: args.first).first_or_create
-      # if we found more args we check for default phrase translation
+    if args != []
+      if (!current_spree_user.nil? && current_spree_user.admin?) || !I18n.exists?(args.first)
+        # here we have new text
+        # we search for Tolk::Phrase translate
+        phrase = Tolk::Phrase.where(key: args.first).first_or_create
+        # if we found more args we check for default phrase translation
 
-      tlt = Tolk::Translation.where(phrase_id: phrase.id, locale_id: Tolk::Locale.find_by(name: I18n.locale).id).first_or_create
-      if tlt.new_record?
-        if args.second.blank?
-          tlt.text = ''
-        else
-          tlt.text = args.second
+        tlt = Tolk::Translation.where(phrase_id: phrase.id, locale_id: Tolk::Locale.find_by(name: I18n.locale).id).first_or_create
+        if tlt.new_record?
+          if args.second.blank?
+            tlt.text = ''
+          else
+            tlt.text = args.second
+          end
+          # save tlt
+          tlt.save
         end
-        # save tlt
-        tlt.save
       end
+
+      args.pop if args.count > 1
     end
 
-    args.pop if args.count > 1
-    if !current_spree_user.nil? && current_spree_user.admin?
+    if !current_spree_user.nil? && current_spree_user.admin? && args != []
       url = "/admin/tolk/#{tlt.id}/translate"
       render inline: "<span data-url='#{url}' data-title='#{args.first}' class='editable'>#{translate(*args)}</span>"
     else

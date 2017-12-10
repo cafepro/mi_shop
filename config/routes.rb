@@ -30,8 +30,11 @@ Rails.application.routes.draw do
   mount Spree::Core::Engine, at: '/'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
   #
+  post "/contacts/contact", to: "contacts#contact"
+
   get  "/:page_id", to: "pages#index"
   post "/:page_id", to: "pages#index"
+
 end
 
 
@@ -53,7 +56,11 @@ Spree::Core::Engine.add_routes do
       end
     end
 
-    resources :page_images
+    resources :page_images do
+      member do
+        get :show_code
+      end
+    end
   end
 
   resources :orders do
