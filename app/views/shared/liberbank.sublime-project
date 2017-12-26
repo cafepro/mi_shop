@@ -2,7 +2,70 @@
 	"folders":
 	[
 		{
-			"path": "/Users/jorge/Documents/ruby/liberbank"
+			"path": "/Users/jorge/Documents/ruby/afi"
+		},
+		{
+			"path": "/Users/jorge/Documents/ruby/afi_maquetacion"
+		},
+		{
+			"path": "/Users/jorge/Documents/ruby/cms_admin"
+		},
+		{
+			"path": "/Users/jorge/Documents/ruby/cms_admin_theme"
+		},
+		{
+			"path": "/Users/jorge/Documents/ruby/cms_authorization"
+		},
+		{
+			"path": "/Users/jorge/Documents/ruby/cms_collapses"
+		},
+		{
+			"path": "/Users/jorge/Documents/ruby/cms_configurations"
+		},
+		{
+			"path": "/Users/jorge/Documents/ruby/cms_contents"
+		},
+		{
+			"path": "/Users/jorge/Documents/ruby/cms_galleries"
+		},
+		{
+			"path": "/Users/jorge/Documents/ruby/cms_multimedia"
+		},
+		{
+			"path": "/Users/jorge/Documents/ruby/cms_navigation"
+		},
+		{
+			"path": "/Users/jorge/Documents/ruby/cms_redirections"
+		},
+		{
+			"path": "/Users/jorge/Documents/ruby/cms_override"
+		},
+		{
+			"path": "/Users/jorge/Documents/ruby/cms_taxonomies"
+		},
+		{
+			"path": "/Users/jorge/Documents/ruby/cms_sliders"
+		},
+		{
+			"path": "/Users/jorge/Documents/ruby/cms_theme_configurator"
+		},
+		{
+			"path": "/Users/jorge/Documents/ruby/rails_base_app"
+		},
+		{
+			"path": "/Users/jorge/Documents/ruby/cms_themes"
+		},
+		{
+			"path": "/Users/jorge/Documents/ruby/colegio_graduados_sociales"
+		},
+		{
+			"path": "/Users/jorge/Documents/nodejs"
+		},
+		{
+			"path": "/Users/jorge/Documents/ruby/forms_builder"
+		},
+		{
+			"path": "/Users/jorge/Documents/ruby/cms_theme_spectre_base"
 		}
 	]
 }

@@ -1,0 +1,14 @@
+.col-xs-12
+  -unless flash[:notice].blank?
+    .alert.alert-success.alert-auto-disappear
+      %button.close{ 'name': "button", 'type': "submit", 'data-dismiss': "alert", 'aria-label': "Cerrar" }
+        %span{ 'aria-hidden': "true" }
+          ×
+      = flash[:notice]
+
+  -unless flash[:error].blank?
+    .alert.alert-error.alert-auto-disappear
+      %button.close{ 'name': "button", 'type': "submit", 'data-dismiss': "alert", 'aria-label': "Cerrar" }
+        %span{ 'aria-hidden': "true" }
+          ×
+      = flash[:error]

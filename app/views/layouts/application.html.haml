@@ -11,18 +11,20 @@
 
     %link{ href:'https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic', rel:'stylesheet', type:'text/css'}
 
+    %link{ rel:"stylesheet", href:"https://file.myfontastic.com/6AeAYiqp5KBjSiZ2tE8WJW/icons.css"}
+
     %link{ rel:"stylesheet", href:"https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"}
 
 
     =# stylesheet_link_tag 'spree/frontend/all', media: 'screen'
 
-    = stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload'
+    = stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'true'
 
     = render 'spree/shared/paths'
 
     = javascript_include_tag 'spree/frontend/all'
 
-    = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+    = javascript_include_tag 'application', 'data-turbolinks-track': 'true'
 
 
 

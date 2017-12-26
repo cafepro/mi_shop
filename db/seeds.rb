@@ -18,7 +18,7 @@ layout = Spree::Layout.create(name: "Home",
                                      <span class="navbar-toggler-icon"></span>
                                    </button>
                                    <div class="collapse navbar-collapse" id="navbarResponsive">
-                                     <%= render partial: "shared/menu" %>
+                                     <%= render_menu %>
                                    </div>
                                  </div>
                                </nav>
@@ -96,7 +96,7 @@ Spree::Page.create(name: 'Home',
                                  <span class="navbar-toggler-icon"></span>
                                </button>
                                <div class="collapse navbar-collapse" id="navbarResponsive">
-                                 <%= render partial: "shared/menu" %>
+                                 <%= render_menu %>
                                </div>
                              </div>
                            </nav>

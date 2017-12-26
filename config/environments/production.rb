@@ -88,4 +88,25 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
+
+
+  # para el devise
+  config.action_mailer.default_url_options = { host: 'fotofusiondigital.es' }
+  config.action_mailer.asset_host = 'http://fotofusiondigital.es/'
+
+  # Raises error for missing translations
+  # config.action_view.raise_on_missing_translations = true
+  config.action_mailer.raise_delivery_errors = true
+  config.action_mailer.perform_deliveries = true
+
+  config.action_mailer.delivery_method = :smtp
+  config.action_mailer.smtp_settings = {
+    address: "authsmtp.fotofusiondigital.es",
+    port: "587",
+    domain: "fotofusiondigital.es",
+    user_name: "contacto@fotofusiondigital.es",
+    password: "Fotofusion2017",
+    authentication: "plain",
+    enable_starttls_auto: true
+  }
 end
