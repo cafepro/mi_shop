@@ -1,14 +1,15 @@
 = form_with url: 'contacts/contact' do |f|
   .row.flash-notice-container
   .row
-    .col-md-12.form-group
-      = f.text_field 'contact[name]', class: 'form-control', placeholder: 'Nombre', required: true
-  .row
-    .col-md-12.form-group
-      = f.text_field 'contact[email]', class: 'form-control', placeholder: 'Email', required: true
-  .row
-    .col-md-12.form-group
-      = text_area_tag 'contact[text]', '', {class: 'form-control', placeholder: '¿En qué podemos ayudarte?', required: true}
-  .row
-    .col-md-12.form-group
-      = f.submit 'Enviar', class: 'btn btn-primary'
+    %label.col-sm-6.unique{'for': 'user-name'}
+      = t('home.form.label.name', 'Nombre')
+      = f.text_field 'contact[name]', class: '', placeholder: '', required: true
+    %label.col-sm-6.unique{'for': 'user-name'}
+      = t('home.form.label.email', 'Email')
+      = f.text_field 'contact[email]', class: '', placeholder: '', required: true
+    %label.col-sm-12.unique{'for': 'user-name'}
+      = t('home.form.label.your_message', 'Tu mensaje')
+      = text_area_tag 'contact[text]', '', {class: '', placeholder: '', required: true}
+    .col-sm-12
+      = f.submit 'Enviar', class: 'btn-unique'
+      / %button.btn-unique{'type': "submit"} Enviar

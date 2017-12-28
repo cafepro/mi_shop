@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"taxono",
+				"taxonomy_filter"
+			],
+			[
+				"course",
+				"course_localizeds"
+			],
+			[
 				"search",
 				"search_criteria"
 			],
@@ -196,28 +204,37 @@
 	"buffers":
 	[
 		{
-			"contents": "<div class=\"wrapper\">\n    <header class=\"c-header\">\n      <div class=\"c-header__top\" data-spy=\"affix\" data-offset-top=\"1\">\n        <div class=\"container\">\n\n\n          <nav class=\"c-header__nav \">\n            <button class=\"hamburger hamburger--spring show-lg\" type=\"button\">\n              <span class=\"hamburger-box\">\n                <span class=\"hamburger-inner\"></span>\n              </span>\n              </button>\n\n            <div class=\"c-header__logo u-vertically--align\">\n               <%= link_to_root %>\n            </div>\n\n            <div class=\"menu-nav u-vertically--align\">        \n                <%= show_main_theme_nav %>\n            </div>\n\n            <div class=\"c-header__search u-vertically--align \">\n              <a href=\"\"><i class=\"fa fa-search\" aria-hidden=\"true\"></i>\n              </a>\n            </div>\n            <div class=\"btn-group-right u-vertically--align hide-lg\">\n              <p><a href=\"#\">Campus virtual</a></p>\n              <p><a href=\"#\">Alumni </a> </p>\n            </div>\n\n            <div class=\"c-header__language u-vertically--align hide-lg\">\n              <div class=\"dropdown\">\n                <a href=\"#\" class=\"dropdown-toggle\" tabindex=\"0\">\n                  EN\n                  <i class=\"fa fa-caret-down\" aria-hidden=\"true\"></i>\n\n                </a>\n                <!-- menu component -->\n                <ul class=\"menu\">\n                  <li><a href=\"#\" class=\"dropdown-toggle\" tabindex=\"0\">\n                  ES\n                  <i class=\"fa fa-caret-down\" aria-hidden=\"true\"></i>\n\n                </a></li>\n                </ul>\n              </div>\n            </div>\n          </nav>\n        </div>\n      </div>\n\n    </header>\n    <main class=\"c-main c-main--home\">\n      <section class=\"c-subheader c-subheader--home u-background--cover\" style=\"background:url('assets/images/cabeceras/cabecera_home.jpg') center center no-repeat;\">\n        <div class=\"container\">\n          <div class=\"columns\">\n            <header class=\"column col-sm-12 col-10 c-header__title\">\n              <p class=\"breadcrumbs\"> Escuela de finanzas</p>\n              <h1 class=\"u-white hide-sm dot-animation\" data-dot-animation=\"fadeInDown\" data-dot-animation-delay=\"0.5s\">Apuesta por tu futuro</h1>\n              <h2 class=\"dot-animation \" data-dot-animation=\"fadeInUp\" data-dot-animation-delay=\"0.5s\"><span class=\"u-white texto-destacado\">Data Science & Big Data · Certificacion FRM · Bolsa de Empleo </span></h2>\n\n            </header>\n          </div>\n        </div>\n      </section>\n\n      <div class=\"c-search-bar__home\">\n        <div class=\"container\">\n          <section class=\"c-search-bar\">\n            <form name=\"search\" action=\"#\" method=\"get\" class=\"form-search u-vertically--align\">\n              <input type=\"search\" name=\"busqueda\" placeholder=\"¿Que formacion necesitas?\">\n              <select class=\"selector\">\n          <option class=\"selector\" value=\"\" default selected>Tipologia...</option>\n                <option >GRUPO A</option>\n                <option >GRUPO B</option>\n                <option >GRUPO C</option>\n              </select>\n              <select class=\"selector\">\n                <option value=\"\" default selected>Materia...</option>\n                <option value=\"1\">1</option>\n                <option value=\"2\">2</option>\n                <option value=\"3\">3</option>\n                <option value=\"4\">4</option>\n              </select>\n              <select class=\"selector\">\n                <option value=\"\" default selected>¿Donde?</option>\n                <option value=\"1\">1</option>\n                <option value=\"2\">2</option>\n                <option value=\"3\">3</option>\n                <option value=\"4\">4</option>\n              </select>\n              <div class=\"wrapper\">\n                <input class=\"btn-buscar\" type=\"submit\" value=\"\">\n                <i class=\"fa fa-search\" aria-hidden=\"true\"></i>\n              </div>\n\n            </form>\n          </section>\n          <section>\n            <ul class=\"secondary-menu\">\n              <li> <a href=\"#\"> Masters <i class=\"fa fa-angle-down\" aria-hidden=\"true\"></i></a>\n              </li>\n              <li> <a href=\"#\"> Programas Expertos <i class=\"fa fa-angle-down\" aria-hidden=\"true\"></i></a>\n              </li>\n              <li> <a href=\"#\"> Certificaciones <i class=\"fa fa-angle-down\" aria-hidden=\"true\"></i></a>\n              </li>\n              <li> <a href=\"#\"> Especializacion <i class=\"fa fa-angle-down\" aria-hidden=\"true\"></i></a>\n              </li>\n              <li> <a href=\"#\"> Cursos de Verano <i class=\"fa fa-angle-down\" aria-hidden=\"true\"></i></a>\n              </li>\n              <li> <a href=\"#\"> Open Online AFI <i class=\"fa fa-angle-down\" aria-hidden=\"true\"></i></a>\n              </li>\n            </ul>\n          </section>\n        </div>\n      </div>\n\n      <div class=\"c-separator\"></div>\n      <div class=\"c-separator\"></div>\n      <section class=\" c-courses\">\n        <div class=\"container \">\n          <p class=\"h2 u-inline u-no-after\"> Proximas convocatorias</p>\n          <a href=\"\" class=\"see-more u-inline u-float-right\"> Ver listado completo &raquo;</a>\n        </div>\n        <div class=\"u-afi--background\">\n          <div class=\"container \">\n            <div class=\"c-separator\"></div>\n\n            <div class=\"owl-carousel owl-theme\" data-num-elements=\"3\" data-loop=\"true\" data-autoplay=\"false\" data-dots=\"true\" data-nav=\"true\" data-margin=\"20\">\n              <div class=\"item\">\n                <div class=\"c-course__img\">\n                  <a href=\"#\" title=\"Course 1\">\n                    <img src=\"assets/images/home/curso1.jpg\" alt=\"Data Science & Big Data\" />\n                  </a>\n                </div>\n                <div class=\"c-course__info\">\n                  <p class=\"c-course__cat u-dark-red\">MASTER</p>\n                  <p class=\"c-course__title\">Data Science & Big Data</p>\n                  <p class=\"c-course__description\">Edition XIII </p>\n                  <p class=\"c-course__location\">MEXICO</p>\n                  <span> ·</span>\n                  <p class=\"c-course__mode\">Presencial</p>\n                  <p class=\"c-course__btn flex-justify-end\">\n                    <a href=\"#\" class=\"btn-mas\">Saber más</a>\n                  </p>\n                </div>\n              </div>\n              <div class=\"item\">\n                <div class=\"c-course__img\">\n                  <a href=\"#\" title=\"Course 1\">\n                    <img src=\"assets/images/home/curso2.jpg\" alt=\"Data Science & Big Data\" />\n                  </a>\n                </div>\n                <div class=\"c-course__info\">\n                  <p class=\"c-course__cat \">CURSOS DE EXPERTOS</p>\n                  <p class=\"c-course__title\">Finanzas Cuantitativas</p>\n                  <p class=\"c-course__description\">Edition XIII </p>\n                  <p class=\"c-course__location\">MEXICO, MADRID</p>\n                  <span> ·</span>\n                  <p class=\"c-course__mode\">Presencial, online</p>\n                  <p class=\"c-course__btn flex-justify-end\">\n                    <a href=\"#\" class=\"btn-mas\">Saber más</a>\n                  </p>\n                </div>\n              </div>\n              <div class=\"item\">\n                <div class=\"c-course__img\">\n                  <a href=\"#\" title=\"Course 1\">\n                    <img src=\"assets/images/home/curso3.jpg\" alt=\"Data Science & Big Data\" />\n                  </a>\n                </div>\n                <div class=\"c-course__info\">\n                  <p class=\"c-course__cat u-bg-blue\">MASTER</p>\n                  <p class=\"c-course__title\">Programa Experto en Gestión de Carteras</p>\n                  <p class=\"c-course__description\">Edition XIII </p>\n                  <p class=\"c-course__location\">MEXICO, MADRID, COLOMBIA</p>\n                  <span> ·</span>\n                  <p class=\"c-course__mode\">Presencial</p>\n                  <p class=\"c-course__btn flex-justify-end\">\n                    <a href=\"#\" class=\"btn-mas\">Saber más</a>\n                  </p>\n                </div>\n              </div>\n              <div class=\"item\">\n                <div class=\"c-course__img\">\n                  <a href=\"#\" title=\"Course 1\">\n                    <img src=\"assets/images/home/curso1.jpg\" alt=\"Data Science & Big Data\" />\n                  </a>\n                </div>\n                <div class=\"c-course__info\">\n                  <p class=\"c-course__cat\">MASTER</p>\n                  <p class=\"c-course__title \">Data Science & Big Data</p>\n                  <p class=\"c-course__description\">Edition XIII </p>\n                  <p class=\"c-course__location\">MEXICO, MADRID</p>\n                  <span> ·</span>\n                  <p class=\"c-course__mode\">Online</p>\n                  <p class=\"c-course__btn flex-justify-end\">\n                    <a href=\"#\" class=\"btn-mas\">Saber más</a>\n                  </p>\n                </div>\n              </div>\n              <div class=\"item\">\n                <div class=\"c-course__img\">\n                  <a href=\"#\" title=\"Course 1\">\n                    <img src=\"assets/images/home/curso2.jpg\" alt=\"Data Science & Big Data\" />\n                  </a>\n                </div>\n                </a>\n                <div class=\"c-course__info\">\n                  <p class=\"c-course__cat u-secondary-color\">MASTER</p>\n                  <p class=\"c-course__title\">Programa Experto en Gestión de Carteras</p>\n                  <p class=\"c-course__description\">Edition XIII </p>\n                  <p class=\"c-course__location\">MEXICO, MADRID </p>\n                  <span> ·</span>\n\n                  <p class=\"c-course__mode\">Presencial</p>\n                  <p class=\"c-course__btn flex-justify-end\">\n                    <a href=\"#\" class=\"btn-mas\">Saber más</a>\n                  </p>\n                </div>\n              </div>\n\n            </div>\n          </div>\n          <div class=\"c-separator\"></div>\n          <div class=\"c-separator\"></div>\n        </div>\n      </section>\n      <section>\n        <div class=\"container \">\n          <div class=\"c-separator\"></div>\n          <p class=\"h2 u-text--center u-no-after\"> Que nos diferencia...</p>\n          <div class=\"c-separator\"></div>\n          <div class=\"c-boxes\">\n            <div class=\"c-box featured-1\">\n              <p class=\"c-box__title\"> Resultados</p>\n              <p class=\"c-box__description\"> Los alumnos de nuestros posgrados son seleccionados de entre los mejores candidatos a nivel internacional. Además, la tasa de empleabilidad de nuestros Alumni es casi del 100% y, entre ellos, se encuentran personalidades de referencia en las principales entidades financieras y no financieras a nivel internacional.\n              </p>\n            </div>\n            <div class=\"c-box featured-2\">\n              <p class=\"c-box__title\"> Science Data</p>\n              <p class=\"c-box__description\">Afi Escuela cuenta con un cuadro de profesores formado por profesionales de reconocido prestigio que aúnan el rigor académico y el conocimiento práctico aplicado, lo que dota a nuestros programas de un elevado nivel técnico. </p>\n            </div>\n            <div class=\"c-box featured-3\">\n              <p class=\"c-box__title\"> Certificados FRM</p>\n              <p class=\"c-box__description\"> La innovación en nuestros programas de formación es continua, adaptándolos a cualquier cambio que se produce en los ámbitos de la economía, las finanzas y la tecnología. </p>\n            </div>\n            <div class=\"c-box featured-4\">\n              <p class=\"c-box__title\"> Comunidad AFI</p>\n              <p class=\"c-box__description\">El prestigio de las instituciones con las que colaboramos y las personas que integran los equipos de los departamentos de RRHH y Formación son la garantía de que las acciones In Company que desarrollamos cumplen siempre las expectativas fijadas.</p>\n            </div>\n          </div>\n        </div>\n        <div class=\"c-separator\"></div>\n        <div class=\"c-separator\"></div>\n      </section>\n      <section class=\"c-mosaico\">\n        <div class=\"  c-mosaico__left\">\n          <div class=\"c-mosaico__main\">\n            <img class=\"c-mosaico__img\" src=\"assets/images/home/mosaico/mosaico-home-01.jpg\">\n            <div class=\"c-mosaico__text\">\n              <p class=\"c-mosaico__title u-section-header\"> Economía y Finanzas</p>\n              <p class=\"c-mosaico__descr\"> La formación que se imparte en Afi Escuela de Finanzas Aplicadas tiene un rasgo diferenciador: su carácter eminentemente práctico. El cuadro de profesores de la Escuela lo configuran profesionales del grupo Afi y expertos del máximo prestigio, que trabajan en el día a día del ámbito económico y financiero.</p>\n              <a href=\"#\" class=\"btn-mas\">\n                <p class=\"c-mosaico__btn\"> Saber más </p>\n              </a>\n            </div>\n          </div>\n          <div class=\"c-mosaico__row\">\n            <img class=\"c-mosaico__img\" src=\"assets/images/home/mosaico/mosaico-home-sm1.jpg\">\n            <img class=\"c-mosaico__img\" src=\"assets/images/home/mosaico/mosaico-home-sm4.jpg\">\n          </div>\n        </div>\n        <div class=\" c-mosaico__right\">\n          <div class=\"c-mosaico__row\">\n            <img class=\"c-mosaico__img\" src=\"assets/images/home/mosaico/mosaico-home-sm3.jpg\">\n            <img class=\"c-mosaico__img\" src=\"assets/images/home/mosaico/mosaico-home-sm2.jpg\">\n          </div>\n          <div class=\"c-mosaico__main\">\n            <img class=\"c-mosaico__img\" src=\"assets/images/home/mosaico/mosaico-home-02.jpg\">\n            <div class=\"c-mosaico__text\">\n              <p class=\"c-mosaico__title u-section-header\"> Instituto Tecnológico</p>\n              <p class=\"c-mosaico__descr\"> La formación que se imparte en Afi Escuela de Finanzas Aplicadas tiene un rasgo diferenciador: su carácter eminentemente práctico. El cuadro de profesores de la Escuela lo configuran profesionales del grupo Afi y expertos del máximo prestigio, que trabajan en el día a día del ámbito económico y financiero.</p>\n              <a href=\"#\" class=\"btn-mas\">\n                <p class=\"c-mosaico__btn\"> Saber más </p>\n              </a>\n            </div>\n          </div>\n        </div>\n      </section>\n      <section class=\"c-home-news-section\">\n        <div class=\"c-separator\"></div>\n        <div class=\"container \">\n          <p class=\"h2 u-inline u-no-after\"> Toda la actualidad:</p>\n          <a href=\"\" class=\"see-more u-inline u-float-right\"> Ir a actualidad &raquo;</a>\n\n        </div>\n        <div class=\"u-afi--background\">\n          <div class=\"container \">\n\n            <div class=\" c-home-news \">\n              <div class=\"c-news__item\">\n                <div class=\"c-news__img\">\n                  <a href=\"#\">\n                    <img src=\"assets/images/home/noticias1.jpg\" />\n                  </a>\n                </div>\n                <div class=\"c-news-text\">\n                  <p class=\"c-news__title u-h4\">Gerardo Amancio Yacotu: Finanzas Climáticas en México</p>\n                  <div class=\"c-news__bottom\">\n                    <p class=\"c-news__date\">14.08.2017</p>\n                    <a href=\"#\" class=\"btn-mas\">\n                      <p class=\"c-news__btn \"> Seguir leyendo </p>\n                    </a>\n                  </div>\n                </div>\n\n              </div>\n\n              <div class=\"c-news__item\">\n                <div class=\"c-news__img\">\n                  <a href=\"#\">\n                    <img src=\"assets/images/home/noticias2.jpg\" />\n                  </a>\n                </div>\n                <div class=\"c-news-text\">\n                  <p class=\"c-news__title u-h4\">Jornada IDD y Nueva Ley de distribución de seguros</p>\n                  <div class=\"c-news__bottom\">\n                    <p class=\"c-news__date\">14.08.2017</p>\n                    <a href=\"#\" class=\"btn-mas\">\n                      <p class=\"c-news__btn \"> Seguir leyendo </p>\n                    </a>\n                  </div>\n                </div>\n              </div>\n\n              <div class=\"c-home-news__right \">\n                <div class=\"c-home-news_twitter\">\n                  <i class=\"fa fa-twitter\" aria-hidden=\"true\"></i>\n                  <p class=\"c-home-news__twitter-msg\">Orgullo MBF!! Por cierto, burbujón en renta fija, ojo con las carteras con duraciones largas.</p>\n                  <p class=\"c-home-news__twitter-msg twitter-date\">hace 24 horas</p>\n                </div>\n                <div class=\"c-home-news-events-row\">\n                  <div class=\"c-home-news_events\">\n                    <div class=\"date-wrapper\">\n                      <p><img src=\"assets/images/home/calendar.png\" /></p>\n                      <p class=\"c-events__date\">OCT 14</p>\n                    </div>\n                    <div class=\"c-events__descr\">\n                      <p>Presentacion AFI escuela en México</p>\n                    </div>\n                  </div>\n                  <div class=\"c-home-news_events\">\n                    <div class=\"date-wrapper\">\n                      <p><img src=\"assets/images/home/calendar.png\" /></p>\n                      <p class=\"c-events__date\">OCT 14</p>\n                    </div>\n                    <div class=\"c-events__descr\">\n                      <p>Presentacion asociacíon de Bancos de México y AFI escuela. La nueva alienza.</p>\n                    </div>\n                  </div>\n                  <div class=\"c-home-news_events\">\n                    <div class=\"date-wrapper\">\n                      <p><img src=\"assets/images/home/calendar.png\" /></p>\n                      <p class=\"c-events__date\">OCT 14</p>\n                    </div>\n                    <div class=\"c-events__descr\">\n                      <p>Presentacion AFI escuela en México</p>\n                    </div>\n                  </div>\n                </div>\n              </div>\n            </div>\n            <div class=\"c-separator\"></div>\n          </div>\n        </div>\n\n      </section>\n\n@@main@@\n\n    </main>\n    <footer class=\"c-footer\">\n      <section>\n        <div class=\"c-footer__upper-top\">\n          <div class=\"container \">\n            <div class=\"c-separator\"></div>\n            <div class=\" c-logos\">\n              <p class=\"c-logos__title\"> Certifica tus conocimientos</p>\n              <div class=\"logos-wrapper\">\n                <img class=\"c-logos__img\" src=\"assets/images/home/patrocinadores/logo1.png\">\n                <img class=\"c-logos__img\" src=\"assets/images/home/patrocinadores/logo2.png\">\n                <img class=\"c-logos__img\" src=\"assets/images/home/patrocinadores/logo3.png\">\n                <img class=\"c-logos__img\" src=\"assets/images/home/patrocinadores/logo4.png\">\n              </div>\n            </div>\n          </div>\n        </div>\n\n      </section>\n\n      <div class=\"c-footer__top\">\n        <div class=\"container\">\n          <div class=\"c-footer-menu\">\n            <div class=\"footer-column\">\n              <div class=\"footer-column\">\n                <div class=\"c-footer__top_links c-footer__top_links--lowercase\">\n                  <p class=\"footer__title\">Conoce AFI</p>\n                  <p><a href=\"#\">Quiénes somos</a></p>\n                  <p><a href=\"#\">Claustro</a></p>\n                  <p><a href=\"#\">Carta del Presidente</a></p>\n                  <p><a href=\"#\">Actualidad</a></p>\n                  <p><a href=\"#\">Soporte</a></p>\n                </div>\n              </div>\n            </div>\n            <div class=\"footer-column\">\n              <div class=\"c-footer__top_links c-footer__top_links--lowercase\">\n                <p class=\"footer__title\">Programas</p>\n                <p><a href=\"#\">Másters</a></p>\n                <p><a href=\"#\">cursos Expertos</a></p>\n                <p><a href=\"#\">Certificados</a></p>\n\n              </div>\n            </div>\n\n            <div class=\"footer-column\">\n              <div class=\"c-footer__top_links featured-links \">\n                <p><a href=\"#\">Finanzas</a></p>\n                <p><a href=\"#\"> Tecnologia</a></p>\n                <p><a href=\"#\">Actualidad</a></p>\n                <p><a href=\"#\">Alumni</a></p>\n                <p><a href=\"#\">Publicaciones</a></p>\n                <p><a href=\"#\">Aula Virtual</a></p>\n              </div>\n            </div>\n            <div class=\"footer-column\">\n              <div class=\"c-footer__top_links c-footer__top_links--lowercase\">\n                <p class=\"footer__title\">Dónde estamos</p>\n                <div class=\"c-sede\">\n                  <i class=\"fa fa-map-marker u-inline\" aria-hidden=\"true\"></i>\n                  <p> SEDE ESPAÑA</p>\n                  <p> C/Marqués de Villamejor, 5.</p>\n                  <p> C.P. 28006 Madrid.</p>\n                  <p> España</p>\n                </div>\n                <div class=\"c-sede\">\n                  <i class=\"fa fa-map-marker u-inline\" aria-hidden=\"true\"></i>\n                  <p> SEDE ESPAÑA</p>\n                  <p> C/Marqués de Villamejor, 5.</p>\n                  <p> C.P. 28006 Madrid.</p>\n                  <p> España</p>\n                </div>\n              </div>\n            </div>\n\n            <div class=\"footer-column\">\n              <div class=\"c-footer__top_links footer-contacto \">\n                <p class=\"footer__title\">Contacta con nosotros</p>\n\n                <p><i class=\"fa fa-phone u-inline\" aria-hidden=\"true\"></i> <a href=\"#\">900 123 456</a></p>\n\n                <p><i class=\"fa fa-envelope \" aria-hidden=\"true\"></i><a href=\"#\">Envianos un mail</a></p>\n\n              </div>\n              <div class=\"c-footer__top_social_share\">\n                <p class=\"footer__title\">SÍGUENOS EN:</p>\n                <p>\n                  <span itemscope itemtype=\"http://schema.org/Organization\">\n                        <link itemprop=\"url\" href=\"#\">\n                        <a href=\"#\"><i class=\"fa fa-facebook\"></i></a>\n                        <a href=\"#\"><i class=\"fa fa-twitter\"></i></a>\n                        <a href=\"#\"><i class=\"fa fa-youtube-play\"></i></a>\n                        <a href=\"#\"><i class=\"fa fa-linkedin\"></i></a>\n                     </span>\n                </p>\n              </div>\n            </div>\n\n\n          </div>\n        </div>\n      </div>\n      <div class=\"c-footer__bottom\">\n        <div class=\"container\">\n          <div class=\"footer-bottom-wrapper\">\n            <div class=\" c-footer__bottom_left\">\n              <p><span>2017 &copy; AFI</span> <span class=\"hide-sm\">·</span> Escuela de Negocios <span class=\"hide-sm\">·</span> Todos los derechos reservados</p>\n            </div>\n            <div class=\" c-footer__bottom_right\">\n              <p><a href=\"#\">Contacto</a></p>\n              <p><a href=\"#\">Aviso Legal</a></p>\n              <p><a href=\"#\">Politica de Privacidad</a></p>\n            </div>\n          </div>\n        </div>\n      </div>\n    </footer>\n  </div>\n \n<%= show_main_theme_mobile_nav %>\n<%= show_cookies_policy %>",
+			"file": "/Users/jorge/Documents/ruby/afi/app/views/afi/admin/courses/_show_courses_configuration.html.erb",
 			"settings":
 			{
-				"buffer_size": 22844,
-				"line_ending": "Unix",
-				"name": "<div class=\"wrapper\">"
+				"buffer_size": 1325,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
 			}
 		},
 		{
 			"file": "/Users/jorge/Documents/ruby/afi/app/views/afi/courses/_show_courses_filters.html.erb",
 			"settings":
 			{
-				"buffer_size": 942,
+				"buffer_size": 1874,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/Users/jorge/Documents/ruby/afi/app/views/afi/courses/_show_courses.html.erb",
+			"file": "/Users/jorge/Documents/ruby/cms_themes/app/views/afi/kaminari/_next_page.html.erb",
 			"settings":
 			{
-				"buffer_size": 1480,
+				"buffer_size": 484,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/jorge/Documents/ruby/cms_themes/app/assets/stylesheets/main.css.scss",
+			"settings":
+			{
+				"buffer_size": 72,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -226,68 +243,43 @@
 			"file": "/Users/jorge/Documents/ruby/afi/app/helpers/afi/courses_helper.rb",
 			"settings":
 			{
-				"buffer_size": 3004,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/jorge/Documents/ruby/afi/app/views/afi/admin/courses/_show_courses_configuration.html.erb",
-			"settings":
-			{
-				"buffer_size": 575,
+				"buffer_size": 3020,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/Users/jorge/Documents/ruby/afi/app/models/afi/course.rb",
+			"file": "/Users/jorge/Documents/ruby/afi/app/views/afi/courses/_courses_list.html.erb",
 			"settings":
 			{
-				"buffer_size": 3304,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/jorge/Documents/ruby/afi/app/views/afi/admin/courses/_terms_form_tag.html.erb",
-			"settings":
-			{
-				"buffer_size": 592,
+				"buffer_size": 480,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/Users/jorge/Documents/ruby/afi/app/controllers/afi/courses_controller.rb",
+			"file": "/Users/jorge/Documents/ruby/afi/app/view_dtos/afi/course_helper_view_dto.rb",
 			"settings":
 			{
-				"buffer_size": 587,
+				"buffer_size": 168,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/Users/jorge/Documents/ruby/afi/app/view_delegates/afi/course_helper_view_delegate.rb",
+			"file": "/Users/jorge/Documents/ruby/afi/app/views/afi/courses/_show_course_localized.html.erb",
 			"settings":
 			{
-				"buffer_size": 1065,
+				"buffer_size": 1169,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/Users/jorge/Documents/ruby/afi/app/managers/afi/course_localizeds_manager.rb",
+			"file": "/Users/jorge/Documents/ruby/afi/config/locales/controllers/courses/es.yml",
 			"settings":
 			{
-				"buffer_size": 1013,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/jorge/Documents/ruby/afi/app/poros/afi/course_localized_search_criteria.rb",
-			"settings":
-			{
-				"buffer_size": 2988,
+				"buffer_size": 1077,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -296,68 +288,50 @@
 			"file": "/Users/jorge/Documents/ruby/afi/app/models/afi/course_localized.rb",
 			"settings":
 			{
-				"buffer_size": 2397,
+				"buffer_size": 2887,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/Users/jorge/Documents/ruby/cms_taxonomies/app/models/cms_taxonomies/concerns/has_taxonomy.rb",
+			"file": "/Users/jorge/Documents/ruby/afi/app/view_delegates/afi/course_helper_view_delegate.rb",
 			"settings":
 			{
-				"buffer_size": 2368,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/jorge/Documents/ruby/forms_builder/app/views/forms_builder/forms/_form_privacy_policy_modal.haml",
-			"settings":
-			{
-				"buffer_size": 327,
+				"buffer_size": 1591,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/Users/jorge/Documents/nodejs/temp_e_2/imsmanifest.xml",
+			"file": "/Users/jorge/Documents/ruby/afi/app/managers/afi/course_localizeds_manager.rb",
 			"settings":
 			{
-				"buffer_size": 1048,
+				"buffer_size": 893,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/Users/jorge/Documents/ruby/cms_themes/app/assets/javascripts/application.js",
+			"file": "/Users/jorge/Documents/ruby/afi/app/poros/afi/course_localized_search_criteria.rb",
 			"settings":
 			{
-				"buffer_size": 1436,
+				"buffer_size": 2789,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/Users/jorge/Documents/ruby/afi/app/views/afi/courses/filter.js.erb",
+			"file": "/Users/jorge/Documents/ruby/cms_taxonomies/app/models/cms_taxonomies/taxonomy.rb",
 			"settings":
 			{
-				"buffer_size": 34,
-				"encoding": "UTF-8",
+				"buffer_size": 4819,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/Users/jorge/Documents/ruby/rails_base_app/Gemfile",
+			"file": "/Users/jorge/Documents/ruby/afi/app/view_dtos/afi/filter_view_dto.rb",
 			"settings":
 			{
-				"buffer_size": 4737,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/jorge/Documents/ruby/cms_themes/app/views/layouts/application.html.erb",
-			"settings":
-			{
-				"buffer_size": 2219,
+				"buffer_size": 374,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -412,9 +386,58 @@
 	},
 	"expanded_folders":
 	[
+		"/Users/jorge/Documents/ruby/afi_maquetacion",
+		"/Users/jorge/Documents/ruby/cms_themes",
+		"/Users/jorge/Documents/ruby/cms_themes/app",
+		"/Users/jorge/Documents/ruby/cms_themes/app/assets",
+		"/Users/jorge/Documents/ruby/cms_themes/app/assets/stylesheets",
+		"/Users/jorge/Documents/ruby/cms_themes/app/assets/stylesheets/themes",
+		"/Users/jorge/Documents/ruby/cms_themes/app/views",
+		"/Users/jorge/Documents/ruby/cms_themes/app/views/afi",
+		"/Users/jorge/Documents/ruby/cms_themes/app/views/afi/kaminari"
 	],
 	"file_history":
 	[
+		"/Users/jorge/Documents/ruby/cms_themes/app/assets/stylesheets/application.scss",
+		"/Users/jorge/Documents/ruby/cms_themes/app/views/afi/kaminari/_paginator.html.erb",
+		"/Users/jorge/Documents/ruby/afi/app/view_delegates/afi/course_helper_configuration_view_delegate.rb",
+		"/Users/jorge/Documents/ruby/cms_taxonomies/app/models/cms_taxonomies/taxonomy.rb",
+		"/Users/jorge/Documents/ruby/afi/app/views/afi/courses/_show_courses_filters.html.erb",
+		"/Users/jorge/Documents/ruby/cms_themes/app/assets/javascripts/application.js",
+		"/Users/jorge/Documents/ruby/afi/app/views/afi/courses/_show_courses.html.erb",
+		"/Users/jorge/Documents/ruby/afi/app/views/afi/courses/_courses_list.html.erb",
+		"/Users/jorge/Documents/ruby/afi/app/views/afi/courses/_show_course_localized.html.erb",
+		"/Users/jorge/Documents/ruby/afi/app/helpers/afi/courses_helper.rb",
+		"/Users/jorge/Documents/ruby/cms_override/afi/Gemfile",
+		"/Users/jorge/Documents/ruby/afi/db/migrate/20171227123950_add_content_embedded_app_courses_list.rb",
+		"/Users/jorge/Documents/ruby/cms_themes/app/assets/stylesheets/components/_components.courses.scss",
+		"/Users/jorge/Documents/ruby/cms_themes/app/assets/stylesheets/components/_components.pagination.scss",
+		"/Users/jorge/Documents/ruby/cms_contents/app/models/cms_contents/cms_admin_content_embedded_app.rb",
+		"/Users/jorge/Documents/ruby/afi/app/views/afi/admin/courses/_show_courses_configuration.html.erb",
+		"/Users/jorge/Documents/ruby/afi/app/models/afi/course.rb",
+		"/Users/jorge/Documents/ruby/afi/app/views/afi/admin/courses/_terms_form_tag.html.erb",
+		"/Users/jorge/Documents/ruby/afi/app/controllers/afi/courses_controller.rb",
+		"/Users/jorge/Documents/ruby/afi/app/view_delegates/afi/course_helper_view_delegate.rb",
+		"/Users/jorge/Documents/ruby/afi/app/managers/afi/course_localizeds_manager.rb",
+		"/Users/jorge/Documents/ruby/afi/app/poros/afi/course_localized_search_criteria.rb",
+		"/Users/jorge/Documents/ruby/afi_maquetacion/cursos.html",
+		"/Users/jorge/Documents/ruby/cms_themes/app/views/afi/kaminari/_first_page.html.erb",
+		"/Users/jorge/Documents/ruby/cms_themes/app/views/afi/kaminari/_gap.html.erb",
+		"/Users/jorge/Documents/ruby/cms_themes/app/views/afi/kaminari/_last_page.html.erb",
+		"/Users/jorge/Documents/ruby/cms_themes/app/views/afi/kaminari/_next_page.html.erb",
+		"/Users/jorge/Documents/ruby/cms_themes/app/views/afi/kaminari/_page.html.erb",
+		"/Users/jorge/Documents/ruby/cms_themes/app/views/afi/kaminari/_prev_page.html.erb",
+		"/Users/jorge/Documents/ruby/afi/app/models/afi/course_localized.rb",
+		"/Users/jorge/Documents/ruby/cms_taxonomies/app/models/cms_taxonomies/concerns/has_taxonomy.rb",
+		"/Users/jorge/Documents/ruby/afi/app/views/afi/courses/filter.js.erb",
+		"/Users/jorge/Documents/ruby/rails_base_app/Gemfile",
+		"/Users/jorge/Documents/ruby/cms_themes/app/views/layouts/application.html.erb",
+		"/Users/jorge/Documents/ruby/cms_themes/app/assets/stylesheets/components/_components.nav.scss",
+		"/Users/jorge/Documents/ruby/cms_themes/app/assets/stylesheets/components/_components.hamburguer.scss",
+		"/Users/jorge/Documents/ruby/cms_themes/app/assets/stylesheets/settings/_settings.base.scss",
+		"/Users/jorge/Documents/nodejs/temp_e_2/imsmanifest.xml",
+		"/Users/jorge/Documents/ruby/forms_builder/app/views/forms_builder/forms/_form_privacy_policy_modal.haml",
+		"/Users/jorge/Documents/ruby/colegio_graduados_sociales/config/secrets.yml",
 		"/Users/jorge/Documents/ruby/afi/config/routes.rb",
 		"/Users/jorge/Documents/nodejs/temp_e_2/package.json",
 		"/Users/jorge/Documents/nodejs/temp_e_2/icons/ico/browserconfig.xml",
@@ -430,7 +453,6 @@
 		"/Users/jorge/Documents/ruby/colegio_graduados_sociales/app/models/import_history.rb",
 		"/Users/jorge/Documents/ruby/cms_theme_configurator/app/models/cms_theme_configurator/theme_configuration.rb",
 		"/Users/jorge/Documents/ruby/cms_theme_configurator/app/controllers/cms_theme_configurator/admin/theme_configurations_controller.rb",
-		"/Users/jorge/Documents/ruby/rails_base_app/Gemfile",
 		"/Users/jorge/Documents/ruby/cms_navigation/app/helpers/cms_navigation/navs_helper.rb",
 		"/Users/jorge/Documents/ruby/colegio_graduados_sociales/.gitignore",
 		"/Users/jorge/Documents/ruby/liberbank/liberbank-comercial/app/assets/stylesheets/custom_home/_colectivos.scss",
@@ -503,56 +525,21 @@
 		"/Users/jorge/Documents/ruby/liberbank/wilson_cms_products/db/migrate/20171115094531_copy_products_advantages_image_to_distributive_image.rb",
 		"/Users/jorge/Documents/ruby/liberbank/liberbank-comercial/db/migrate/20171122084746_copy_products_advantages_image_to_distributive_image.wilson_cms_products.rb",
 		"/Users/jorge/Documents/ruby/liberbank/ccm-comercial/app/views/wilson_cms/modules/_faldon_footer_block.html.erb",
-		"/Users/jorge/Documents/ruby/liberbank/liberbank-comercial/app/views/wilson_cms/modules/_faldon_footer_block.html.erb",
-		"/Users/jorge/Documents/ruby/liberbank/liberbank-comercial/config/initializers/wilson_cms_nav_items.rb",
-		"/Users/jorge/Documents/ruby/liberbank/ccm-comercial/config/initializers/wilson_cms_nav_items.rb",
-		"/Users/jorge/Documents/ruby/liberbank/wilson_cms_products/app/controllers/wilson_cms_products/admin/products_controller.rb",
-		"/Users/jorge/Documents/ruby/liberbank/ccm-comercial/app/assets/stylesheets/layout/_main_footer.scss",
-		"/Users/jorge/Documents/ruby/liberbank/ccm-comercial/app/assets/stylesheets/blocks/_four_promotion_footer_block.scss",
-		"/Users/jorge/Documents/my_projects/mi_shop/app/assets/stylesheets/application.css.scss",
-		"/Users/jorge/Documents/ruby/550_femetal/Fuentes/trunk/app/views/layouts/_base_modal.html.erb",
-		"/Users/jorge/Documents/my_projects/mi_shop/app/views/shared/_modals.html.haml",
-		"/Users/jorge/Documents/my_projects/mi_shop/app/controllers/orders_controller.rb",
-		"/Users/jorge/Documents/my_projects/mi_shop/app/views/spree/layouts/spree_application.html.erb.example",
-		"/Users/jorge/Documents/my_projects/mi_shop/app/models/spree/order_image.rb",
-		"/Users/jorge/Documents/my_projects/mi_shop/app/views/layouts/application.html.haml",
-		"/Users/jorge/Documents/my_projects/mi_shop/app/views/spree/layouts/spree_application.html.erb",
-		"/Users/jorge/Documents/my_projects/mi_shop/app/views/spree/layouts/spree_application.html.erb.html",
-		"/Users/jorge/Documents/my_projects/mi_shop/Gemfile",
-		"/Users/jorge/Documents/my_projects/mi_shop/config/deploy.rb",
-		"/Users/jorge/Documents/my_projects/mi_shop/app/views/products/show.html.haml",
-		"/Users/jorge/Documents/my_projects/mi_shop/app/views/products/_cart_form.html.erb",
-		"/Users/jorge/Documents/my_projects/spree/frontend/app/controllers/spree/home_controller.rb",
-		"/Users/jorge/Documents/my_projects/mi_shop/app/views/products/_promotions.html.haml",
-		"/Users/jorge/Documents/my_projects/mi_shop/app/views/shared/_header.html.haml",
-		"/Users/jorge/Documents/my_projects/mi_shop/app/overrides/spree/layouts/admin/add_spree_page_images.html.erb.deface",
-		"/Users/jorge/Documents/my_projects/mi_shop/config/routes.rb",
-		"/Users/jorge/Documents/my_projects/mi_shop/Scaffolds",
-		"/Users/jorge/Documents/my_projects/mi_shop/app/views/spree/admin/page_images/_index.html.haml",
-		"/Users/jorge/Documents/my_projects/mi_shop/app/controllers/spree/admin/page_images_controller.rb",
-		"/Users/jorge/Documents/my_projects/mi_shop/app/models/spree/page_image.rb",
-		"/Users/jorge/Documents/my_projects/mi_shop/app/assets/javascripts/translations.js",
-		"/Users/jorge/Documents/my_projects/mi_shop/app/assets/javascripts/bootstrap/bootstrap-editable.js",
-		"/Users/jorge/Documents/my_projects/mi_shop/app/helpers/application_helper.rb",
-		"/Users/jorge/Documents/my_projects/mi_shop/app/models/spree/page.rb",
-		"/Users/jorge/Documents/my_projects/spree/backend/app/controllers/spree/admin/images_controller.rb",
-		"/Users/jorge/Documents/my_projects/mi_shop/app/views/spree/admin/image/index.html.haml",
-		"/Users/jorge/Documents/my_projects/mi_shop/app/views/spree/admin/image/_index.html.haml",
-		"/Users/jorge/Documents/my_projects/mi_shop/app/overrides/spree/layouts/admin/add_spree_images.html.erb.deface",
-		"/Users/jorge/Documents/my_projects/mi_shop/app/overrides/spree/layouts/admin/add_spree_layouts.html.erb.deface",
-		"/Users/jorge/Documents/my_projects/mi_shop/app/controllers/tolk/locales_controller.rb",
-		"/Users/jorge/Documents/my_projects/mi_shop/app/controllers/products_controller.rb",
-		"/Users/jorge/Documents/my_projects/mi_shop/app/controllers/application_controller.rb"
+		"/Users/jorge/Documents/ruby/liberbank/liberbank-comercial/app/views/wilson_cms/modules/_faldon_footer_block.html.erb"
 	],
 	"find":
 	{
-		"height": 30.0
+		"height": 43.0
 	},
 	"find_in_files":
 	{
 		"height": 110.0,
 		"where_history":
 		[
+			"/Users/jorge/Documents/ruby/afi",
+			"/Users/jorge/Documents/ruby/cms_authorization",
+			"/Users/jorge/Documents/ruby/cms_admin",
+			"/Users/jorge/Documents/ruby/afi",
 			"/Users/jorge/Documents/ruby/cms_theme_spectre_base/app/assets/javascripts",
 			"/Users/jorge/Documents/ruby/cms_themes",
 			"/Users/jorge/Documents/ruby/forms_builder/app",
@@ -577,6 +564,14 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"check_course",
+			"byebug",
+			"hidden",
+			"paginate",
+			".page",
+			"per_page",
+			"paginate",
+			"course_localized_search_criteria",
 			"term",
 			"tems",
 			"date",
@@ -620,148 +615,24 @@
 	"groups":
 	[
 		{
-			"selected": 10,
+			"selected": 7,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 22844,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								618,
-								638
-							]
-						],
-						"settings":
-						{
-							"auto_name": "<div class=\"wrapper\">",
-							"git_gutter_is_enabled": false,
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 16,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/Users/jorge/Documents/ruby/afi/app/views/afi/courses/_show_courses_filters.html.erb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 942,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								520,
-								520
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Rails/HTML (Rails).sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 15,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/Users/jorge/Documents/ruby/afi/app/views/afi/courses/_show_courses.html.erb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1480,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1472,
-								1472
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Rails/HTML (Rails).sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 73.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 14,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/Users/jorge/Documents/ruby/afi/app/helpers/afi/courses_helper.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3004,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2747,
-								2747
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Ruby/Ruby.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 755.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 13,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
 					"file": "/Users/jorge/Documents/ruby/afi/app/views/afi/admin/courses/_show_courses_configuration.html.erb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 575,
+						"buffer_size": 1325,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								575,
-								575
+								358,
+								358
 							]
 						],
 						"settings":
@@ -773,24 +644,264 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 13,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "/Users/jorge/Documents/ruby/afi/app/models/afi/course.rb",
+					"buffer": 1,
+					"file": "/Users/jorge/Documents/ruby/afi/app/views/afi/courses/_show_courses_filters.html.erb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3304,
+						"buffer_size": 1874,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								540,
-								555
+								1256,
+								1256
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Rails/HTML (Rails).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 76.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/jorge/Documents/ruby/cms_themes/app/views/afi/kaminari/_next_page.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 484,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								475,
+								475
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Rails/HTML (Rails).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/jorge/Documents/ruby/cms_themes/app/assets/stylesheets/main.css.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 72,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								69,
+								69
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Users/jorge/Documents/ruby/afi/app/helpers/afi/courses_helper.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3020,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								805,
+								805
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 31.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/Users/jorge/Documents/ruby/afi/app/views/afi/courses/_courses_list.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 480,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								84,
+								84
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Rails/HTML (Rails).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/Users/jorge/Documents/ruby/afi/app/view_dtos/afi/course_helper_view_dto.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 168,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								117,
+								117
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/Users/jorge/Documents/ruby/afi/app/views/afi/courses/_show_course_localized.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1169,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1041,
+								1041
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Rails/HTML (Rails).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/Users/jorge/Documents/ruby/afi/config/locales/controllers/courses/es.yml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1077,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1076,
+								1015
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/YAML/YAML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/Users/jorge/Documents/ruby/afi/app/models/afi/course_localized.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2887,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2198,
+								2198
 							]
 						],
 						"settings":
@@ -801,33 +912,35 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 103.0,
+						"translation.y": 762.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
-					"file": "/Users/jorge/Documents/ruby/afi/app/views/afi/admin/courses/_terms_form_tag.html.erb",
+					"buffer": 10,
+					"file": "/Users/jorge/Documents/ruby/afi/app/view_delegates/afi/course_helper_view_delegate.rb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 592,
+						"buffer_size": 1591,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								466,
-								468
+								713,
+								713
 							]
 						],
 						"settings":
 						{
 							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Rails/HTML (Rails).sublime-syntax"
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -837,82 +950,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 7,
-					"file": "/Users/jorge/Documents/ruby/afi/app/controllers/afi/courses_controller.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 587,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								230,
-								230
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Ruby/Ruby.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "/Users/jorge/Documents/ruby/afi/app/view_delegates/afi/course_helper_view_delegate.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1065,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								153,
-								153
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Ruby/Ruby.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 12,
-					"type": "text"
-				},
-				{
-					"buffer": 9,
+					"buffer": 11,
 					"file": "/Users/jorge/Documents/ruby/afi/app/managers/afi/course_localizeds_manager.rb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1013,
+						"buffer_size": 893,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								464,
-								464
+								92,
+								92
 							]
 						],
 						"settings":
@@ -930,20 +981,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 10,
+					"buffer": 12,
 					"file": "/Users/jorge/Documents/ruby/afi/app/poros/afi/course_localized_search_criteria.rb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2988,
+						"buffer_size": 2789,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2353,
-								2353
+								1048,
+								1048
 							]
 						],
 						"settings":
@@ -952,112 +1003,21 @@
 							"syntax": "Packages/Ruby/Ruby.sublime-syntax",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 378.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 11,
-					"file": "/Users/jorge/Documents/ruby/afi/app/models/afi/course_localized.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2397,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1753,
-								1753
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Ruby/Ruby.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 632.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 12,
-					"file": "/Users/jorge/Documents/ruby/cms_taxonomies/app/models/cms_taxonomies/concerns/has_taxonomy.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2368,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1459,
-								1471
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Ruby/Ruby.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 732.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 13,
-					"file": "/Users/jorge/Documents/ruby/forms_builder/app/views/forms_builder/forms/_form_privacy_policy_modal.haml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 327,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								215,
-								183
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Rails/Ruby Haml.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 11,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
-					"buffer": 14,
-					"file": "/Users/jorge/Documents/nodejs/temp_e_2/imsmanifest.xml",
+					"buffer": 13,
+					"file": "/Users/jorge/Documents/ruby/cms_taxonomies/app/models/cms_taxonomies/taxonomy.rb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1048,
+						"buffer_size": 4819,
 						"regions":
 						{
 						},
@@ -1071,7 +1031,7 @@
 						"settings":
 						{
 							"git_gutter_is_enabled": true,
-							"syntax": "Packages/XML/XML.sublime-syntax",
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
@@ -1079,84 +1039,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 17,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
-					"buffer": 15,
-					"file": "/Users/jorge/Documents/ruby/cms_themes/app/assets/javascripts/application.js",
+					"buffer": 14,
+					"file": "/Users/jorge/Documents/ruby/afi/app/view_dtos/afi/filter_view_dto.rb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1436,
+						"buffer_size": 374,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1241,
-								1241
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 9,
-					"type": "text"
-				},
-				{
-					"buffer": 16,
-					"file": "/Users/jorge/Documents/ruby/afi/app/views/afi/courses/filter.js.erb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 34,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								33,
-								33
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Rails/JavaScript (Rails).sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 18,
-					"type": "text"
-				},
-				{
-					"buffer": 17,
-					"file": "/Users/jorge/Documents/ruby/rails_base_app/Gemfile",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4737,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3904,
-								3904
+								363,
+								363
 							]
 						],
 						"settings":
@@ -1172,37 +1072,6 @@
 					},
 					"stack_index": 10,
 					"type": "text"
-				},
-				{
-					"buffer": 18,
-					"file": "/Users/jorge/Documents/ruby/cms_themes/app/views/layouts/application.html.erb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2219,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								483,
-								483
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Rails/HTML (Rails).sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
 				}
 			]
 		}
@@ -1213,7 +1082,7 @@
 	},
 	"input":
 	{
-		"height": 39.0
+		"height": 42.0
 	},
 	"layout":
 	{
@@ -1263,6 +1132,22 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"taxonom",
+				"cms_taxonomies/app/models/cms_taxonomies/taxonomy.rb"
+			],
+			[
+				"taxono",
+				"cms_taxonomies/app/models/cms_taxonomies/taxonomy.rb"
+			],
+			[
+				"cms_admin_content_embedded_app",
+				"cms_contents/app/models/cms_contents/cms_admin_content_embedded_app.rb"
+			],
+			[
+				"20171227123950_add_content_embedded_app_courses_list.rb",
+				"afi/db/migrate/20171227123950_add_content_embedded_app_courses_list.rb"
+			],
 			[
 				"courselocalized",
 				"afi/app/models/afi/course_localized.rb"
@@ -1758,22 +1643,6 @@
 			[
 				"collapsable_pan",
 				"lbb-cms/app/views/wilson_cms/admin/resource_shared/_collapsable_panel.html.erb"
-			],
-			[
-				"collapsable_panel",
-				"lbb-cms/app/views/wilson_cms/admin/resource_shared/_collapsable_panel.html.erb"
-			],
-			[
-				"ficha.scss",
-				"liberbank-comercial/app/assets/stylesheets/custom_home/_ficha.scss"
-			],
-			[
-				"base.scs",
-				"liberbank-comercial/app/assets/stylesheets/custom_home/_base.scss"
-			],
-			[
-				"customcareblocksc",
-				"liberbank-comercial/app/assets/stylesheets/blocks/_customer_care_block.scss"
 			]
 		],
 		"width": 0.0
@@ -1804,7 +1673,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 260.0,
+	"side_bar_width": 323.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

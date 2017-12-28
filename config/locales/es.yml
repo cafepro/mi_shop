@@ -550,8 +550,54 @@ es:
       submit: Guardar %{model}
       update: Actualizar %{model}
   home:
+    footer:
+      left_column: Fotofusión es la muestra de todo lo que se hacer, aquí podrás encontrar
+        una tienda online de revelado y regalos personalizados pero mucho más...Ya
+        que hacemos reportajes de Bodas,Comuniones, de los más peques, de mascotas,de
+        grupos o con esa persona que te ha robado el corazón...Véras que hacemos mucho
+        más que hacer fotos...
+      right_column: Contacto
+      right_column_contact_data: |-
+        <ul class="contact list-unstyled">
+                  <li>
+                    <span class="icon-map text-primary"></span>
+                    AV. ALCALDE JOSÉ FERNANDÍN,24 PIEDRAS BLANCAS
+                  </li>
+                  <li>
+                    <a href="mailto:info@fotofusion.com">
+                      <span class="icon-phone text-primary"></span>info@fotofusion.com
+                    </a>
+                  </li>
+                  <li><span class="icon-mail text-primary"></span>985 53 26 01</li>
+                </ul>
+    form:
+      label:
+        email: Email
+        name: Nombre
+        your_message: Tu mensaje
     header:
       title: Empieza a gestionar
+    section:
+      about:
+        print_your_moments: Imprime tus momentos
+        print_your_photos: |-
+          Imprimimos tus fotos para que las tengas siempre cerca:<br>
+                  Si te gusta el formato clásico, cuadrado, polaroid o si quieres ampliar tus mejores momentos...
+        reveal_your_world: Revelamos tu mundo
+      contact:
+        write_us:
+          text: Si tienes cualquier duda puedes utilizar el formulario que tienes
+            a continuación, llamarnos al 985 53 26 01 o escribirnos a info@fotofusion.com
+          title: Escríbenos
+      events:
+        first:
+          image_text: Boda
+          text_side: Porque el día de tu boda será increíble pero pasará sin que te
+            des cuenta de muchas cosas.Nosotros inmortalizaremos esos momentos increíbles
+            para que tengáis el álbum de boda soñado.
+          title_side: Reportaje de Bodas
+        subtitle: Un regalo con el que siempre acertarás
+        title: Descubre nuestras sesiones
   layouts:
     back_default: back default
     front_default: front default
@@ -566,7 +612,7 @@ es:
       about: ''
       acerca-de: menu 2
       contacto: menu 5
-      galeria: ''
+      galeria: Galería
       galeria-de-productos: Galería de productos
       portfolio: menu 4
       services: ''

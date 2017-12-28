@@ -12,6 +12,14 @@ Italiano By BootstrapTemple.com
   .navbar.shrink {
     min-height: 60px;
   }
+  #mainNav.shrink .container .navbar-header .navbar-brand {
+    -webkit-transition: all 0.5s; /* Safari */
+    transition: all 0.5s;
+    padding: 9px 15px;
+    h2 {
+      font-size: 35px;
+    }
+  }
   .navbar.shrink .navbar-brand {
     height: 60px;
     padding: 18.5px 15px;
@@ -35,12 +43,22 @@ NAVBAR
 =====================
 
 */
+
+#mainNav  .container  .navbar-header{
+  h2 {
+   text-transform: capitalize;
+  }
+  .navbar-brand {
+     padding: 23px 15px;
+  }
+}
+
 .header {
   width: 100%;
 }
 .navbar {
   z-index: 10;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   letter-spacing: 0.1em;
   border-left: none;
   border-right: none;
@@ -322,7 +340,7 @@ textarea {
 }
 .btn-unique::before,
 .btn-unique-reverse::before,
-.btn-unique-white::before {
+.btn-unique-white::before, {
   content: '';
   width: -webkit-calc(100% - 2px);
   width: calc(100% - 2px);
@@ -460,7 +478,7 @@ label.error {
   color: #d9534f;
   margin-top: 0;
 }
-form button {
+form button, input[type='submit'] {
   margin-top: 20px;
   outline: none;
   min-width: 150px;
