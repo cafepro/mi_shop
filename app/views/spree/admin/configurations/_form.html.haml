@@ -1,0 +1,14 @@
+.row{"data-hook" => "admin_configuration_form_fields"}
+  .col-md-6
+    = f.field_container :key, class: ['form-group'] do
+      = f.label :key
+      = f.text_field :key, class: 'form-control'
+      = error_message_on :configuration, :key
+    = f.field_container :value, class: ['form-group'] do
+      = f.label :value
+      = f.text_field :value, class: 'form-control'
+      = error_message_on :configuration, :value
+    = f.field_container :editable, class: ['form-group'] do
+      = f.label :editable
+      = f.check_box :editable, class: 'form-control'
+      = error_message_on :configuration, :editable

@@ -1,0 +1,14 @@
+es:
+  spree:
+    admin:
+      tab:
+        configurations: "Configurations"
+    new_configuration: "Nuevo Configuration"
+    listing_configurations: "Listando Configurations"
+    editing_configuration: "Editando Configuration"
+  activerecord:
+    attributes:
+      spree/configuration:
+        key: Key
+        value: Value
+        editable: Editable

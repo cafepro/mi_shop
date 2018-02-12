@@ -1,0 +1,10 @@
+- content_for :page_title do
+  = Spree.t(:editing_configuration)
+%div{"data-hook" => "admin_configuration_edit_form_header"}
+  = render 'spree/shared/error_messages', target: @configuration
+%div{"data-hook" => "admin_configuration_edit_form"}
+  = form_with model: [:admin, @configuration], local: true do |f|
+    .row
+      .col-md-12
+        = render 'form', f: f
+        = render 'spree/admin/shared/edit_resource_links'

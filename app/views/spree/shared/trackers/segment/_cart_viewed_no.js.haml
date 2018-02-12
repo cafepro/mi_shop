@@ -1,0 +1,10 @@
+:javascript
+  if (typeof analytics !== 'undefined') {
+      analytics.track('Cart Viewed', {
+        cart_id: '#{order.number}',
+        products: [
+  <haml_silent>       order.line_items.each_with_index do |line_item, index| 
+  </haml_silent><haml_block>        #{product_for_segment(line_item, position: index+1, quantity: line_item.quantity)},
+  </haml_block>      ]
+      });
+    }

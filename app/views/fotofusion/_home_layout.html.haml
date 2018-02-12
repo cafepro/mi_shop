@@ -1,0 +1,470 @@
+%body
+  .page-holder
+    / Navbar
+    %header.header
+      %nav#mainNav.navbar.navbar-default.navbar-fixed-top
+        .container
+          .navbar-header
+            %a.navbar-brand{:href => "#page-top"}
+              %h2
+                %span.text-primary Fotofusión
+                %span Digital
+            .navbar-buttons
+              %button.navbar-toggle.navbar-btn{"data-target" => ".navbar-collapse", "data-toggle" => "collapse", :type => "button"}
+                Menu
+                %i.fa.fa-align-justify
+          #navigation.collapse.navbar-collapse.navbar-right
+            = render_menu
+    / End Navbar
+    / Hero Section
+    %section#hero.hero
+      #slider.sl-slider-wrapper
+        .sl-slider
+          / slide
+          .sl-slide.bg-1{"data-orientation" => "horizontal", "data-slice1-rotation" => "-25", "data-slice1-scale" => "2", "data-slice2-rotation" => "-25", "data-slice2-scale" => "2"}
+            .sl-slide-inner{:style => "background-image: url('#{image_url('hero-bg.jpg')}');"}
+              .container
+                %h2
+                  %span.text-primary Fotofusión Digital
+                %h1 Revela tu mundo
+          / slide
+          .sl-slide.bg-2{"data-orientation" => "vertical", "data-slice1-rotation" => "10", "data-slice1-scale" => "1.5", "data-slice2-rotation" => "-15", "data-slice2-scale" => "1.5"}
+            .sl-slide-inner{:style => "background-image: url('#{image_url('hero-bg02.jpg')}');"}
+              .container
+                %h1
+                  Revela
+                  %br/
+                  %span.text-primary tu mundo
+          / slide
+          .sl-slide.bg-3{"data-orientation" => "horizontal", "data-slice1-rotation" => "3", "data-slice1-scale" => "2", "data-slice2-rotation" => "3", "data-slice2-scale" => "1"}
+            .sl-slide-inner{:style => "background-image: url('#{image_url('hero-bg03.jpg')}');"}
+              .container
+                %h2
+                  %span.text-primary Fotofusión Digital
+        / End sl-slider
+        / slider pagination
+        %nav#nav-dots.nav-dots
+          %span.nav-dot-current
+          %span
+          %span
+        / scroll down btn
+        %a#scroll-down.hidden-xs{:href => "#about"}
+        / social icons menu
+        .social
+          .wrapper
+            %ul.list-unstyled
+              %li
+                %a{:href => "https://www.facebook.com/May.Perez.Asturias/", :target => "_blank", :title => "facebook"}
+                  %i.fa.fa-facebook
+              %li
+                %a{:href => "https://twitter.com/FotoFusion_", :target => "_blank", :title => "twitter"}
+                  %i.fa.fa-twitter
+              %li
+                %a{:href => "https://www.instagram.com/fotofusion_/", :target => "_blank", :title => "instagram"}
+                  %i.fa.fa-instagram
+            %span Síguenos
+      / End slider-wrapper
+    / End Hero Section
+    / Details
+    %section#details.details
+      .container
+        .row
+          .col-sm-6
+            .heading.text-center
+              %p Puedes
+              %h5 Llamarnos
+            %a.phone{:href => "tel:985532601"} 985 53 26 01
+          .col-sm-6
+            .heading.text-center
+              %p Descrubre más
+            %a.reviews.btn-unique{:href => "#"}
+              %i.fa.fa-angle-right
+    / End Details
+    / About Section
+    %section#about.about
+      .container.text-center
+        %header
+          %h2= t('home.section.about.print_your_moments', 'Imprime tus momentos')
+          %h3= t('home.section.about.reveal_your_world', 'Revelamos tu mundo')
+        %p.lead
+          = t('home.section.about.print_your_photos', 'Imprimimos tus fotos para que las tengas siempre cerca:<br> |
+            Si te gusta el formato clásico, cuadrado, polaroid o si quieres ampliar tus mejores momentos...')      |
+    / End About Section
+    / Dishes Section
+    %section#dishes.dishes
+      .container.text-center
+        %header
+          %h2 Tipos de revelado
+          %h3 ¿cuál es tu tipo?
+        / Set up your HTML
+        .owl-carousel.owl-theme
+          / item
+          .dish
+            .profile
+              = image_tag 'dish-c.png', class: 'img-responsive', alt: 'dish name'
+              .price
+                %span 25uds
+            .text
+              %h4 Revelado Clásico
+              %p Si eres de los que le gustan las cosas de toda la vida y quieres un recuerdo duradero...esta es tu opción
+          / item
+          .dish
+            .profile
+              = image_tag 'dish-b.png', class: 'img-responsive', alt: 'dish name'
+              .price
+                %span +4 uds
+            .text
+              %h4 Cuadrado
+              %p
+                ¿Te gusta un toque un poco original?
+                %br>/
+                Pues este es tu formato!
+          / item
+          .dish
+            .profile
+              = image_tag 'dish-a.png', class: 'img-responsive', alt: 'dish name'
+              .price
+                %span +20uds
+            .text
+              %h4 Polaroid
+              %p Porque lo retro está más de moda de nunca...¿qué mejor que este formato que nunca siempre será actual?
+          / item
+          .dish
+            .profile
+              = image_tag 'dish-c.png', class: 'img-responsive', alt: 'dish name'
+              .price
+                %span 1+
+            .text
+              %h4 Ampliaciones
+              %p Elige fotos originales y conviértelas en recuerdos que decoren y den un toque orignal a tu casa.
+    / End Dishes Section
+    / Menu Section
+    %section#menu.menu
+      .container
+        %header.text-center
+          %h2 Opciones de Revelado
+          %h3 para que sepas todas tus opciones
+        .menu
+          / Tabs Navigatin
+          %ul.nav.nav-tabs.text-center.has-border{:role => "tablist"}
+            %li.active{:role => "presentation"}
+              %a{"aria-controls" => "clasico", "data-toggle" => "tab", :href => "#clasico", :role => "tab"} Clásico
+            %li{:role => "presentation"}
+              %a{"aria-controls" => "cuadrado", "data-toggle" => "tab", :href => "#cuadrado", :role => "tab"} Cuadrado
+            %li{:role => "presentation"}
+              %a{"aria-controls" => "polaroid", "data-toggle" => "tab", :href => "#polaroid", :role => "tab"} Polaroid
+            %li{:role => "presentation"}
+              %a{"aria-controls" => "ampliaciones", "data-toggle" => "tab", :href => "#ampliaciones", :role => "tab"} Ampliaciones
+          / Tab panes
+          .tab-content
+            / Breakfast Panel
+            #clasico.tab-pane.active{:role => "tabpanel"}
+              .row
+                / item
+                .col-sm-6
+                  .menu-item.recommended.has-border.clearfix
+                    .item-details.pull-left
+                      %h5 Unidades
+                      %p Por unidades a partir de 25
+                    .item-price.pull-right
+                      %strong.text-large.text-primary 25uds
+                      %span.text-medium Mínimo
+                / item
+                .col-sm-6
+                  .menu-item.recommended.has-border.clearfix
+                    .item-details.pull-left
+                      %h5 Tamaños
+                      %p 10x15 / 11x15 / 13x18 / 15x20
+                / item
+                .col-sm-6
+                  .menu-item.recommended.has-border.clearfix
+                    .item-details.pull-left
+                      %h5 Bordes
+                      %p sin borde / Con borde 3 mm / con faldones respetando foto
+                / item
+                .col-sm-6
+                  .menu-item.recommended.has-border.clearfix
+                    .item-details.pull-left
+                      %h5 Papeles
+                      %p Lustre Fuji alta calidad / Brillo Fuji HD / Mate (Epson art mate)
+              / End Breakfast Panel
+              / lunch Panel
+              #cuadrado.tab-pane.fade{:role => "tabpanel"}
+                .row
+                  / item
+                  .col-sm-6
+                    .menu-item.recommended.has-border.clearfix
+                      .item-details.pull-left
+                        %h5 Unidades
+                        %p Por unidades a partir de 25
+                      .item-price.pull-right
+                        %strong.text-large.text-primary 25uds
+                        %span.text-medium Mínimo
+                  / item
+                  .col-sm-6
+                    .menu-item.recommended.has-border.clearfix
+                      .item-details.pull-left
+                        %h5 Tamaños
+                        %p 10x15 / 11x15 / 13x18 / 15x20
+                  / item
+                  .col-sm-6
+                    .menu-item.recommended.has-border.clearfix
+                      .item-details.pull-left
+                        %h5 Bordes
+                        %p sin borde / Con borde 3 mm / con faldones respetando foto
+                  / item
+                  .col-sm-6
+                    .menu-item.recommended.has-border.clearfix
+                      .item-details.pull-left
+                        %h5 Papeles
+                        %p Lustre Fuji alta calidad / Brillo Fuji HD / Mate (Epson art mate)
+                / End lunch Panel
+              / End Menu Section
+              / Services Section
+              %section#services.services
+                .container.text-center
+                  %header
+                    %h2 ¿Qué tenemos además de revelados?
+                    %h3 Tienes un montón de opciones que descubrir...
+                  .row{:style => "padding-bottom: 40px;"}
+                    / item
+                    .col-sm-4.service
+                      .icon
+                        %i.icon-like
+                      .text
+                        %h4 Sesiones
+                        %p Siempre has querido una pero no te has atrevido...así que es el momento de hacerla o de regalarla!Hay cosas que hay que hacer al menos una vez en la vida...
+                    / item
+                    .col-sm-4.service
+                      .icon
+                        %i.icon-smile
+                      .text
+                        %h4 Calendarios
+                        %p Para que empieces cada mes con buen pie y mejor imagen...con aquellas que te hacen feliz!
+                    / item
+                    .col-sm-4.service
+                      .icon
+                        %i.icon-gift
+                      .text
+                        %h4 Packs regalo
+                        %p Un acierto seguro,si quieres que tenga un recuerdo de los que marcan la diferencia...los tenemos totalmente personalizados.
+                    / fin primer bloque
+                  .row{:style => "padding-bottom: 40px;"}
+                    / item
+                    .col-sm-4.service
+                      .icon
+                        %i.icon-like
+                      .text
+                        %h4 Collages
+                        %p Para los indecisos...Si no te decides por una sola foto o no sabes cómo ponerla...tenemos la solución y te quedará original y sin tener que elegir!
+                    / item
+                    .col-sm-4.service
+                      .icon
+                        %i.icon-clock
+                      .text
+                        %h4 Invitaciones
+                        %p Para una boda o bautizos o comuniones...o cualquier día que quieras pasar con los tuyos. Tenemos el diseño que buscas.
+                    / item
+                    .col-sm-4.service
+                      .icon
+                        %i.icon-gift
+                      .text
+                        %h4 Álbum
+                        %p Hojas de recuerdos,porque no hay nada más entrañable y genial que pasar con la gente que es importante para ti. Hazte con el tuyo
+                    / fin del segundo bloque
+                  / End Services Section
+                  / App Section
+                  %section#app.app
+                    .container.text-center.has-border
+                      %h5
+                        "La fotografía es el medio adecuado para recrear el ahora,
+                        %br>/
+                        el mundo vivo de nuestros días.”
+                      %ul.list-unstyled.list-inline
+                        %li
+                          %a.btn-unique-white{:href => "#", :title => "Bootstrap Temple"} Berenice Abbott
+                  / End App Section
+                  / Offers Section
+                  %section#offers.offers
+                    .container.text-center
+                      %header
+                        %h2 Descubre nuestros packs
+                        %h3 No te los puedes perder!
+                      .row
+                        .col-sm-4
+                          .item
+                            .discount
+                              %span
+                                30
+                                %br/
+                                €
+                            .profile
+                              = image_tag 'dish-d.png', class: 'img-responsive', alt: 'dish name'
+                            .text
+                              %h4 Para papás
+                              %p.after.text-primary.text-large 30.00$
+                              %p.before.text-muted.text-large 50.00$
+                        .col-sm-4
+                          .item
+                            .discount
+                              %span
+                                40%
+                                %br/
+                                Off
+                            .profile
+                              = image_tag 'dish-d.png', class: 'img-responsive', alt: 'dish name'
+                            .text
+                              %h4 Para súper Abuelos
+                              %p.after.text-primary.text-large 30.00$
+                              %p.before.text-muted.text-large 50.00$
+                        .col-sm-4
+                          .item
+                            .discount
+                              %span
+                                40%
+                                %br/
+                                Off
+                            .profile
+                              = image_tag 'dish-d.png', class: 'img-responsive', alt: 'dish name'
+                            .text
+                              %h4 Para mamás
+                              %p.after.text-primary 30.00$
+                              %p.before.text-muted 50.00$
+                  / End Offers Section
+                  / Events Section
+                  %section#events.events
+                    .container
+                      %header.text-center
+                        %h2= t('home.section.events.title', 'Descubre nuestras sesiones')
+                        %h3= t('home.section.events.subtitle', 'Un regalo con el que siempre acertarás')
+                      .row
+                        / Profile Side
+                        .col-sm-6
+                          .profile.has-border{:style => "background-image: url('#{image_url('event-bg.jpg')}');"}
+                            %ul.date.list-unstyled.list-inline.clearfix
+                              %li.day.pull-left= t('home.section.events.first.image_text', 'Boda')
+                        / Details Side
+                        .col-sm-6
+                          .details
+                            %h3= t('home.section.events.first.title_side', 'Reportaje de Bodas')
+                            %p.lead
+                              = t('home.section.events.first.text_side', 'Porque el día de tu boda será increíble pero pasará sin que te des cuenta de muchas cosas.Nosotros inmortalizaremos esos momentos increíbles para que tengáis el álbum de boda soñado.')
+                            %a.read-more.btn-unique{:href => "#contact"} Pide cita!
+                  / End Events Section
+                  / Gallery Section
+                  %section#gallery.gallery
+                    .container.text-center
+                      %header
+                        %h2= t('home.section.gallery.title', 'Algunos de nuestros trabajos')
+                        %h3= t('home.section.gallery.subtitle', 'Porque hay uno para cada ocasión!')
+                      .gellery
+                        .row
+                          / Item
+                          .col-md-3.col-sm-4.col-xs-6.col-xs-6.col-custom-12
+                            .item
+                              = image_tag 'bg01.jpg'
+                              = link_to image_url('bg01.jpg'), class: 'has-border', 'data-lightbox': 'image-1', 'data-title': 'Image Caption' do
+                                %span.icon-search
+                          / Item
+                          .col-md-3.col-sm-4.col-xs-6.col-custom-12
+                            .item
+                              = image_tag 'bg02-small.jpg'
+                              = link_to image_url('bg02.jpg'), class: 'has-border', 'data-lightbox': 'image-1', 'data-title': 'Image Caption' do
+                                %span.icon-search
+                          / Item
+                          .col-md-3.col-sm-4.col-xs-6.col-custom-12
+                            .item
+                              = image_tag 'bg03-small.jpg'
+                              = link_to image_url('bg03.jpg'), class: 'has-border', 'data-lightbox': 'image-1', 'data-title': 'Image Caption' do
+                                %span.icon-search
+                          / Item
+                          .col-md-3.col-sm-4.col-xs-6.col-custom-12
+                            .item
+                              = image_tag 'bg-small.jpg'
+                              = link_to image_url('bg.jpg'), class: 'has-border', 'data-lightbox': 'image-1', 'data-title': 'Image Caption' do
+                                %span.icon-search
+                          / Item
+                          .col-md-3.col-sm-4.col-xs-6.col-custom-12
+                            .item
+                              = image_tag 'bg05-small.jpg'
+                              = link_to image_url('bg05.jpg'), class: 'has-border', 'data-lightbox': 'image-1', 'data-title': 'Image Caption' do
+                                %span.icon-search
+                          / Item
+                          .col-md-3.col-sm-4.col-xs-6.col-custom-12
+                            .item
+                              = image_tag 'bg06-small.jpg'
+                              = link_to image_url('bg06.jpg'), class: 'has-border', 'data-lightbox': 'image-1', 'data-title': 'Image Caption' do
+                                %span.icon-search
+                          / Item
+                          .col-md-3.col-sm-4.col-xs-6.col-custom-12
+                            .item
+                              = image_tag 'bg04-small.jpg'
+                              = link_to image_url('bg04.jpg'), class: 'has-border', 'data-lightbox': 'image-1', 'data-title': 'Image Caption' do
+                                %span.icon-search
+                          / Item
+                          .col-md-3.col-sm-4.col-xs-6.col-custom-12
+                            .item
+                              = image_tag 'bg07-small.jpg'
+                              = link_to image_url('bg07.jpg'), class: 'has-border', 'data-lightbox': 'image-1', 'data-title': 'Image Caption' do
+                                %span.icon-search
+                  / End Gallery Section
+                  / End Booking Section
+                  %section#contact.contact
+                    #map
+                    .container.text-center
+                      .form-holder
+                        %header
+                          %h2= t('home.section.contact.write_us.title', 'Escríbenos')
+                          %h3= t('home.section.contact.write_us.text', 'Si tienes cualquier duda puedes utilizar el formulario que tienes a continuación, llamarnos al 985 53 26 01 o escribirnos a info@fotofusion.com')
+                        / render contact form
+                        = render_contact_form
+                  / End Booking Section
+                  / Footer
+                  %footer#mainFooter.mainFooter
+                    .container
+                      .row
+                        .col-sm-6
+                          .header
+                            %h2
+                              %span.text-primary Fotofusión
+                              %span Digital
+                          %p= t('home.footer.left_column', 'Fotofusión es la muestra de todo lo que se hacer, aquí podrás encontrar una tienda online de revelado y regalos personalizados pero mucho más...Ya que hacemos reportajes de Bodas,Comuniones, de los más peques, de mascotas,de grupos o con esa persona que te ha robado el corazón...Véras que hacemos mucho más que hacer fotos...').html_safe
+                        .col-sm-6
+                          .header
+                            %h6= t('home.footer.right_column', 'Contacto').html_safe
+                          = t('home.footer.right_column_contact_data', '<ul class="contact list-unstyled"> |
+                              <li>                                                                         |
+                                <span class="icon-map text-primary"></span>                                |
+                                AV. ALCALDE JOSÉ FERNANDÍN,24 PIEDRAS BLANCAS                              |
+                              </li>                                                                        |
+                              <li>                                                                         |
+                                <a href="mailto:info@fotofusion.com">                                      |
+                                  <span class="icon-phone text-primary"></span>info@fotofusion.com         |
+                                </a>                                                                       |
+                              </li>                                                                        |
+                              <li><span class="icon-mail text-primary"></span>985 53 26 01</li>            |
+                            </ul>').html_safe                                                              |
+                        %ul.social.list-unstyled.list-inline
+                          %li
+                            %a{:href => "https://www.facebook.com/May.Perez.Asturias/", :target => "_blank", :title => "Facebook"}
+                              %i.fa.fa-facebook
+                          %li
+                            %a{:href => "https://twitter.com/FotoFusion_", :target => "_blank", :title => "Twitter"}
+                              %i.fa.fa-twitter
+                          %li
+                            %a{:href => "https://www.instagram.com/fotofusion_/", :target => "_blank", :title => "Instagram"}
+                              %i.fa.fa-instagram
+                      .copyrights
+                        .container
+                          .row
+                            .col-sm-5
+                              %ul.list-unstyled.list-inline
+                                %li
+                                  %a{:href => "#"} Aviso Legal
+                                %li
+                                  %a{:href => "#"} Política de Cookies
+                                %li
+                                  %a{:href => "#"} Contacto
+                            .col-sm-7
+                              %p © 2017 Fotofusión Digital.
+                      / End Footer

@@ -4,32 +4,92 @@
 		"selected_items":
 		[
 			[
-				"taxono",
-				"taxonomy_filter"
-			],
-			[
-				"course",
-				"course_localizeds"
+				"conten",
+				"content_type"
 			],
 			[
 				"search",
 				"search_criteria"
 			],
 			[
-				"cms_theme",
-				"cms_theme_configurator"
+				"para",
+				"parameterize\t(content_type.rb)"
 			],
 			[
-				"WilsonCms",
-				"WilsonCmsProducts\t(20171124132907_fix_investment_funds_template.rb)"
+				"searc",
+				"search_criteria"
 			],
 			[
-				"Wils",
-				"WilsonCms\t(product.rb)"
+				"Conten",
+				"ContentLocalizedsSearchViewDTO\t(content_localizeds_search_view_dto.rb)"
 			],
 			[
-				"ad",
-				"advantages_image_component"
+				"content_loca",
+				"content_localized"
+			],
+			[
+				"TermLo",
+				"term_localized"
+			],
+			[
+				"load_c",
+				"load_ckeditor_on_element"
+			],
+			[
+				"nav_item",
+				"nav_item_localized"
+			],
+			[
+				"nav_item_localiz",
+				"nav_item_localizeds"
+			],
+			[
+				"Taxono",
+				"taxonomy"
+			],
+			[
+				"info",
+				"info_form_url\t(course_view_dto.rb)"
+			],
+			[
+				"load",
+				"load_permalink_from_configuration"
+			],
+			[
+				"conte",
+				"content_localizeds\t(content.rb)"
+			],
+			[
+				"attr",
+				"attr_accessor"
+			],
+			[
+				"sele",
+				"select_attributes"
+			],
+			[
+				"sear",
+				"search_criteria"
+			],
+			[
+				"course",
+				"course_localized"
+			],
+			[
+				"Course",
+				"CourseLocalizedSearchCriteria\t(course_localized_search_criteria.rb)"
+			],
+			[
+				"taxono",
+				"taxonomy_id"
+			],
+			[
+				"upload",
+				"upload_photos\t(upload_photos.js.erb)"
+			],
+			[
+				"uploa",
+				"upload_photos"
 			],
 			[
 				"text",
@@ -203,217 +263,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "/Users/jorge/Documents/ruby/afi/app/views/afi/admin/courses/_show_courses_configuration.html.erb",
-			"settings":
-			{
-				"buffer_size": 1325,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/jorge/Documents/ruby/afi/app/views/afi/courses/_show_courses_filters.html.erb",
-			"settings":
-			{
-				"buffer_size": 1874,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/jorge/Documents/ruby/cms_themes/app/views/afi/kaminari/_next_page.html.erb",
-			"settings":
-			{
-				"buffer_size": 484,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/jorge/Documents/ruby/cms_themes/app/assets/stylesheets/main.css.scss",
-			"settings":
-			{
-				"buffer_size": 72,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/jorge/Documents/ruby/afi/app/helpers/afi/courses_helper.rb",
-			"settings":
-			{
-				"buffer_size": 3020,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/jorge/Documents/ruby/afi/app/views/afi/courses/_show_course_localized.html.erb",
-			"settings":
-			{
-				"buffer_size": 1215,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/jorge/Documents/ruby/afi/app/views/afi/course_localizeds/_show.html.erb",
-			"settings":
-			{
-				"buffer_size": 19403,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/jorge/Documents/ruby/rails_base_app/app/controllers/root/sites_controller.rb",
-			"settings":
-			{
-				"buffer_size": 3378,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/jorge/Documents/ruby/rails_base_app/app/controllers/root/templates_controller.rb",
-			"settings":
-			{
-				"buffer_size": 6549,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/jorge/Documents/ruby/rails_base_app/app/controllers/application_controller.rb",
-			"settings":
-			{
-				"buffer_size": 6893,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/Users/jorge/Documents/ruby/afi/config/locales/controllers/courses/es.yml",
-			"settings":
-			{
-				"buffer_size": 1077,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/jorge/Documents/ruby/afi/app/models/afi/course_localized.rb",
-			"settings":
-			{
-				"buffer_size": 2887,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/jorge/Documents/ruby/afi/app/views/cms_navigation/navs/_show_nav_items.html.erb",
-			"settings":
-			{
-				"buffer_size": 702,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/jorge/Documents/ruby/afi/app/views/cms_navigation/navs/_show_nav.html.erb",
-			"settings":
-			{
-				"buffer_size": 560,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/jorge/Documents/ruby/afi_maquetacion/assets/stylesheets/components/_components.nav.scss",
-			"settings":
-			{
-				"buffer_size": 7437,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/jorge/Documents/ruby/cms_themes/app/assets/stylesheets/components/_components.nav.scss",
-			"settings":
-			{
-				"buffer_size": 7324,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "Searching 355 files for \"custom_routes_attributes\"\n\n/Users/jorge/Documents/ruby/cms_contents/app/models/cms_contents/content.rb:\n   73      def reject_element(attributes)\n   74        exists = attributes['id'].present?\n   75:       empty = attributes.except(:id, :content_id, :locale_id, :custom_routes_attributes, :meta_tags_attributes, :term_ids).values.all?(&:blank?)\n   76        attributes[:_destroy] = 1 if exists && empty # destroy empty element\n   77        (!exists && empty) # reject empty attributes\n\n1 match in 1 file\n",
-			"settings":
-			{
-				"buffer_size": 530,
-				"line_ending": "Unix",
-				"name": "Find Results",
-				"scratch": true
-			}
-		},
-		{
-			"file": "/Users/jorge/Documents/ruby/cms_contents/app/models/cms_contents/content.rb",
-			"settings":
-			{
-				"buffer_size": 3296,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/jorge/Documents/ruby/afi/app/controllers/afi/course_localizeds_controller.rb",
-			"settings":
-			{
-				"buffer_size": 693,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/jorge/Documents/ruby/afi/app/view_delegates/afi/course_helper_view_delegate.rb",
-			"settings":
-			{
-				"buffer_size": 1591,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/jorge/Documents/ruby/afi/app/managers/afi/course_localizeds_manager.rb",
-			"settings":
-			{
-				"buffer_size": 893,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/jorge/Documents/ruby/afi/app/poros/afi/course_localized_search_criteria.rb",
-			"settings":
-			{
-				"buffer_size": 2789,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/jorge/Documents/ruby/cms_taxonomies/app/models/cms_taxonomies/taxonomy.rb",
-			"settings":
-			{
-				"buffer_size": 4819,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/jorge/Documents/ruby/afi/app/view_dtos/afi/filter_view_dto.rb",
-			"settings":
-			{
-				"buffer_size": 374,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -462,180 +311,146 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
-	"expanded_folders":
-	[
-		"/Users/jorge/Documents/ruby/afi",
-		"/Users/jorge/Documents/ruby/afi/app",
-		"/Users/jorge/Documents/ruby/afi/app/controllers",
-		"/Users/jorge/Documents/ruby/afi/app/controllers/afi",
-		"/Users/jorge/Documents/ruby/afi/app/views",
-		"/Users/jorge/Documents/ruby/afi/app/views/cms_navigation",
-		"/Users/jorge/Documents/ruby/afi/app/views/cms_navigation/navs"
-	],
 	"file_history":
 	[
-		"/Users/jorge/Documents/ruby/afi/app/views/afi/courses/_courses_list.html.erb",
-		"/Users/jorge/Documents/ruby/afi/app/view_dtos/afi/course_helper_view_dto.rb",
-		"/Users/jorge/Documents/ruby/afi/app/views/afi/courses/_show_course_localized.html.erb",
-		"/Users/jorge/Documents/ruby/cms_authorization/app/controllers/cms_authorization/admin/groups_controller.rb",
-		"/Users/jorge/Documents/ruby/afi/app/controllers/afi/course_localizeds_controller.rb",
-		"/Users/jorge/Documents/ruby/rails_base_app/app/controllers/root/locales_controller.rb",
-		"/Users/jorge/Documents/ruby/rails_base_app/Gemfile",
-		"/Users/jorge/Documents/ruby/rails_base_app/app/controllers/admin/application_controller.rb",
-		"/Users/jorge/Documents/ruby/rails_base_app/app/controllers/admin/smtp_senders_controller.rb",
-		"/Users/jorge/Documents/ruby/rails_base_app/app/controllers/admin/smtp_accounts_controller.rb",
-		"/Users/jorge/Documents/ruby/afi/app/controllers/afi/courses_controller.rb",
-		"/Users/jorge/Documents/ruby/afi/app/views/afi/courses/filter.js.erb",
-		"/Users/jorge/Documents/ruby/rails_base_app/app/controllers/root/application_controller.rb",
-		"/Users/jorge/Documents/ruby/cms_themes/app/assets/stylesheets/application.scss",
-		"/Users/jorge/Documents/ruby/cms_themes/app/views/afi/kaminari/_paginator.html.erb",
-		"/Users/jorge/Documents/ruby/afi/app/view_delegates/afi/course_helper_configuration_view_delegate.rb",
-		"/Users/jorge/Documents/ruby/cms_taxonomies/app/models/cms_taxonomies/taxonomy.rb",
-		"/Users/jorge/Documents/ruby/afi/app/views/afi/courses/_show_courses_filters.html.erb",
-		"/Users/jorge/Documents/ruby/cms_themes/app/assets/javascripts/application.js",
+		"/Users/jorge/Documents/ruby/afi/config/locales/views/course_localizeds/es.yml",
+		"/Users/jorge/Documents/ruby/afi/app/view_dtos/cms_contents/content_localizeds_search_view_dto.rb",
+		"/Users/jorge/Documents/ruby/afi/app/decorators/cms_contents/content_localizeds_controller_decorator.rb",
+		"/Users/jorge/Documents/ruby/cms_contents/app/models/cms_contents/content_type.rb",
+		"/Users/jorge/Documents/ruby/afi/app/view_dtos/cms_contents/content_localized_view_dto.rb",
+		"/Users/jorge/Documents/ruby/cms_contents/app/managers/cms_contents/content_localizeds_manager.rb",
+		"/Users/jorge/Documents/ruby/cms_contents/app/models/cms_contents/content_localized.rb",
+		"/Users/jorge/Documents/ruby/afi/config/locales/views/articles/en.yml",
+		"/Users/jorge/Documents/ruby/afi/config/locales/views/articles/es.yml",
 		"/Users/jorge/Documents/ruby/afi/app/views/afi/courses/_show_courses.html.erb",
-		"/Users/jorge/Documents/ruby/afi/app/helpers/afi/courses_helper.rb",
-		"/Users/jorge/Documents/ruby/cms_override/afi/Gemfile",
-		"/Users/jorge/Documents/ruby/afi/db/migrate/20171227123950_add_content_embedded_app_courses_list.rb",
-		"/Users/jorge/Documents/ruby/cms_themes/app/assets/stylesheets/components/_components.courses.scss",
-		"/Users/jorge/Documents/ruby/cms_themes/app/assets/stylesheets/components/_components.pagination.scss",
-		"/Users/jorge/Documents/ruby/cms_contents/app/models/cms_contents/cms_admin_content_embedded_app.rb",
-		"/Users/jorge/Documents/ruby/afi/app/views/afi/admin/courses/_show_courses_configuration.html.erb",
-		"/Users/jorge/Documents/ruby/afi/app/models/afi/course.rb",
-		"/Users/jorge/Documents/ruby/afi/app/views/afi/admin/courses/_terms_form_tag.html.erb",
-		"/Users/jorge/Documents/ruby/afi/app/view_delegates/afi/course_helper_view_delegate.rb",
-		"/Users/jorge/Documents/ruby/afi/app/managers/afi/course_localizeds_manager.rb",
+		"/Users/jorge/Documents/ruby/afi/app/views/afi/courses/_courses_list.html.erb",
+		"/Users/jorge/Documents/ruby/afi/app/views/afi/articles/_show_index.html.erb",
+		"/Users/jorge/Documents/ruby/afi/app/views/cms_contents/content_localizeds/page/_show.html.erb",
+		"/Users/jorge/Documents/ruby/afi/config/locales/views/courses/es.yml",
+		"/Users/jorge/Documents/ruby/afi/config/locales/views/courses/en.yml",
+		"/Users/jorge/Documents/ruby/cms_contents/app/views/cms_contents/content_localizeds/page/_show.html.erb",
+		"/Users/jorge/Documents/ruby/afi/app/controllers/afi/courses_controller.rb",
+		"/Users/jorge/Documents/ruby/afi/db/migrate/20171120130616_create_table_course_inscriptions.rb",
 		"/Users/jorge/Documents/ruby/afi/app/poros/afi/course_localized_search_criteria.rb",
-		"/Users/jorge/Documents/ruby/afi_maquetacion/cursos.html",
-		"/Users/jorge/Documents/ruby/cms_themes/app/views/afi/kaminari/_first_page.html.erb",
-		"/Users/jorge/Documents/ruby/cms_themes/app/views/afi/kaminari/_gap.html.erb",
-		"/Users/jorge/Documents/ruby/cms_themes/app/views/afi/kaminari/_last_page.html.erb",
-		"/Users/jorge/Documents/ruby/cms_themes/app/views/afi/kaminari/_next_page.html.erb",
-		"/Users/jorge/Documents/ruby/cms_themes/app/views/afi/kaminari/_page.html.erb",
-		"/Users/jorge/Documents/ruby/cms_themes/app/views/afi/kaminari/_prev_page.html.erb",
+		"/Users/jorge/Documents/ruby/afi/app/managers/afi/course_localizeds_manager.rb",
+		"/Users/jorge/Documents/ruby/afi/app/view_delegates/afi/course_helper_view_delegate.rb",
+		"/Users/jorge/Documents/ruby/afi/app/helpers/afi/courses_helper.rb",
+		"/Users/jorge/Documents/ruby/cms_themes/config/initializers/slider_formats.rb",
+		"/Users/jorge/Documents/ruby/afi/app/views/cms_sliders/sliders/_show_default.html.erb",
+		"/Users/jorge/Documents/ruby/rails_base_app/Gemfile",
+		"/Users/jorge/Documents/ruby/cms_theme_spectre_base/app/assets/javascripts/spectre_base.js",
+		"/Users/jorge/Documents/ruby/colegio_graduados_sociales/app/views/colegios/_form_colegio.html.erb",
+		"/Users/jorge/Documents/ruby/afi/app/views/cms_contents/content_search/_show_modal_search_form.html.erb",
+		"/Users/jorge/Documents/ruby/afi/app/views/afi/course_localizeds/_show_testimony.html.erb",
+		"/Users/jorge/Documents/ruby/afi/app/views/afi/admin/articles/_show_articles_home_configuration.html.erb",
+		"/Users/jorge/Documents/ruby/cms_contents/app/managers/cms_contents/content_types_manager.rb",
+		"/Users/jorge/Documents/ruby/afi/app/poros/afi/articles_localized_search_criteria.rb",
+		"/Users/jorge/Documents/ruby/afi/app/helpers/afi/articles_helper.rb",
+		"/Users/jorge/Documents/ruby/afi/app/views/cms_contents/content_localizeds/_content_localized_founded.html.erb",
+		"/Users/jorge/Documents/ruby/afi/app/poros/cms_contents/content_localized_search_criteria.rb",
+		"/Users/jorge/Documents/ruby/cms_themes/app/assets/javascripts/application.js",
+		"/Users/jorge/Documents/ruby/cms_themes/app/assets/stylesheets/components/_components.search.scss",
+		"/Users/jorge/Documents/ruby/afi/app/views/cms_contents/content_localizeds/_list_content_localizeds.html.erb",
+		"/Users/jorge/Documents/ruby/afi/app/decorators/cms_contents/content_localizeds_manager_decorator.rb",
+		"/Users/jorge/Documents/ruby/cms_themes/app/views/afi/articles/kaminari/_page.html.erb",
+		"/Users/jorge/Documents/ruby/cms_contents/app/poros/cms_contents/content_localized_search_criteria.rb",
+		"/Users/jorge/Documents/ruby/afi/app/managers/afi/articles_localizeds_manager.rb",
+		"/Users/jorge/Documents/ruby/afi/app/views/cms_contents/content_search/_show_modal_search_button.html.erb",
+		"/Users/jorge/Documents/ruby/afi_maquetacion/.sass-cache/076239a6a746812c5d38f4b64bb3c685dcd9e7e1/_components.modal.scssc",
+		"/Users/jorge/Documents/ruby/cms_themes/app/assets/stylesheets/components/_components.modal.scss",
+		"/Users/jorge/Documents/ruby/afi/app/views/afi/courses/_search_courses_form.html.erb",
+		"/Users/jorge/Documents/ruby/afi/app/views/afi/articles/_show_articles_home.html.erb",
+		"/Users/jorge/Documents/ruby/afi/app/views/afi/course_localizeds/_show_course.html.erb",
+		"/Users/jorge/Documents/ruby/cms_themes/app/assets/stylesheets/components/_components.carousel.scss",
+		"/Users/jorge/Documents/ruby/afi/app/models/afi/testimony.rb",
+		"/Users/jorge/Documents/ruby/cms_contents/app/helpers/cms_contents/breadcrumbs_helper.rb",
+		"/Users/jorge/Documents/ruby/cms_contents/app/views/cms_contents/admin/content_localizeds/edit_content.html.erb",
+		"/Users/jorge/Documents/ruby/cms_contents/app/views/cms_contents/content_search/_show_modal_search_button.html.erb",
+		"/Users/jorge/Documents/ruby/afi/app/views/cms_contents/contents_search/_show_modal_search_form.html.erb",
+		"/Users/jorge/Documents/ruby/cms_contents/app/views/cms_contents/content_search/_show_modal_search_form.html.erb",
+		"/Users/jorge/Documents/ruby/afi/app/helpers/afi/application_helper.rb",
+		"/Users/jorge/Documents/ruby/cms_admin_theme/app/assets/javascripts/own_plugins/editable_content_ckeditor.js",
+		"/Users/jorge/Documents/ruby/afi/db/migrate/20180130095946_seed_taxonomy_terms_afi_english.rb",
+		"/Users/jorge/Documents/ruby/afi/app/models/afi/testimony_localized.rb",
+		"/Users/jorge/Documents/ruby/afi/db/migrate/20180129160419_delete_all_testimonies_and_reasons.rb",
+		"/Users/jorge/Documents/ruby/cms_contents/app/views/cms_contents/admin/cms_admin_content_embedded_apps/check_configuration.js.erb",
+		"/Users/jorge/Documents/ruby/afi_maquetacion/home.html",
+		"/Users/jorge/Documents/ruby/afi/app/models/afi/course.rb",
 		"/Users/jorge/Documents/ruby/afi/app/models/afi/course_localized.rb",
 		"/Users/jorge/Documents/ruby/cms_taxonomies/app/models/cms_taxonomies/concerns/has_taxonomy.rb",
-		"/Users/jorge/Documents/ruby/cms_themes/app/views/layouts/application.html.erb",
-		"/Users/jorge/Documents/ruby/cms_themes/app/assets/stylesheets/components/_components.nav.scss",
-		"/Users/jorge/Documents/ruby/cms_themes/app/assets/stylesheets/components/_components.hamburguer.scss",
-		"/Users/jorge/Documents/ruby/cms_themes/app/assets/stylesheets/settings/_settings.base.scss",
-		"/Users/jorge/Documents/nodejs/temp_e_2/imsmanifest.xml",
-		"/Users/jorge/Documents/ruby/forms_builder/app/views/forms_builder/forms/_form_privacy_policy_modal.haml",
-		"/Users/jorge/Documents/ruby/colegio_graduados_sociales/config/secrets.yml",
+		"/Users/jorge/Documents/ruby/cms_themes/app/assets/stylesheets/components/_components.mmenu.scss",
+		"/Users/jorge/Documents/ruby/afi/app/views/cms_navigation/navs/_show_nav.html.erb",
+		"/Users/jorge/Documents/ruby/afi/app/views/cms_navigation/navs/_show_nav_items.html.erb",
+		"/Users/jorge/Documents/ruby/afi/app/views/cms_navigation/admin/navs/_form_nav_item.html.erb",
+		"/Users/jorge/Documents/ruby/afi/config/locales/models/content/es.yml",
+		"/Users/jorge/Documents/ruby/cms_navigation/db/migrate/20180125151425_drop_nav_items_localizeds_table.rb",
+		"/Users/jorge/Documents/ruby/cms_navigation/db/migrate/20180125091002_add_navigable_to_nav_items.rb",
+		"/Users/jorge/Documents/ruby/afi/db/migrate/20180124114428_add_column_to_nav_item_localizeds.rb",
+		"/Users/jorge/Documents/ruby/cms_themes/app/assets/stylesheets/components/_components.search.news.scss",
+		"/Users/jorge/Documents/ruby/afi/app/views/cms_navigation/navs/_show_assistant_nav.html.erb",
+		"/Users/jorge/Documents/ruby/cms_navigation/app/views/cms_navigation/admin/navs/edit_nav_item.html.erb",
+		"/Users/jorge/Documents/ruby/afi/db/migrate/20180124114427_add_column_to_nav_item_localizeds.rb",
+		"/Users/jorge/Documents/ruby/afi/app/views/afi/courses/_show_course_localized.html.erb",
+		"/Users/jorge/Documents/ruby/afi/app/controllers/afi/course_localizeds_controller.rb",
+		"/Users/jorge/Documents/ruby/afi/app/models/afi/price.rb",
+		"/Users/jorge/Documents/ruby/afi/config/locales/controllers/courses/es.yml",
+		"/Users/jorge/Documents/ruby/afi/app/views/afi/admin/courses/_form.html.erb",
+		"/Users/jorge/Documents/ruby/cms_admin_theme/app/assets/stylesheets/components/_components.admin_forms.scss",
+		"/Users/jorge/Documents/ruby/cms_admin_theme/app/assets/javascripts/admin.js",
+		"/Users/jorge/Documents/ruby/afi/app/views/afi/admin/courses/_price_fields.html.erb",
+		"/Users/jorge/Documents/ruby/afi/app/views/afi/admin/courses/_reason_fields.html.erb",
+		"/Users/jorge/Documents/ruby/afi/app/controllers/afi/admin/courses_controller.rb",
+		"/Users/jorge/Documents/ruby/afi/app/view_delegates/afi/course_view_delegate.rb",
+		"/Users/jorge/Documents/ruby/afi/app/managers/afi/courses_manager.rb",
+		"/Users/jorge/Documents/ruby/afi/app/poros/afi/course_search_criteria.rb",
+		"/Users/jorge/Documents/ruby/cms_admin_theme/app/assets/stylesheets/admin_edit.css.scss",
+		"/Users/jorge/Documents/ruby/afi/db/migrate/20180110061020_seed_afi.rb",
+		"/Users/jorge/Documents/ruby/afi/db/migrate/20180123153549_delete_course_id_from_afi_prices.rb",
+		"/Users/jorge/Documents/ruby/afi/app/views/afi/courses/filter.js.erb",
+		"/Users/jorge/Documents/ruby/cms_themes/app/assets/stylesheets/components/_components.main.scss",
+		"/Users/jorge/Documents/ruby/rails_base_app/app/controllers/application_controller.rb",
+		"/Users/jorge/Documents/ruby/afi/app/controllers/afi/course_inscriptions_controller.rb",
 		"/Users/jorge/Documents/ruby/afi/config/routes.rb",
-		"/Users/jorge/Documents/nodejs/temp_e_2/package.json",
-		"/Users/jorge/Documents/nodejs/temp_e_2/icons/ico/browserconfig.xml",
-		"/Users/jorge/Documents/nodejs/temp_e_2/icons/ico/manifest.json",
-		"/Users/jorge/Documents/nodejs/temp_e_2/main.js",
-		"/Users/jorge/Documents/nodejs/temp_e_2/node_modules/electron-builder/out/platformPackager.d.ts",
-		"/Users/jorge/Documents/nodejs/temp_e_2/indice_externo.json",
-		"/Users/jorge/Documents/ruby/rails_base_app/app/models/site.rb",
-		"/Users/jorge/Documents/ruby/cms_contents/db/migrate/20171214161656_add_allow_forms_to_content_types.rb",
-		"/Users/jorge/Documents/ruby/rails_base_app/config/database.yml",
-		"/Users/jorge/Documents/ruby/cms_theme_configurator/app/view_delegates/cms_theme_configurator/theme_configuration_view_delegate.rb",
-		"/Users/jorge/Documents/ruby/colegio_graduados_sociales/db/migrate/20171221124444_import_hist_cargos.rb",
-		"/Users/jorge/Documents/ruby/colegio_graduados_sociales/app/models/import_history.rb",
-		"/Users/jorge/Documents/ruby/cms_theme_configurator/app/models/cms_theme_configurator/theme_configuration.rb",
-		"/Users/jorge/Documents/ruby/cms_theme_configurator/app/controllers/cms_theme_configurator/admin/theme_configurations_controller.rb",
+		"/Users/jorge/Documents/ruby/afi/app/views/afi/courses/_show_course_tab.html.erb",
+		"/Users/jorge/Documents/ruby/afi_maquetacion/assets/javascripts/application.js",
+		"/Users/jorge/Documents/ruby/cms_authorization/lib/authorization/base_policy.rb",
+		"/Users/jorge/Documents/ruby/cms_authorization/lib/authorization.rb",
+		"/Users/jorge/Documents/ruby/cms_redirections/app/managers/cms_redirections/seo_cache_manager.rb",
+		"/Users/jorge/Documents/ruby/afi/app/controllers/afi/admin/discounts_controller.rb",
+		"/Users/jorge/Documents/ruby/afi/app/controllers/afi/admin/testimonies_controller.rb",
+		"/Users/jorge/Documents/ruby/afi/app/controllers/afi/admin/prices_controller.rb",
+		"/Users/jorge/Documents/ruby/afi/app/controllers/afi/admin/cloisters_controller.rb",
+		"/Users/jorge/Documents/ruby/cms_authorization/app/controllers/cms_authorization/sessions_controller.rb",
+		"/Users/jorge/Documents/ruby/cms_redirections/app/controllers/cms_redirections/admin/redirections_controller.rb",
+		"/Users/jorge/Documents/ruby/afi/app/controllers/afi/application_controller.rb",
+		"/Users/jorge/Documents/ruby/cms_authorization/app/models/ability.rb",
+		"/Users/jorge/Documents/ruby/afi/db/migrate/20180110162819_add_date_article_in_content_localized.rb",
+		"/Users/jorge/Documents/ruby/afi/app/views/shared/_show_language_selector.html.erb",
+		"/Users/jorge/Documents/ruby/afi/app/views/afi/shared/_show_language_selector.html.erb",
+		"/Users/jorge/Documents/ruby/rails_base_app/app/helpers/locales_helper.rb",
+		"/Users/jorge/Documents/ruby/cms_contents/app/models/cms_contents/content.rb",
 		"/Users/jorge/Documents/ruby/cms_navigation/app/helpers/cms_navigation/navs_helper.rb",
-		"/Users/jorge/Documents/ruby/colegio_graduados_sociales/.gitignore",
-		"/Users/jorge/Documents/ruby/liberbank/liberbank-comercial/app/assets/stylesheets/custom_home/_colectivos.scss",
-		"/Users/jorge/Documents/ruby/liberbank/ccm-comercial/app/assets/stylesheets/custom_home/_colectivos.scss",
-		"/Users/jorge/Documents/ruby/liberbank/liberbank-comercial/db/migrate/20171124132907_fix_investment_funds_template.rb",
-		"/Users/jorge/Documents/ruby/liberbank/ccm-comercial/db/migrate/20171124140507_fix_product_images_relationships.rb",
-		"/Users/jorge/Documents/ruby/liberbank/ccm-comercial/app/views/wilson_cms/modules/custom_agro_bands/custom_agro_client_bands/_center_band.html.erb",
-		"/Users/jorge/Documents/ruby/liberbank/ccm-comercial/app/views/wilson_cms/modules/custom_agro_bands/custom_agro_client_bands/_center_bottom_band.html.erb",
-		"/Users/jorge/Documents/ruby/liberbank/ccm-comercial/app/views/wilson_cms/modules/custom_agro_bands/custom_agro_client_bands/_header_band.html.erb",
-		"/Users/jorge/Documents/ruby/liberbank/ccm-comercial/app/views/wilson_cms/modules/custom_agro_bands/custom_agro_client_bands/_top_band.html.erb",
-		"/Users/jorge/Documents/ruby/liberbank/ccm-comercial/app/views/wilson_cms/modules/custom_agro_bands/custom_agro_client_bands/_top_blocks_band.html.erb",
-		"/Users/jorge/Documents/ruby/liberbank/ccm-comercial/app/views/wilson_cms/modules/custom_agro_bands/custom_agro_no_client_bands/_center_band.html.erb",
-		"/Users/jorge/Documents/ruby/liberbank/ccm-comercial/app/views/wilson_cms/modules/custom_agro_bands/custom_agro_no_client_bands/_center_bottom_band.html.erb",
-		"/Users/jorge/Documents/ruby/liberbank/ccm-comercial/app/views/wilson_cms/modules/custom_agro_bands/custom_agro_no_client_bands/_header_band.html.erb",
-		"/Users/jorge/Documents/ruby/liberbank/ccm-comercial/app/views/wilson_cms/modules/custom_agro_bands/custom_agro_no_client_bands/_top_band.html.erb",
-		"/Users/jorge/Documents/ruby/liberbank/ccm-comercial/app/views/wilson_cms/modules/custom_business_bands/custom_business_client_bands/_center_band.html.erb",
-		"/Users/jorge/Documents/ruby/liberbank/ccm-comercial/app/views/wilson_cms/modules/custom_business_bands/custom_business_client_bands/_center_bottom_band.html.erb",
-		"/Users/jorge/Documents/ruby/liberbank/ccm-comercial/app/views/wilson_cms/modules/custom_business_bands/custom_business_client_bands/_header_band.html.erb",
-		"/Users/jorge/Documents/ruby/liberbank/ccm-comercial/app/views/wilson_cms/modules/custom_business_bands/custom_business_client_bands/_top_band.html.erb",
-		"/Users/jorge/Documents/ruby/liberbank/ccm-comercial/app/views/wilson_cms/modules/custom_business_bands/custom_business_no_client_bands/_center_band.html.erb",
-		"/Users/jorge/Documents/ruby/liberbank/ccm-comercial/app/views/wilson_cms/modules/custom_business_bands/custom_business_no_client_bands/_center_bottom_band.html.erb",
-		"/Users/jorge/Documents/ruby/liberbank/ccm-comercial/app/views/wilson_cms/modules/custom_business_bands/custom_business_no_client_bands/_header_band.html.erb",
-		"/Users/jorge/Documents/ruby/liberbank/ccm-comercial/app/views/wilson_cms/modules/custom_business_bands/custom_business_no_client_bands/_top_band.html.erb",
-		"/Users/jorge/Documents/ruby/liberbank/ccm-comercial/app/views/wilson_cms/modules/custom_enterprise_bands/_center_band.html.erb",
-		"/Users/jorge/Documents/ruby/liberbank/ccm-comercial/app/views/wilson_cms/modules/custom_enterprise_bands/_center_bottom_band.html.erb",
-		"/Users/jorge/Documents/ruby/liberbank/ccm-comercial/app/views/wilson_cms/modules/custom_enterprise_bands/_header_band.html.erb",
-		"/Users/jorge/Documents/ruby/liberbank/ccm-comercial/app/views/wilson_cms/modules/custom_enterprise_bands/_top_band.html.erb",
-		"/Users/jorge/Documents/ruby/liberbank/ccm-comercial/app/views/wilson_cms/modules/custom_negocios_bands/custom_negocios_client_bands/_center_band.html.erb",
-		"/Users/jorge/Documents/ruby/liberbank/ccm-comercial/app/views/wilson_cms/modules/custom_negocios_bands/custom_negocios_client_bands/_center_bottom_band.html.erb",
-		"/Users/jorge/Documents/ruby/liberbank/ccm-comercial/app/views/wilson_cms/modules/custom_negocios_bands/custom_negocios_client_bands/_header_band.html.erb",
-		"/Users/jorge/Documents/ruby/liberbank/ccm-comercial/app/views/wilson_cms/modules/custom_negocios_bands/custom_negocios_client_bands/_top_band.html.erb",
-		"/Users/jorge/Documents/ruby/liberbank/ccm-comercial/app/views/wilson_cms/modules/custom_negocios_bands/custom_negocios_client_bands/_top_blocks_band.html.erb",
-		"/Users/jorge/Documents/ruby/liberbank/ccm-comercial/app/views/wilson_cms/modules/custom_negocios_bands/custom_negocios_no_client_bands/_center_band.html.erb",
-		"/Users/jorge/Documents/ruby/liberbank/ccm-comercial/app/views/wilson_cms/modules/custom_negocios_bands/custom_negocios_no_client_bands/_center_bottom_band.html.erb",
-		"/Users/jorge/Documents/ruby/liberbank/ccm-comercial/app/views/wilson_cms/modules/custom_negocios_bands/custom_negocios_no_client_bands/_header_band.html.erb",
-		"/Users/jorge/Documents/ruby/liberbank/ccm-comercial/app/views/wilson_cms/modules/custom_negocios_bands/custom_negocios_no_client_bands/_top_band.html.erb",
-		"/Users/jorge/Documents/ruby/liberbank/ccm-comercial/app/views/wilson_cms/modules/custom_negocios_bands/custom_negocios_no_client_bands/_top_blocks_band.html.erb",
-		"/Users/jorge/Documents/ruby/liberbank/liberbank-comercial/app/views/wilson_cms_products/_main_blocks.html.erb",
-		"/Users/jorge/Documents/ruby/liberbank/liberbank-comercial/app/assets/stylesheets/custom_home/_main.scss",
-		"/Users/jorge/Documents/ruby/liberbank/ccm-comercial/app/assets/stylesheets/custom_home/_main.scss",
-		"/Users/jorge/Documents/ruby/liberbank/ccm-comercial/app/decorators/wilson_cms/blocks/faldon_footer_block_decorator.rb",
-		"/Users/jorge/Documents/ruby/liberbank/ccm-comercial/app/views/wilson_cms/modules/_products_by_category_block.html.erb",
-		"/Users/jorge/Documents/ruby/liberbank/liberbank-comercial/app/views/wilson_cms/layouts/pages/grey_menu_product.html.erb",
-		"/Users/jorge/Documents/ruby/liberbank/ccm-comercial/app/views/wilson_cms/layouts/pages/single_column.html.erb",
-		"/Users/jorge/Documents/ruby/liberbank/ccm-comercial/app/views/wilson_cms_products/new_design/_customer_care.html.erb",
-		"/Users/jorge/Documents/ruby/liberbank/ccm-comercial/app/controllers/click_to_call_controller.rb",
-		"/Users/jorge/Documents/ruby/liberbank/ccm-comercial/app/models/click_to_call_struct.rb",
-		"/Users/jorge/Documents/ruby/liberbank/liberbank-comercial/app/decorators/wilson_cms/blocks/faldon_footer_block_decorator.rb",
-		"/Users/jorge/Documents/ruby/liberbank/liberbank-comercial/app/views/wilson_cms/modules/_three_values_liberbank_block.html.erb",
-		"/Users/jorge/Documents/ruby/liberbank/ccm-comercial/app/views/wilson_cms/modules/_promotion_footer.html.erb",
-		"/Users/jorge/Documents/ruby/liberbank/ccm-comercial/db/migrate/20171121123158_create_wilson_cms_products_distributive_image_components.wilson_cms_products.rb",
-		"/Users/jorge/Documents/ruby/liberbank/ccm-comercial/config/initializers/settings.rb",
-		"/Users/jorge/Documents/ruby/liberbank/liberbank-comercial/app/views/wilson_cms/modules/_products_by_category_block.html.erb",
-		"/Users/jorge/Documents/ruby/liberbank/liberbank-comercial/app/models/wilson_cms/blocks/faldon_footer_block.rb",
-		"/Users/jorge/Documents/ruby/liberbank/liberbank-comercial/app/views/wilson_cms/modules/custom_negocios_bands/custom_negocios_client_bands/_center_bottom_band.html.erb",
-		"/Users/jorge/Documents/ruby/liberbank/liberbank-comercial/app/views/wilson_cms/modules/custom_negocios_bands/custom_negocios_client_bands/_top_blocks_band.html.erb",
-		"/Users/jorge/Documents/ruby/liberbank/ccm-comercial/app/views/wilson_cms_products/_main_blocks.html.erb",
-		"/Users/jorge/Documents/ruby/liberbank/ccm-comercial/db/migrate/20171121123159_copy_products_advantages_image_to_distributive_image.wilson_cms_products.rb",
-		"/Users/jorge/Documents/ruby/liberbank/ccm-comercial/Gemfile",
-		"/Users/jorge/Documents/ruby/liberbank/liberbank-comercial/db/migrate/20171123123723_asign_template_id_to_all_products.rb",
-		"/Users/jorge/Documents/ruby/liberbank/wilson_cms_products/app/models/wilson_cms_products/product.rb",
-		"/Users/jorge/Documents/ruby/liberbank/liberbank-comercial/app/views/wilson_cms_products/_header_blocks.html.erb",
-		"/Users/jorge/Documents/ruby/liberbank/ccm-comercial/app/views/wilson_cms_products/_header_blocks.html.erb",
-		"/Users/jorge/Downloads/dumps_bbdd/lbb_comercial_prod.20171113.sql",
-		"/Users/jorge/Documents/ruby/liberbank/liberbank-comercial/db/migrate/20171123122427_save_all_products.rb"
+		"/Users/jorge/Documents/ruby/afi/app/view_dtos/afi/course_view_dto.rb",
+		"/Users/jorge/Documents/ruby/cms_themes/app/assets/stylesheets/application.scss",
+		"/Users/jorge/Documents/ruby/cms_taxonomies/app/helpers/cms_taxonomies/taxonomies_helper.rb",
+		"/Users/jorge/Documents/ruby/cms_taxonomies/app/views/cms_taxonomies/admin/taxonomies/_terms_form.html.erb",
+		"/Users/jorge/Documents/ruby/cms_themes/app/assets/stylesheets/main.scss",
+		"/Users/jorge/Documents/ruby/cms_admin_theme/app/assets/stylesheets/components/_components.taxonomies.scss",
+		"/Users/jorge/Documents/ruby/cms_themes/app/assets/stylesheets/components/_components.taxonomy.scss",
+		"/Users/jorge/Documents/ruby/afi/db/migrate/20180118111431_add_cms_configuration_courses_form_key.rb",
+		"/Users/jorge/Documents/ruby/afi/app/views/afi/courses/_show_courses_filters.html.erb",
+		"/Users/jorge/Documents/ruby/cms_configurations/app/models/cms_configurations/cms_configuration.rb",
+		"/Users/jorge/Documents/ruby/colegio_graduados_sociales/app/views/colegiados/_nuevo_documento_colegiado.html.erb"
 	],
 	"find":
 	{
-		"height": 43.0
+		"height": 30.0
 	},
 	"find_in_files":
 	{
-		"height": 110.0,
+		"height": 113.0,
 		"where_history":
 		[
-			"/Users/jorge/Documents/ruby/cms_contents",
-			"/Users/jorge/Documents/ruby/cms_redirections",
-			"/Users/jorge/Documents/ruby/rails_base_app",
-			"/Users/jorge/Documents/ruby/afi",
-			"/Users/jorge/Documents/ruby/cms_authorization",
-			"/Users/jorge/Documents/ruby/cms_admin",
-			"/Users/jorge/Documents/ruby/afi",
-			"/Users/jorge/Documents/ruby/cms_theme_spectre_base/app/assets/javascripts",
-			"/Users/jorge/Documents/ruby/cms_themes",
-			"/Users/jorge/Documents/ruby/forms_builder/app",
-			"/Users/jorge/Documents/ruby/rails_base_app",
-			"/Users/jorge/Documents/ruby/cms_themes/app/assets/javascripts",
-			"/Users/jorge/Documents/nodejs",
-			"/Users/jorge/Documents/ruby/cms_navigation",
-			"/Users/jorge/Documents/ruby/cms_themes",
-			"/Users/jorge/Documents/ruby/cms_configurations",
-			"/Users/jorge/Documents/ruby/",
-			"/Users/jorge/Documents/ruby/liberbank/ccm-comercial/app/views/wilson_cms/modules",
-			"/Users/jorge/Documents/ruby/liberbank/liberbank-comercial/app/views/wilson_cms/modules",
-			"/Users/jorge/Documents/ruby/liberbank/liberbank-comercial/app/views/wilson_cms",
-			"/Users/jorge/Documents/ruby/liberbank/liberbank-comercial",
-			"/Users/jorge/Documents/ruby/liberbank/liberbank-comercial/app",
-			"/Users/jorge/Documents/ruby/liberbank/liberbank-comercial",
-			"/Users/jorge/Documents/ruby/liberbank/liberbank-comercial/app"
 		]
 	},
 	"find_state":
@@ -643,42 +458,6 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"custom_routes_attributes",
-			"byebug",
-			"authorize_current_user",
-			"check_course",
-			"byebug",
-			"hidden",
-			"paginate",
-			".page",
-			"per_page",
-			"paginate",
-			"course_localized_search_criteria",
-			"term",
-			"tems",
-			"date",
-			"git@github.com:Talento/cms_theme_spectre_base.git",
-			"date",
-			"datepicker",
-			"close",
-			"spectre",
-			"get_associated_courses",
-			"ico_eme.icns",
-			"application",
-			"theme_configuration",
-			"show_main_theme_nav ",
-			"def show_main_theme_nav",
-			"show_main_theme_nav ",
-			"/eyn/",
-			"50",
-			"fondo_fich",
-			".image",
-			"/eyn/",
-			"/empresas-y-negocios/",
-			"redirect_to_alt_page",
-			"check_for_cookies_configuration",
-			"colectivo_en",
-			"colectivo-en"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -686,7 +465,6 @@
 		"regex": false,
 		"replace_history":
 		[
-			"/empresas-y-negocios/"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -697,766 +475,8 @@
 	"groups":
 	[
 		{
-			"selected": 18,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/Users/jorge/Documents/ruby/afi/app/views/afi/admin/courses/_show_courses_configuration.html.erb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1325,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								358,
-								358
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Rails/HTML (Rails).sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 22,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/Users/jorge/Documents/ruby/afi/app/views/afi/courses/_show_courses_filters.html.erb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1874,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1256,
-								1256
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Rails/HTML (Rails).sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 76.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 21,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/Users/jorge/Documents/ruby/cms_themes/app/views/afi/kaminari/_next_page.html.erb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 484,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								475,
-								475
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Rails/HTML (Rails).sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 20,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/Users/jorge/Documents/ruby/cms_themes/app/assets/stylesheets/main.css.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 72,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								69,
-								69
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 23,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "/Users/jorge/Documents/ruby/afi/app/helpers/afi/courses_helper.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3020,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								805,
-								805
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Ruby/Ruby.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 10,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "/Users/jorge/Documents/ruby/afi/app/views/afi/courses/_show_course_localized.html.erb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1215,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								975,
-								975
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Rails/HTML (Rails).sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "/Users/jorge/Documents/ruby/afi/app/views/afi/course_localizeds/_show.html.erb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 19403,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1297,
-								1297
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Rails/HTML (Rails).sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 9,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "/Users/jorge/Documents/ruby/rails_base_app/app/controllers/root/sites_controller.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3378,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								175,
-								175
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Ruby/Ruby.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 11,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "/Users/jorge/Documents/ruby/rails_base_app/app/controllers/root/templates_controller.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6549,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								193,
-								193
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Ruby/Ruby.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 12,
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "/Users/jorge/Documents/ruby/rails_base_app/app/controllers/application_controller.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6893,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1085,
-								1085
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Ruby/Ruby.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 315.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 13,
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "/Users/jorge/Documents/ruby/afi/config/locales/controllers/courses/es.yml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1077,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1076,
-								1015
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/YAML/YAML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 14,
-					"type": "text"
-				},
-				{
-					"buffer": 11,
-					"file": "/Users/jorge/Documents/ruby/afi/app/models/afi/course_localized.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2887,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2196,
-								2196
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Ruby/Ruby.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 908.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 12,
-					"file": "/Users/jorge/Documents/ruby/afi/app/views/cms_navigation/navs/_show_nav_items.html.erb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 702,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								79,
-								79
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Rails/HTML (Rails).sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 13,
-					"file": "/Users/jorge/Documents/ruby/afi/app/views/cms_navigation/navs/_show_nav.html.erb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 560,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								514,
-								514
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Rails/HTML (Rails).sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 14,
-					"file": "/Users/jorge/Documents/ruby/afi_maquetacion/assets/stylesheets/components/_components.nav.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 7437,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1320,
-								1327
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 756.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 15,
-					"file": "/Users/jorge/Documents/ruby/cms_themes/app/assets/stylesheets/components/_components.nav.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 7324,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								996,
-								996
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 754.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 16,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 530,
-						"regions":
-						{
-							"match":
-							{
-								"flags": 112,
-								"regions":
-								[
-									[
-										289,
-										313
-									]
-								],
-								"scope": ""
-							}
-						},
-						"selection":
-						[
-							[
-								298,
-								298
-							]
-						],
-						"settings":
-						{
-							"detect_indentation": false,
-							"git_gutter_is_enabled": false,
-							"line_numbers": false,
-							"output_tag": 1,
-							"result_base_dir": "",
-							"result_file_regex": "^([^ \t].*):$",
-							"result_line_regex": "^ +([0-9]+):",
-							"scroll_past_end": true,
-							"syntax": "Packages/Default/Find Results.hidden-tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 17,
-					"file": "/Users/jorge/Documents/ruby/cms_contents/app/models/cms_contents/content.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3296,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2577,
-								2577
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Ruby/Ruby.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 18,
-					"file": "/Users/jorge/Documents/ruby/afi/app/controllers/afi/course_localizeds_controller.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 693,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								362,
-								362
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Ruby/Ruby.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 19,
-					"file": "/Users/jorge/Documents/ruby/afi/app/view_delegates/afi/course_helper_view_delegate.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1591,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								713,
-								713
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Ruby/Ruby.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 16,
-					"type": "text"
-				},
-				{
-					"buffer": 20,
-					"file": "/Users/jorge/Documents/ruby/afi/app/managers/afi/course_localizeds_manager.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 893,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								92,
-								92
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Ruby/Ruby.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 17,
-					"type": "text"
-				},
-				{
-					"buffer": 21,
-					"file": "/Users/jorge/Documents/ruby/afi/app/poros/afi/course_localized_search_criteria.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2789,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1048,
-								1048
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Ruby/Ruby.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 15,
-					"type": "text"
-				},
-				{
-					"buffer": 22,
-					"file": "/Users/jorge/Documents/ruby/cms_taxonomies/app/models/cms_taxonomies/taxonomy.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4819,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Ruby/Ruby.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 18,
-					"type": "text"
-				},
-				{
-					"buffer": 23,
-					"file": "/Users/jorge/Documents/ruby/afi/app/view_dtos/afi/filter_view_dto.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 374,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								363,
-								363
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Ruby/Ruby.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 19,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -1466,7 +486,7 @@
 	},
 	"input":
 	{
-		"height": 42.0
+		"height": 43.0
 	},
 	"layout":
 	{
@@ -1493,7 +513,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 27.0
+		"height": 35.0
 	},
 	"output.find_results":
 	{
@@ -1517,88 +537,216 @@
 		"selected_items":
 		[
 			[
-				"taxonom",
-				"cms_taxonomies/app/models/cms_taxonomies/taxonomy.rb"
+				"components.nav.scss",
+				"cms_themes/app/assets/stylesheets/components/_components.nav.scss"
 			],
 			[
-				"taxono",
-				"cms_taxonomies/app/models/cms_taxonomies/taxonomy.rb"
+				"/_components.nav.scss",
+				"afi_maquetacion/assets/stylesheets/components/_components.nav.scss"
 			],
 			[
-				"cms_admin_content_embedded_app",
-				"cms_contents/app/models/cms_contents/cms_admin_content_embedded_app.rb"
+				"content_type",
+				"cms_contents/app/models/cms_contents/content_type.rb"
 			],
 			[
-				"20171227123950_add_content_embedded_app_courses_list.rb",
-				"afi/db/migrate/20171227123950_add_content_embedded_app_courses_list.rb"
+				"content_loca",
+				"cms_contents/app/models/cms_contents/content_localized.rb"
 			],
 			[
-				"courselocalized",
+				"courses_controller.rb",
+				"afi/app/controllers/afi/courses_controller.rb"
+			],
+			[
+				"ckedio",
+				"cms_admin_theme/app/assets/javascripts/own_plugins/editable_content_ckeditor.js"
+			],
+			[
+				"formcolegio.",
+				"colegio_graduados_sociales/app/views/colegios/_form_colegio.html.erb"
+			],
+			[
+				"_components.modal.scss",
+				"cms_themes/app/assets/stylesheets/components/_components.modal.scss"
+			],
+			[
+				"show_articles_home",
+				"afi/app/views/afi/articles/_show_articles_home.html.erb"
+			],
+			[
+				"show_articles_home_configuration",
+				"afi/app/views/afi/admin/articles/_show_articles_home_configuration.html.erb"
+			],
+			[
+				"show_modal_search_form",
+				"cms_contents/app/views/cms_contents/content_search/_show_modal_search_form.html.erb"
+			],
+			[
+				"show_modal_search_button",
+				"cms_contents/app/views/cms_contents/content_search/_show_modal_search_button.html.erb"
+			],
+			[
+				"20180129160419_delete_all_testimonies_and_reasons.rb",
+				"afi/db/migrate/20180129160419_delete_all_testimonies_and_reasons.rb"
+			],
+			[
+				"ckeditor.js",
+				"cms_admin_theme/app/assets/javascripts/own_plugins/editable_content_ckeditor.js"
+			],
+			[
+				"show_event.",
+				"afi/app/views/afi/course_localizeds/show_event.html.erb"
+			],
+			[
+				"ckedi",
+				"cms_admin_theme/app/assets/javascripts/own_plugins/editable_content_ckeditor.js"
+			],
+			[
+				"course.rb",
+				"afi/app/models/afi/course.rb"
+			],
+			[
+				"courseloca",
 				"afi/app/models/afi/course_localized.rb"
 			],
 			[
-				"course",
-				"afi/app/models/afi/course.rb"
+				"20180124114427_add_column_to_nav_item_localizeds.rb",
+				"afi/db/migrate/20180124114427_add_column_to_nav_item_localizeds.rb"
+			],
+			[
+				"price.rb",
+				"afi/app/models/afi/price.rb"
+			],
+			[
+				"courses",
+				"afi/app/controllers/afi/admin/courses_controller.rb"
 			],
 			[
 				"course_loca",
 				"afi/app/models/afi/course_localized.rb"
 			],
 			[
-				"platformpackager.ts",
-				"nodejs/temp_e_2/node_modules/electron-builder/out/platformPackager.d.ts"
+				"search",
+				"cms_contents/app/views/cms_contents/content_localizeds/search.html.erb"
 			],
 			[
-				"site.rb",
-				"rails_base_app/app/models/site.rb"
+				"localeshel",
+				"rails_base_app/app/helpers/locales_helper.rb"
 			],
 			[
-				"click",
-				"ccm-comercial/app/models/click_to_call_struct.rb"
+				"navshelper",
+				"cms_navigation/app/helpers/cms_navigation/navs_helper.rb"
 			],
 			[
-				"settings",
-				"ccm-comercial/config/initializers/settings.rb"
+				"show_course",
+				"afi/app/views/afi/course_localizeds/_show_course.html.erb"
 			],
 			[
-				"faldonfooterblockdecor",
-				"liberbank-comercial/app/decorators/wilson_cms/blocks/faldon_footer_block_decorator.rb"
+				"courseviewdele",
+				"afi/app/view_delegates/afi/course_view_delegate.rb"
 			],
 			[
-				"faldonfooter",
-				"liberbank-comercial/app/models/wilson_cms/blocks/faldon_footer_block.rb"
+				"content",
+				"cms_contents/app/models/cms_contents/content.rb"
 			],
 			[
-				"main.sc",
-				"ccm-comercial/app/assets/stylesheets/custom_home/_main.scss"
+				"courseviewde",
+				"afi/app/view_delegates/afi/course_view_delegate.rb"
 			],
 			[
-				"main.scss",
-				"liberbank-comercial/app/assets/stylesheets/custom_home/_main.scss"
+				"termsform.html",
+				"cms_taxonomies/app/views/cms_taxonomies/admin/taxonomies/_terms_form.html.erb"
 			],
 			[
-				"colectivos.scss",
-				"liberbank-comercial/app/assets/stylesheets/custom_home/_colectivos.scss"
+				"terms_form",
+				"cms_taxonomies/app/views/cms_taxonomies/admin/taxonomies/_terms_form.html.erb"
 			],
 			[
-				"fixinvest",
-				"liberbank-comercial/db/migrate/20171124132905_fix_investment_funds_template.rb"
+				"cms_confi",
+				"cms_configurations/app/models/cms_configurations/cms_configuration.rb"
 			],
 			[
-				"cole",
-				"ccm-comercial/app/assets/stylesheets/custom_home/_colectivos.scss"
+				"showcourse.",
+				"afi/app/views/afi/course_localizeds/_show_course.html.erb"
 			],
 			[
-				"product.rb",
-				"wilson_cms_products/app/models/wilson_cms_products/product.rb"
+				"courseviewdel",
+				"afi/app/view_delegates/afi/course_view_delegate.rb"
 			],
 			[
-				"save",
-				"liberbank-comercial/db/migrate/20171123122427_save_all_products.rb"
+				"dowload",
+				"colegio_graduados_sociales/app/controllers/downloads_controller.rb"
 			],
 			[
-				"saveallp",
-				"ccm-comercial/db/migrate/20171123114044_save_all_products.rb"
+				"showcour",
+				"afi/app/views/afi/courses/_show_course_localized.html.erb"
+			],
+			[
+				"course_helper",
+				"afi/app/view_delegates/afi/course_helper_view_delegate.rb"
+			],
+			[
+				"greymenupro",
+				"liberbank/ccm-comercial/app/views/wilson_cms/layouts/pages/grey_menu_product.html.erb"
+			],
+			[
+				"grey_menu_pro",
+				"liberbank/liberbank-comercial/app/views/wilson_cms/layouts/pages/grey_menu_product.html.erb"
+			],
+			[
+				"config.r",
+				"rails_base_app/config.ru"
+			],
+			[
+				"coursehelpervie",
+				"afi/app/view_delegates/afi/course_helper_view_delegate.rb"
+			],
+			[
+				"course_localized_search_criteria.rb",
+				"afi/app/poros/afi/course_localized_search_criteria.rb"
+			],
+			[
+				"coursehelperviewde",
+				"afi/app/view_delegates/afi/course_helper_view_delegate.rb"
+			],
+			[
+				"course_locali",
+				"afi/app/models/afi/course_localized.rb"
+			],
+			[
+				"courselocalizedsear",
+				"afi/app/poros/afi/course_localized_search_criteria.rb"
+			],
+			[
+				"routes",
+				"mi_shop/config/routes.rb"
+			],
+			[
+				"usercontr",
+				"spree/backend/app/controllers/spree/admin/users_controller.rb"
+			],
+			[
+				"ordercontents",
+				"spree/core/app/models/spree/order_contents.rb"
+			],
+			[
+				"order.rb",
+				"spree/core/app/models/spree/order.rb"
+			],
+			[
+				"variant",
+				"spree/sample/db/samples/variants.rb"
+			],
+			[
+				"",
+				"spree/frontend/app/helpers/spree/trackers_helper.rb"
+			],
+			[
+				"cart_view",
+				"spree/frontend/app/views/spree/shared/trackers/segment/_cart_viewed.js.erb"
+			],
+			[
+				"hability",
+				"mi_shop/app/decorators/ability_decorator.rb"
 			],
 			[
 				"store_contro",
@@ -1611,6 +759,14 @@
 			[
 				"ccmmain.scs",
 				"ccm-comercial/app/assets/stylesheets/custom_home/_main.scss"
+			],
+			[
+				"main.scss",
+				"liberbank-comercial/app/assets/stylesheets/custom_home/_main.scss"
+			],
+			[
+				"main.sc",
+				"liberbank-comercial/app/assets/stylesheets/custom_home/_main.scss"
 			],
 			[
 				"ability",
@@ -1673,6 +829,10 @@
 				"580_uemc_internacionalizacion/Fuentes/trunk/config/cms_config.yml"
 			],
 			[
+				"colectivos.scss",
+				"liberbank-comercial/app/assets/stylesheets/custom_home/_colectivos.scss"
+			],
+			[
 				"custom_homebase.scs",
 				"liberbank-comercial/app/assets/stylesheets/custom_home/_base.scss"
 			],
@@ -1719,10 +879,6 @@
 			[
 				"main_men",
 				"spree/backend/app/views/spree/admin/shared/_main_menu.html.erb"
-			],
-			[
-				"",
-				"mi_shop/app/views/admin/shared/_main_menu.html.erb"
 			],
 			[
 				"sharemainmenu",
@@ -1825,6 +981,10 @@
 				"wilson_cms_products/app/models/wilson_cms_products/product_filter.rb"
 			],
 			[
+				"product.rb",
+				"wilson_cms_products/app/models/wilson_cms_products/product.rb"
+			],
+			[
 				"wilsoncmsproductsproduct.rb",
 				"wilson_cms_products/db/migrate/20150122100049_create_wilson_cms_products_products.rb"
 			],
@@ -1887,158 +1047,22 @@
 			[
 				"bulletin.rb",
 				"565_centro_jovellanos_europa/Fuentes/trunk/app/models/bulletin.rb"
-			],
-			[
-				"bulletins_con",
-				"565_centro_jovellanos_europa/Fuentes/trunk/app/controllers/bulletins_controller.rb"
-			],
-			[
-				"mainscss",
-				"liberbank-comercial/app/assets/stylesheets/custom_home/_main.scss"
-			],
-			[
-				"coursenotifica",
-				"565_centro_jovellanos_europa/Fuentes/trunk/db/migrate/20170828090554_add_course_notification_suscription_to_users.rb"
-			],
-			[
-				"privatemenu",
-				"565_centro_jovellanos_europa/Fuentes/trunk/app/views/sites/_private_menu.html.erb"
-			],
-			[
-				"phone.scss",
-				"liberbank-comercial/app/assets/stylesheets/custom_home/_phone.scss"
-			],
-			[
-				"responsive_hea",
-				"ccm-comercial/app/assets/stylesheets/layout/_responsive_header.scss"
-			],
-			[
-				"comercialvariables",
-				"liberbank-comercial/app/assets/stylesheets/base/_variables.scss"
-			],
-			[
-				"varia",
-				"565_centro_jovellanos_europa/Fuentes/trunk/app/assets/stylesheets/voranet/_variables.scss"
-			],
-			[
-				"cms_private",
-				"565_centro_jovellanos_europa/Fuentes/trunk/app/assets/stylesheets/private/cms_private.css.scss"
-			],
-			[
-				"private_menu",
-				"565_centro_jovellanos_europa/Fuentes/trunk/app/views/sites/_private_menu.html.erb"
-			],
-			[
-				"colegiadoscont",
-				"colegio_graduados_sociales/app/controllers/colegiados_controller.rb"
-			],
-			[
-				"import_cole",
-				"colegio_graduados_sociales/app/models/import_colegiado.rb"
-			],
-			[
-				"seed",
-				"colegio_graduados_sociales/db/seeds.rb"
-			],
-			[
-				"tools",
-				"liberbank/lbb-cms/app/controllers/wilson_cms/admin/tools_controller.rb"
-			],
-			[
-				"pages_cont",
-				"liberbank/lbb-cms/app/controllers/wilson_cms/admin/pages_controller.rb"
-			],
-			[
-				"applicationcontroll",
-				"liberbank/liberbank-comercial/app/controllers/application_controller.rb"
-			],
-			[
-				"variables",
-				"555_landings_dicampus/Fuentes/trunk/app/assets/stylesheets/voranet/_variables.scss"
-			],
-			[
-				"tabimax",
-				"555_landings_dicampus/Fuentes/trunk/app/assets/stylesheets/tabimax.css.scss"
-			],
-			[
-				"importbanco",
-				"colegio_graduados_sociales/app/models/import_banco.rb"
-			],
-			[
-				"banco.rb",
-				"colegio_graduados_sociales/app/models/banco.rb"
-			],
-			[
-				"20170817111904_add_fields_to_inscriptions.rb",
-				"550_femetal/Fuentes/trunk/db/migrate/20170817111904_add_fields_to_inscriptions.rb"
-			],
-			[
-				"inscrip",
-				"550_femetal/Fuentes/trunk/app/models/inscripcione.rb"
-			],
-			[
-				"inscripcioneyml",
-				"550_femetal/Fuentes/trunk/config/locales/models/inscripcione/es.yml"
-			],
-			[
-				"formacione",
-				"550_femetal/Fuentes/trunk/app/models/formacione.rb"
-			],
-			[
-				"resource_status",
-				"lbb-cms/app/views/wilson_cms/admin/resource_shared/_resource_status.html.erb"
-			],
-			[
-				"testimonios",
-				"580_uemc_internacionalizacion/Fuentes/trunk/vendor/engines/noticias/app/controllers/testimonios_controller.rb"
-			],
-			[
-				"580client.rb",
-				"580_uemc_internacionalizacion/Fuentes/trunk/vendor/gems/retire/lib/tire/http/client.rb"
-			],
-			[
-				"client.rb",
-				"580_uemc_internacionalizacion/Fuentes/trunk/vendor/gems/retire/lib/tire/http/client.rb"
-			],
-			[
-				"base.scss",
-				"liberbank-comercial/app/assets/stylesheets/custom_home/_base.scss"
-			],
-			[
-				"ficha",
-				"liberbank-comercial/app/assets/stylesheets/custom_home/_ficha.scss"
-			],
-			[
-				"iframe",
-				"liberbank-banca-privada/app/models/wilson_cms/blocks/iframe_block.rb"
-			],
-			[
-				"admin",
-				"app/assets/stylesheets/AdminLTE.css"
-			],
-			[
-				"skin",
-				"app/assets/stylesheets/skins/skin-blue.css"
-			],
-			[
-				"colegiado.rb",
-				"app/models/colegiado.rb"
-			],
-			[
-				"collapsable_pan",
-				"lbb-cms/app/views/wilson_cms/admin/resource_shared/_collapsable_panel.html.erb"
 			]
 		],
 		"width": 0.0
 	},
 	"select_project":
 	{
-		"height": 0.0,
+		"height": 500.0,
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"",
+				"~/Documents/my_projects/mi_shop/app/views/shared/liberbank.sublime-workspace"
+			]
 		],
-		"width": 0.0
+		"width": 380.0
 	},
 	"select_symbol":
 	{

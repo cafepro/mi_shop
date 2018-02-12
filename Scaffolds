@@ -11,3 +11,5 @@ rails g spree_scaffold:scaffold Page name:string description:text link:string ta
 PAGE IMAGES--
 rails g spree_scaffold:scaffold PageImage title:string alt:string attachment:image
 
+CONFIGURATIONS--
+rails g spree_scaffold:scaffold Configuration key:string value:string editable:boolean
