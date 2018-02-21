@@ -6,6 +6,7 @@ module Spree
     before_validation :check_editable
     before_save :parameterize_key
     after_save :reload_configurations
+    before_destroy :check_editable
 
     private
 

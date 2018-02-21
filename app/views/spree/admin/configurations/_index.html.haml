@@ -10,7 +10,7 @@
       %tr{:class => "#{cycle('odd', 'even')}", "data-hook" => "admin_configurations_index_rows", :id => "#{spree_dom_id configuration}"}
         %td= link_to configuration.key
         %td= link_to configuration.value
-        %td= link_to configuration.editable
+        %td= configuration.editable
         %td.actions.text-right{"data-hook" => "admin_configurations_index_row_actions"}
           = link_to_edit configuration, no_text: true if configuration.editable
           = link_to_delete configuration, no_text: true if configuration.editable
