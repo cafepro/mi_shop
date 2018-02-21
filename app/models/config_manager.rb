@@ -6,7 +6,20 @@ class ConfigManager
   # load configurations from models to memory
   def self.load_configurations
     Spree::Configuration.all.each do |config|
-      @configurations[config.key] = config.value
+      if (Float(config.value) rescue false)
+        if config.value.to_f - config.value.to_i == 0
+          @configurations[config.key] = config.value.to_i
+          if @configurations[config.key] == 1
+            @configurations[config.key] = true
+          elsif @configurations[config.key] == 0
+            @configurations[config.key] = false
+          end
+        else
+          @configurations[config.key] = config.value.to_f
+        end
+      else
+        @configurations[config.key] = config.value
+      end
     end
     @configurations
   end
@@ -30,6 +43,6 @@ class ConfigManager
   def self.value(key)
     return nil if key.blank?
     load_configurations if @configurations == {}
-    @configurations[key]
+    @configurations[key.to_s]
   end
 end
