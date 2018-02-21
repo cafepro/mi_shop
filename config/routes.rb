@@ -77,3 +77,9 @@ Spree::Core::Engine.add_routes do
     resources :configurations
   end
 end
+
+Spree::Core::Engine.add_routes do
+  namespace :admin do
+    resources :asociates
+  end
+end

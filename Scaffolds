@@ -11,5 +11,11 @@ rails g spree_scaffold:scaffold Page name:string description:text link:string ta
 PAGE IMAGES--
 rails g spree_scaffold:scaffold PageImage title:string alt:string attachment:image
 
+
+
 CONFIGURATIONS--
 rails g spree_scaffold:scaffold Configuration key:string value:string editable:boolean
+
+
+ASCAZ--
+rails g spree_scaffold:scaffold Asociate user_id:integer asociate_identifier:integer asociate_code:string zitron:boolean link_to_asociate:integer start_date:date end_date:date sepa:boolean medical_insurance:boolean modality:string insurance_start_date:date insurance_end_date:date relationship:string name:string first_surname:string second_surname:string document_type:string document_number:string sex:string birth_date:date street_type:string street:string number:string floor:string city:string province:string postal_code:string phone_number:string email:string iban:string bank:string bank_office:string dc:string account:string inscription_fee:float incription_cuote:float deleted_at:datetime

@@ -1,0 +1,134 @@
+.filter-wrap.row
+  .col-xs-12
+    .input-group.index-filter-button
+      / quick search
+      %span.input-group-btn
+        %button.btn.btn-default.js-show-index-filters{:type => "button"}
+          %span.icon.icon-chevron-right
+          Filter
+      = form_with url: admin_asociates_path, method: :get do |form|
+        = form.text_field :quick_search, class: 'form-control js-quick-search', placeholder: 'Quick search...'
+      / / quick search
+    #table-filter.well.filter-well{"data-hook" => ""}
+      %div{"data-hook" => "admin_asociates_index_search"}
+        = form_with url: admin_asociates_path, method: :get, class: 'spree/asociate_search', id: 'spree/asociate_search' do |form|
+          .row
+            .col-xs-12.col-md-16
+              .form-group
+                %label{:for => "q_asociate_code"} asociate_code
+                = form.text_field "q[asociate_code]", class: 'form-control js-filterable'
+          .row
+            .col-xs-12.col-md-16
+              .form-group
+                %label{:for => "q_modality"} modality
+                = form.text_field "q[modality]", class: 'form-control js-filterable'
+          .row
+            .col-xs-12.col-md-16
+              .form-group
+                %label{:for => "q_relationship"} relationship
+                = form.text_field "q[relationship]", class: 'form-control js-filterable'
+          .row
+            .col-xs-12.col-md-16
+              .form-group
+                %label{:for => "q_name"} name
+                = form.text_field "q[name]", class: 'form-control js-filterable'
+          .row
+            .col-xs-12.col-md-16
+              .form-group
+                %label{:for => "q_first_surname"} first_surname
+                = form.text_field "q[first_surname]", class: 'form-control js-filterable'
+          .row
+            .col-xs-12.col-md-16
+              .form-group
+                %label{:for => "q_second_surname"} second_surname
+                = form.text_field "q[second_surname]", class: 'form-control js-filterable'
+          .row
+            .col-xs-12.col-md-16
+              .form-group
+                %label{:for => "q_document_type"} document_type
+                = form.text_field "q[document_type]", class: 'form-control js-filterable'
+          .row
+            .col-xs-12.col-md-16
+              .form-group
+                %label{:for => "q_document_number"} document_number
+                = form.text_field "q[document_number]", class: 'form-control js-filterable'
+          .row
+            .col-xs-12.col-md-16
+              .form-group
+                %label{:for => "q_sex"} sex
+                = form.text_field "q[sex]", class: 'form-control js-filterable'
+          .row
+            .col-xs-12.col-md-16
+              .form-group
+                %label{:for => "q_street_type"} street_type
+                = form.text_field "q[street_type]", class: 'form-control js-filterable'
+          .row
+            .col-xs-12.col-md-16
+              .form-group
+                %label{:for => "q_street"} street
+                = form.text_field "q[street]", class: 'form-control js-filterable'
+          .row
+            .col-xs-12.col-md-16
+              .form-group
+                %label{:for => "q_number"} number
+                = form.text_field "q[number]", class: 'form-control js-filterable'
+          .row
+            .col-xs-12.col-md-16
+              .form-group
+                %label{:for => "q_floor"} floor
+                = form.text_field "q[floor]", class: 'form-control js-filterable'
+          .row
+            .col-xs-12.col-md-16
+              .form-group
+                %label{:for => "q_city"} city
+                = form.text_field "q[city]", class: 'form-control js-filterable'
+          .row
+            .col-xs-12.col-md-16
+              .form-group
+                %label{:for => "q_province"} province
+                = form.text_field "q[province]", class: 'form-control js-filterable'
+          .row
+            .col-xs-12.col-md-16
+              .form-group
+                %label{:for => "q_postal_code"} postal_code
+                = form.text_field "q[postal_code]", class: 'form-control js-filterable'
+          .row
+            .col-xs-12.col-md-16
+              .form-group
+                %label{:for => "q_phone_number"} phone_number
+                = form.text_field "q[phone_number]", class: 'form-control js-filterable'
+          .row
+            .col-xs-12.col-md-16
+              .form-group
+                %label{:for => "q_email"} email
+                = form.text_field "q[email]", class: 'form-control js-filterable'
+          .row
+            .col-xs-12.col-md-16
+              .form-group
+                %label{:for => "q_iban"} iban
+                = form.text_field "q[iban]", class: 'form-control js-filterable'
+          .row
+            .col-xs-12.col-md-16
+              .form-group
+                %label{:for => "q_bank"} bank
+                = form.text_field "q[bank]", class: 'form-control js-filterable'
+          .row
+            .col-xs-12.col-md-16
+              .form-group
+                %label{:for => "q_bank_office"} bank_office
+                = form.text_field "q[bank_office]", class: 'form-control js-filterable'
+          .row
+            .col-xs-12.col-md-16
+              .form-group
+                %label{:for => "q_dc"} dc
+                = form.text_field "q[dc]", class: 'form-control js-filterable'
+          .row
+            .col-xs-12.col-md-16
+              .form-group
+                %label{:for => "q_account"} account
+                = form.text_field "q[account]", class: 'form-control js-filterable'
+          .form-actions{"data-hook" => "admin_asociates_index_search_buttons"}
+            %button.btn.btn-primary{"data-disable-with" => "Saving...", :name => "button", :type => "submit"}
+              %span.icon.icon-search
+              Filter Results
+          %input{:name => "per_page", :type => "hidden", :value => "15"}/
