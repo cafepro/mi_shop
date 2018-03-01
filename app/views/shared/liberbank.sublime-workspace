@@ -4,84 +4,44 @@
 		"selected_items":
 		[
 			[
-				"conten",
-				"content_type"
-			],
-			[
 				"search",
-				"search_criteria"
+				"search_criteria\t(content_localizeds_manager.rb)"
 			],
 			[
-				"para",
-				"parameterize\t(content_type.rb)"
+				"conten",
+				"content_type\t(_list_content_localizeds.html.erb)"
 			],
 			[
-				"searc",
-				"search_criteria"
+				"theme_configurat",
+				"theme_configurations\t(index.html.erb)"
 			],
 			[
-				"Conten",
-				"ContentLocalizedsSearchViewDTO\t(content_localizeds_search_view_dto.rb)"
+				"risk",
+				"risk_image_component"
 			],
 			[
-				"content_loca",
-				"content_localized"
+				"inve",
+				"investment_fund"
 			],
 			[
-				"TermLo",
-				"term_localized"
+				"W",
+				"WilsonCmsProducts"
 			],
 			[
-				"load_c",
-				"load_ckeditor_on_element"
+				"risk_",
+				"risk_image_component\t(_form.html.erb)"
 			],
 			[
-				"nav_item",
-				"nav_item_localized"
-			],
-			[
-				"nav_item_localiz",
-				"nav_item_localizeds"
-			],
-			[
-				"Taxono",
-				"taxonomy"
-			],
-			[
-				"info",
-				"info_form_url\t(course_view_dto.rb)"
-			],
-			[
-				"load",
-				"load_permalink_from_configuration"
-			],
-			[
-				"conte",
-				"content_localizeds\t(content.rb)"
-			],
-			[
-				"attr",
-				"attr_accessor"
-			],
-			[
-				"sele",
-				"select_attributes"
+				"Wilson",
+				"WilsonCmsProducts\t(_form.html.erb)"
 			],
 			[
 				"sear",
-				"search_criteria"
+				"search_form"
 			],
 			[
-				"course",
-				"course_localized"
-			],
-			[
-				"Course",
-				"CourseLocalizedSearchCriteria\t(course_localized_search_criteria.rb)"
-			],
-			[
-				"taxono",
-				"taxonomy_id"
+				"term",
+				"term_localizeds\t(show.html.erb)"
 			],
 			[
 				"upload",
@@ -194,10 +154,6 @@
 			[
 				"colec",
 				"colectivo"
-			],
-			[
-				"Wilson",
-				"WilsonCmsProducts"
 			],
 			[
 				"resou",
@@ -313,149 +269,149 @@
 	},
 	"file_history":
 	[
-		"/Users/jorge/Documents/ruby/afi/config/locales/views/course_localizeds/es.yml",
-		"/Users/jorge/Documents/ruby/afi/app/view_dtos/cms_contents/content_localizeds_search_view_dto.rb",
-		"/Users/jorge/Documents/ruby/afi/app/decorators/cms_contents/content_localizeds_controller_decorator.rb",
-		"/Users/jorge/Documents/ruby/cms_contents/app/models/cms_contents/content_type.rb",
-		"/Users/jorge/Documents/ruby/afi/app/view_dtos/cms_contents/content_localized_view_dto.rb",
-		"/Users/jorge/Documents/ruby/cms_contents/app/managers/cms_contents/content_localizeds_manager.rb",
-		"/Users/jorge/Documents/ruby/cms_contents/app/models/cms_contents/content_localized.rb",
-		"/Users/jorge/Documents/ruby/afi/config/locales/views/articles/en.yml",
-		"/Users/jorge/Documents/ruby/afi/config/locales/views/articles/es.yml",
-		"/Users/jorge/Documents/ruby/afi/app/views/afi/courses/_show_courses.html.erb",
-		"/Users/jorge/Documents/ruby/afi/app/views/afi/courses/_courses_list.html.erb",
-		"/Users/jorge/Documents/ruby/afi/app/views/afi/articles/_show_index.html.erb",
-		"/Users/jorge/Documents/ruby/afi/app/views/cms_contents/content_localizeds/page/_show.html.erb",
+		"/Users/jorge/Documents/ruby/liberbank-talento/lbb-cms/app/decorators/wilson_cms/nav_item_decorator.rb",
+		"/Users/jorge/Documents/ruby/liberbank-talento/lbb-cms/app/controllers/wilson_cms/nav_items_controller.rb",
+		"/Users/jorge/Documents/ruby/liberbank-talento/lbb-cms/app/controllers/wilson_cms/admin/nav_items_controller.rb",
+		"/Users/jorge/Documents/ruby/liberbank-talento/liberbank-comercial/Gemfile",
+		"/Users/jorge/Documents/ruby/liberbank-talento/lbb-cms/app/views/wilson_cms/admin/nav_items/_form.html.erb",
+		"/Users/jorge/Documents/ruby/liberbank-talento/liberbank-comercial/lib/liberbank/admin_nav_items_controller_extend.rb",
+		"/Users/jorge/Documents/ruby/liberbank-talento/ccm-comercial/lib/liberbank/nav_item_extend.rb",
+		"/Users/jorge/Documents/ruby/liberbank-talento/lbb-cms/wilson_cms.gemspec",
+		"/Users/jorge/Documents/ruby/liberbank-talento/lbb-needings/wilson_cms_needings.gemspec",
+		"/Users/jorge/Documents/ruby/liberbank-talento/wilson_cms_products/wilson_cms_products.gemspec",
+		"/Users/jorge/Documents/ruby/liberbank-talento/wilson-cms-promotions/wilson_cms_promotions.gemspec",
+		"/Users/jorge/Documents/ruby/liberbank-talento/seasonable/seasonable.gemspec",
+		"/Users/jorge/Documents/ruby/liberbank-talento/lbb-pension-simulator/lbb_pension_simulator.gemspec",
+		"/Users/jorge/Documents/ruby/liberbank-talento/has-seo-fields/has_seo_fields.gemspec",
+		"/Users/jorge/Documents/ruby/liberbank-talento/liberbank-comercial/Gemfile.lock",
+		"/Users/jorge/Documents/ruby/liberbank-talento/ccm-comercial/app/views/investment_funds/_funds_list.html.erb",
+		"/Users/jorge/Documents/ruby/liberbank-talento/liberbank-comercial/app/views/investment_funds/index.html.erb",
+		"/Users/jorge/Documents/ruby/liberbank-talento/ccm-comercial/app/helpers/application_helper.rb",
+		"/Users/jorge/Documents/ruby/liberbank-talento/liberbank-comercial/app/views/investment_funds/_funds_list.html.erb",
+		"/Users/jorge/Documents/ruby/liberbank-talento/liberbank-comercial/app/views/wilson_cms/layouts/pages/grey_menu_product.html.erb",
+		"/Users/jorge/Documents/ruby/liberbank-talento/lbb-pension-simulator/bin/pension_calculator/pension_calculator.py",
+		"/Users/jorge/Documents/ruby/liberbank-talento/liberbank-comercial/app/assets/stylesheets/pages/_investment_funds.scss",
+		"/Users/jorge/Documents/ruby/liberbank-talento/liberbank-comercial/config/deploy.rb",
+		"/Users/jorge/Documents/ruby/liberbank-talento/liberbank-comercial/config/deploy/production.rb",
+		"/Users/jorge/Documents/ruby/liberbank-talento/liberbank-comercial/config/deploy/staging.rb",
+		"/Users/jorge/Documents/ruby/liberbank-talento/liberbank-comercial/app/views/wilson_cms/modules/_home_block_block.html.erb",
+		"/Users/jorge/Documents/ruby/liberbank-talento/ccm-comercial/app/views/wilson_cms/modules/custom_home_bands/_center_bottom_band.html.erb",
+		"/Users/jorge/Documents/ruby/liberbank-talento/liberbank-comercial/app/helpers/application_helper.rb",
+		"/Users/jorge/Documents/ruby/liberbank-talento/liberbank-comercial/app/views/wilson_cms/modules/custom_home_bands/_center_bottom_band.html.erb",
+		"/Users/jorge/Documents/ruby/liberbank-talento/ccm-comercial/app/assets/stylesheets/pages/_investment_funds.scss",
+		"/Users/jorge/Documents/ruby/liberbank-talento/ccm-comercial/Gemfile",
+		"/Users/jorge/Documents/ruby/liberbank-talento/ccm-comercial/app/views/investment_funds/index.html.erb",
+		"/Users/jorge/Documents/ruby/liberbank-talento/ccm-comercial/config/database.yml",
+		"/Users/jorge/Documents/ruby/liberbank-talento/ccm-comercial/config/deploy.rb",
+		"/Users/jorge/Documents/ruby/liberbank/liberbank-comercial/config/application.yml",
+		"/Users/jorge/Documents/ruby/liberbank-talento/liberbank-comercial/app/controllers/click_to_call_controller.rb",
+		"/Users/jorge/Documents/ruby/liberbank-talento/ccm-comercial/config/deploy/staging.rb",
+		"/Users/jorge/Documents/ruby/liberbank-talento/ccm-comercial/config/initializers/rollbar.rb",
+		"/Users/jorge/Documents/ruby/liberbank-talento/ccm-comercial/config/deploy/production.rb",
+		"/Users/jorge/Documents/ruby/liberbank-talento/ccm-comercial/Gemfile.lock",
+		"/Users/jorge/Documents/ruby/liberbank-talento/liberbank-comercial/config/database.yml",
+		"/Users/jorge/Documents/ruby/liberbank-talento/liberbank-comercial/db/migrate/20160223112717_add_external_form_to_promotions.rb",
+		"/Users/jorge/Documents/ruby/liberbank/lbb-pension-simulator/app/models/lbb_pension_simulator/pensions_scheme.rb",
+		"/Users/jorge/Documents/ruby/liberbank/lbb-pension-simulator/bin/pension_calculator/calculator.py",
+		"/Users/jorge/Documents/ruby/liberbank/lbb-pension-simulator/bin/pension_calculator/pension_calculator.py",
+		"/Users/jorge/Documents/ruby/liberbank/liberbank-comercial/app/helpers/application_helper.rb",
+		"/Users/jorge/Documents/ruby/liberbank/liberbank-comercial/config/deploy/staging.rb",
+		"/Users/jorge/Documents/ruby/liberbank/liberbank-comercial/config/deploy/production.rb",
+		"/Users/jorge/Documents/ruby/liberbank/liberbank-comercial/config/deploy.rb",
+		"/Users/jorge/Documents/ruby/liberbank/lbb-cms/app/controllers/wilson_cms/admin/redirections_controller.rb",
+		"/Users/jorge/Documents/ruby/liberbank/liberbank-comercial/app/views/resource_shared/_header_ficha.html.erb",
+		"/Users/jorge/Documents/ruby/liberbank/liberbank-comercial/app/views/resource_shared/_nav_inner_ficha.html.erb",
+		"/Users/jorge/Documents/ruby/liberbank/lbb-pension-simulator/app/controllers/lbb_pension_simulator/admin/pensions_schemes_controller.rb",
+		"/Users/jorge/Documents/ruby/liberbank/lbb-pension-simulator/config/routes.rb",
+		"/Users/jorge/Documents/ruby/liberbank/ccm-comercial/lib/tasks/liberbank_tasks.rake",
+		"/Users/jorge/Documents/ruby/liberbank/lbb-pension-simulator/bin/pension_calculator/pension_calculator_env/include/python2.7/sysmodule.h",
+		"/Users/jorge/Documents/ruby/liberbank/liberbank-comercial/app/views/investment_funds/_funds_list.html.erb",
+		"/Users/jorge/Documents/ruby/liberbank/lbb-pension-simulator/app/controllers/pensions_controller.rb",
+		"/Users/jorge/Documents/ruby/liberbank/liberbank-comercial/config/pension_simulator_vars.yml",
+		"/Users/jorge/Downloads/Simulador71_-_todas_hojas_visibles_(2015.12.16) (5).xls",
+		"/Users/jorge/Documents/ruby/liberbank/lbb-pension-simulator/bin/pension_calculator/pension_calculator_env/lib/python2.7/site-packages/pip/_vendor/distlib/_backport/sysconfig.cfg",
+		"/Users/jorge/Documents/ruby/liberbank/liberbank-comercial/Gemfile",
+		"/Users/jorge/Documents/ruby/liberbank/liberbank-comercial/app/assets/stylesheets/pages/_investment_funds.scss",
+		"/Users/jorge/Documents/ruby/liberbank/liberbank-comercial/app/views/wilson_cms/modules/promotions/_riesgo_fondos.html.erb",
 		"/Users/jorge/Documents/ruby/afi/config/locales/views/courses/es.yml",
 		"/Users/jorge/Documents/ruby/afi/config/locales/views/courses/en.yml",
-		"/Users/jorge/Documents/ruby/cms_contents/app/views/cms_contents/content_localizeds/page/_show.html.erb",
-		"/Users/jorge/Documents/ruby/afi/app/controllers/afi/courses_controller.rb",
-		"/Users/jorge/Documents/ruby/afi/db/migrate/20171120130616_create_table_course_inscriptions.rb",
-		"/Users/jorge/Documents/ruby/afi/app/poros/afi/course_localized_search_criteria.rb",
-		"/Users/jorge/Documents/ruby/afi/app/managers/afi/course_localizeds_manager.rb",
-		"/Users/jorge/Documents/ruby/afi/app/view_delegates/afi/course_helper_view_delegate.rb",
-		"/Users/jorge/Documents/ruby/afi/app/helpers/afi/courses_helper.rb",
-		"/Users/jorge/Documents/ruby/cms_themes/config/initializers/slider_formats.rb",
-		"/Users/jorge/Documents/ruby/afi/app/views/cms_sliders/sliders/_show_default.html.erb",
-		"/Users/jorge/Documents/ruby/rails_base_app/Gemfile",
-		"/Users/jorge/Documents/ruby/cms_theme_spectre_base/app/assets/javascripts/spectre_base.js",
-		"/Users/jorge/Documents/ruby/colegio_graduados_sociales/app/views/colegios/_form_colegio.html.erb",
-		"/Users/jorge/Documents/ruby/afi/app/views/cms_contents/content_search/_show_modal_search_form.html.erb",
-		"/Users/jorge/Documents/ruby/afi/app/views/afi/course_localizeds/_show_testimony.html.erb",
-		"/Users/jorge/Documents/ruby/afi/app/views/afi/admin/articles/_show_articles_home_configuration.html.erb",
-		"/Users/jorge/Documents/ruby/cms_contents/app/managers/cms_contents/content_types_manager.rb",
-		"/Users/jorge/Documents/ruby/afi/app/poros/afi/articles_localized_search_criteria.rb",
-		"/Users/jorge/Documents/ruby/afi/app/helpers/afi/articles_helper.rb",
-		"/Users/jorge/Documents/ruby/afi/app/views/cms_contents/content_localizeds/_content_localized_founded.html.erb",
-		"/Users/jorge/Documents/ruby/afi/app/poros/cms_contents/content_localized_search_criteria.rb",
-		"/Users/jorge/Documents/ruby/cms_themes/app/assets/javascripts/application.js",
-		"/Users/jorge/Documents/ruby/cms_themes/app/assets/stylesheets/components/_components.search.scss",
-		"/Users/jorge/Documents/ruby/afi/app/views/cms_contents/content_localizeds/_list_content_localizeds.html.erb",
-		"/Users/jorge/Documents/ruby/afi/app/decorators/cms_contents/content_localizeds_manager_decorator.rb",
-		"/Users/jorge/Documents/ruby/cms_themes/app/views/afi/articles/kaminari/_page.html.erb",
-		"/Users/jorge/Documents/ruby/cms_contents/app/poros/cms_contents/content_localized_search_criteria.rb",
-		"/Users/jorge/Documents/ruby/afi/app/managers/afi/articles_localizeds_manager.rb",
-		"/Users/jorge/Documents/ruby/afi/app/views/cms_contents/content_search/_show_modal_search_button.html.erb",
-		"/Users/jorge/Documents/ruby/afi_maquetacion/.sass-cache/076239a6a746812c5d38f4b64bb3c685dcd9e7e1/_components.modal.scssc",
-		"/Users/jorge/Documents/ruby/cms_themes/app/assets/stylesheets/components/_components.modal.scss",
-		"/Users/jorge/Documents/ruby/afi/app/views/afi/courses/_search_courses_form.html.erb",
-		"/Users/jorge/Documents/ruby/afi/app/views/afi/articles/_show_articles_home.html.erb",
-		"/Users/jorge/Documents/ruby/afi/app/views/afi/course_localizeds/_show_course.html.erb",
-		"/Users/jorge/Documents/ruby/cms_themes/app/assets/stylesheets/components/_components.carousel.scss",
-		"/Users/jorge/Documents/ruby/afi/app/models/afi/testimony.rb",
-		"/Users/jorge/Documents/ruby/cms_contents/app/helpers/cms_contents/breadcrumbs_helper.rb",
-		"/Users/jorge/Documents/ruby/cms_contents/app/views/cms_contents/admin/content_localizeds/edit_content.html.erb",
-		"/Users/jorge/Documents/ruby/cms_contents/app/views/cms_contents/content_search/_show_modal_search_button.html.erb",
-		"/Users/jorge/Documents/ruby/afi/app/views/cms_contents/contents_search/_show_modal_search_form.html.erb",
-		"/Users/jorge/Documents/ruby/cms_contents/app/views/cms_contents/content_search/_show_modal_search_form.html.erb",
-		"/Users/jorge/Documents/ruby/afi/app/helpers/afi/application_helper.rb",
-		"/Users/jorge/Documents/ruby/cms_admin_theme/app/assets/javascripts/own_plugins/editable_content_ckeditor.js",
-		"/Users/jorge/Documents/ruby/afi/db/migrate/20180130095946_seed_taxonomy_terms_afi_english.rb",
-		"/Users/jorge/Documents/ruby/afi/app/models/afi/testimony_localized.rb",
-		"/Users/jorge/Documents/ruby/afi/db/migrate/20180129160419_delete_all_testimonies_and_reasons.rb",
-		"/Users/jorge/Documents/ruby/cms_contents/app/views/cms_contents/admin/cms_admin_content_embedded_apps/check_configuration.js.erb",
-		"/Users/jorge/Documents/ruby/afi_maquetacion/home.html",
-		"/Users/jorge/Documents/ruby/afi/app/models/afi/course.rb",
-		"/Users/jorge/Documents/ruby/afi/app/models/afi/course_localized.rb",
-		"/Users/jorge/Documents/ruby/cms_taxonomies/app/models/cms_taxonomies/concerns/has_taxonomy.rb",
-		"/Users/jorge/Documents/ruby/cms_themes/app/assets/stylesheets/components/_components.mmenu.scss",
-		"/Users/jorge/Documents/ruby/afi/app/views/cms_navigation/navs/_show_nav.html.erb",
-		"/Users/jorge/Documents/ruby/afi/app/views/cms_navigation/navs/_show_nav_items.html.erb",
-		"/Users/jorge/Documents/ruby/afi/app/views/cms_navigation/admin/navs/_form_nav_item.html.erb",
-		"/Users/jorge/Documents/ruby/afi/config/locales/models/content/es.yml",
-		"/Users/jorge/Documents/ruby/cms_navigation/db/migrate/20180125151425_drop_nav_items_localizeds_table.rb",
-		"/Users/jorge/Documents/ruby/cms_navigation/db/migrate/20180125091002_add_navigable_to_nav_items.rb",
-		"/Users/jorge/Documents/ruby/afi/db/migrate/20180124114428_add_column_to_nav_item_localizeds.rb",
-		"/Users/jorge/Documents/ruby/cms_themes/app/assets/stylesheets/components/_components.search.news.scss",
-		"/Users/jorge/Documents/ruby/afi/app/views/cms_navigation/navs/_show_assistant_nav.html.erb",
-		"/Users/jorge/Documents/ruby/cms_navigation/app/views/cms_navigation/admin/navs/edit_nav_item.html.erb",
-		"/Users/jorge/Documents/ruby/afi/db/migrate/20180124114427_add_column_to_nav_item_localizeds.rb",
-		"/Users/jorge/Documents/ruby/afi/app/views/afi/courses/_show_course_localized.html.erb",
-		"/Users/jorge/Documents/ruby/afi/app/controllers/afi/course_localizeds_controller.rb",
-		"/Users/jorge/Documents/ruby/afi/app/models/afi/price.rb",
-		"/Users/jorge/Documents/ruby/afi/config/locales/controllers/courses/es.yml",
-		"/Users/jorge/Documents/ruby/afi/app/views/afi/admin/courses/_form.html.erb",
-		"/Users/jorge/Documents/ruby/cms_admin_theme/app/assets/stylesheets/components/_components.admin_forms.scss",
-		"/Users/jorge/Documents/ruby/cms_admin_theme/app/assets/javascripts/admin.js",
-		"/Users/jorge/Documents/ruby/afi/app/views/afi/admin/courses/_price_fields.html.erb",
-		"/Users/jorge/Documents/ruby/afi/app/views/afi/admin/courses/_reason_fields.html.erb",
-		"/Users/jorge/Documents/ruby/afi/app/controllers/afi/admin/courses_controller.rb",
-		"/Users/jorge/Documents/ruby/afi/app/view_delegates/afi/course_view_delegate.rb",
+		"/Users/jorge/Documents/ruby/cms_theme_configurator/app/controllers/cms_theme_configurator/admin/theme_configurations_controller.rb",
 		"/Users/jorge/Documents/ruby/afi/app/managers/afi/courses_manager.rb",
 		"/Users/jorge/Documents/ruby/afi/app/poros/afi/course_search_criteria.rb",
-		"/Users/jorge/Documents/ruby/cms_admin_theme/app/assets/stylesheets/admin_edit.css.scss",
-		"/Users/jorge/Documents/ruby/afi/db/migrate/20180110061020_seed_afi.rb",
-		"/Users/jorge/Documents/ruby/afi/db/migrate/20180123153549_delete_course_id_from_afi_prices.rb",
+		"/Users/jorge/Documents/ruby/rails_base_app/Gemfile",
+		"/Users/jorge/Documents/ruby/cms_theme_configurator/app/views/cms_theme_configurator/admin/theme_configurations/index.html.erb",
+		"/Users/jorge/Documents/ruby/cms_theme_configurator/app/view_delegates/cms_theme_configurator/theme_configuration_view_delegate.rb",
+		"/Users/jorge/Documents/ruby/cms_contents/app/managers/cms_contents/content_localizeds_manager.rb",
+		"/Users/jorge/Documents/ruby/afi/app/poros/cms_contents/content_localized_search_criteria.rb",
+		"/Users/jorge/Documents/ruby/cms_theme_configurator/app/views/cms_theme_configurator/admin/theme_configurations/edit.html.erb",
+		"/Users/jorge/Documents/ruby/afi/config/locales/views/course_localizeds/es.yml",
+		"/Users/jorge/Documents/ruby/afi/config/locales/models/content/es.yml",
+		"/Users/jorge/Documents/ruby/afi/config/locales/models/content/en.yml",
+		"/Users/jorge/Documents/ruby/afi/app/decorators/cms_contents/content_localizeds_manager_decorator.rb",
+		"/Users/jorge/Documents/ruby/afi/app/views/cms_contents/content_localizeds/search.html.erb",
+		"/Users/jorge/Documents/ruby/afi/app/views/cms_contents/content_localizeds/_content_localized_founded.html.erb",
+		"/Users/jorge/Documents/ruby/afi/app/views/cms_contents/content_localizeds/_list_content_localizeds.html.erb",
+		"/Users/jorge/Documents/ruby/cms_themes/app/assets/stylesheets/components/_components.filtros.scss",
 		"/Users/jorge/Documents/ruby/afi/app/views/afi/courses/filter.js.erb",
-		"/Users/jorge/Documents/ruby/cms_themes/app/assets/stylesheets/components/_components.main.scss",
-		"/Users/jorge/Documents/ruby/rails_base_app/app/controllers/application_controller.rb",
-		"/Users/jorge/Documents/ruby/afi/app/controllers/afi/course_inscriptions_controller.rb",
-		"/Users/jorge/Documents/ruby/afi/config/routes.rb",
-		"/Users/jorge/Documents/ruby/afi/app/views/afi/courses/_show_course_tab.html.erb",
-		"/Users/jorge/Documents/ruby/afi_maquetacion/assets/javascripts/application.js",
-		"/Users/jorge/Documents/ruby/cms_authorization/lib/authorization/base_policy.rb",
-		"/Users/jorge/Documents/ruby/cms_authorization/lib/authorization.rb",
-		"/Users/jorge/Documents/ruby/cms_redirections/app/managers/cms_redirections/seo_cache_manager.rb",
-		"/Users/jorge/Documents/ruby/afi/app/controllers/afi/admin/discounts_controller.rb",
-		"/Users/jorge/Documents/ruby/afi/app/controllers/afi/admin/testimonies_controller.rb",
-		"/Users/jorge/Documents/ruby/afi/app/controllers/afi/admin/prices_controller.rb",
-		"/Users/jorge/Documents/ruby/afi/app/controllers/afi/admin/cloisters_controller.rb",
-		"/Users/jorge/Documents/ruby/cms_authorization/app/controllers/cms_authorization/sessions_controller.rb",
-		"/Users/jorge/Documents/ruby/cms_redirections/app/controllers/cms_redirections/admin/redirections_controller.rb",
-		"/Users/jorge/Documents/ruby/afi/app/controllers/afi/application_controller.rb",
-		"/Users/jorge/Documents/ruby/cms_authorization/app/models/ability.rb",
-		"/Users/jorge/Documents/ruby/afi/db/migrate/20180110162819_add_date_article_in_content_localized.rb",
-		"/Users/jorge/Documents/ruby/afi/app/views/shared/_show_language_selector.html.erb",
-		"/Users/jorge/Documents/ruby/afi/app/views/afi/shared/_show_language_selector.html.erb",
-		"/Users/jorge/Documents/ruby/rails_base_app/app/helpers/locales_helper.rb",
-		"/Users/jorge/Documents/ruby/cms_contents/app/models/cms_contents/content.rb",
-		"/Users/jorge/Documents/ruby/cms_navigation/app/helpers/cms_navigation/navs_helper.rb",
-		"/Users/jorge/Documents/ruby/afi/app/view_dtos/afi/course_view_dto.rb",
-		"/Users/jorge/Documents/ruby/cms_themes/app/assets/stylesheets/application.scss",
-		"/Users/jorge/Documents/ruby/cms_taxonomies/app/helpers/cms_taxonomies/taxonomies_helper.rb",
-		"/Users/jorge/Documents/ruby/cms_taxonomies/app/views/cms_taxonomies/admin/taxonomies/_terms_form.html.erb",
-		"/Users/jorge/Documents/ruby/cms_themes/app/assets/stylesheets/main.scss",
-		"/Users/jorge/Documents/ruby/cms_admin_theme/app/assets/stylesheets/components/_components.taxonomies.scss",
-		"/Users/jorge/Documents/ruby/cms_themes/app/assets/stylesheets/components/_components.taxonomy.scss",
-		"/Users/jorge/Documents/ruby/afi/db/migrate/20180118111431_add_cms_configuration_courses_form_key.rb",
+		"/Users/jorge/Documents/ruby/cms_themes/app/assets/javascripts/application.js",
 		"/Users/jorge/Documents/ruby/afi/app/views/afi/courses/_show_courses_filters.html.erb",
-		"/Users/jorge/Documents/ruby/cms_configurations/app/models/cms_configurations/cms_configuration.rb",
-		"/Users/jorge/Documents/ruby/colegio_graduados_sociales/app/views/colegiados/_nuevo_documento_colegiado.html.erb"
+		"/Users/jorge/Documents/ruby/afi/app/decorators/cms_contents/content_localizeds_controller_decorator.rb",
+		"/Users/jorge/Documents/ruby/cms_themes/app/assets/stylesheets/components/_components.mmenu.scss",
+		"/Users/jorge/Documents/ruby/cms_theme_configurator/config/routes.rb",
+		"/Users/jorge/Documents/ruby/cms_theme_configurator/app/views/cms_theme_configurator/admin/theme_configurations/_theme_configurations_table.html.erb",
+		"/Users/jorge/Documents/ruby/cms_theme_configurator/app/models/cms_theme_configurator/theme_configuration.rb",
+		"/Users/jorge/Documents/ruby/rails_base_app/app/views/root/dashboard/index.html.erb",
+		"/Users/jorge/Documents/ruby/cms_themes/app/assets/stylesheets/components/_components.taxonomy.scss",
+		"/Users/jorge/Documents/ruby/afi/app/views/afi/courses/_search_courses_form.html.erb",
+		"/Users/jorge/Documents/ruby/rails_base_app/.sass-cache/383e8ee686cc341b736efbb864245355e508450f/_components.mmenu.scssc",
+		"/Users/jorge/Documents/ruby/liberbank/wilson_cms_products/app/views/wilson_cms_products/admin/investment_funds/_form.html.erb",
+		"/Users/jorge/Documents/ruby/liberbank/wilson_cms_products/app/controllers/wilson_cms_products/admin/investment_funds_controller.rb",
+		"/Users/jorge/Documents/ruby/liberbank/wilson_cms_products/db/migrate/20180215094555_intialize_risk_image_component_id_on_investment_funds.rb",
+		"/Users/jorge/Documents/ruby/liberbank/wilson_cms_products/app/models/wilson_cms_products/investment_fund.rb",
+		"/Users/jorge/Documents/ruby/liberbank/wilson_cms_products/db/migrate/20180215083209_add_risk_table_to_wilson_cms_products_investment_funds.rb",
+		"/Users/jorge/Documents/ruby/liberbank/wilson_cms_products/app/models/wilson_cms_products/product.rb",
+		"/Users/jorge/Documents/ruby/liberbank/wilson_cms_products/app/models/wilson_cms_products/advantages_image_component.rb",
+		"/Users/jorge/Documents/ruby/liberbank/wilson_cms_products/app/models/wilson_cms_products/distributive_image_component.rb",
+		"/Users/jorge/Documents/ruby/liberbank/liberbank-comercial/app/controllers/investment_funds_controller.rb",
+		"/Users/jorge/Documents/ruby/liberbank/wilson_cms_products/app/models/wilson_cms_products/risk_image_component.rb",
+		"/Users/jorge/Documents/ruby/afi/app/views/cms_taxonomies/term_localizeds/_courses_list.html.erb",
+		"/Users/jorge/Documents/ruby/cms_themes/app/controllers/cms_taxonomies/term_localizeds_controller.rb",
+		"/Users/jorge/Documents/ruby/afi/app/view_dtos/afi/filter_view_dto.rb",
+		"/Users/jorge/Documents/ruby/afi/app/helpers/afi/courses_helper.rb",
+		"/Users/jorge/Documents/ruby/afi/app/views/afi/admin/courses/_show_courses_configuration.html.erb",
+		"/Users/jorge/Documents/ruby/afi/app/poros/afi/course_localized_search_criteria.rb",
+		"/Users/jorge/Documents/ruby/afi/app/view_delegates/afi/course_helper_view_delegate.rb",
+		"/Users/jorge/Documents/ruby/afi/app/view_dtos/afi/course_helper_view_dto.rb",
+		"/Users/jorge/Documents/my_projects/mi_shop/db/migrate/20180213111800_create_spree_asociates.rb",
+		"/Users/jorge/Documents/ruby/cms_authorization/app/managers/cms_authorization/abilities_manager.rb",
+		"/Users/jorge/Documents/my_projects/mi_shop/app/overrides/spree/layouts/admin/delete_spree_menu_options.html.erb.deface",
+		"/Users/jorge/Documents/my_projects/ingenia/wp-content/plugins/polylang/modules/wpml/wpml-config.php",
+		"/Users/jorge/Downloads/header.php",
+		"/Users/jorge/Downloads/index.php",
+		"/Users/jorge/Documents/my_projects/mi_shop/app/assets/stylesheets/theme/fotofusion.scss",
+		"/Users/jorge/Documents/my_projects/mi_shop/app/views/layouts/application.html.haml",
+		"/Users/jorge/Documents/my_projects/mi_shop/app/assets/javascripts/theme/script.js",
+		"/Users/jorge/Documents/my_projects/mi_shop/app/assets/javascripts/application.js",
+		"/Users/jorge/Documents/my_projects/mi_shop/app/mailers/application_mailer.rb",
+		"/Users/jorge/Documents/my_projects/mi_shop/app/views/shared/_flash_notices.html.haml",
+		"/Users/jorge/Documents/my_projects/mi_shop/app/controllers/contacts_controller.rb",
+		"/Users/jorge/Documents/my_projects/mi_shop/config/routes.rb",
+		"/Users/jorge/Documents/my_projects/mi_shop/app/mailers/contact_mailer.rb"
 	],
 	"find":
 	{
-		"height": 30.0
+		"height": 26.0
 	},
 	"find_in_files":
 	{
-		"height": 113.0,
+		"height": 110.0,
 		"where_history":
 		[
 		]
 	},
 	"find_state":
 	{
-		"case_sensitive": false,
+		"case_sensitive": true,
 		"find_history":
 		[
 		],
@@ -482,11 +438,11 @@
 	],
 	"incremental_find":
 	{
-		"height": 30.0
+		"height": 26.0
 	},
 	"input":
 	{
-		"height": 43.0
+		"height": 42.0
 	},
 	"layout":
 	{
@@ -513,7 +469,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 35.0
+		"height": 27.0
 	},
 	"output.find_results":
 	{
@@ -527,7 +483,7 @@
 	"project": "liberbank.sublime-project",
 	"replace":
 	{
-		"height": 56.0
+		"height": 48.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -537,184 +493,104 @@
 		"selected_items":
 		[
 			[
-				"components.nav.scss",
-				"cms_themes/app/assets/stylesheets/components/_components.nav.scss"
+				"redirections",
+				"liberbank-talento/lbb-cms/app/controllers/wilson_cms/admin/redirections_controller.rb"
 			],
 			[
-				"/_components.nav.scss",
-				"afi_maquetacion/assets/stylesheets/components/_components.nav.scss"
+				"redire",
+				"liberbank-talento/lbb-cms/app/models/wilson_cms/redirection.rb"
 			],
 			[
-				"content_type",
-				"cms_contents/app/models/cms_contents/content_type.rb"
+				"contac",
+				"liberbank-talento/ccm-comercial/app/controllers/contacts_controller.rb"
 			],
 			[
-				"content_loca",
-				"cms_contents/app/models/cms_contents/content_localized.rb"
+				"middle",
+				"liberbank-talento/lbb-cms/lib/wilson_cms/redirector/middleware.rb"
 			],
 			[
-				"courses_controller.rb",
-				"afi/app/controllers/afi/courses_controller.rb"
+				"admin_nav_items_controller_extend.rb",
+				"liberbank-talento/liberbank-comercial/lib/liberbank/admin_nav_items_controller_extend.rb"
 			],
 			[
-				"ckedio",
-				"cms_admin_theme/app/assets/javascripts/own_plugins/editable_content_ckeditor.js"
+				"navitem",
+				"liberbank-talento/ccm-comercial/lib/liberbank/nav_item_extend.rb"
 			],
 			[
-				"formcolegio.",
-				"colegio_graduados_sociales/app/views/colegios/_form_colegio.html.erb"
+				"_investment_funds.scss",
+				"liberbank-talento/ccm-comercial/app/assets/stylesheets/pages/_investment_funds.scss"
 			],
 			[
-				"_components.modal.scss",
-				"cms_themes/app/assets/stylesheets/components/_components.modal.scss"
+				"20180221164844_add_shop_enabled_config_key.rb",
+				"mi_shop/db/migrate/20180221164844_add_shop_enabled_config_key.rb"
 			],
 			[
-				"show_articles_home",
-				"afi/app/views/afi/articles/_show_articles_home.html.erb"
+				"click",
+				"liberbank-comercial/app/controllers/click_to_call_controller.rb"
 			],
 			[
-				"show_articles_home_configuration",
-				"afi/app/views/afi/admin/articles/_show_articles_home_configuration.html.erb"
+				"add_extern",
+				"liberbank-comercial/db/migrate/20160223112717_add_external_form_to_promotions.rb"
 			],
 			[
-				"show_modal_search_form",
-				"cms_contents/app/views/cms_contents/content_search/_show_modal_search_form.html.erb"
+				"pensionsscheme",
+				"lbb-pension-simulator/app/models/lbb_pension_simulator/pensions_scheme.rb"
 			],
 			[
-				"show_modal_search_button",
-				"cms_contents/app/views/cms_contents/content_search/_show_modal_search_button.html.erb"
+				"sys",
+				"lbb-pension-simulator/bin/pension_calculator/pension_calculator_env/lib/python2.7/site-packages/pip/_vendor/distlib/_backport/sysconfig.cfg"
 			],
 			[
-				"20180129160419_delete_all_testimonies_and_reasons.rb",
-				"afi/db/migrate/20180129160419_delete_all_testimonies_and_reasons.rb"
+				"components.filtro",
+				"cms_themes/app/assets/stylesheets/components/_components.filtros.scss"
 			],
 			[
-				"ckeditor.js",
-				"cms_admin_theme/app/assets/javascripts/own_plugins/editable_content_ckeditor.js"
+				"components.taxon",
+				"cms_themes/app/assets/stylesheets/components/_components.taxonomy.scss"
 			],
 			[
-				"show_event.",
-				"afi/app/views/afi/course_localizeds/show_event.html.erb"
+				"themeconfi",
+				"cms_theme_configurator/app/models/cms_theme_configurator/theme_configuration.rb"
 			],
 			[
-				"ckedi",
-				"cms_admin_theme/app/assets/javascripts/own_plugins/editable_content_ckeditor.js"
+				"_components.mmenu.scss",
+				"cms_themes/app/assets/stylesheets/components/_components.mmenu.scss"
 			],
 			[
-				"course.rb",
-				"afi/app/models/afi/course.rb"
+				"20180215094555_intialize_risk_image_component_id_on_investment_funds.rb",
+				"liberbank/wilson_cms_products/db/migrate/20180215094555_intialize_risk_image_component_id_on_investment_funds.rb"
 			],
 			[
-				"courseloca",
-				"afi/app/models/afi/course_localized.rb"
+				"product.rb",
+				"wilson_cms_products/app/models/wilson_cms_products/product.rb"
 			],
 			[
-				"20180124114427_add_column_to_nav_item_localizeds.rb",
-				"afi/db/migrate/20180124114427_add_column_to_nav_item_localizeds.rb"
+				"",
+				"wilson_cms_products/db/migrate/20180215083209_add_risk_table_to_wilson_cms_products_investment_funds.rb"
 			],
 			[
-				"price.rb",
-				"afi/app/models/afi/price.rb"
+				"20180215083209_add_risk_table_to_wilson_cms_products_investment_funds.rb",
+				"wilson_cms_products/db/migrate/20180215083209_add_risk_table_to_wilson_cms_products_investment_funds.rb"
 			],
 			[
-				"courses",
-				"afi/app/controllers/afi/admin/courses_controller.rb"
+				"investment_fund.rb",
+				"wilson_cms_products/app/models/wilson_cms_products/investment_fund.rb"
 			],
 			[
-				"course_loca",
-				"afi/app/models/afi/course_localized.rb"
+				"inves",
+				"liberbank-comercial/app/controllers/investment_funds_controller.rb"
 			],
 			[
-				"search",
-				"cms_contents/app/views/cms_contents/content_localizeds/search.html.erb"
-			],
-			[
-				"localeshel",
-				"rails_base_app/app/helpers/locales_helper.rb"
-			],
-			[
-				"navshelper",
-				"cms_navigation/app/helpers/cms_navigation/navs_helper.rb"
-			],
-			[
-				"show_course",
-				"afi/app/views/afi/course_localizeds/_show_course.html.erb"
-			],
-			[
-				"courseviewdele",
-				"afi/app/view_delegates/afi/course_view_delegate.rb"
-			],
-			[
-				"content",
-				"cms_contents/app/models/cms_contents/content.rb"
-			],
-			[
-				"courseviewde",
-				"afi/app/view_delegates/afi/course_view_delegate.rb"
-			],
-			[
-				"termsform.html",
-				"cms_taxonomies/app/views/cms_taxonomies/admin/taxonomies/_terms_form.html.erb"
-			],
-			[
-				"terms_form",
-				"cms_taxonomies/app/views/cms_taxonomies/admin/taxonomies/_terms_form.html.erb"
-			],
-			[
-				"cms_confi",
-				"cms_configurations/app/models/cms_configurations/cms_configuration.rb"
-			],
-			[
-				"showcourse.",
-				"afi/app/views/afi/course_localizeds/_show_course.html.erb"
-			],
-			[
-				"courseviewdel",
-				"afi/app/view_delegates/afi/course_view_delegate.rb"
-			],
-			[
-				"dowload",
-				"colegio_graduados_sociales/app/controllers/downloads_controller.rb"
-			],
-			[
-				"showcour",
-				"afi/app/views/afi/courses/_show_course_localized.html.erb"
-			],
-			[
-				"course_helper",
-				"afi/app/view_delegates/afi/course_helper_view_delegate.rb"
-			],
-			[
-				"greymenupro",
-				"liberbank/ccm-comercial/app/views/wilson_cms/layouts/pages/grey_menu_product.html.erb"
-			],
-			[
-				"grey_menu_pro",
-				"liberbank/liberbank-comercial/app/views/wilson_cms/layouts/pages/grey_menu_product.html.erb"
-			],
-			[
-				"config.r",
-				"rails_base_app/config.ru"
-			],
-			[
-				"coursehelpervie",
-				"afi/app/view_delegates/afi/course_helper_view_delegate.rb"
-			],
-			[
-				"course_localized_search_criteria.rb",
+				"courselocalizedsearc",
 				"afi/app/poros/afi/course_localized_search_criteria.rb"
 			],
 			[
-				"coursehelperviewde",
-				"afi/app/view_delegates/afi/course_helper_view_delegate.rb"
+				"scaffol",
+				"mi_shop/Scaffolds"
 			],
 			[
-				"course_locali",
-				"afi/app/models/afi/course_localized.rb"
-			],
-			[
-				"courselocalizedsear",
-				"afi/app/poros/afi/course_localized_search_criteria.rb"
+				"configuration",
+				"mi_shop/app/models/spree/configuration.rb"
 			],
 			[
 				"routes",
@@ -735,10 +611,6 @@
 			[
 				"variant",
 				"spree/sample/db/samples/variants.rb"
-			],
-			[
-				"",
-				"spree/frontend/app/helpers/spree/trackers_helper.rb"
 			],
 			[
 				"cart_view",
@@ -925,10 +797,6 @@
 				"app/assets/stylesheets/layout/_responsive_nav.scss"
 			],
 			[
-				"admin_nav_items_controller_extend.rb",
-				"lib/liberbank/admin_nav_items_controller_extend.rb"
-			],
-			[
 				"_four_promotion_footer_block",
 				"app/assets/stylesheets/blocks/_four_promotion_footer_block.scss"
 			],
@@ -979,10 +847,6 @@
 			[
 				"productfilter",
 				"wilson_cms_products/app/models/wilson_cms_products/product_filter.rb"
-			],
-			[
-				"product.rb",
-				"wilson_cms_products/app/models/wilson_cms_products/product.rb"
 			],
 			[
 				"wilsoncmsproductsproduct.rb",
@@ -1047,22 +911,110 @@
 			[
 				"bulletin.rb",
 				"565_centro_jovellanos_europa/Fuentes/trunk/app/models/bulletin.rb"
+			],
+			[
+				"bulletins_con",
+				"565_centro_jovellanos_europa/Fuentes/trunk/app/controllers/bulletins_controller.rb"
+			],
+			[
+				"mainscss",
+				"liberbank-comercial/app/assets/stylesheets/custom_home/_main.scss"
+			],
+			[
+				"coursenotifica",
+				"565_centro_jovellanos_europa/Fuentes/trunk/db/migrate/20170828090554_add_course_notification_suscription_to_users.rb"
+			],
+			[
+				"privatemenu",
+				"565_centro_jovellanos_europa/Fuentes/trunk/app/views/sites/_private_menu.html.erb"
+			],
+			[
+				"phone.scss",
+				"liberbank-comercial/app/assets/stylesheets/custom_home/_phone.scss"
+			],
+			[
+				"responsive_hea",
+				"ccm-comercial/app/assets/stylesheets/layout/_responsive_header.scss"
+			],
+			[
+				"comercialvariables",
+				"liberbank-comercial/app/assets/stylesheets/base/_variables.scss"
+			],
+			[
+				"varia",
+				"565_centro_jovellanos_europa/Fuentes/trunk/app/assets/stylesheets/voranet/_variables.scss"
+			],
+			[
+				"cms_private",
+				"565_centro_jovellanos_europa/Fuentes/trunk/app/assets/stylesheets/private/cms_private.css.scss"
+			],
+			[
+				"private_menu",
+				"565_centro_jovellanos_europa/Fuentes/trunk/app/views/sites/_private_menu.html.erb"
+			],
+			[
+				"colegiadoscont",
+				"colegio_graduados_sociales/app/controllers/colegiados_controller.rb"
+			],
+			[
+				"import_cole",
+				"colegio_graduados_sociales/app/models/import_colegiado.rb"
+			],
+			[
+				"seed",
+				"colegio_graduados_sociales/db/seeds.rb"
+			],
+			[
+				"tools",
+				"liberbank/lbb-cms/app/controllers/wilson_cms/admin/tools_controller.rb"
+			],
+			[
+				"pages_cont",
+				"liberbank/lbb-cms/app/controllers/wilson_cms/admin/pages_controller.rb"
+			],
+			[
+				"applicationcontroll",
+				"liberbank/liberbank-comercial/app/controllers/application_controller.rb"
+			],
+			[
+				"variables",
+				"555_landings_dicampus/Fuentes/trunk/app/assets/stylesheets/voranet/_variables.scss"
+			],
+			[
+				"tabimax",
+				"555_landings_dicampus/Fuentes/trunk/app/assets/stylesheets/tabimax.css.scss"
+			],
+			[
+				"importbanco",
+				"colegio_graduados_sociales/app/models/import_banco.rb"
+			],
+			[
+				"banco.rb",
+				"colegio_graduados_sociales/app/models/banco.rb"
+			],
+			[
+				"20170817111904_add_fields_to_inscriptions.rb",
+				"550_femetal/Fuentes/trunk/db/migrate/20170817111904_add_fields_to_inscriptions.rb"
+			],
+			[
+				"inscrip",
+				"550_femetal/Fuentes/trunk/app/models/inscripcione.rb"
+			],
+			[
+				"inscripcioneyml",
+				"550_femetal/Fuentes/trunk/config/locales/models/inscripcione/es.yml"
 			]
 		],
 		"width": 0.0
 	},
 	"select_project":
 	{
-		"height": 500.0,
+		"height": 0.0,
 		"last_filter": "",
 		"selected_items":
 		[
-			[
-				"",
-				"~/Documents/my_projects/mi_shop/app/views/shared/liberbank.sublime-workspace"
-			]
 		],
-		"width": 380.0
+		"width": 0.0
 	},
 	"select_symbol":
 	{

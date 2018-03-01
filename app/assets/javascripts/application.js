@@ -20,5 +20,6 @@
 //= require dropzone
 //= require_tree ./modernizr
 //= require_tree ./jquery
+//= require_tree ./vide
 //= require_tree ./theme
 //= require translations

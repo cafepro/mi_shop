@@ -5,12 +5,23 @@
 @import "admin/spree";
 @import "dropzone/dropzone";
 
-@import "theme/slider.min";
-@import "theme/lightbox";
-@import "theme/datepicker.min";
-@import "theme/timepicki.min";
-@import "theme/owl.carousel.min";
-@import "theme/fotofusion";
+// @import "theme/slider.min";
+// @import "theme/lightbox";
+// @import "theme/datepicker.min";
+// @import "theme/timepicki.min";
+// @import "theme/owl.carousel.min";
+
+// Core variables and mixins
+@import "theme/variables";
+@import "theme/mixins";
+// Global CSS
+@import "theme/global";
+// Components
+@import "theme/masthead";
+@import "theme/social";
+@import "theme/bootstrap-overrides";
+//theme
+@import "theme/ascaz";
 
 header.header{
   margin-bottom: 100px;
