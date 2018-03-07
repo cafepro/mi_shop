@@ -3,6 +3,7 @@ module ApplicationHelper
   # extending i18n.t functionality
   # example t('tolk.tranlsations.menu')
   # example t('tolk.tranlsations.menu', 'translations') -> initial value set to 'translations'
+  # returns I18n translations or link to translate if doesn't exists
   def t(*args)
     if args != []
       if (!current_spree_user.nil? && current_spree_user.admin?) || !I18n.exists?(args.first)
@@ -35,6 +36,7 @@ module ApplicationHelper
     end
   end
 
+  # returns the default back layout
   def back_layout
     return @layout = Spree::Layout.where(back_default: true).first rescue Layout.first
   end

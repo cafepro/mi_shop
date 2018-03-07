@@ -4,6 +4,8 @@ class ConfigManager
 
   private
   # load configurations from models to memory
+  # parsing some values to boolean or number format
+  # returns all configurations hash
   def self.load_configurations
     Spree::Configuration.all.each do |config|
       if (Float(config.value) rescue false)
