@@ -35,6 +35,8 @@ Rails.application.routes.draw do
   get  "/:page_id", to: "pages#index"
   post "/:page_id", to: "pages#index"
 
+  get '/admin/orders', to: redirect('/admin/asociates', status: 301)
+  post '/admin/orders', to: redirect('/admin/asociates', status: 301)
 end
 
 
@@ -83,3 +85,4 @@ Spree::Core::Engine.add_routes do
     resources :asociates
   end
 end
+

@@ -12,11 +12,8 @@
 //
 //= require ckeditor/init
 //= require ckeditor/plugins/sourcedialog/plugin
-// require ckeditor/adapters/jquery
-
+//= require dataTables/jquery.dataTables
+//= require dataTables/extras/dataTables.responsive
 //= require_tree ./ckeditor
+//= require datatables
 
-// $(document).on('page:load ready', function(){
-
-
-// });

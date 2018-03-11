@@ -32,6 +32,10 @@
       = f.label :sepa
       = f.check_box :sepa, class: 'form-control'
       = error_message_on :asociate, :sepa
+    = f.field_container :asociation_type, class: ['form-group'] do
+      = f.label :asociation_type
+      = f.check_box :asociation_type, class: 'form-control'
+      = error_message_on :asociate, :asociation_type
     = f.field_container :medical_insurance, class: ['form-group'] do
       = f.label :medical_insurance
       = f.check_box :medical_insurance, class: 'form-control'

@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20171007205102) do
+ActiveRecord::Schema.define(version: 20180310210755) do
 
   create_table "friendly_id_slugs", id: :integer, force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
     t.string "slug", null: false
@@ -67,6 +67,50 @@ ActiveRecord::Schema.define(version: 20171007205102) do
     t.index ["source_id", "source_type"], name: "index_spree_adjustments_on_source_id_and_source_type"
   end
 
+  create_table "spree_asociates", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
+    t.integer "user_id"
+    t.integer "asociate_identifier", null: false
+    t.string "asociate_code", null: false
+    t.boolean "zitron", default: true
+    t.integer "link_to_asociate"
+    t.date "start_date"
+    t.date "end_date"
+    t.boolean "sepa"
+    t.boolean "medical_insurance", default: true
+    t.string "modality"
+    t.date "insurance_start_date"
+    t.date "insurance_end_date"
+    t.string "relationship"
+    t.string "name", null: false
+    t.string "first_surname", null: false
+    t.string "second_surname"
+    t.string "document_type", null: false
+    t.string "document_number"
+    t.string "sex", null: false
+    t.date "birth_date"
+    t.string "street_type"
+    t.string "street"
+    t.string "number"
+    t.string "floor"
+    t.string "city"
+    t.string "province"
+    t.string "postal_code"
+    t.string "phone_number"
+    t.string "email"
+    t.string "iban"
+    t.string "bank"
+    t.string "bank_office"
+    t.string "dc"
+    t.string "account"
+    t.float "inscription_fee", limit: 24
+    t.float "incription_cuote", limit: 24
+    t.datetime "deleted_at"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.string "asociation_type"
+    t.index ["user_id"], name: "index_spree_asociates_on_user_id"
+  end
+
   create_table "spree_assets", id: :integer, force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
     t.string "viewable_type"
     t.integer "viewable_id"
@@ -97,6 +141,14 @@ ActiveRecord::Schema.define(version: 20171007205102) do
     t.index ["calculable_id", "calculable_type"], name: "index_spree_calculators_on_calculable_id_and_calculable_type"
     t.index ["deleted_at"], name: "index_spree_calculators_on_deleted_at"
     t.index ["id", "type"], name: "index_spree_calculators_on_id_and_type"
+  end
+
+  create_table "spree_configurations", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
+    t.string "key"
+    t.string "value"
+    t.boolean "editable", default: true
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   create_table "spree_countries", id: :integer, force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
@@ -173,6 +225,20 @@ ActiveRecord::Schema.define(version: 20171007205102) do
     t.index ["variant_id"], name: "index_inventory_units_on_variant_id"
   end
 
+  create_table "spree_layouts", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
+    t.string "name"
+    t.text "header"
+    t.text "body"
+    t.text "footer"
+    t.text "custom_css"
+    t.text "custom_js"
+    t.boolean "front_default"
+    t.boolean "back_default"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.text "analytics_code"
+  end
+
   create_table "spree_line_items", id: :integer, force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
     t.integer "variant_id"
     t.integer "order_id"
@@ -242,6 +308,21 @@ ActiveRecord::Schema.define(version: 20171007205102) do
     t.index ["position"], name: "index_spree_option_values_on_position"
   end
 
+  create_table "spree_order_images", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
+    t.bigint "order_id"
+    t.bigint "product_id"
+    t.string "title"
+    t.string "alt"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.string "attachment_file_name"
+    t.string "attachment_content_type"
+    t.integer "attachment_file_size"
+    t.datetime "attachment_updated_at"
+    t.index ["order_id"], name: "index_spree_order_images_on_order_id"
+    t.index ["product_id"], name: "index_spree_order_images_on_product_id"
+  end
+
   create_table "spree_order_promotions", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
     t.integer "order_id"
     t.integer "promotion_id"
@@ -301,12 +382,42 @@ ActiveRecord::Schema.define(version: 20171007205102) do
     t.index ["user_id", "created_by_id"], name: "index_spree_orders_on_user_id_and_created_by_id"
   end
 
-  create_table "spree_pages", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
-    t.string "name"
+  create_table "spree_page_images", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
     t.string "title"
-    t.text "content"
+    t.string "alt"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "attachment_file_name"
+    t.string "attachment_content_type"
+    t.integer "attachment_file_size"
+    t.datetime "attachment_updated_at"
+  end
+
+  create_table "spree_pages", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
+    t.string "name"
+    t.text "description"
+    t.string "link"
+    t.boolean "target_blank"
+    t.string "title"
+    t.text "keywords"
+    t.text "seo_code"
+    t.datetime "publish_at"
+    t.datetime "expire_at"
+    t.text "body"
+    t.text "custom_css"
+    t.text "custom_js"
+    t.integer "position"
+    t.integer "parent_id"
+    t.bigint "layout_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.boolean "in_menu", default: false
+    t.boolean "hidden", default: false
+    t.string "url"
+    t.boolean "is_home", default: false
+    t.boolean "no_index", default: false
+    t.boolean "no_follow", default: false
+    t.index ["layout_id"], name: "index_spree_pages_on_layout_id"
   end
 
   create_table "spree_payment_capture_events", id: :integer, force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
@@ -356,6 +467,7 @@ ActiveRecord::Schema.define(version: 20171007205102) do
     t.string "nombre"
     t.string "apellidos"
     t.text "descripcion"
+    t.integer "position"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
@@ -423,6 +535,8 @@ ActiveRecord::Schema.define(version: 20171007205102) do
     t.datetime "updated_at", null: false
     t.boolean "promotionable", default: true
     t.string "meta_title"
+    t.boolean "with_attachments", default: false
+    t.integer "min_attachments", default: 10
     t.index ["available_on"], name: "index_spree_products_on_available_on"
     t.index ["deleted_at"], name: "index_spree_products_on_deleted_at"
     t.index ["discontinue_on"], name: "index_spree_products_on_discontinue_on"
