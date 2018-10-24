@@ -15,7 +15,7 @@ set :deploy_to, '/home/rubyserver/www/ascaz.es'
 set :repository, 'https://github.com/cafepro/mi_shop.git'
 set :branch, 'ascaz'
 set :rails_env, "production"
-set :rvm_use_path, "/usr/local/rvm/bin/rvm"
+set :rvm_use_path, "/usr/local/rvm/scripts/rvm"
 
 # Optional settings:
 set :user, 'rubyserver'          # Username in the server to SSH to.
@@ -37,9 +37,11 @@ task :remote_environment do
   # If you're using rbenv, use this to load the rbenv environment.
   # Be sure to commit your .ruby-version or .rbenv-version to your repository.
   # invoke :'rbenv:load'
-
   # For those using RVM, use this to load an RVM version@gemset.
   invoke :'rvm:use', 'ruby-2.5.0@ascaz'
+  command "rvm list"
+  # command "rvm use ruby-2.5.0@ascaz"
+  # command "rvm list"
 end
 
 # Put any custom commands you need to run at setup
@@ -51,7 +53,7 @@ end
 desc "Deploys the current version to the server."
 task :deploy do
   # uncomment this line to make sure you pushed your local branch to the remote origin
-  # invoke :'git:ensure_pushed'
+  invoke :'git:ensure_pushed'
   deploy do
     # Put things that will set up an empty directory into a fully set-up
     # instance of your project.

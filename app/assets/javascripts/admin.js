@@ -12,8 +12,8 @@
 //
 //= require ckeditor/init
 //= require ckeditor/plugins/sourcedialog/plugin
-//= require dataTables/jquery.dataTables
-//= require dataTables/extras/dataTables.responsive
+// require dataTables/jquery.dataTables
+// require dataTables/extras/dataTables.responsive
 //= require_tree ./ckeditor
 //= require datatables
 

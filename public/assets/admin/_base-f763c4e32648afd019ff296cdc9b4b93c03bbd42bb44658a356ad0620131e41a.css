@@ -1,0 +1,4 @@
+/* line 1, /Users/xchool_dev/Documents/projects/mi_shop/app/assets/stylesheets/admin/_base.scss */
+textarea, .ck-editor__editable {
+  min-height: 150px;
+}
