@@ -2,11 +2,11 @@ default: &default
   adapter: mysql2
   database: mi_shop_development
   username: root
-  password: mysql
+  password: root
   host: localhost
   encoding: utf8
   collation: utf8_general_ci
-  #socket: /tmp/mysql.sock
+  socket: /tmp/mysql.sock
 
 development:
   <<: *default
