@@ -52,6 +52,7 @@ gem 'i18n'
 # to work properly with spree scaffold generators we need haml
 gem 'haml'
 gem 'haml-rails'
+gem 'jquery-datatables-rails', '~> 3.4.0'
 
 # ckedior integration
 gem 'ckeditor' #, '4.1.3'
