@@ -22,7 +22,7 @@ $(document).on('turbolinks:load', function(){
   $('.btn-save-translations').click(function(e) {
     e.preventDefault();
     $('form.form-inline.editableform').submit();
-    $('.btn-save-translations').html('<i class="fa fa-spin fa-circle-o-notch" aria-hidden="true"></i>');
+    $('.btn-save-translations').html('<i class="fa fa-pulse fa-spinner" aria-hidden="true"></i>');
   });
 
 });
