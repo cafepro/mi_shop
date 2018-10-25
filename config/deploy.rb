@@ -28,7 +28,7 @@ set :user, 'rubyserver'          # Username in the server to SSH to.
 # set :shared_dirs, fetch(:shared_dirs, []).push('public/assets')
 # set :shared_files, fetch(:shared_files, []).push('config/database.yml', 'config/secrets.yml')
 set :shared_dirs, fetch(:shared_dirs, []).push('tmp', 'public/spree')
-set :shared_files, fetch(:shared_files, []).push('config/database.yml', 'config/secrets.yml')
+set :shared_files, fetch(:shared_files, []).push('config/database.yml', 'config/secrets.yml', 'config/locales/es.yml', 'config/locales/en.yml', 'config/locales/fr.yml')
 
 
 # This task is the environment that is loaded for all remote run commands, such as
@@ -63,10 +63,10 @@ task :deploy do
     invoke :'rails:db_migrate'
     invoke :'rails:assets_precompile'
     invoke :'deploy:cleanup'
-
     on :launch do
       in_path(fetch(:current_path)) do
         command %{mkdir -p tmp/}
+        command %{rake tolk:import}
         command %{touch tmp/restart.txt}
       end
     end
