@@ -66,7 +66,8 @@ task :deploy do
     on :launch do
       in_path(fetch(:current_path)) do
         command %{mkdir -p tmp/}
-        command %{rake tolk:import}
+        # command %{#{fetch(:rake)} tolk:import}
+        # command %{rake tolk:import RAILS_ENV=production}
         command %{touch tmp/restart.txt}
       end
     end
