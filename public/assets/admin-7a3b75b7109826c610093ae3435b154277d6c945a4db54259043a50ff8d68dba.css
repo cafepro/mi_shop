@@ -1,0 +1,616 @@
+/* Core variables and mixins */
+@import url(/Users/xchool_dev/Documents/projects/mi_shop/app/assets/stylesheets/admin/bootstrap-editable.css);
+/* line 1, /Users/xchool_dev/Documents/projects/mi_shop/app/assets/stylesheets/admin/_base.scss */
+textarea, .ck-editor__editable {
+  min-height: 150px;
+}
+
+/* line 5, /Users/xchool_dev/Documents/projects/mi_shop/app/assets/stylesheets/admin/_base.scss */
+.fixed-bottom {
+  position: fixed;
+  bottom: 0;
+}
+
+/* line 10, /Users/xchool_dev/Documents/projects/mi_shop/app/assets/stylesheets/admin/_base.scss */
+.option-bar {
+  padding: 10px;
+  background-color: #fff;
+  border-top: 1px solid #dee2e6;
+  margin-left: -20px;
+}
+
+/* line 1, /Users/xchool_dev/Documents/projects/mi_shop/app/assets/stylesheets/admin/_spree.scss */
+#main-sidebar {
+  transition: width 0.2s;
+}
+
+/* line 1, /Users/xchool_dev/Documents/projects/mi_shop/app/assets/stylesheets/datatables/_dataTables.bootstrap.scss */
+div.dataTables_length label {
+  font-weight: normal;
+  text-align: left;
+  white-space: nowrap;
+}
+
+/* line 7, /Users/xchool_dev/Documents/projects/mi_shop/app/assets/stylesheets/datatables/_dataTables.bootstrap.scss */
+div.dataTables_length select {
+  width: 75px;
+  display: inline-block;
+}
+
+/* line 12, /Users/xchool_dev/Documents/projects/mi_shop/app/assets/stylesheets/datatables/_dataTables.bootstrap.scss */
+div.dataTables_filter {
+  text-align: right;
+}
+
+/* line 16, /Users/xchool_dev/Documents/projects/mi_shop/app/assets/stylesheets/datatables/_dataTables.bootstrap.scss */
+div.dataTables_filter label {
+  font-weight: normal;
+  white-space: nowrap;
+  text-align: left;
+}
+
+/* line 22, /Users/xchool_dev/Documents/projects/mi_shop/app/assets/stylesheets/datatables/_dataTables.bootstrap.scss */
+div.dataTables_filter input {
+  display: block;
+  width: 100%;
+  height: 38px;
+  padding: 8px 16px;
+  font-size: 14px;
+  line-height: 1.428571429;
+  color: #555555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #e0e0e0;
+  border-radius: 2px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+
+/* line 41, /Users/xchool_dev/Documents/projects/mi_shop/app/assets/stylesheets/datatables/_dataTables.bootstrap.scss */
+div.dataTables_info {
+  padding-top: 8px;
+  white-space: nowrap;
+}
+
+/* line 46, /Users/xchool_dev/Documents/projects/mi_shop/app/assets/stylesheets/datatables/_dataTables.bootstrap.scss */
+div.dataTables_paginate {
+  margin: 0;
+  white-space: nowrap;
+  text-align: right;
+}
+
+/* line 52, /Users/xchool_dev/Documents/projects/mi_shop/app/assets/stylesheets/datatables/_dataTables.bootstrap.scss */
+div.dataTables_paginate ul.pagination {
+  margin: 2px 0;
+  white-space: nowrap;
+}
+
+/* line 4, /Users/jorge/.rvm/gems/ruby-2.5.0@ascaz/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_pagination.scss */
+/* line 58, /Users/xchool_dev/Documents/projects/mi_shop/app/assets/stylesheets/datatables/_dataTables.bootstrap.scss */
+.dataTables_paginate {
+  display: inline-block;
+  padding-left: 0;
+  margin: 20px 0;
+  border-radius: 2px;
+}
+
+/* line 10, /Users/jorge/.rvm/gems/ruby-2.5.0@ascaz/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_pagination.scss */
+/* line 65, /Users/xchool_dev/Documents/projects/mi_shop/app/assets/stylesheets/datatables/_dataTables.bootstrap.scss */
+.dataTables_paginate a {
+  display: inline;
+  cursor: pointer;
+}
+
+/* line 12, /Users/jorge/.rvm/gems/ruby-2.5.0@ascaz/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_pagination.scss */
+/* line 70, /Users/xchool_dev/Documents/projects/mi_shop/app/assets/stylesheets/datatables/_dataTables.bootstrap.scss */
+.dataTables_paginate > a,
+.dataTables_paginate > span > a,
+.dataTables_paginate > span > span.ellipsis {
+  cursor: pointer;
+  position: relative;
+  float: left;
+  padding: 8px 16px;
+  line-height: 1.428571429;
+  text-decoration: none;
+  color: #478DC1;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  margin-left: -1px;
+}
+
+/* line 25, /Users/jorge/.rvm/gems/ruby-2.5.0@ascaz/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_pagination.scss */
+/* line 85, /Users/xchool_dev/Documents/projects/mi_shop/app/assets/stylesheets/datatables/_dataTables.bootstrap.scss */
+.dataTables_paginate > a:first-child,
+.dataTables_paginate > span > a:first-child {
+  margin-left: -1;
+  border-bottom-left-radius: 2px;
+  border-top-left-radius: 2px;
+}
+
+/* line 32, /Users/jorge/.rvm/gems/ruby-2.5.0@ascaz/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_pagination.scss */
+/* line 92, /Users/xchool_dev/Documents/projects/mi_shop/app/assets/stylesheets/datatables/_dataTables.bootstrap.scss */
+.dataTables_paginate > a:last-child,
+.dataTables_paginate > span:last-child > a {
+  border-bottom-right-radius: 2px;
+  border-top-right-radius: 2px;
+}
+
+/* line 41, /Users/jorge/.rvm/gems/ruby-2.5.0@ascaz/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_pagination.scss */
+/* line 98, /Users/xchool_dev/Documents/projects/mi_shop/app/assets/stylesheets/datatables/_dataTables.bootstrap.scss */
+.dataTables_paginate > a:hover,
+.dataTables_paginate > a:focus,
+.dataTables_paginate > span > a.paginate_button:hover,
+.dataTables_paginate > span > a.paginate_button:focus {
+  z-index: 2;
+  color: #2f658c;
+  background-color: #eeeeee;
+  border-color: #ddd;
+}
+
+/* line 52, /Users/jorge/.rvm/gems/ruby-2.5.0@ascaz/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_pagination.scss */
+/* line 108, /Users/xchool_dev/Documents/projects/mi_shop/app/assets/stylesheets/datatables/_dataTables.bootstrap.scss */
+.dataTables_paginate > a.current,
+.dataTables_paginate > a.current:hover,
+.dataTables_paginate > a.current:focus,
+.dataTables_paginate > span > a.paginate_button.current,
+.dataTables_paginate > span > a.paginate_button.current:hover,
+.dataTables_paginate > span > a.paginate_button.current:focus {
+  z-index: 3;
+  color: #fff;
+  background-color: #478DC1;
+  border-color: #478DC1;
+  cursor: default;
+}
+
+/* line 6, /Users/jorge/.rvm/gems/ruby-2.5.0@ascaz/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_pager.scss */
+/* line 122, /Users/xchool_dev/Documents/projects/mi_shop/app/assets/stylesheets/datatables/_dataTables.bootstrap.scss */
+.pager {
+  padding-left: 0;
+  margin: 20px 0;
+  list-style: none;
+  text-align: center;
+}
+
+/* line 14, /Users/jorge/.rvm/gems/ruby-2.5.0@ascaz/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
+/* line 129, /Users/xchool_dev/Documents/projects/mi_shop/app/assets/stylesheets/datatables/_dataTables.bootstrap.scss */
+.pager:before, .pager:after {
+  content: " ";
+  display: table;
+}
+
+/* line 19, /Users/jorge/.rvm/gems/ruby-2.5.0@ascaz/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
+/* line 134, /Users/xchool_dev/Documents/projects/mi_shop/app/assets/stylesheets/datatables/_dataTables.bootstrap.scss */
+.pager:after {
+  clear: both;
+}
+
+/* line 12, /Users/jorge/.rvm/gems/ruby-2.5.0@ascaz/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_pager.scss */
+/* line 138, /Users/xchool_dev/Documents/projects/mi_shop/app/assets/stylesheets/datatables/_dataTables.bootstrap.scss */
+.pager li {
+  display: inline;
+}
+
+/* line 14, /Users/jorge/.rvm/gems/ruby-2.5.0@ascaz/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_pager.scss */
+/* line 142, /Users/xchool_dev/Documents/projects/mi_shop/app/assets/stylesheets/datatables/_dataTables.bootstrap.scss */
+.pager li > a,
+.pager li > span {
+  display: inline-block;
+  padding: 5px 14px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+}
+
+/* line 23, /Users/jorge/.rvm/gems/ruby-2.5.0@ascaz/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_pager.scss */
+/* line 151, /Users/xchool_dev/Documents/projects/mi_shop/app/assets/stylesheets/datatables/_dataTables.bootstrap.scss */
+.pager li > a:hover,
+.pager li > a:focus {
+  text-decoration: none;
+  background-color: #eeeeee;
+}
+
+/* line 31, /Users/jorge/.rvm/gems/ruby-2.5.0@ascaz/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_pager.scss */
+/* line 157, /Users/xchool_dev/Documents/projects/mi_shop/app/assets/stylesheets/datatables/_dataTables.bootstrap.scss */
+.pager .next > a,
+.pager .next > span {
+  float: right;
+}
+
+/* line 38, /Users/jorge/.rvm/gems/ruby-2.5.0@ascaz/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_pager.scss */
+/* line 162, /Users/xchool_dev/Documents/projects/mi_shop/app/assets/stylesheets/datatables/_dataTables.bootstrap.scss */
+.pager .previous > a,
+.pager .previous > span {
+  float: left;
+}
+
+/* line 45, /Users/jorge/.rvm/gems/ruby-2.5.0@ascaz/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_pager.scss */
+/* line 167, /Users/xchool_dev/Documents/projects/mi_shop/app/assets/stylesheets/datatables/_dataTables.bootstrap.scss */
+.pager .disabled > a,
+.pager .disabled > a:hover,
+.pager .disabled > a:focus,
+.pager .disabled > span {
+  color: #777777;
+  background-color: #fff;
+  cursor: not-allowed;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 177, /Users/xchool_dev/Documents/projects/mi_shop/app/assets/stylesheets/datatables/_dataTables.bootstrap.scss */
+  div.dataTables_wrapper > div.row > div,
+  div.dataTables_length,
+  div.dataTables_filter,
+  div.dataTables_info,
+  div.dataTables_paginate {
+    text-align: center;
+  }
+
+  /* line 185, /Users/xchool_dev/Documents/projects/mi_shop/app/assets/stylesheets/datatables/_dataTables.bootstrap.scss */
+  div.DTTT {
+    margin-bottom: 0.5em;
+  }
+}
+/* line 191, /Users/xchool_dev/Documents/projects/mi_shop/app/assets/stylesheets/datatables/_dataTables.bootstrap.scss */
+table.dataTable td,
+table.dataTable th {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+/* line 199, /Users/xchool_dev/Documents/projects/mi_shop/app/assets/stylesheets/datatables/_dataTables.bootstrap.scss */
+table.dataTable {
+  clear: both;
+  margin-top: 6px !important;
+  margin-bottom: 6px !important;
+  max-width: none !important;
+}
+
+/* line 206, /Users/xchool_dev/Documents/projects/mi_shop/app/assets/stylesheets/datatables/_dataTables.bootstrap.scss */
+table.dataTable thead .sorting,
+table.dataTable thead .sorting_asc,
+table.dataTable thead .sorting_desc,
+table.dataTable thead .sorting_asc_disabled,
+table.dataTable thead .sorting_desc_disabled {
+  cursor: pointer;
+  position: relative;
+}
+
+/* line 215, /Users/xchool_dev/Documents/projects/mi_shop/app/assets/stylesheets/datatables/_dataTables.bootstrap.scss */
+table.dataTable thead .sorting:after,
+table.dataTable thead .sorting_asc:after,
+table.dataTable thead .sorting_desc:after {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  display: block;
+  font-family: 'Glyphicons Halflings';
+  opacity: 0.5;
+}
+
+/* line 225, /Users/xchool_dev/Documents/projects/mi_shop/app/assets/stylesheets/datatables/_dataTables.bootstrap.scss */
+table.dataTable thead .sorting:after {
+  opacity: 0.2;
+  content: "\e150";
+  /* sort */
+}
+
+/* line 229, /Users/xchool_dev/Documents/projects/mi_shop/app/assets/stylesheets/datatables/_dataTables.bootstrap.scss */
+table.dataTable thead .sorting_asc:after {
+  content: "\e155";
+  /* sort-by-attributes */
+}
+
+/* line 232, /Users/xchool_dev/Documents/projects/mi_shop/app/assets/stylesheets/datatables/_dataTables.bootstrap.scss */
+table.dataTable thead .sorting_desc:after {
+  content: "\e156";
+  /* sort-by-attributes-alt */
+}
+
+/* line 235, /Users/xchool_dev/Documents/projects/mi_shop/app/assets/stylesheets/datatables/_dataTables.bootstrap.scss */
+div.dataTables_scrollBody table.dataTable thead .sorting:after,
+div.dataTables_scrollBody table.dataTable thead .sorting_asc:after,
+div.dataTables_scrollBody table.dataTable thead .sorting_desc:after {
+  display: none;
+}
+
+/* line 241, /Users/xchool_dev/Documents/projects/mi_shop/app/assets/stylesheets/datatables/_dataTables.bootstrap.scss */
+table.dataTable thead .sorting_asc_disabled:after,
+table.dataTable thead .sorting_desc_disabled:after {
+  color: #eee;
+}
+
+/* line 246, /Users/xchool_dev/Documents/projects/mi_shop/app/assets/stylesheets/datatables/_dataTables.bootstrap.scss */
+table.dataTable thead > tr > th {
+  padding-right: 30px;
+}
+
+/* line 250, /Users/xchool_dev/Documents/projects/mi_shop/app/assets/stylesheets/datatables/_dataTables.bootstrap.scss */
+table.dataTable th:active {
+  outline: none;
+}
+
+/* Condensed */
+/* line 256, /Users/xchool_dev/Documents/projects/mi_shop/app/assets/stylesheets/datatables/_dataTables.bootstrap.scss */
+table.dataTable.table-condensed thead > tr > th {
+  padding-right: 20px;
+}
+
+/* line 260, /Users/xchool_dev/Documents/projects/mi_shop/app/assets/stylesheets/datatables/_dataTables.bootstrap.scss */
+table.dataTable.table-condensed thead .sorting:after,
+table.dataTable.table-condensed thead .sorting_asc:after,
+table.dataTable.table-condensed thead .sorting_desc:after {
+  top: 6px;
+  right: 6px;
+}
+
+/* Scrolling */
+/* line 268, /Users/xchool_dev/Documents/projects/mi_shop/app/assets/stylesheets/datatables/_dataTables.bootstrap.scss */
+div.dataTables_scrollHead table {
+  margin-bottom: 0 !important;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+/* line 274, /Users/xchool_dev/Documents/projects/mi_shop/app/assets/stylesheets/datatables/_dataTables.bootstrap.scss */
+div.dataTables_scrollHead table thead tr:last-child th:first-child,
+div.dataTables_scrollHead table thead tr:last-child td:first-child {
+  border-bottom-left-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
+
+/* line 280, /Users/xchool_dev/Documents/projects/mi_shop/app/assets/stylesheets/datatables/_dataTables.bootstrap.scss */
+div.dataTables_scrollBody table {
+  border-top: none;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+/* line 286, /Users/xchool_dev/Documents/projects/mi_shop/app/assets/stylesheets/datatables/_dataTables.bootstrap.scss */
+div.dataTables_scrollBody tbody tr:first-child th,
+div.dataTables_scrollBody tbody tr:first-child td {
+  border-top: none;
+}
+
+/* line 291, /Users/xchool_dev/Documents/projects/mi_shop/app/assets/stylesheets/datatables/_dataTables.bootstrap.scss */
+div.dataTables_scrollFoot table {
+  margin-top: 0 !important;
+  border-top: none;
+}
+
+/* Frustratingly the border-collapse:collapse used by Bootstrap makes the column
+   width calculations when using scrolling impossible to align columns. We have
+   to use separate
+ */
+/* line 300, /Users/xchool_dev/Documents/projects/mi_shop/app/assets/stylesheets/datatables/_dataTables.bootstrap.scss */
+table.table-bordered.dataTable {
+  border-collapse: separate !important;
+}
+
+/* line 303, /Users/xchool_dev/Documents/projects/mi_shop/app/assets/stylesheets/datatables/_dataTables.bootstrap.scss */
+table.table-bordered thead th,
+table.table-bordered thead td {
+  border-left-width: 0;
+  border-top-width: 0;
+}
+
+/* line 308, /Users/xchool_dev/Documents/projects/mi_shop/app/assets/stylesheets/datatables/_dataTables.bootstrap.scss */
+table.table-bordered tbody th,
+table.table-bordered tbody td {
+  border-left-width: 0;
+  border-bottom-width: 0;
+}
+
+/* line 313, /Users/xchool_dev/Documents/projects/mi_shop/app/assets/stylesheets/datatables/_dataTables.bootstrap.scss */
+table.table-bordered tfoot th,
+table.table-bordered tfoot td {
+  border-left-width: 0;
+  border-bottom-width: 0;
+}
+
+/* line 318, /Users/xchool_dev/Documents/projects/mi_shop/app/assets/stylesheets/datatables/_dataTables.bootstrap.scss */
+table.table-bordered th:last-child,
+table.table-bordered td:last-child {
+  border-right-width: 0;
+}
+
+/* line 322, /Users/xchool_dev/Documents/projects/mi_shop/app/assets/stylesheets/datatables/_dataTables.bootstrap.scss */
+div.dataTables_scrollHead table.table-bordered {
+  border-bottom-width: 0;
+}
+
+/*
+ * TableTools styles
+ */
+/* line 332, /Users/xchool_dev/Documents/projects/mi_shop/app/assets/stylesheets/datatables/_dataTables.bootstrap.scss */
+.table.dataTable tbody tr.active td,
+.table.dataTable tbody tr.active th {
+  background-color: #08C;
+  color: white;
+}
+
+/* line 338, /Users/xchool_dev/Documents/projects/mi_shop/app/assets/stylesheets/datatables/_dataTables.bootstrap.scss */
+.table.dataTable tbody tr.active:hover td,
+.table.dataTable tbody tr.active:hover th {
+  background-color: #0075b0 !important;
+}
+
+/* line 343, /Users/xchool_dev/Documents/projects/mi_shop/app/assets/stylesheets/datatables/_dataTables.bootstrap.scss */
+.table.dataTable tbody tr.active th > a,
+.table.dataTable tbody tr.active td > a {
+  color: white;
+}
+
+/* line 348, /Users/xchool_dev/Documents/projects/mi_shop/app/assets/stylesheets/datatables/_dataTables.bootstrap.scss */
+.table-striped.dataTable tbody tr.active:nth-child(odd) td,
+.table-striped.dataTable tbody tr.active:nth-child(odd) th {
+  background-color: #017ebc;
+}
+
+/* line 353, /Users/xchool_dev/Documents/projects/mi_shop/app/assets/stylesheets/datatables/_dataTables.bootstrap.scss */
+table.DTTT_selectable tbody tr {
+  cursor: pointer;
+}
+
+/* line 357, /Users/xchool_dev/Documents/projects/mi_shop/app/assets/stylesheets/datatables/_dataTables.bootstrap.scss */
+div.DTTT .btn:hover {
+  text-decoration: none !important;
+}
+
+/* line 361, /Users/xchool_dev/Documents/projects/mi_shop/app/assets/stylesheets/datatables/_dataTables.bootstrap.scss */
+ul.DTTT_dropdown.dropdown-menu {
+  z-index: 2003;
+}
+
+/* line 365, /Users/xchool_dev/Documents/projects/mi_shop/app/assets/stylesheets/datatables/_dataTables.bootstrap.scss */
+ul.DTTT_dropdown.dropdown-menu a {
+  color: #333 !important;
+  /* needed only when demo_page.css is included */
+}
+
+/* line 369, /Users/xchool_dev/Documents/projects/mi_shop/app/assets/stylesheets/datatables/_dataTables.bootstrap.scss */
+ul.DTTT_dropdown.dropdown-menu li {
+  position: relative;
+}
+
+/* line 373, /Users/xchool_dev/Documents/projects/mi_shop/app/assets/stylesheets/datatables/_dataTables.bootstrap.scss */
+ul.DTTT_dropdown.dropdown-menu li:hover a {
+  background-color: #0088cc;
+  color: white !important;
+}
+
+/* line 378, /Users/xchool_dev/Documents/projects/mi_shop/app/assets/stylesheets/datatables/_dataTables.bootstrap.scss */
+div.DTTT_collection_background {
+  z-index: 2002;
+}
+
+/* TableTools information display */
+/* line 383, /Users/xchool_dev/Documents/projects/mi_shop/app/assets/stylesheets/datatables/_dataTables.bootstrap.scss */
+div.DTTT_print_info {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 150px;
+  margin-left: -200px;
+  margin-top: -75px;
+  text-align: center;
+  color: #333;
+  padding: 10px 30px;
+  opacity: 0.95;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  -webkit-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.5);
+}
+
+/* line 404, /Users/xchool_dev/Documents/projects/mi_shop/app/assets/stylesheets/datatables/_dataTables.bootstrap.scss */
+div.DTTT_print_info h6 {
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 28px;
+  margin: 1em;
+}
+
+/* line 411, /Users/xchool_dev/Documents/projects/mi_shop/app/assets/stylesheets/datatables/_dataTables.bootstrap.scss */
+div.DTTT_print_info p {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+/* line 416, /Users/xchool_dev/Documents/projects/mi_shop/app/assets/stylesheets/datatables/_dataTables.bootstrap.scss */
+div.dataTables_processing {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 60px;
+  margin-left: -50%;
+  margin-top: -25px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: 1.2em;
+  background-color: white;
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(25%, rgba(255, 255, 255, 0.9)), color-stop(75%, rgba(255, 255, 255, 0.9)), color-stop(100%, rgba(255, 255, 255, 0)));
+  background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.9) 25%, rgba(255, 255, 255, 0.9) 75%, rgba(255, 255, 255, 0) 100%);
+  background: -moz-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.9) 25%, rgba(255, 255, 255, 0.9) 75%, rgba(255, 255, 255, 0) 100%);
+  background: -ms-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.9) 25%, rgba(255, 255, 255, 0.9) 75%, rgba(255, 255, 255, 0) 100%);
+  background: -o-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.9) 25%, rgba(255, 255, 255, 0.9) 75%, rgba(255, 255, 255, 0) 100%);
+  background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.9) 25%, rgba(255, 255, 255, 0.9) 75%, rgba(255, 255, 255, 0) 100%);
+}
+
+/*
+ * FixedColumns styles
+ */
+/* line 442, /Users/xchool_dev/Documents/projects/mi_shop/app/assets/stylesheets/datatables/_dataTables.bootstrap.scss */
+div.DTFC_LeftHeadWrapper table,
+div.DTFC_LeftFootWrapper table,
+div.DTFC_RightHeadWrapper table,
+div.DTFC_RightFootWrapper table,
+table.DTFC_Cloned tr.even {
+  background-color: white;
+  margin-bottom: 0;
+}
+
+/* line 451, /Users/xchool_dev/Documents/projects/mi_shop/app/assets/stylesheets/datatables/_dataTables.bootstrap.scss */
+div.DTFC_RightHeadWrapper table,
+div.DTFC_LeftHeadWrapper table {
+  border-bottom: none !important;
+  margin-bottom: 0 !important;
+  border-top-right-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
+
+/* line 460, /Users/xchool_dev/Documents/projects/mi_shop/app/assets/stylesheets/datatables/_dataTables.bootstrap.scss */
+div.DTFC_RightHeadWrapper table thead tr:last-child th:first-child,
+div.DTFC_RightHeadWrapper table thead tr:last-child td:first-child,
+div.DTFC_LeftHeadWrapper table thead tr:last-child th:first-child,
+div.DTFC_LeftHeadWrapper table thead tr:last-child td:first-child {
+  border-bottom-left-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
+
+/* line 468, /Users/xchool_dev/Documents/projects/mi_shop/app/assets/stylesheets/datatables/_dataTables.bootstrap.scss */
+div.DTFC_RightBodyWrapper table,
+div.DTFC_LeftBodyWrapper table {
+  border-top: none;
+  margin: 0 !important;
+}
+
+/* line 474, /Users/xchool_dev/Documents/projects/mi_shop/app/assets/stylesheets/datatables/_dataTables.bootstrap.scss */
+div.DTFC_RightBodyWrapper tbody tr:first-child th,
+div.DTFC_RightBodyWrapper tbody tr:first-child td,
+div.DTFC_LeftBodyWrapper tbody tr:first-child th,
+div.DTFC_LeftBodyWrapper tbody tr:first-child td {
+  border-top: none;
+}
+
+/* line 481, /Users/xchool_dev/Documents/projects/mi_shop/app/assets/stylesheets/datatables/_dataTables.bootstrap.scss */
+div.DTFC_RightFootWrapper table,
+div.DTFC_LeftFootWrapper table {
+  border-top: none;
+  margin-top: 0 !important;
+}
+
+/* line 488, /Users/xchool_dev/Documents/projects/mi_shop/app/assets/stylesheets/datatables/_dataTables.bootstrap.scss */
+div.DTFC_LeftBodyWrapper table.dataTable thead .sorting:after,
+div.DTFC_LeftBodyWrapper table.dataTable thead .sorting_asc:after,
+div.DTFC_LeftBodyWrapper table.dataTable thead .sorting_desc:after,
+div.DTFC_RightBodyWrapper table.dataTable thead .sorting:after,
+div.DTFC_RightBodyWrapper table.dataTable thead .sorting_asc:after,
+div.DTFC_RightBodyWrapper table.dataTable thead .sorting_desc:after {
+  display: none;
+}
+
+/*
+ * FixedHeader styles
+ */
+/* line 501, /Users/xchool_dev/Documents/projects/mi_shop/app/assets/stylesheets/datatables/_dataTables.bootstrap.scss */
+div.FixedHeader_Cloned table {
+  margin: 0 !important;
+}
