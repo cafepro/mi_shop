@@ -9,40 +9,40 @@ es:
   activerecord:
     attributes:
       spree/asociate:
-        user_id: User
-        asociate_identifier: Asociate Identifier
-        asociate_code: Asociate Code
+        user_id: Usuario
+        asociate_identifier: Código
+        asociate_code: Código de asociado
         zitron: Zitron
-        link_to_asociate: Link To Asociate
-        start_date: Start Date
-        end_date: End Date
+        link_to_asociate: Enlace de asociado
+        start_date: Fecha de inicio
+        end_date: Fecha de fin
         sepa: Sepa
-        medical_insurance: Medical Insurance
-        modality: Modality
-        insurance_start_date: Insurance Start Date
-        insurance_end_date: Insurance End Date
-        relationship: Relationship
-        name: Name
-        first_surname: First Surname
-        second_surname: Second Surname
-        document_type: Document Type
-        document_number: Document Number
-        sex: Sex
-        birth_date: Birth Date
-        street_type: Street Type
-        street: Street
-        number: Number
-        floor: Floor
-        city: City
-        province: Province
-        postal_code: Postal Code
-        phone_number: Phone Number
+        medical_insurance: Seguro médico
+        modality: Modalidad
+        insurance_start_date: Fecha de inicio del seguro
+        insurance_end_date: Fecha de fin del seguro
+        relationship: Relación
+        name: Nombre
+        first_surname: Primer apellido
+        second_surname: Segundo apellido
+        document_type: Tipo de documento
+        document_number: NIF/CIF/NIE
+        sex: Sexo
+        birth_date: Fecha de nacimiento
+        street_type: Vía
+        street: Nombre de la vía
+        number: Número
+        floor: Piso
+        city: Ciudad
+        province: Provincia
+        postal_code: Código postal
+        phone_number: Teléfono
         email: Email
-        iban: Iban
-        bank: Bank
-        bank_office: Bank Office
-        dc: Dc
-        account: Account
-        inscription_fee: Inscription Fee
-        incription_cuote: Incription Cuote
-        deleted_at: Deleted At
+        iban: IBAN
+        bank: Banco
+        bank_office: Sucursal
+        dc: DC
+        account: Cuenta
+        inscription_fee: Cuota de inscripción
+        incription_cuote: Mensualidad
+        deleted_at: Borrado el
