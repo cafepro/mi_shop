@@ -42,4 +42,9 @@ module ApplicationHelper
     return @layout = Spree::Layout.where(back_default: true).first rescue Layout.first
   end
 
+  # delete special characters or transform it normal ones
+  def sanitize(text)
+    return text.parameterize.gsub('-', ' ')
+  end
+
 end

@@ -1,6 +1,24 @@
 module Spree
   class Asociate < Spree::Base
 
+    before_save :update_complete_name_search
+
+    def update_complete_name_search
+      self.complete_name_search = "#{self.complete_name} #{self.complete_name.parameterize.gsub('-',' ')}"
+    end
+
+    def identifier_code
+      self.asociate_identifier.to_s.rjust(3,'0')+self.asociate_code
+    end
+
+    def complete_name
+      "#{self.name} #{self.first_surname} #{self.second_surname}"
+    end
+
+    def document
+      "#{self.document_type} #{self.document_number}"
+    end
+
     def self.import_from_file file_path='./db/imports/libro_de_socios.xlsx'
       Rails.logger.fatal "---- Comienza la importación -----"
       successful = 0
