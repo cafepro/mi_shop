@@ -1,6 +1,10 @@
 module Spree
   class Asociate < Spree::Base
 
+    # RELATIONSHIPS
+    belongs_to :user
+
+    # CALLBACKS
     before_save :update_complete_name_search
 
     def update_complete_name_search

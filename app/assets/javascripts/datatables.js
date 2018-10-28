@@ -8,10 +8,4 @@ $(document).ready(function(){
     "dom": 'ifrtp'
   });
 
-  // Remove accented character from search input as well
-  $('#listing_asociates_filter input').keyup( function () {
-    table.search(
-        jQuery.fn.DataTable.ext.type.search.string( this.value )
-      ).draw()
-  });
 });

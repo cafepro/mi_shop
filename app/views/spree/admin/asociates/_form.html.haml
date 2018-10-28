@@ -1,17 +1,116 @@
 .row{"data-hook" => "admin_asociate_form_fields"}
-  .col-md-6
-    = f.field_container :user_id, class: ['form-group'] do
-      = f.label :user_id
-      = f.number_field :user_id, class: 'form-control'
-      = error_message_on :asociate, :user_id
-    = f.field_container :asociate_identifier, class: ['form-group'] do
-      = f.label :asociate_identifier
-      = f.number_field :asociate_identifier, class: 'form-control'
-      = error_message_on :asociate, :asociate_identifier
-    = f.field_container :asociate_code, class: ['form-group'] do
-      = f.label :asociate_code
-      = f.text_field :asociate_code, class: 'form-control'
-      = error_message_on :asociate, :asociate_code
+  .col-md-8
+    .col-md-8
+      = f.field_container :email, class: ['form-group'] do
+        = f.label :email
+        = f.text_field :email, class: 'form-control'
+        = error_message_on :asociate, :email
+    .col-md-4
+      = f.field_container :phone_number, class: ['form-group'] do
+        = f.label :phone_number
+        = f.text_field :phone_number, class: 'form-control'
+        = error_message_on :asociate, :phone_number
+    .col-md-4
+      = f.field_container :name, class: ['form-group'] do
+        = f.label :name
+        = f.text_field :name, class: 'form-control'
+        = error_message_on :asociate, :name
+    .col-md-4
+      = f.field_container :first_surname, class: ['form-group'] do
+        = f.label :first_surname
+        = f.text_field :first_surname, class: 'form-control'
+        = error_message_on :asociate, :first_surname
+    .col-md-4
+      = f.field_container :second_surname, class: ['form-group'] do
+        = f.label :second_surname
+        = f.text_field :second_surname, class: 'form-control'
+        = error_message_on :asociate, :second_surname
+    .col-md-6
+      = f.field_container :sex, class: ['form-group'] do
+        = f.label :sex
+        = f.text_field :sex, class: 'form-control'
+        = error_message_on :asociate, :sex
+    .col-md-6
+      = f.field_container :birth_date, class: ['form-group'] do
+        = f.label :birth_date
+        = f.text_field :birth_date, value: datepicker_field_value(@asociate.birth_date), class: 'datepicker form-control'
+        = error_message_on :asociate, :birth_date
+    .col-md-3
+      = f.field_container :document_type, class: ['form-group'] do
+        = f.label :document_type
+        = f.text_field :document_type, class: 'form-control'
+        = error_message_on :asociate, :document_type
+    .col-md-9
+      = f.field_container :document_number, class: ['form-group'] do
+        = f.label :document_number
+        = f.text_field :document_number, class: 'form-control'
+        = error_message_on :asociate, :document_number
+    .col-md-12
+      %h4 Dirección
+      %hr
+    .col-md-3
+      = f.field_container :street_type, class: ['form-group'] do
+        = f.label :street_type
+        = f.text_field :street_type, class: 'form-control'
+        = error_message_on :asociate, :street_type
+    .col-md-9
+      = f.field_container :street, class: ['form-group'] do
+        = f.label :street
+        = f.text_field :street, class: 'form-control'
+        = error_message_on :asociate, :street
+    .col-md-4
+      = f.field_container :number, class: ['form-group'] do
+        = f.label :number
+        = f.text_field :number, class: 'form-control'
+        = error_message_on :asociate, :number
+    .col-md-4
+      = f.field_container :floor, class: ['form-group'] do
+        = f.label :floor
+        = f.text_field :floor, class: 'form-control'
+        = error_message_on :asociate, :floor
+    .col-md-4
+      = f.field_container :postal_code, class: ['form-group'] do
+        = f.label :postal_code
+        = f.text_field :postal_code, class: 'form-control'
+        = error_message_on :asociate, :postal_code
+    .col-md-6
+      = f.field_container :city, class: ['form-group'] do
+        = f.label :city
+        = f.text_field :city, class: 'form-control'
+        = error_message_on :asociate, :city
+    .col-md-6
+      = f.field_container :province, class: ['form-group'] do
+        = f.label :province
+        = f.text_field :province, class: 'form-control'
+        = error_message_on :asociate, :province
+    .col-md-12
+      %h4 Datos bancarios
+      %hr
+    .col-md-2
+      = f.field_container :iban, class: ['form-group'] do
+        = f.label :iban
+        = f.text_field :iban, class: 'form-control'
+        = error_message_on :asociate, :iban
+    .col-md-2
+      = f.field_container :bank, class: ['form-group'] do
+        = f.label :bank
+        = f.text_field :bank, class: 'form-control'
+        = error_message_on :asociate, :bank
+    .col-md-2
+      = f.field_container :bank_office, class: ['form-group'] do
+        = f.label :bank_office
+        = f.text_field :bank_office, class: 'form-control'
+        = error_message_on :asociate, :bank_office
+    .col-md-2
+      = f.field_container :dc, class: ['form-group'] do
+        = f.label :dc
+        = f.text_field :dc, class: 'form-control'
+        = error_message_on :asociate, :dc
+    .col-md-4
+      = f.field_container :account, class: ['form-group'] do
+        = f.label :account
+        = f.text_field :account, class: 'form-control'
+        = error_message_on :asociate, :account
     = f.field_container :zitron, class: ['form-group'] do
       = f.label :zitron
       = f.check_box :zitron, class: 'form-control'
@@ -56,90 +155,6 @@
       = f.label :relationship
       = f.text_field :relationship, class: 'form-control'
       = error_message_on :asociate, :relationship
-    = f.field_container :name, class: ['form-group'] do
-      = f.label :name
-      = f.text_field :name, class: 'form-control'
-      = error_message_on :asociate, :name
-    = f.field_container :first_surname, class: ['form-group'] do
-      = f.label :first_surname
-      = f.text_field :first_surname, class: 'form-control'
-      = error_message_on :asociate, :first_surname
-    = f.field_container :second_surname, class: ['form-group'] do
-      = f.label :second_surname
-      = f.text_field :second_surname, class: 'form-control'
-      = error_message_on :asociate, :second_surname
-    = f.field_container :document_type, class: ['form-group'] do
-      = f.label :document_type
-      = f.text_field :document_type, class: 'form-control'
-      = error_message_on :asociate, :document_type
-    = f.field_container :document_number, class: ['form-group'] do
-      = f.label :document_number
-      = f.text_field :document_number, class: 'form-control'
-      = error_message_on :asociate, :document_number
-    = f.field_container :sex, class: ['form-group'] do
-      = f.label :sex
-      = f.text_field :sex, class: 'form-control'
-      = error_message_on :asociate, :sex
-    = f.field_container :birth_date, class: ['form-group'] do
-      = f.label :birth_date
-      = f.text_field :birth_date, value: datepicker_field_value(@asociate.birth_date), class: 'datepicker form-control'
-      = error_message_on :asociate, :birth_date
-    = f.field_container :street_type, class: ['form-group'] do
-      = f.label :street_type
-      = f.text_field :street_type, class: 'form-control'
-      = error_message_on :asociate, :street_type
-    = f.field_container :street, class: ['form-group'] do
-      = f.label :street
-      = f.text_field :street, class: 'form-control'
-      = error_message_on :asociate, :street
-    = f.field_container :number, class: ['form-group'] do
-      = f.label :number
-      = f.text_field :number, class: 'form-control'
-      = error_message_on :asociate, :number
-    = f.field_container :floor, class: ['form-group'] do
-      = f.label :floor
-      = f.text_field :floor, class: 'form-control'
-      = error_message_on :asociate, :floor
-    = f.field_container :city, class: ['form-group'] do
-      = f.label :city
-      = f.text_field :city, class: 'form-control'
-      = error_message_on :asociate, :city
-    = f.field_container :province, class: ['form-group'] do
-      = f.label :province
-      = f.text_field :province, class: 'form-control'
-      = error_message_on :asociate, :province
-    = f.field_container :postal_code, class: ['form-group'] do
-      = f.label :postal_code
-      = f.text_field :postal_code, class: 'form-control'
-      = error_message_on :asociate, :postal_code
-    = f.field_container :phone_number, class: ['form-group'] do
-      = f.label :phone_number
-      = f.text_field :phone_number, class: 'form-control'
-      = error_message_on :asociate, :phone_number
-    = f.field_container :email, class: ['form-group'] do
-      = f.label :email
-      = f.text_field :email, class: 'form-control'
-      = error_message_on :asociate, :email
-    = f.field_container :iban, class: ['form-group'] do
-      = f.label :iban
-      = f.text_field :iban, class: 'form-control'
-      = error_message_on :asociate, :iban
-    = f.field_container :bank, class: ['form-group'] do
-      = f.label :bank
-      = f.text_field :bank, class: 'form-control'
-      = error_message_on :asociate, :bank
-    = f.field_container :bank_office, class: ['form-group'] do
-      = f.label :bank_office
-      = f.text_field :bank_office, class: 'form-control'
-      = error_message_on :asociate, :bank_office
-    = f.field_container :dc, class: ['form-group'] do
-      = f.label :dc
-      = f.text_field :dc, class: 'form-control'
-      = error_message_on :asociate, :dc
-    = f.field_container :account, class: ['form-group'] do
-      = f.label :account
-      = f.text_field :account, class: 'form-control'
-      = error_message_on :asociate, :account
     = f.field_container :inscription_fee, class: ['form-group'] do
       = f.label :inscription_fee
       = f.text_field :inscription_fee, class: 'form-control'
@@ -153,3 +168,20 @@
         = f.label :deleted_at
         = f.text_field :birth_date, value: datepicker_field_value(@asociate.birth_date), class: 'datepicker form-control'
         = error_message_on :asociate, :deleted_at
+  .col-md-4
+    .col-md-12
+      = f.field_container :user_id, class: ['form-group'] do
+        = f.label :user_id
+        = f.number_field :user_id, class: 'form-control'
+        = error_message_on :asociate, :user_id
+    .col-md-6
+      = f.field_container :asociate_identifier, class: ['form-group'] do
+        = f.label :asociate_identifier
+        = f.number_field :asociate_identifier, class: 'form-control'
+        = error_message_on :asociate, :asociate_identifier
+    .col-md-6
+      = f.field_container :asociate_code, class: ['form-group'] do
+        = f.label :asociate_code
+        = f.text_field :asociate_code, class: 'form-control'
+        = error_message_on :asociate, :asociate_code
+

@@ -1,4 +1,6 @@
 - content_for :page_title do
+  = link_to Spree.t(:listing_asociates), spree.admin_asociates_url
+  = "/"
   = Spree.t(:new_asociate)
 %div{"data-hook" => "admin_asociate_new_form_header"}
   = render 'spree/shared/error_messages', target: @asociate

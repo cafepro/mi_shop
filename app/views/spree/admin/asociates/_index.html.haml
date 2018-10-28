@@ -37,7 +37,7 @@
       / %th= t('activerecord.attributes.spree/asociate.inscription_fee')
       / %th= t('activerecord.attributes.spree/asociate.incription_cuote')
       / %th= t('activerecord.attributes.spree/asociate.deleted_at')
-      %th.actions{"data-hook": "admin_asociates_index_header_actions"}
+      %th.actions.no-sort{"data-hook": "admin_asociates_index_header_actions"}
   %tbody
     - @asociates.each do |asociate|
       %tr{:class => "#{cycle('odd', 'even')}", "data-hook" => "admin_asociates_index_rows", :id => "#{spree_dom_id asociate}"}

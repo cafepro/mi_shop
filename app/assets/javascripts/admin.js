@@ -16,5 +16,3 @@
 //= require dataTables/extras/dataTables.responsive
 //= require_tree ./ckeditor
 //= require datatables
-// require accent-neutralise
-
