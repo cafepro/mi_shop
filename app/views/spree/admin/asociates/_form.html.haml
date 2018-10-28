@@ -45,6 +45,7 @@
         = f.label :document_number
         = f.text_field :document_number, class: 'form-control'
         = error_message_on :asociate, :document_number
+
     .col-md-12
       %h4 Dirección
       %hr
@@ -83,6 +84,7 @@
         = f.label :province
         = f.text_field :province, class: 'form-control'
         = error_message_on :asociate, :province
+
     .col-md-12
       %h4 Datos bancarios
       %hr
@@ -111,58 +113,75 @@
         = f.label :account
         = f.text_field :account, class: 'form-control'
         = error_message_on :asociate, :account
-    = f.field_container :zitron, class: ['form-group'] do
-      = f.label :zitron
-      = f.check_box :zitron, class: 'form-control'
-      = error_message_on :asociate, :zitron
-    = f.field_container :link_to_asociate, class: ['form-group'] do
-      = f.label :link_to_asociate
-      = f.number_field :link_to_asociate, class: 'form-control'
-      = error_message_on :asociate, :link_to_asociate
-    = f.field_container :start_date, class: ['form-group'] do
-      = f.label :start_date
-      = f.text_field :start_date, value: datepicker_field_value(@asociate.start_date), class: 'datepicker form-control'
-      = error_message_on :asociate, :start_date
-    = f.field_container :end_date, class: ['form-group'] do
-      = f.label :end_date
-      = f.text_field :end_date, value: datepicker_field_value(@asociate.end_date), class: 'datepicker form-control'
-      = error_message_on :asociate, :end_date
-    = f.field_container :sepa, class: ['form-group'] do
-      = f.label :sepa
-      = f.check_box :sepa, class: 'form-control'
-      = error_message_on :asociate, :sepa
-    = f.field_container :asociation_type, class: ['form-group'] do
-      = f.label :asociation_type
-      = f.check_box :asociation_type, class: 'form-control'
-      = error_message_on :asociate, :asociation_type
-    = f.field_container :medical_insurance, class: ['form-group'] do
-      = f.label :medical_insurance
-      = f.check_box :medical_insurance, class: 'form-control'
-      = error_message_on :asociate, :medical_insurance
-    = f.field_container :modality, class: ['form-group'] do
-      = f.label :modality
-      = f.text_field :modality, class: 'form-control'
-      = error_message_on :asociate, :modality
-    = f.field_container :insurance_start_date, class: ['form-group'] do
-      = f.label :insurance_start_date
-      = f.text_field :insurance_start_date, value: datepicker_field_value(@asociate.insurance_start_date), class: 'datepicker form-control'
-      = error_message_on :asociate, :insurance_start_date
-    = f.field_container :insurance_end_date, class: ['form-group'] do
-      = f.label :insurance_end_date
-      = f.text_field :insurance_end_date, value: datepicker_field_value(@asociate.insurance_end_date), class: 'datepicker form-control'
-      = error_message_on :asociate, :insurance_end_date
-    = f.field_container :relationship, class: ['form-group'] do
-      = f.label :relationship
-      = f.text_field :relationship, class: 'form-control'
-      = error_message_on :asociate, :relationship
-    = f.field_container :inscription_fee, class: ['form-group'] do
-      = f.label :inscription_fee
-      = f.text_field :inscription_fee, class: 'form-control'
-      = error_message_on :asociate, :inscription_fee
-    = f.field_container :incription_cuote, class: ['form-group'] do
-      = f.label :incription_cuote
-      = f.text_field :incription_cuote, class: 'form-control'
-      = error_message_on :asociate, :incription_cuote
+
+    .col-md-12
+      %h4 Otros datos
+      %hr
+    .col-md-12
+      = f.field_container :relationship, class: ['form-group'] do
+        = f.label :relationship
+        = f.text_field :relationship, class: 'form-control'
+        = error_message_on :asociate, :relationship
+      = f.field_container :zitron, class: ['form-group'] do
+        = f.label :zitron
+        = f.check_box :zitron, class: 'form-control'
+        = error_message_on :asociate, :zitron
+      = f.field_container :link_to_asociate, class: ['form-group'] do
+        = f.label :link_to_asociate
+        = f.number_field :link_to_asociate, class: 'form-control'
+        = error_message_on :asociate, :link_to_asociate
+      = f.field_container :start_date, class: ['form-group'] do
+        = f.label :start_date
+        = f.text_field :start_date, value: datepicker_field_value(@asociate.start_date), class: 'datepicker form-control'
+        = error_message_on :asociate, :start_date
+      = f.field_container :end_date, class: ['form-group'] do
+        = f.label :end_date
+        = f.text_field :end_date, value: datepicker_field_value(@asociate.end_date), class: 'datepicker form-control'
+        = error_message_on :asociate, :end_date
+
+    .col-md-12
+      %h4 Datos del seguro
+      %hr
+    .col-md-12
+      = f.field_container :sepa, class: ['form-group'] do
+        = f.label :sepa
+        = f.check_box :sepa, class: 'form-control'
+        = error_message_on :asociate, :sepa
+      = f.field_container :asociation_type, class: ['form-group'] do
+        = f.label :asociation_type
+        = f.check_box :asociation_type, class: 'form-control'
+        = error_message_on :asociate, :asociation_type
+      = f.field_container :medical_insurance, class: ['form-group'] do
+        = f.label :medical_insurance
+        = f.check_box :medical_insurance, class: 'form-control'
+        = error_message_on :asociate, :medical_insurance
+      = f.field_container :modality, class: ['form-group'] do
+        = f.label :modality
+        = f.text_field :modality, class: 'form-control'
+        = error_message_on :asociate, :modality
+      = f.field_container :insurance_start_date, class: ['form-group'] do
+        = f.label :insurance_start_date
+        = f.text_field :insurance_start_date, value: datepicker_field_value(@asociate.insurance_start_date), class: 'datepicker form-control'
+        = error_message_on :asociate, :insurance_start_date
+      = f.field_container :insurance_end_date, class: ['form-group'] do
+        = f.label :insurance_end_date
+        = f.text_field :insurance_end_date, value: datepicker_field_value(@asociate.insurance_end_date), class: 'datepicker form-control'
+        = error_message_on :asociate, :insurance_end_date
+
+    .col-md-12
+      %h4 Cuotas
+      %hr
+    .col-md-6
+      = f.field_container :inscription_fee, class: ['form-group'] do
+        = f.label :inscription_fee
+        = f.text_field :inscription_fee, class: 'form-control'
+        = error_message_on :asociate, :inscription_fee
+    .col-md-6
+      = f.field_container :incription_cuote, class: ['form-group'] do
+        = f.label :incription_cuote
+        = f.text_field :incription_cuote, class: 'form-control'
+        = error_message_on :asociate, :incription_cuote
+
     - if @asociate.deleted_at
       = f.field_container :deleted_at, class: ['form-group'] do
         = f.label :deleted_at
