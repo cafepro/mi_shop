@@ -337,7 +337,7 @@ en:
     - Fri
     - Sat
     abbr_month_names:
-    - 
+    -
     - Jan
     - Feb
     - Mar
@@ -363,7 +363,7 @@ en:
       long: "%B %d, %Y"
       short: "%b %d"
     month_names:
-    - 
+    -
     - January
     - February
     - March
@@ -1735,7 +1735,7 @@ en:
   tolk:
     main_menu: ''
     main_menu_text: ''
-    testing_t: 
+    testing_t:
     tolk:
       tolk: Translations
   views:
@@ -1745,3 +1745,50 @@ en:
       next: Next &rsaquo;
       previous: "&lsaquo; Prev"
       truncate: "&hellip;"
+  spree:
+    admin:
+      tab:
+        asociates: "Asociates"
+    new_asociate: "Nuevo Asociate"
+    listing_asociates: "Listando Asociates"
+    editing_asociate: "Editando Asociate"
+  activerecord:
+    attributes:
+      spree/asociate:
+        user_id: Usuario
+        asociate_identifier: Código
+        asociate_code: Código de asociado
+        zitron: Zitron
+        link_to_asociate: Enlace de asociado
+        start_date: Fecha de inicio
+        end_date: Fecha de fin
+        sepa: Sepa
+        medical_insurance: Seguro médico
+        modality: Modalidad
+        insurance_start_date: Fecha de inicio del seguro
+        insurance_end_date: Fecha de fin del seguro
+        relationship: Relación
+        name: Nombre
+        first_surname: Primer apellido
+        second_surname: Segundo apellido
+        document_type: Tipo de documento
+        document_number: NIF/CIF/NIE
+        sex: Sexo
+        birth_date: Fecha de nacimiento
+        street_type: Vía
+        street: Nombre de la vía
+        number: Número
+        floor: Piso
+        city: Ciudad
+        province: Provincia
+        postal_code: Código postal
+        phone_number: Teléfono
+        email: Email
+        iban: IBAN
+        bank: Banco
+        bank_office: Sucursal
+        dc: DC
+        account: Cuenta
+        inscription_fee: Cuota de inscripción
+        incription_cuote: Mensualidad
+        deleted_at: Borrado el

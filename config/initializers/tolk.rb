@@ -419,5 +419,6 @@ Tolk.config do |config|
     config.mapping[l] = tolk_locales[l.to_s]
   end
 
+  config.primary_locale_name = 'es'
 
 end

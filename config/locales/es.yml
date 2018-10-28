@@ -14,7 +14,7 @@ es:
         zipcode: Código Postal
       spree/calculator/tiered_flat_rate:
         preferred_base_amount: Monto Base
-        preferred_tiers: 
+        preferred_tiers:
       spree/calculator/tiered_percent:
         preferred_base_percent: Porcentaje Base
         preferred_tiers: Niveles Preferidos
@@ -239,42 +239,42 @@ es:
       spree/credit_card:
         one: Tarjeta de Crédito.
         other: Tarjetas de Crédito
-      spree/customer_return: 
+      spree/customer_return:
       spree/inventory_unit:
         one: Unidad de inventario.
         other: Unidades de inventario
       spree/line_item:
         one: Línea de pedido
         other: Líneas de pedido
-      spree/option_type: 
-      spree/option_value: 
+      spree/option_type:
+      spree/option_value:
       spree/order:
         one: Pedido
         others: pedidos
       spree/payment:
         one: Pago
         other: Pagos
-      spree/payment_method: 
+      spree/payment_method:
       spree/product:
         one: Producto
         other: Productos
       spree/promotion:
         one: Promoción
         other: Promociones
-      spree/promotion_category: 
+      spree/promotion_category:
       spree/property:
         one: Propiedad
         other: Propiedades
       spree/prototype:
         one: Prototipo
         other: Propotipos
-      spree/refund_reason: 
-      spree/reimbursement: 
-      spree/reimbursement_type: 
+      spree/refund_reason:
+      spree/reimbursement:
+      spree/reimbursement_type:
       spree/return_authorization:
         one: Autorización para devolución
         other: Autorizaciones para devolución
-      spree/return_authorization_reason: 
+      spree/return_authorization_reason:
       spree/role:
         one: Función
         other: Funciones
@@ -284,14 +284,14 @@ es:
       spree/shipping_category:
         one: Categoría de envío
         other: Categorías de envío
-      spree/shipping_method: 
+      spree/shipping_method:
       spree/state:
         one: Provincia
         other: Provincias
-      spree/state_change: 
-      spree/stock_location: 
-      spree/stock_movement: 
-      spree/stock_transfer: 
+      spree/state_change:
+      spree/stock_location:
+      spree/stock_movement:
+      spree/stock_transfer:
       spree/taxon:
         one: Categoría
         other: Categorías
@@ -304,7 +304,7 @@ es:
       spree/tax_rate:
         one: Tasa de impuesto
         other: Tasas de impuestos
-      spree/tracker: 
+      spree/tracker:
       spree/user:
         one: Usuario
         other: Usuarios
@@ -336,7 +336,7 @@ es:
     - vie
     - sáb
     abbr_month_names:
-    - 
+    -
     - ene
     - feb
     - mar
@@ -362,7 +362,7 @@ es:
       long: "%-d de %B de %Y"
       short: "%-d de %b"
     month_names:
-    - 
+    -
     - enero
     - febrero
     - marzo
@@ -1023,7 +1023,7 @@ es:
       js_format: dd/mm/yy
     date_range: Rango de fechas
     default: Por defecto
-    default_refund_amount: 
+    default_refund_amount:
     default_tax: Tasa por defecto
     default_tax_zone: Zona de tasa por defecto
     delete: Borrar
@@ -1108,8 +1108,8 @@ es:
       count_on_hand_setter: No se pudo establecer count_on_hand manualmente, ya que
         está establecido automáticamente por la callback recalculate_count_on_hand.
         Por favor utiliza `update_column(:count_on_hand, value)` en vez de ello.
-    exchange_for: 
-    excl: 
+    exchange_for:
+    excl:
     existing_shipments: Envíos existentes
     expedited_exchanges_warning: Advertencia de intercambios expeditos
     expiration: Vencimiento
@@ -1267,7 +1267,7 @@ es:
     new_payment_method: Nueva forma de pago
     new_product: Nuevo producto
     new_promotion: Nueva promoción
-    new_promotion_category: 
+    new_promotion_category:
     new_property: Nueva propiedad
     new_prototype: Nuevo prototipo
     new_refund: Nuevo reembolso
@@ -1392,7 +1392,7 @@ es:
     pay: pagar
     payment: Pago
     payments: Pagos
-    payment_could_not_be_created: 
+    payment_could_not_be_created:
     payment_identifier: Identificador del Pago
     payment_information: Información del Pago
     payment_method: Método de Pago
@@ -1428,7 +1428,7 @@ es:
     preferred_reimbursement_type: Método Preferido de Reembolso
     presentation: Presentación
     previous: Previo
-    previous_state_missing: 
+    previous_state_missing:
     pre_tax_amount: Cantidad Sin Impuestos
     pre_tax_refund_amount: Cantidad a Reembolsar
     pre_tax_total: Total Sin Impuestos
@@ -1462,8 +1462,8 @@ es:
         description: Crea un ajuste de crédito en la promoción en el pedido
         name: Crear ajuste
       create_item_adjustments:
-        description: 
-        name: 
+        description:
+        name:
       create_line_items:
         description: Rellena el carrito con la cuantía especificada de la variante
         name: Crea líneas de artículos
@@ -1604,8 +1604,8 @@ es:
     secure_connection_type: Tipo de conexión segura
     security_settings: Preferencias de seguridad
     select: Seleccionar
-    select_a_return_authorization_reason: 
-    select_a_stock_location: 
+    select_a_return_authorization_reason:
+    select_a_stock_location:
     select_from_prototype: Seleccionar desde el prototipo
     select_stock: Seleccionar Stock
     send_copy_of_all_mails_to: Enviar copia de todos los emails a
@@ -1712,7 +1712,7 @@ es:
       shipped: Enviado
       void: Nulo
     status: Estatus
-    stock: 
+    stock:
     stock_location: Localización de stock
     stock_locations: Localizaciones de Stock
     stock_locations_need_a_default_country: Locaciones de inventario necesitan un
@@ -1826,7 +1826,7 @@ es:
     validation:
       cannot_be_less_than_shipped_units: no puede ser menor que el número de unidades
         enviadas.
-      cannot_destroy_line_item_as_inventory_units_have_shipped: 
+      cannot_destroy_line_item_as_inventory_units_have_shipped:
       exceeds_available_stock: excede el stock disponible. Por favor asegúrate que
         los artículos tienen un cantidad válida.
       is_too_large: demasiado grande -- el stock disponible no puede cubrir la cantidad
@@ -1886,7 +1886,7 @@ es:
     main_menu_text: ":P"
     new_entry: Tolk Traducc
     new_entry_with_value: Traducciones Chachis
-    testing_t: 
+    testing_t:
     tolk:
       tolk: Traducciones
   translations:
@@ -1899,3 +1899,51 @@ es:
       next: Siguiente &rsaquo;
       previous: "&lsaquo; Anterior"
       truncate: "&hellip;"
+  spree:
+    admin:
+      tab:
+        asociates: "Asociados"
+    new_asociate: "Nuevo Asociado"
+    listing_asociates: "Listando Asociados"
+    editing_asociate: "Editando Asociado"
+  activerecord:
+    attributes:
+      spree/asociate:
+        user_id: Usuario
+        asociate_identifier: Código
+        asociate_code: Código de asociado
+        zitron: Zitron
+        link_to_asociate: Enlace de asociado
+        start_date: Fecha de inicio
+        end_date: Fecha de fin
+        sepa: Sepa
+        medical_insurance: Seguro médico
+        modality: Modalidad
+        insurance_start_date: Fecha de inicio del seguro
+        insurance_end_date: Fecha de fin del seguro
+        relationship: Relación
+        name: Nombre
+        first_surname: Primer apellido
+        second_surname: Segundo apellido
+        document_type: Tipo de documento
+        document_number: NIF/CIF/NIE
+        sex: Sexo
+        birth_date: Fecha de nacimiento
+        street_type: Vía
+        street: Nombre de la vía
+        number: Número
+        floor: Piso
+        city: Ciudad
+        province: Provincia
+        postal_code: Código postal
+        phone_number: Teléfono
+        email: Email
+        iban: IBAN
+        bank: Banco
+        bank_office: Sucursal
+        dc: DC
+        account: Cuenta
+        inscription_fee: Cuota de inscripción
+        incription_cuote: Mensualidad
+        deleted_at: Borrado el
+
