@@ -14,7 +14,6 @@ en:
         zipcode: Zip Code
       spree/calculator/tiered_flat_rate:
         preferred_base_amount: Base Amount
-        preferred_tiers: Tiers
       spree/calculator/tiered_percent:
         preferred_base_percent: Base Percent
         preferred_tiers: Tiers
@@ -201,9 +200,6 @@ en:
                 specified do not belong to the same order as the reimbursement.
         spree/return_item:
           attributes:
-            inventory_unit:
-              other_completed_return_item_exists: "%{inventory_unit_id} has already
-                been taken by return item %{return_item_id}"
             reimbursement:
               cannot_be_associated_unless_accepted: cannot be associated to a return
                 item that is not accepted.
@@ -221,61 +217,30 @@ en:
       spree/credit_card:
         one: Credit Card
         other: Credit Cards
-      spree/customer_return:
-        one: Customer Return
-        other: Customer Returns
       spree/inventory_unit:
         one: Inventory Unit
         other: Inventory Units
       spree/line_item:
         one: Line Item
         other: Line Items
-      spree/option_type:
-        one: Option Type
-        other: Option Types
-      spree/option_value:
-        one: Option Value
-        other: Option Values
-      spree/order:
-        one:
-          one: Order
-          other: Orders
       spree/payment:
         one: Payment
         other: Payments
-      spree/payment_method:
-        one: Payment Method
-        other: Payment Methods
       spree/product:
         one: Product
         other: Products
       spree/promotion:
         one: Promotion
         other: Promotions
-      spree/promotion_category:
-        one: Promotion Category
-        other: Promotion Categories
       spree/property:
         one: Property
         other: Properties
       spree/prototype:
         one: Prototype
         other: Prototypes
-      spree/refund_reason:
-        one: Refund Reason
-        other: Refund Reasons
-      spree/reimbursement:
-        one: Reimbursement
-        other: Reimbursements
-      spree/reimbursement_type:
-        one: Reimbursement Type
-        other: Reimbursement Types
       spree/return_authorization:
         one: Return Authorization
         other: Return Authorizations
-      spree/return_authorization_reason:
-        one: Return Authorization Reason
-        other: Return Authorization Reasons
       spree/role:
         one: Roles
         other: Roles
@@ -285,24 +250,9 @@ en:
       spree/shipping_category:
         one: Shipping Category
         other: Shipping Categories
-      spree/shipping_method:
-        one: Shipping Method
-        other: Shipping Methods
       spree/state:
         one: State
         other: States
-      spree/state_change:
-        one: State Change
-        other: State Changes
-      spree/stock_location:
-        one: Stock Location
-        other: Stock Locations
-      spree/stock_movement:
-        one: Stock Movement
-        other: Stock Movements
-      spree/stock_transfer:
-        one: Stock Transfer
-        other: Stock Transfers
       spree/taxon:
         one: Taxon
         other: Taxons
@@ -315,9 +265,6 @@ en:
       spree/tax_rate:
         one: Tax Rate
         other: Tax Rates
-      spree/tracker:
-        one: Tracker
-        other: Trackers
       spree/user:
         one: User
         other: Users
@@ -337,7 +284,7 @@ en:
     - Fri
     - Sat
     abbr_month_names:
-    -
+    - 
     - Jan
     - Feb
     - Mar
@@ -363,7 +310,7 @@ en:
       long: "%B %d, %Y"
       short: "%b %d"
     month_names:
-    -
+    - 
     - January
     - February
     - March
@@ -480,7 +427,6 @@ en:
       accepted: must be accepted
       already_confirmed: was already confirmed
       blank: can't be blank
-      confirmation: doesn't match %{attribute}
       email_is_invalid: Email address cannot be blank
       empty: can't be empty
       equal_to: must be equal to %{count}
@@ -557,10 +503,8 @@ en:
         format: "%n %u"
         units:
           billion: Billion
-          million: Million
           quadrillion: Quadrillion
           thousand: Thousand
-          trillion: Trillion
           unit: ''
       format:
         delimiter: ''
@@ -776,7 +720,6 @@ en:
     backorders_allowed: backorders allowed
     back_end: Backend
     back_to_payment: Back To Payment
-    back_to_resource_list: Back To %{resource} List
     back_to_rma_reason_list: Back To RMA Reason List
     back_to_store: Go Back To Store
     back_to_users_list: Back To Users List
@@ -809,9 +752,6 @@ en:
     card_type: Brand
     card_type_is: Card type is
     cart: Cart
-    cart_subtotal:
-      one: Subtotal (1 item)
-      other: Subtotal (%{count} items)
     categories: Categories
     category: Category
     charged: Charged
@@ -913,7 +853,6 @@ en:
       js_format: yy/mm/dd
     date_range: Date Range
     default: Default
-    default_refund_amount: Default Refund Amount
     default_tax: Default Tax
     default_tax_zone: Default Tax Zone
     delete: Delete
@@ -929,7 +868,6 @@ en:
     display: Display
     doesnt_track_inventory: It doesn't track inventory
     edit: Edit
-    editing_resource: Editing %{resource}
     editing_rma_reason: Editing RMA Reason
     editing_user: Editing User
     eligibility_errors:
@@ -990,12 +928,7 @@ en:
       count_on_hand_setter: Cannot set count_on_hand manually, as it is set automatically
         by the recalculate_count_on_hand callback. Please use `update_column(:count_on_hand,
         value)` instead.
-    exchange_for: Exchange for
-    excl: excl.
     existing_shipments: Existing shipments
-    expedited_exchanges_warning: Any specified exchanges will ship to the customer
-      immediately upon saving. The customer will be charged the full amount of the
-      item if they do not return the original item within %{days_window} days.
     expiration: Expiration
     extension: Extension
     failed_payment_attempts: Failed Payment Attempts
@@ -1143,7 +1076,6 @@ en:
     new_payment_method: New Payment Method
     new_product: New Product
     new_promotion: New Promotion
-    new_promotion_category: New Promotion Category
     new_property: New Property
     new_prototype: New Prototype
     new_refund: New Refund
@@ -1219,17 +1151,14 @@ en:
         dear_customer: Dear Customer,
         instructions: Your order has been CANCELED.  Please retain this cancellation
           information for your records.
-        order_summary_canceled: Order %{number} Summary [CANCELED]
         subject: Cancellation of Order
       confirm_email:
         dear_customer: Dear Customer,
         instructions: Please review and retain the following order information for
           your records.
-        order_summary: Order %{number} Summary
         subject: Order Confirmation
         thanks: Thank you for your business.
     order_not_found: We couldn't find your order. Please try that action again.
-    order_number: Order %{number}
     order_processed_successfully: Your order has been processed successfully
     order_resumed: Order resumed
     order_state:
@@ -1262,7 +1191,6 @@ en:
     pay: pay
     payment: Payment
     payments: Payments
-    payment_could_not_be_created: Payment could not be created.
     payment_identifier: Payment Identifier
     payment_information: Payment Information
     payment_method: Payment Method
@@ -1298,7 +1226,6 @@ en:
     preferred_reimbursement_type: Preferred Reimbursement Type
     presentation: Presentation
     previous: Previous
-    previous_state_missing: n/a
     pre_tax_amount: Pre-Tax Amount
     pre_tax_refund_amount: Pre-Tax Refund Amount
     pre_tax_total: Pre-Tax Total
@@ -1331,9 +1258,6 @@ en:
       create_adjustment:
         description: Creates a promotion credit adjustment on the order
         name: Create whole-order adjustment
-      create_item_adjustments:
-        description: Creates a promotion credit adjustment on a line item
-        name: Create per-line-item adjustment
       create_line_items:
         description: Populates the cart with the specified quantity of variant
         name: Create line items
@@ -1404,15 +1328,12 @@ en:
     reimbursements: Reimbursements
     reimbursement_mailer:
       reimbursement_email:
-        days_to_send: You have %{days} days to send back any items awaiting exchange.
         dear_customer: Dear Customer,
         exchange_summary: Exchange Summary
         for: for
         instructions: Your reimbursement has been processed.
         refund_summary: Refund Summary
         subject: Reimbursement Notification
-        total_refunded: 'Total refunded: %{total}'
-    reimbursement_perform_failed: 'Reimbursement could not be performed.  Error: %{error}'
     reimbursement_status: Reimbursement status
     reimbursement_type: Reimbursement type
     reimbursement_types: Reimbursement Types
@@ -1471,8 +1392,6 @@ en:
     secure_connection_type: Secure Connection Type
     security_settings: Security Settings
     select: Select
-    select_a_return_authorization_reason: Select a reason for the return authorization
-    select_a_stock_location: Select a stock location
     select_from_prototype: Select From Prototype
     select_stock: Select stock
     send_copy_of_all_mails_to: Send Copy of All Mails To
@@ -1484,11 +1403,9 @@ en:
     shipment: Shipment
     shipments: Shipments
     shipment_adjustments: Shipment adjustments
-    shipment_details: From %{stock_location} via %{shipping_method}
     shipment_mailer:
       shipped_email:
         dear_customer: Dear Customer,
-        instructions: Your order %{number} has been shipped
         shipment_summary: Shipment Summary for order
         subject: Shipment Notification
         thanks: Thank you for your business.
@@ -1580,7 +1497,6 @@ en:
       shipped: Shipped
       void: Void
     status: Status
-    stock: Stock
     stock_location: Stock Location
     stock_locations: Stock Locations
     stock_locations_need_a_default_country: You must create a default country before
@@ -1693,14 +1609,11 @@ en:
     validation:
       cannot_be_less_than_shipped_units: cannot be less than the number of shipped
         units.
-      cannot_destroy_line_item_as_inventory_units_have_shipped: Cannot destroy line
-        item as some inventory units have shipped.
       exceeds_available_stock: exceeds available stock. Please ensure line items have
         a valid quantity.
       is_too_large: is too large -- stock on hand cannot cover requested quantity!
       must_be_int: must be an integer
       must_be_non_negative: must be a non-negative value
-      unpaid_amount_not_zero: 'Amount was not fully reimbursed. Still due: %{amount}'
     value: Value
     variant: Variant
     variants: Variants
@@ -1735,7 +1648,6 @@ en:
   tolk:
     main_menu: ''
     main_menu_text: ''
-    testing_t:
     tolk:
       tolk: Translations
   views:
@@ -1745,50 +1657,3 @@ en:
       next: Next &rsaquo;
       previous: "&lsaquo; Prev"
       truncate: "&hellip;"
-  spree:
-    admin:
-      tab:
-        asociates: "Asociates"
-    new_asociate: "Nuevo Asociate"
-    listing_asociates: "Listando Asociates"
-    editing_asociate: "Editando Asociate"
-  activerecord:
-    attributes:
-      spree/asociate:
-        user_id: Usuario
-        asociate_identifier: Código
-        asociate_code: Código de asociado
-        zitron: Zitron
-        link_to_asociate: Enlace de asociado
-        start_date: Fecha de inicio
-        end_date: Fecha de fin
-        sepa: Sepa
-        medical_insurance: Seguro médico
-        modality: Modalidad
-        insurance_start_date: Fecha de inicio del seguro
-        insurance_end_date: Fecha de fin del seguro
-        relationship: Relación
-        name: Nombre
-        first_surname: Primer apellido
-        second_surname: Segundo apellido
-        document_type: Tipo de documento
-        document_number: NIF/CIF/NIE
-        sex: Sexo
-        birth_date: Fecha de nacimiento
-        street_type: Vía
-        street: Nombre de la vía
-        number: Número
-        floor: Piso
-        city: Ciudad
-        province: Provincia
-        postal_code: Código postal
-        phone_number: Teléfono
-        email: Email
-        iban: IBAN
-        bank: Banco
-        bank_office: Sucursal
-        dc: DC
-        account: Cuenta
-        inscription_fee: Cuota de inscripción
-        incription_cuote: Mensualidad
-        deleted_at: Borrado el

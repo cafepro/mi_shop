@@ -22,11 +22,11 @@
       = error_message_on :asociate, :link_to_asociate
     = f.field_container :start_date, class: ['form-group'] do
       = f.label :start_date
-      = f.date_select :start_date, class: 'form-control'
+      = f.text_field :start_date, value: datepicker_field_value(@asociate.start_date), class: 'datepicker form-control'
       = error_message_on :asociate, :start_date
     = f.field_container :end_date, class: ['form-group'] do
       = f.label :end_date
-      = f.date_select :end_date, class: 'form-control'
+      = f.text_field :end_date, value: datepicker_field_value(@asociate.end_date), class: 'datepicker form-control'
       = error_message_on :asociate, :end_date
     = f.field_container :sepa, class: ['form-group'] do
       = f.label :sepa
@@ -46,11 +46,11 @@
       = error_message_on :asociate, :modality
     = f.field_container :insurance_start_date, class: ['form-group'] do
       = f.label :insurance_start_date
-      = f.date_select :insurance_start_date, class: 'form-control'
+      = f.text_field :insurance_start_date, value: datepicker_field_value(@asociate.insurance_start_date), class: 'datepicker form-control'
       = error_message_on :asociate, :insurance_start_date
     = f.field_container :insurance_end_date, class: ['form-group'] do
       = f.label :insurance_end_date
-      = f.date_select :insurance_end_date, class: 'form-control'
+      = f.text_field :insurance_end_date, value: datepicker_field_value(@asociate.insurance_end_date), class: 'datepicker form-control'
       = error_message_on :asociate, :insurance_end_date
     = f.field_container :relationship, class: ['form-group'] do
       = f.label :relationship
@@ -82,7 +82,7 @@
       = error_message_on :asociate, :sex
     = f.field_container :birth_date, class: ['form-group'] do
       = f.label :birth_date
-      = f.date_select :birth_date, class: 'form-control'
+      = f.text_field :birth_date, value: datepicker_field_value(@asociate.birth_date), class: 'datepicker form-control'
       = error_message_on :asociate, :birth_date
     = f.field_container :street_type, class: ['form-group'] do
       = f.label :street_type
@@ -148,7 +148,8 @@
       = f.label :incription_cuote
       = f.text_field :incription_cuote, class: 'form-control'
       = error_message_on :asociate, :incription_cuote
-    = f.field_container :deleted_at, class: ['form-group'] do
-      = f.label :deleted_at
-      = f.datetime_select :deleted_at, class: 'form-control'
-      = error_message_on :asociate, :deleted_at
+    - if @asociate.deleted_at
+      = f.field_container :deleted_at, class: ['form-group'] do
+        = f.label :deleted_at
+        = f.text_field :birth_date, value: datepicker_field_value(@asociate.birth_date), class: 'datepicker form-control'
+        = error_message_on :asociate, :deleted_at

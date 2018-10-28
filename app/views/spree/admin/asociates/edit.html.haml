@@ -1,5 +1,11 @@
 - content_for :page_title do
-  = Spree.t(:editing_asociate)
+  = link_to Spree.t(:listing_asociates), spree.admin_asociates_url
+  = "/"
+  = @asociate.complete_name.capitalize
+
+- content_for :page_actions do
+  = button_link_to Spree.t(:new_asociate), new_object_url, class: 'btn-success', icon: 'add', id: 'admin_new_asociate_link'
+
 %div{"data-hook" => "admin_asociate_edit_form_header"}
   = render 'spree/shared/error_messages', target: @asociate
 %div{"data-hook" => "admin_asociate_edit_form"}
