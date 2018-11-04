@@ -11,9 +11,9 @@ require 'mina/rvm'    # for rvm support. (https://rvm.io)
 
 set :application_name, 'ascaz'
 set :domain, 'ascaz.es'
-set :deploy_to, '/home/rubyserver/www/ascaz.es'
+set :deploy_to, '/home/rubyserver/www/develop.ascaz.es'
 set :repository, 'https://github.com/cafepro/mi_shop.git'
-set :branch, 'ascaz'
+set :branch, 'ascaz-develop'
 set :rails_env, "production"
 set :rvm_use_path, "/usr/local/rvm/scripts/rvm"
 
