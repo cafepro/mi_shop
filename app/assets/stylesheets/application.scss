@@ -2,7 +2,7 @@
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
-@import "admin/spree";
+/*@import "admin/spree";*/
 @import "dropzone/dropzone";
 
 /*// @import "theme/slider.min";
@@ -10,18 +10,31 @@
 // @import "theme/datepicker.min";
 // @import "theme/timepicki.min";
 // @import "theme/owl.carousel.min";*/
+@import "theme/bootstrap";
 
 /* Core variables and mixins */
 @import "theme/variables";
-@import "theme/mixins";
+/*@import "theme/mixins";*/
+/*@import 'theme/navbar';*/
 /* Global CSS */
-@import "theme/global";
+/*@import "theme/global";*/
 /* Components */
-@import "theme/masthead";
-@import "theme/social";
-@import "theme/bootstrap-overrides";
-//theme
-@import "theme/ascaz";
+/*@import "theme/masthead";*/
+/*@import 'theme/buttons';*/
+/*@import 'theme/about';*/
+/*@import 'theme/projects';*/
+/*@import 'theme/signup';*/
+/*@import 'theme/contact';*/
+/*@import "theme/social";*/
+/*@import "theme/bootstrap-overrides";*/
+/* theme */
+@import "theme/grayscale";
+/*@import "theme/ascaz";*/
+
+
+html {
+  font-size: 16px;
+}
 
 header.header{
   margin-bottom: 100px;
