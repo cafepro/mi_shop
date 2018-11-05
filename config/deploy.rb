@@ -38,7 +38,7 @@ task :remote_environment do
   # Be sure to commit your .ruby-version or .rbenv-version to your repository.
   # invoke :'rbenv:load'
   # For those using RVM, use this to load an RVM version@gemset.
-  invoke :'rvm:use', 'ruby-2.5.0@ascaz'
+  invoke :'rvm:use', 'ruby-2.5.0@ascaz-develop'
   command "rvm list"
   # command "rvm use ruby-2.5.0@ascaz"
   # command "rvm list"
