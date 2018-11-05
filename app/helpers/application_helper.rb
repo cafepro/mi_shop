@@ -39,7 +39,7 @@ module ApplicationHelper
 
   # returns the default back layout
   def back_layout
-    return @layout = Spree::Layout.where(back_default: true).first rescue Layout.first
+    return @layout = Spree::Layout.where(back_default: true).first rescue Spree::Layout.first
   end
 
   # delete special characters or transform it normal ones
