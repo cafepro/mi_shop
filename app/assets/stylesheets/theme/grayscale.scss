@@ -154,11 +154,11 @@
 }
 
 .btn-primary:hover {
-  background-color: #4f837f;
+  background-color: darken($primary, 10);
 }
 
 .btn-primary:focus {
-  background-color: #4f837f;
+  background-color: darken($primary, 10);
   color: white;
 }
 
