@@ -7,6 +7,12 @@ module Spree
     # CALLBACKS
     before_save :update_complete_name_search
 
+    def destroy
+      super and return if !self.deleted_at.blank?
+      self.deleted_at = DateTime.now
+      self.save
+    end
+
     def update_complete_name_search
       self.complete_name_search = "#{self.complete_name} #{self.complete_name.parameterize.gsub('-',' ')}"
     end
@@ -19,10 +25,46 @@ module Spree
       "#{self.name} #{self.first_surname} #{self.second_surname}"
     end
 
+    def complete_name_with_email
+      "#{complete_name} (#{self.email})"
+    end
+
     def document
       "#{self.document_type} #{self.document_number}"
     end
 
+    ### SELECTS
+    def self.sex_options
+      ['Hombre','Mujer']
+    end
+
+    def self.document_type_options
+      ['NIF','CIF','NIE']
+    end
+
+    def self.street_type_options
+      ["CALLE",
+       "AVENIDA",
+       "CAMINO",
+       "CARRETERA",
+       "BARRIO",
+       "PUEBLO",
+       "CL",
+       "PASEO",
+       "(LOCALIDAD)",
+       "PLAZA",
+       "URBANIZACION"]
+    end
+
+    def self.relationship_options
+      ["TITULAR", "CÓNYUGE", "HIJ@", "PROGENITOR@", "TI@", "HERMAN@", "AMIG@", "Otro"]
+    end
+
+    def self.modality_options
+      ["HOSPITALARIA", "AMBULATORIA"]
+    end
+
+    ### IMPORTS
     def self.import_from_file file_path='./db/imports/libro_de_socios.xlsx'
       Rails.logger.fatal "---- Comienza la importación -----"
       successful = 0
@@ -72,7 +114,7 @@ module Spree
                               second_surname: row[16].value,
                               document_type: (row[17].value || 'NIF'),
                               document_number: row[18].value,
-                              sex: row[19].value,
+                              sex: (row[19].value=='H' ? 'Hombre' : 'Mujer'),
                               birth_date: (Date.parse(row[20].value) rescue nil),
                               street_type: row[22].value,
                               street: row[23].value,
