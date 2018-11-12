@@ -1,9 +1,9 @@
-.btn-group-fixed
-  .row
-    .fright
-      = link_to '<i class="fa fa-save"></i>'.html_safe, '#', 'data-disabled': 'false', class: 'btn btn-warning btn-fixed btn-save-translations hidden'
-    .fright
-      = link_to '<i class="fa fa-edit"></i>'.html_safe, '#', 'data-disabled': 'false', class: 'toggle-editable btn btn-success btn-fixed'
-    .fright
-      = form_with url: tolk.dump_all_locales_path do |form|
-        = form.submit 'Guardar', class: 'save-translations btn btn-default btn-fixed hidden'
+.fixed-bar
+  .btn-group-fixed
+    = link_to '#', 'data-disabled': 'false', class: 'btn btn-warning btn-fixed btn-save-translations hidden' do
+      %i.fa.fa-save
+    = link_to '#', 'data-disabled': 'false', class: 'toggle-editable btn btn-success btn-fixed' do
+      %i.fa.fa-pencil
+    = form_with url: tolk.dump_all_locales_path do |form|
+      %i.fa.fa-pulse.fa-spinner.hidden
+      = form.submit 'Aplicar los cambios', class: 'fright save-translations btn btn-default btn-fixed hidden'

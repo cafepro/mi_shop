@@ -4,7 +4,7 @@ $(document).on('turbolinks:load', function(){
 
   $('.toggle-editable').click(function(e) {
     e.preventDefault();
-    elm = $('.toggle-editable');
+    elm = $(this);
 
     // console.log(elm.data('disabled'));
     // finalmente no desactiva los traducibles así que siempre
@@ -22,7 +22,7 @@ $(document).on('turbolinks:load', function(){
   $('.btn-save-translations').click(function(e) {
     e.preventDefault();
     $('form.form-inline.editableform').submit();
-    $('.btn-save-translations').html('<i class="fa fa-pulse fa-spinner" aria-hidden="true"></i>');
+    $('i.fa-spinner').removeClass("hidden");
   });
 
 });
@@ -37,7 +37,7 @@ function set_traducibles(disabled) {
     disabled: disabled,
     success: function(response, newValue) {
                   $('.save-translations').removeClass('hidden');
-                  $('.btn-save-translations').html('<i class="fa fa-fw fa-save"></i>');
+                  $('i.fa-spinner').addClass("hidden");
                 }
   });
 }

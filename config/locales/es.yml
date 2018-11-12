@@ -386,6 +386,8 @@ es:
       upload: Subir
     confirm_delete: "¿Borrar archivo?"
     page_title: Administrador de Archivos CKEditor
+  common:
+    logo: Ascaz.es
   contact:
     email: ''
     name: ''
@@ -667,6 +669,10 @@ es:
           title_side: Reportaje de Bodas
         subtitle: Un regalo con el que siempre acertarás
         title: Descubre nuestras sesiones
+      first:
+        button: botonaco
+        text: Asociación Socio Cultural Ascaz
+        title: ASCAZ
   layouts:
     back_default: back default
     front_default: front default
@@ -677,6 +683,7 @@ es:
   main_site:
     logo: Ascaz
   menu:
+    first: Go to Section
     first_lvl:
       about: ''
       acerca-de: menu 2
@@ -688,6 +695,8 @@ es:
       servicios: menu 3
       shop: ''
       tienda: shop
+    second: Menu 2
+    third: Menú 3
   name:
     scope: activerecord.attributes.spree/layout
   number:
