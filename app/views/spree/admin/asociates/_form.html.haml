@@ -216,3 +216,7 @@
         = f.label :incription_cuote
         = f.text_field :incription_cuote, class: 'form-control'
         = error_message_on :asociate, :incription_cuote
+    .col-md-12
+      %ul
+        - Spree::Asociate.where(link_to_asociate: f.object.id).each do |user|
+          %li= user.complete_name
