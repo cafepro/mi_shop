@@ -22,7 +22,7 @@ module Spree
     end
 
     def complete_name
-      "#{self.name} #{self.first_surname} #{self.second_surname}"
+      "#{self.name} #{self.first_surname} #{self.second_surname}".split.map(&:capitalize).join(' ')
     end
 
     def complete_name_with_email

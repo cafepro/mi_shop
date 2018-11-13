@@ -10,6 +10,14 @@ module Spree
         end unless params[:q].blank?
         # @asociates = @asociates.page(params[:page] || 1).per(50)
       end
+
+      def edit
+        @group_asociates = Spree::Asociate.where(link_to_asociate: @asociate.id)
+      end
+
+      def new
+        @asociate = Spree::Asociate.new
+      end
     end
   end
 end

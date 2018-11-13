@@ -20,3 +20,30 @@ textarea, .ck-editor__editable {
   &::after { display: none!important; }
 }
 
+h4, .h4, h5, .h5, h6, .h6 {
+    margin-top: 16px;
+    margin-bottom: 10px;
+}
+
+ul.family-group {
+  text-decoration: none;
+  list-style: none;
+  padding: 0;
+  li {
+    padding: 10px 15px;
+    &.family-member {
+      & a.btn {
+        background-color: transparent;
+        border: 0px;
+        color: $gray-400;
+      }
+      &:hover {
+        background-color: $gray-200;
+        & a.btn {
+           color: $gray-600;
+        }
+      }
+    }
+  }
+}
+

@@ -217,6 +217,17 @@
         = f.text_field :incription_cuote, class: 'form-control'
         = error_message_on :asociate, :incription_cuote
     .col-md-12
-      %ul
-        - Spree::Asociate.where(link_to_asociate: f.object.id).each do |user|
-          %li= user.complete_name
+      %h4 Grupo familiar
+      %hr
+      %ul.family-group
+        - if @group_asociates
+          - @group_asociates.each do |asociate|
+            %li.family-member
+              = asociate.complete_name
+              = link_to_edit asociate, no_text: true
+        - else
+          %li.empty
+            No hay asociados en el mismo grupo
+        %li.new-family-member
+          = button_link_to t('asociates.new-family-member'), new_object_url, class: 'btn-success', icon: 'add', id: 'admin_new_asociate_link'
+
