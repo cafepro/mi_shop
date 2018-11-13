@@ -15,14 +15,14 @@ es:
       spree/asociate:
         account: Account
         asociate_code: Asociate Code
-        asociate_identifier: Asociate Identifier
+        asociate_identifier: Código
         bank: Bank
         bank_office: Bank Office
         birth_date: Birth Date
         city: City
         dc: Dc
         deleted_at: Deleted At
-        document_number: Document Number
+        document_number: DNI/NIF
         document_type: Document Type
         email: Email
         end_date: End Date
@@ -38,7 +38,7 @@ es:
         modality: Modality
         name: Name
         number: Number
-        phone_number: Phone Number
+        phone_number: Teléfono
         postal_code: Postal Code
         province: Province
         relationship: Relationship
@@ -375,6 +375,8 @@ es:
         other: Zonas
   alt:
     scope: activerecord.attributes.spree/page_image
+  asociates:
+    new-family-member: ''
   back_default:
     scope: activerecord.attributes.spree/layout
   borrar esta key: ''

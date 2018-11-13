@@ -3,6 +3,16 @@ module Spree
 
     # RELATIONSHIPS
     belongs_to :user
+    has_many :asociates, foreign_key: :link_to_asociate
+
+    def parent
+      Spree::Asociate.find(self.link_to_asociate)
+    end
+
+    def family
+      # all family/group members
+      self.parent.asociates
+    end
 
     # CALLBACKS
     before_save :update_complete_name_search
@@ -62,6 +72,25 @@ module Spree
 
     def self.modality_options
       ["HOSPITALARIA", "AMBULATORIA"]
+    end
+
+    # returns the next asociate_identifier in the sequence
+    def next_asociate_identifier
+      if self.new_record? && self.link_to_asociate.blank?
+        # the first of his kind...
+        return Spree::Asociate.order(:asociate_identifier).last.asociate_identifier + 1
+      else
+        return self.parent.asociate_identifier
+      end
+    end
+
+    def next_asociate_code
+      if self.new_record? && self.link_to_asociate.blank?
+        # the first of his kind...
+        return 'A'
+      else
+        return self.family.order(:asociate_code).last.asociate_code.next
+      end
     end
 
     ### IMPORTS

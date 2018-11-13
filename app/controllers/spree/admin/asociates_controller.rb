@@ -16,8 +16,16 @@ module Spree
       end
 
       def new
-        @asociate = Spree::Asociate.new
+        @parent = Spree::Asociate.find(params[:parent_id]) rescue nil
+        if @parent
+          @asociate = Spree::Asociate.new(link_to_asociate: @parent.id)
+        else
+          @asociate = Spree::Asociate.new
+        end
+        @asociate.asociate_identifier = @asociate.next_asociate_identifier
+        @asociate.asociate_code = @asociate.next_asociate_code
       end
+
     end
   end
 end

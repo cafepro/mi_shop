@@ -121,8 +121,9 @@
       = f.field_container :link_to_asociate, class: ['form-group'] do
         = f.label :link_to_asociate
         = f.select :link_to_asociate,
-                    options_from_collection_for_select(Spree::Asociate.all, :id, :complete_name, f.object.link_to_asociate) ,
-                    {}, class: 'select2'
+                    options_from_collection_for_select(Spree::Asociate.all, :id, :complete_name, f.object.link_to_asociate),
+                    {include_blank: 'Soy el primero de mi clan'},
+                    class: 'select2'
         = error_message_on :asociate, :link_to_asociate
     .col-md-3
       = f.field_container :relationship, class: ['form-group'] do
@@ -195,12 +196,12 @@
     .col-md-6
       = f.field_container :asociate_identifier, class: ['form-group'] do
         = f.label :asociate_identifier
-        = f.number_field :asociate_identifier, class: 'form-control'
+        = f.number_field :asociate_identifier, class: 'form-control', required: true
         = error_message_on :asociate, :asociate_identifier
     .col-md-6
       = f.field_container :asociate_code, class: ['form-group'] do
         = f.label :asociate_code
-        = f.text_field :asociate_code, class: 'form-control'
+        = f.text_field :asociate_code, class: 'form-control', required: true
         = error_message_on :asociate, :asociate_code
 
     .col-md-12
@@ -229,5 +230,5 @@
           %li.empty
             No hay asociados en el mismo grupo
         %li.new-family-member
-          = button_link_to t('asociates.new-family-member'), new_object_url, class: 'btn-success', icon: 'add', id: 'admin_new_asociate_link'
+          = button_link_to t('asociates.new-family-member'), new_object_url(parent_id: f.object.id), class: 'btn-success', icon: 'add'
 

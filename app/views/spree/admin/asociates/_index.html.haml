@@ -76,6 +76,10 @@
         / %td= link_to asociate.incription_cuote, edit_object_url(asociate)
         / %td= link_to asociate.deleted_at, edit_object_url(asociate)
         %td.actions.text-right{"data-hook": "admin_asociates_index_row_actions"}
+          = link_to new_object_url(parent_id: asociate.link_to_asociate),
+                    'data-original-title': 'Nuevo miembro',
+                    class: 'btn btn-success btn-sm icon-link with-tip action-add no-text' do
+            %span.icon.icon-add
           = link_to_edit asociate, no_text: true
           = link_to_delete asociate, no_text: true
 = paginate @asociates if @asociates.respond_to?(:current_page)
