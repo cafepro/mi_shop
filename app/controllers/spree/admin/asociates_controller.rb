@@ -1,6 +1,7 @@
 module Spree
   module Admin
     class AsociatesController < ResourceController
+
       def index
         @asociates = Spree::Asociate.all
         # filters
@@ -12,7 +13,8 @@ module Spree
       end
 
       def edit
-        @group_asociates = Spree::Asociate.where(link_to_asociate: @asociate.id)
+        @family = @asociate.family
+        @users = Spree::User.all
       end
 
       def new

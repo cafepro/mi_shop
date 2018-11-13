@@ -11,7 +11,7 @@ module Spree
 
     def family
       # all family/group members
-      self.parent.asociates
+      self.parent.asociates.where.not(id: self.id)
     end
 
     # CALLBACKS
@@ -72,6 +72,15 @@ module Spree
 
     def self.modality_options
       ["HOSPITALARIA", "AMBULATORIA"]
+    end
+
+    ### HELPERS
+    def age
+      if self.birth_date.blank?
+        return ''
+      else
+        return Date.today.year - self.birth_date.year
+      end
     end
 
     # returns the next asociate_identifier in the sequence
