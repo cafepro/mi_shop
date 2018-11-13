@@ -1,5 +1,7 @@
 @charset "utf-8";
 
 @import "theme/variables";
-@import "admin/*";
+@import "admin/base";
+@import "admin/spree";
+@import "admin/bootstrap-editable";
 @import "datatables/*";
