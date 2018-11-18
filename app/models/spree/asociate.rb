@@ -113,7 +113,7 @@ module Spree
       number = nil
       xlsx.each_row_streaming(offset: 1) do |row|
         if row && row[3] && row[3].value.blank?
-          number = row[2].value
+          number = row[2].value.to_i
           break if number.nil?
         elsif row
           asociate = nil if !asociate.nil? && asociate.asociate_identifier != number.to_i
@@ -139,7 +139,7 @@ module Spree
                               zitron: row[4].value,
                               link_to_asociate: (linked_asociate.id rescue nil),
                               start_date: parse_year(row[6].value),
-                              end_date: nil,
+                              end_date: Date.parse(row[7].value),
                               sepa: (row[8].value != 0 rescue true),
                               medical_insurance: (row[9].value == 'S'),
                               asociation_type: row[10].value,

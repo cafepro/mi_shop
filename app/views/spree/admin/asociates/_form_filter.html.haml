@@ -13,117 +13,114 @@
       %div{"data-hook" => "admin_asociates_index_search"}
         = form_with url: admin_asociates_path, method: :get, class: 'spree/asociate_search', id: 'spree/asociate_search' do |form|
           .row
-            .col-xs-12.col-md-16
+            .col-xs-2.col-md-16
+              .form-group
+                %label{:for => "q_asociate_number"}= t('activerecord.attributes.spree/asociate.asociate_number')
+                = form.text_field "q[asociate_number]", class: 'form-control js-filterable'
+            .col-xs-2.col-md-16
               .form-group
                 %label{:for => "q_asociate_code"}= t('activerecord.attributes.spree/asociate.asociate_code')
                 = form.text_field "q[asociate_code]", class: 'form-control js-filterable'
+            .col-xs-4.col-md-16
+              .form-group
+                %label{:for => "q_email"}= t('activerecord.attributes.spree/asociate.email')
+                = form.text_field "q[email]", class: 'form-control js-filterable'
+            .col-xs-4.col-md-16
+              .form-group
+                %label{:for => "q_user_id"}= t('activerecord.attributes.spree/asociate.user_id')
+                = form.select "q[user_id]", options_from_collection_for_select(@users, :id, :email), {include_blank: ''}, class: 'select2 js-filterable'
+
+          .row
+            .col-xs-4.col-md-16
+              .form-group
+                %label{:for => "q_name"}= t('activerecord.attributes.spree/asociate.name')
+                = form.text_field "q[name]", class: 'form-control js-filterable'
+            .col-xs-4.col-md-16
+              .form-group
+                %label{:for => "q_first_surname"}= t('activerecord.attributes.spree/asociate.first_surname')
+                = form.text_field "q[first_surname]", class: 'form-control js-filterable'
+            .col-xs-4.col-md-16
+              .form-group
+                %label{:for => "q_second_surname"}= t('activerecord.attributes.spree/asociate.second_surname')
+                = form.text_field "q[second_surname]", class: 'form-control js-filterable'
+
+          .row
+            .col-xs-2.col-md-16
+              .form-group
+                %label{:for => "q_document_type"}= t('activerecord.attributes.spree/asociate.document_type')
+                = form.select "q[document_type]", Spree::Asociate.document_type_options.insert(0, ''), {}, class: 'select2 js-filterable'
+            .col-xs-8.col-md-16
+              .form-group
+                %label{:for => "q_document_number"}= t('activerecord.attributes.spree/asociate.document_number')
+                = form.text_field "q[document_number]", class: 'form-control js-filterable'
+            .col-xs-2.col-md-16
+              .form-group
+                %label{:for => "q_sex"}= t('activerecord.attributes.spree/asociate.sex')
+                = form.select "q[sex]", Spree::Asociate.sex_options.insert(0, ''), {}, class: 'select2 js-filterable'
+
           .row
             .col-xs-12.col-md-16
               .form-group
                 %label{:for => "q_modality"}= t('activerecord.attributes.spree/asociate.modality')
-                = form.text_field "q[modality]", class: 'form-control js-filterable'
+                = form.select "q[modality]", Spree::Asociate.modality_options.insert(0,''), {}, class: 'select2 js-filterable'
+
           .row
             .col-xs-12.col-md-16
               .form-group
                 %label{:for => "q_relationship"}= t('activerecord.attributes.spree/asociate.relationship')
-                = form.text_field "q[relationship]", class: 'form-control js-filterable'
+                = form.select "q[relationship]", Spree::Asociate.relationship_options.insert(0, ''), {}, class: 'select2 js-filterable'
           .row
-            .col-xs-12.col-md-16
-              .form-group
-                %label{:for => "q_name"}= t('activerecord.attributes.spree/asociate.name')
-                = form.text_field "q[name]", class: 'form-control js-filterable'
-          .row
-            .col-xs-12.col-md-16
-              .form-group
-                %label{:for => "q_first_surname"}= t('activerecord.attributes.spree/asociate.first_surname')
-                = form.text_field "q[first_surname]", class: 'form-control js-filterable'
-          .row
-            .col-xs-12.col-md-16
-              .form-group
-                %label{:for => "q_second_surname"}= t('activerecord.attributes.spree/asociate.second_surname')
-                = form.text_field "q[second_surname]", class: 'form-control js-filterable'
-          .row
-            .col-xs-12.col-md-16
-              .form-group
-                %label{:for => "q_document_type"}= t('activerecord.attributes.spree/asociate.document_type')
-                = form.text_field "q[document_type]", class: 'form-control js-filterable'
-          .row
-            .col-xs-12.col-md-16
-              .form-group
-                %label{:for => "q_document_number"}= t('activerecord.attributes.spree/asociate.document_number')
-                = form.text_field "q[document_number]", class: 'form-control js-filterable'
-          .row
-            .col-xs-12.col-md-16
-              .form-group
-                %label{:for => "q_sex"}= t('activerecord.attributes.spree/asociate.sex')
-                = form.text_field "q[sex]", class: 'form-control js-filterable'
-          .row
-            .col-xs-12.col-md-16
+            .col-xs-2.col-md-16
               .form-group
                 %label{:for => "q_street_type"}= t('activerecord.attributes.spree/asociate.street_type')
-                = form.text_field "q[street_type]", class: 'form-control js-filterable'
-          .row
-            .col-xs-12.col-md-16
+                = form.select "q[street_type]", Spree::Asociate.street_type_options.insert(0, ''), {}, class: 'select2 js-filterable'
+            .col-xs-4.col-md-16
               .form-group
                 %label{:for => "q_street"}= t('activerecord.attributes.spree/asociate.street')
                 = form.text_field "q[street]", class: 'form-control js-filterable'
-          .row
-            .col-xs-12.col-md-16
+            .col-xs-2.col-md-16
               .form-group
                 %label{:for => "q_number"}= t('activerecord.attributes.spree/asociate.number')
                 = form.text_field "q[number]", class: 'form-control js-filterable'
-          .row
-            .col-xs-12.col-md-16
+            .col-xs-2.col-md-16
               .form-group
                 %label{:for => "q_floor"}= t('activerecord.attributes.spree/asociate.floor')
                 = form.text_field "q[floor]", class: 'form-control js-filterable'
-          .row
-            .col-xs-12.col-md-16
+            .col-xs-3.col-md-16
               .form-group
                 %label{:for => "q_city"}= t('activerecord.attributes.spree/asociate.city')
                 = form.text_field "q[city]", class: 'form-control js-filterable'
-          .row
-            .col-xs-12.col-md-16
+            .col-xs-3.col-md-16
               .form-group
                 %label{:for => "q_province"}= t('activerecord.attributes.spree/asociate.province')
                 = form.text_field "q[province]", class: 'form-control js-filterable'
-          .row
-            .col-xs-12.col-md-16
+            .col-xs-3.col-md-16
               .form-group
                 %label{:for => "q_postal_code"}= t('activerecord.attributes.spree/asociate.postal_code')
                 = form.text_field "q[postal_code]", class: 'form-control js-filterable'
-          .row
-            .col-xs-12.col-md-16
+            .col-xs-3.col-md-16
               .form-group
                 %label{:for => "q_phone_number"}= t('activerecord.attributes.spree/asociate.phone_number')
                 = form.text_field "q[phone_number]", class: 'form-control js-filterable'
+
           .row
-            .col-xs-12.col-md-16
-              .form-group
-                %label{:for => "q_email"}= t('activerecord.attributes.spree/asociate.email')
-                = form.text_field "q[email]", class: 'form-control js-filterable'
-          .row
-            .col-xs-12.col-md-16
+            .col-xs-2.col-md-16
               .form-group
                 %label{:for => "q_iban"}= t('activerecord.attributes.spree/asociate.iban')
                 = form.text_field "q[iban]", class: 'form-control js-filterable'
-          .row
-            .col-xs-12.col-md-16
+            .col-xs-2.col-md-16
               .form-group
                 %label{:for => "q_bank"}= t('activerecord.attributes.spree/asociate.bank')
                 = form.text_field "q[bank]", class: 'form-control js-filterable'
-          .row
-            .col-xs-12.col-md-16
+            .col-xs-2.col-md-16
               .form-group
                 %label{:for => "q_bank_office"}= t('activerecord.attributes.spree/asociate.bank_office')
                 = form.text_field "q[bank_office]", class: 'form-control js-filterable'
-          .row
-            .col-xs-12.col-md-16
+            .col-xs-2.col-md-16
               .form-group
                 %label{:for => "q_dc"}= t('activerecord.attributes.spree/asociate.dc')
                 = form.text_field "q[dc]", class: 'form-control js-filterable'
-          .row
-            .col-xs-12.col-md-16
+            .col-xs-4.col-md-16
               .form-group
                 %label{:for => "q_account"}= t('activerecord.attributes.spree/asociate.account')
                 = form.text_field "q[account]", class: 'form-control js-filterable'

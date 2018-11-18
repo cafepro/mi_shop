@@ -2,16 +2,10 @@
 <% if can? :admin, Tolk %>
   <ul class="nav nav-sidebar">
     <li class="sidebar-menu-item">
-      <%= link_to '#sidebar-translations', 'data-parent': '#sidebar', 'aria-expanded': "false", 'data-toggle': 'collapse' do %>
-        <span class="icon icon-list"></span>
-        <span class="text"> Traducciones</span>
-        <span class="icon pull-right icon-chevron-down"></span>
+      <%= link_to '/admin/tolk/locales/es', class: 'icon-link with-tip action-user' do %>
+        <span class="icon icon-text">T</span>
+        <span class="text"> Textos</span>
       <% end %>
-      <ul id="sidebar-translations" class="nav nav-pills nav-stacked collapse" data-hook="admin_promotion_sub_tabs" aria-expanded="false" style="height: 1px;">
-        <li class="sidebar-menu-item">
-          <a href="/admin/tolk/locales/es">Testos Español</a>
-        </li>
-      </ul>
     </li>
   </ul>
 <% end %>

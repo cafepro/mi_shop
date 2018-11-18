@@ -1,0 +1,29 @@
+<!-- insert_bottom "[data-hook='admin_tabs']" -->
+<% if can? :admin, :all %>
+  <ul class="nav nav-sidebar">
+    <li class="sidebar-menu-item">
+      <%= link_to '#sidebar-administration', 'data-parent': '#sidebar', 'aria-expanded': "false", 'data-toggle': 'collapse' do %>
+        <span class="icon icon-wrench"></span>
+        <span class="text"> Administrar</span>
+        <span class="icon pull-right icon-chevron-down"></span>
+      <% end %>
+      <ul id="sidebar-administration" class="nav nav-pills nav-stacked collapse" data-hook="admin_promotion_sub_tabs" aria-expanded="false" style="height: 1px;">
+        <li class="sidebar-menu-item">
+          <%= tab(:users, icon: "user") %>
+        </li>
+        <li class="sidebar-menu-item">
+          <%= tab(:pages, icon: "list-alt") %>
+        </li>
+        <li class="sidebar-menu-item">
+          <%= tab(:layouts, icon: "new-window") %>
+        </li>
+        <li class="sidebar-menu-item">
+          <%= tab(:page_images, icon: "picture") %>
+        </li>
+        <li class="sidebar-menu-item">
+          <%= tab(:configurations, icon: "edit") %>
+        </li>
+      </ul>
+    </li>
+  </ul>
+<% end %>

@@ -2,6 +2,8 @@ module Spree
   module Admin
     class AsociatesController < ResourceController
 
+      before_action :set_users, only: [:index, :new, :edit]
+
       def index
         @asociates = Spree::Asociate.all
         # filters
@@ -14,7 +16,6 @@ module Spree
 
       def edit
         @family = @asociate.family
-        @users = Spree::User.all
       end
 
       def new
@@ -26,6 +27,12 @@ module Spree
         end
         @asociate.asociate_identifier = @asociate.next_asociate_identifier
         @asociate.asociate_code = @asociate.next_asociate_code
+      end
+
+      private
+
+      def set_users
+        @users = Spree::User.all
       end
 
     end

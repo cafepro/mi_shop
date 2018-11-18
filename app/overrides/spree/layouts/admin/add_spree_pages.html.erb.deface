@@ -1,6 +1,0 @@
-<!-- insert_bottom "[data-hook='admin_tabs']" -->
-<% if can? :admin, Spree::Page %>
-  <ul class="nav nav-sidebar">
-    <%= tab(:pages, icon: "list-alt") %>
-  </ul>
-<% end %>
